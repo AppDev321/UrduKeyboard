@@ -1,0 +1,10 @@
+# Package Files #
+*.war
+*.ear
+
+# build
+build/
+
+# IDE File
+*.iml
+.project

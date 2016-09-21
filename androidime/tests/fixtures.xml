@@ -1,0 +1,1484 @@
+<?xml version="1.0"?>
+<fixtures>
+  <fixture description="Amharic Transliteration test" inputmethod="am-transliteration" multiline="false">
+    <test input="k" output="ክ" description="Amharic k -&gt; ክ"/>
+    <test input="N" output="ኝ" description="Amharic N -&gt; ኝ"/>
+    <test input="neNu" output="ነኙ" description="Amharic neNu -&gt; ነኙ"/>
+    <test input="Nu" output="ኙ" description="Amharic Nu -&gt; ኙ"/>
+    <test input="cika" output="ቺካ" description="Amharic cika -&gt; ቺካ"/>
+    <test input="&lt;&lt;" output="«" description="Amharic &lt;&lt; -&gt; «"/>
+    <test input="vee" output="ቬ" description="Amharic vee -&gt; ቬ"/>
+    <test input="vE" output="ቬ" description="Amharic vE -&gt; ቬ"/>
+    <test input="Vee" output="ቬ" description="Amharic Vee -&gt; ቬ"/>
+    <test input="VE::" output="ቬ።" description="Amharic VE:: -&gt; ቬ።"/>
+    <test input="to" output="ቶ" description="Amharic to -&gt; ቶ"/>
+    <test input="dW" output="ዷ" description="Amharic dW -&gt; ዷ"/>
+    <test input="ss" output="ሥ" description="Amharic ss -&gt; ሥ"/>
+    <test input="gWi" output="ጒ" description="Amharic gWi -&gt; ጒ"/>
+    <test input="hhW" output="ኋ" description="Amharic hhW -&gt; ኋ"/>
+    <test input="FY" output="ፚ" description="Amharic FY -&gt; ፚ"/>
+    <test input="5" output="፭" description="Amharic 5 -&gt; ፭"/>
+    <test input="60" output="፷" description="Amharic 60 -&gt; ፷"/>
+    <test input="3005" output="፫፻፭" description="Amharic 3005 -&gt; ፫፻፭"/>
+    <test input="aa.m." output="ዓ.ም." description="Amharic aa.m. -&gt; ዓ.ም."/>
+    <test input="ea" output="ኧ" description="Amharic ea -&gt; ኧ"/>
+  </fixture>
+  <fixture description="Belarusian transliteration test" inputmethod="be-transliteration" multiline="false">
+    <test input="[];&apos;,.`" output="х&apos;жэбюё" description="Belarusian transliteration - [];&apos;,.` -&gt; х&apos;жэбюё"/>
+    <test input="{}:&quot;&lt;&gt;~" output="Х&apos;ЖЭБЮЁ" description="Belarusian transliteration - {}:&quot;&lt;&gt;~ -&gt; Х&apos;ЖЭБЮЁ"/>
+  </fixture>
+  <fixture description="Belarusian Łacinka test" inputmethod="be-latin" multiline="false">
+    <test input="=c" output="č" description="Belarusian Łacinka - =c -&gt; č"/>
+    <test input="-n" output="ń" description="Belarusian Łacinka - -n -&gt; ń"/>
+    <test input="=u" output="ŭ" description="Belarusian Łacinka - =u -&gt; ŭ"/>
+    <test input="-l" output="ł" description="Belarusian Łacinka - -l -&gt; ł"/>
+  </fixture>
+  <fixture description="Belarusian transliteration test" inputmethod="be-transliteration" multiline="false">
+    <test input="[];&apos;,.`" output="х&apos;жэбюё" description="Belarusian transliateration - [];&apos;,.` -&gt; х&apos;жэбюё"/>
+    <test input="{}:&quot;&lt;&gt;~" output="Х&apos;ЖЭБЮЁ" description="Belarusian transliateration - {}:&quot;&lt;&gt;~ -&gt; Х&apos;ЖЭБЮЁ"/>
+  </fixture>
+  <fixture description="Bengali Probhat layout test" inputmethod="bn-probhat" multiline="false">
+    <test input="ka" output="কা" description="Bengali Probhat - ka"/>
+    <test input="ki" output="কি" description="Bengali Probhat - ki"/>
+    <test input="k/S" output="ক্ষ" description="Bengali Probhat - kha"/>
+    <test input="q&lt;" output="দৃ" description="Bengali Probhat - drri"/>
+    <test input="r`/Z" output="র‍্য" description="Bengali Probhat - r`/Z - Testing RA-YAPHALA with ZWJ"/>
+    <test input="be" output="বী" description="Bengali Probhat - bee"/>
+  </fixture>
+  <fixture description="Bengali Avro layout test" inputmethod="bn-avro" multiline="false">
+    <test input="ka" output="কা" description="Bengali Avro - ka"/>
+    <test input="rri" output="ঋ" description="Bengali Avro - rri"/>
+    <test input="drri" output="দৃ" description="Bengali Avro - drri"/>
+    <test input="kee" output="কী" description="Bengali Avro - kee"/>
+  </fixture>
+  <fixture description="Cyrillic with palochka transliteration test" inputmethod="cyrl-palochka" multiline="false">
+    <test input="Ӏ" output="Ӏ" description="Palochka itself is unchanged"/>
+    <test input="L" output="L" description="Latin capital L is unchanged"/>
+    <test input="l" output="Ӏ" description="Latin small l becomes palochka"/>
+    <test input="I" output="Ӏ" description="Latin capital I becomes palochka"/>
+    <test input="i" output="i" description="Latin small i becomes palochka"/>
+    <test input="І" output="Ӏ" description="Ukrainian capital І becomes palochka"/>
+    <test input="1" output="1" description="Digit one (1) is unchanged"/>
+    <test input="1" output="Ӏ" description="Extended digit one (1) becomes palochka" altGr="1"/>
+    <test input="д" output="д" description="Cyrillic small д is is unchanged"/>
+    <test input="д" output="Ӏ" description="Extended Cyrillic д becomes palochka" altGr="1"/>
+    <test input="ш" output="ш" description="Cyrillic small ш is is unchanged"/>
+    <test input="ш" output="Ӏ" description="Extended Cyrillic small ш becomes palochka" altGr="1"/>
+    <test input="Ш" output="Ш" description="Cyrillic capital Ш is is unchanged"/>
+    <test input="Ш" output="Ӏ" description="Extended Cyrillic capital Ш becomes palochka" altGr="1"/>
+  </fixture>
+  <fixture description="Georgian Transliteration test" inputmethod="ka-transliteration" multiline="false">
+    <test input="vikipedia\`" output="ვიკიპედია`" description="Georgian vikipedia with `"/>
+    <test input="jim morisoni \~\~\~\~" output="ჯიმ მორისონი ~~~~" description="Georgian jim morisoni with Wiki Signature"/>
+    <test input="abcdefghijklmnopqrstuvwxyz" output="აბცდეფგჰიჯკლმნოპქრსტუვწხყზ" description="a-z in Georgian"/>
+    <test input="WRTSJZC`~" output="ჭღთშჟძჩ„“" description="WRTSJZC`~ in Georgian"/>
+  </fixture>
+  <fixture description="German Transliteration and keybuffer test" inputmethod="de" multiline="false">
+    <test input="~o" output="ö" description="German ö"/>
+    <test input="~O" output="Ö" description="German Ö"/>
+    <test input="~s" output="ß" description="German ß"/>
+  </fixture>
+  <fixture description="Gujarati Transliteration" inputmethod="gu-transliteration" multiline="false">
+    <test input="~" output="~" description="Gujarati - tilde must not change"/>
+    <test input="hiMmata" output="હિંમત" description="Gujarati hiMmata"/>
+    <test input="aM^bara" output="અઁબર" description="Gujarati aM^bara - testing candrabindu"/>
+    <test input="_" output="_" description="Gujarati - underscore must not change"/>
+    <test input="oM" output="ઓં" description="Gujarati oM"/>
+    <test input="OM" output="ૐ" description="Gujarati OM"/>
+    <test input="K" output="।" description="Gujarati K - testing danda"/>
+    <test input="KK" output="॥" description="Gujarati KK - testing double danda"/>
+    <test input="ai" output="ઐ" description="Gujarati ai"/>
+    <test input="eka" output="એક" description="Gujarati eka"/>
+    <test input="aikya" output="ઐક્ય" description="Gujarati aikya"/>
+    <test input="kailaasa" output="કૈલાસ" description="Gujarati kailaasa"/>
+    <test input="EMjiiniyara" output="ઍંજીનિયર" description="Gujarati EMjiiniyara - testing candra e"/>
+    <test input="sad`bhaava" output="સદ્‌ભાવ" description="Gujarati sad`bhaava - testing ZWNJ"/>
+    <test input="caDJaavo" output="ચડ઼ાવો" description="Gujarati caDJaavo - testing nukta"/>
+  </fixture>
+  <fixture description="Hebrew Transliteration and extended keys test" inputmethod="he-standard-2012-extonly" multiline="false">
+    <test input="-" output="-" description="Hebrew regular -" altGr="0"/>
+    <test input="-" output="־" description="Hebrew extended -" altGr="1"/>
+  </fixture>
+  <fixture description="Hindi InScript layout test" inputmethod="hi-inscript" multiline="false">
+    <test input="F" output="ऌ" description="Hindi inscript - ALTGR+F" altGr="1"/>
+  </fixture>
+  <fixture description="Hindi transliteration tests" inputmethod="hi-transliteration" multiline="true">
+    <test input="raam" output="राम
+" description="Hindi transliteration - raam&lt;line-break&gt; (\r)"/>
+    <test input="\~" output="~" description="Hindi transliteration - \~ -&gt; ~"/>
+    <test input="agar " output="अगर " description="Hindi transliteration - virama autoremoval on space"/>
+    <test input="agar~ " output="अगर् " description="Hindi transliteration - virama retention"/>
+    <test input="namaH" output="नमः" description="Hindi transliteration - namaH (visarga)"/>
+    <test input="madhumaChiyoM" output="मधुमक्खियों" description="Hindi transliteration - madhumaChiyoM (anusvara)"/>
+    <test input="//" output="ऽ" description="Hindi transliteration - // (avagraha)"/>
+    <test input="raama" output="राम" description="Hindi transliteration - raama"/>
+    <test input="raama " output="राम " description="Hindi transliteration - raama&lt;space&gt; (backwards compatibility)"/>
+    <test input="raama~ " output="राम् " description="Hindi transliteration - raama&lt;viram&gt;&lt;space&gt;"/>
+    <test input="raam " output="राम " description="Hindi transliteration - raam&lt;space&gt;"/>
+    <test input="raam~ " output="राम् " description="Hindi transliteration - raam&lt;viram&gt;&lt;space&gt;"/>
+    <test input="raam," output="राम," description="Hindi transliteration - raam,"/>
+    <test input="raam~," output="राम्," description="Hindi transliteration - raam&lt;viram&gt;,"/>
+    <test input="raam?" output="राम?" description="Hindi transliteration - raam?"/>
+    <test input="raam~?" output="राम्?" description="Hindi transliteration - raam&lt;viram&gt;?"/>
+    <test input="raam!" output="राम!" description="Hindi transliteration - raam!"/>
+    <test input="raam~!" output="राम्!" description="Hindi transliteration - raam&lt;viram&gt;!"/>
+    <test input="raam-" output="राम-" description="Hindi transliteration - raam-"/>
+    <test input="raam~-" output="राम्-" description="Hindi transliteration - raam&lt;viram&gt;-"/>
+    <test input="raam:" output="राम:" description="Hindi transliteration - raam:"/>
+    <test input="raam~:" output="राम्:" description="Hindi transliteration - raam&lt;viram&gt;:"/>
+    <test input="raam;" output="राम;" description="Hindi transliteration - raam;"/>
+    <test input="raam~;" output="राम्;" description="Hindi transliteration - raam&lt;viram&gt;;"/>
+    <test input="raam5" output="राम५" description="Hindi transliteration - raam5"/>
+    <test input="raam~5" output="राम्५" description="Hindi transliteration - raam&lt;viram&gt;5"/>
+    <test input="santoSh." output="सन्तोष।" description="Hindi transliteration - santoSh. (testing clusters and danda)"/>
+    <test input="santoSh~." output="सन्तोष्।" description="Hindi transliteration - santoSh&lt;viram&gt;. (testing clusters and danda)"/>
+    <test input="raam.." output="राम॥" description="Hindi transliteration - raam.."/>
+    <test input="raam~.." output="राम्॥" description="Hindi transliteration - raam&lt;viram&gt;.."/>
+    <test input="laxmii" output="लक्ष्मी" description="Hindi transliteration - laxmii (testing ksh)"/>
+    <test input="veeNaa" output="वीणा" description="Hindi transliteration - veeNaa"/>
+    <test input="soorya" output="सूर्य" description="Hindi transliteration - soorya"/>
+    <test input="amRtaa" output="अमृता" description="Hindi transliteration - amRtaa"/>
+    <test input="bauThate" output="बौठते" description="Hindi transliteration - bauThate"/>
+    <test input="." output="।" description="Hindi transliteration - . (danda)"/>
+    <test input=".." output="॥" description="Hindi transliteration - .. (double danda)"/>
+    <test input="AUMkaara" output="ॐकार" description="Hindi transliteration - auMkaara"/>
+    <test input="auMsa" output="औंस" description="Hindi transliteration - auMsa (ounce)"/>
+    <test input="bhaaShaaoM" output="भाषाओं" description="Hindi transliteration - bhaaShaaoM (testing correct typing of oM as a simple anusvara)"/>
+    <test input="a" output="अ" description="a for अ translitration"/>
+    <test input="aa" output="आ" description="aa for आ translitration"/>
+    <test input="i" output="इ" description="i for इ translitration"/>
+    <test input="I" output="ई" description="I for ई translitration"/>
+    <test input="u" output="उ" description="u for U translitration"/>
+    <test input="U" output="ऊ" description="U for ऊ translitration"/>
+    <test input="e" output="ए" description="e for ए translitration"/>
+    <test input="ai" output="ऐ" description="ai for ऐ translitration"/>
+    <test input="o" output="ओ" description="o for ओ translitration"/>
+    <test input="au" output="औ" description="au for औ translitration"/>
+    <test input="O" output="ऑ" description="O for ऑ translitration"/>
+    <test input="E" output="ऍ" description="E for ऍ translitration"/>
+    <test input="aM" output="अं" description="aM for अं translitration"/>
+    <test input="aH" output="अः" description="aH for अः translitration"/>
+    <test input="ka" output="क" description="ka for क translitration"/>
+    <test input="kha" output="ख" description="kha for ख translitration"/>
+    <test input="ga" output="ग" description="ga for ग translitration"/>
+    <test input="gha" output="घ" description="gha for घ translitration"/>
+    <test input="nga" output="ङ" description="nga for ङ translitration"/>
+    <test input="ca" output="च" description="cha for च translitration"/>
+    <test input="cha" output="छ" description="chha for छ translitration"/>
+    <test input="ja" output="ज" description="ja for ज translitration"/>
+    <test input="jha" output="झ" description="jha for झ translitration"/>
+    <test input="nja" output="ञ" description="nja for ञ translitration"/>
+    <test input="Ta" output="ट" description="Ta for ट translitration"/>
+    <test input="Tha" output="ठ" description="Tha for ठ translitration"/>
+    <test input="Da" output="ड" description="Da for ड translitration"/>
+    <test input="Dha" output="ढ" description="Dha for ढ translitration"/>
+    <test input="Na" output="ण" description="Na for ण translitration"/>
+    <test input="ta" output="त" description="ta for त translitration"/>
+    <test input="tha" output="थ" description="tha for थ translitration"/>
+    <test input="da" output="द" description="da for द translitration"/>
+    <test input="dha" output="ध" description="dha for ध translitration"/>
+    <test input="na" output="न" description="na for न translitration"/>
+    <test input="pha" output="फ" description="pha for फ translitration"/>
+    <test input="tha" output="थ" description="tha for थ translitration"/>
+    <test input="ba" output="ब" description="ba for ब translitration"/>
+    <test input="bha" output="भ" description="bha for भ translitration"/>
+    <test input="ma" output="म" description="ma for म translitration"/>
+    <test input="ya" output="य" description="ya for य translitration"/>
+    <test input="ra" output="र" description="ra for र translitration"/>
+    <test input="la" output="ल" description="la for ल translitration"/>
+    <test input="va" output="व" description="va for व translitration"/>
+    <test input="sha" output="श" description="sha for श translitration"/>
+    <test input="ya" output="य" description="ya for य translitration"/>
+    <test input="Sha" output="ष" description="Sha for ष translitration"/>
+    <test input="sa" output="स" description="sa for स translitration"/>
+    <test input="ha" output="ह" description="ha for ह translitration"/>
+    <test input="sha" output="श" description="sha for श translitration"/>
+    <test input="R" output="ऋ" description="R for ऋ translitration"/>
+    <test input="0" output="०" description="0 for ० translitration"/>
+    <test input="1" output="१" description="1 for १ translitration"/>
+    <test input="2" output="२" description="2 for २ translitration"/>
+    <test input="3" output="३" description="3 for ३ translitration"/>
+    <test input="4" output="४" description="4 for ४ translitration"/>
+    <test input="5" output="५" description="5 for ५ translitration"/>
+    <test input="6" output="६" description="6 for ६ translitration"/>
+    <test input="7" output="७" description="7 for ७ translitration"/>
+    <test input="8" output="८" description="8 for ८ translitration"/>
+    <test input="9" output="९" description="9 for ९ translitration"/>
+    <test input="0" output="०" description="0 for ० translitration"/>
+  </fixture>
+  <fixture description="Javanese transliteration test" inputmethod="jv-transliteration" multiline="false">
+    <test input="\A" output="A" description="Javanese transliteration escape mode - A"/>
+    <test input="\~" output="~" description="Javanese transliteration - \~ -&gt; ~"/>
+    <test input="A" output="ꦄ" description="Javanese transliteration - A"/>
+    <test input="B" output="ꦨ" description="Javanese transliteration - B"/>
+    <test input="y" output="ꦪ" description="Javanese transliteration - y"/>
+    <test input="z" output="ꦗ꦳" description="Javanese transliteration - z"/>
+    <test input="q`" output="꧀" description="Javanese transliteration - q`"/>
+  </fixture>
+  <fixture description="Kannada KGP test" inputmethod="kn-kgp" multiline="false">
+    <test input="aAiIuURRXeEYoOVaMaH" output="ಅಆಇಈಉಊಋೠಎಏಐಒಓಔಅಂಅಃ" description="vowels ಅಆಇಈಉಊಋೠಎಏಐಒಓಔಅಂಅಃ"/>
+    <test input="kKgGZ" output="ಕಖಗಘಙ" description="Consonants ಕಖಗಘಙ"/>
+    <test input="cCjJz" output="ಚಛಜಝಞ" description="Consonants ಚಛಜಝಞ"/>
+    <test input="qQwWN" output="ಟಠಡಢಣ" description="Consonants ಟಠಡಢಣ"/>
+    <test input="tTdDn" output="ತಥದಧನ" description="Consonants ತಥದಧನ"/>
+    <test input="pPbBm" output="ಪಫಬಭಮ" description="Consonants ಪಫಬಭಮ"/>
+    <test input="yrrXlvSxshLLX" output="ಯರಱಲವಶಷಸಹಳೞ" description="Consonants ಯರಲವಶಷಸಹಳ"/>
+    <test input="kf" output="ಕ್" description="kf =&gt; ಕ್"/>
+    <test input="kA" output="ಕಾ" description="kA =&gt; ಕಾ"/>
+    <test input="ki" output="ಕಿ" description="ki =&gt; ಕಿ"/>
+    <test input="kI" output="ಕೀ" description="kI =&gt; ಕೀ"/>
+    <test input="ku" output="ಕು" description="ku =&gt; ಕು"/>
+    <test input="kU" output="ಕೂ" description="kU =&gt; ಕೂ"/>
+    <test input="kR" output="ಕೃ" description="kR =&gt; ಕೃ"/>
+    <test input="kRX" output="ಕೄ" description="kRX =&gt; ಕೄ"/>
+    <test input="ke" output="ಕೆ" description="ke =&gt; ಕೆ"/>
+    <test input="kE" output="ಕೇ" description="kE =&gt; ಕೇ"/>
+    <test input="kY" output="ಕೈ" description="kY =&gt; ಕೈ"/>
+    <test input="ko" output="ಕೊ" description="ko =&gt; ಕೊ"/>
+    <test input="kO" output="ಕೋ" description="kO =&gt; ಕೋ"/>
+    <test input="kV" output="ಕೌ" description="kV =&gt; ಕೌ"/>
+    <test input="kM" output="ಕಂ" description="kM =&gt; ಕಂ"/>
+    <test input="kH" output="ಕಃ" description="kH =&gt; ಕಃ"/>
+    <test input="rAxfqfrIy" output="ರಾಷ್ಟ್ರೀಯ" description="complex consonants ರಾಷ್ಟ್ರೀಯ"/>
+    <test input="rFfyAMkf" output="ರ‍್ಯಾಂಕ್" description="ZWJ ರ‍್ಯಾಂಕ್"/>
+  </fixture>
+  <fixture description="Kannada Transliteration test" inputmethod="kn-transliteration" multiline="false">
+    <test input="d~ha" output="ದ್ಹ" description="d~ha for ದ್ಹ in Kannada transliteration"/>
+    <test input="W" output="ಔ" description="W for ಔ in Kannada transliteration"/>
+    <test input="Y" output="ಐ" description="Y for ಐ in Kannada transliteration"/>
+    <test input="Yeso" output="ಐಎಸೊ" description="Yeso for ಐಎಸೊ in Kannada transliteration"/>
+    <test input="nAkYdu" output="ನಾಕೈದು" description="nAkYdu for ನಾಕೈದು in Kannada transliteration"/>
+    <test input="gautam" output="ಗೌತಮ್" description="gautam for ಗೌತಮ್ in Kannada transliteration"/>
+    <test input="nAkaidu" output="ನಾಕೈದು" description="nAkaidu for ನಾಕೈದು in Kannada transliteration"/>
+    <test input="gWtam" output="ಗೌತಮ್" description="gWtam for ಗೌತಮ್ in Kannada transliteration"/>
+    <test input="WShadhi" output="ಔಷಧಿ" description="WShadhi for ಔಷಧಿ in Kannada transliteration"/>
+    <test input="auShadhi" output="ಔಷಧಿ" description="auShadhi for ಔಷಧಿ in Kannada transliteration"/>
+    <test input="Ydu" output="ಐದು" description="Ydu for ಐದು in Kannada transliteration"/>
+    <test input="kY" output="ಕೈ" description="kY for ಕೈ in Kannada transliteration"/>
+    <test input="kW" output="ಕೌ" description="kW for ಐದು in Kannada transliteration"/>
+    <test input="kR" output="ಕೃ" description="kR for ಕೃ in Kannada transliteration"/>
+    <test input="kai" output="ಕೈ" description="kai for ಕೈ in Kannada transliteration"/>
+    <test input="nya" output="ನ್ಯ" description="nya for ಧನ್ಯವಾದ in Kannada transliteration"/>
+    <test input="rAShTRIya" output="ರಾಷ್ಟ್ರೀಯ" description="complex consonants rAShTRIya for ರಾಷ್ಟ್ರೀಯ  in Kannada transliteration"/>
+    <test input="raaShTRIya" output="ರಾಷ್ಟ್ರೀಯ" description="complex consonants raaShTRIya for ರಾಷ್ಟ್ರೀಯ  in Kannada transliteration"/>
+    <test input="j~na" output="ಜ್ಞ" description="j~n for ಜ್ಞ in Kannada transliteration "/>
+    <test input="mu" output="ಮು" description="mu for ಮು in Kannada transliteration "/>
+    <test input="mU" output="ಮೂ" description="mU for ಮೂ in Kannada transliteration "/>
+    <test input="mo" output="ಮೊ" description="mo for ಮೊ in Kannada transliteration "/>
+    <test input="rAjxkumAr" output="ರಾಜ್‍ಕುಮಾರ್" description="rAjxkumAr for ರಾಜ್‍ಕುಮಾರ್ in Kannada transliteration "/>
+    <test input="arha" output="ಅರ್ಹ" description="arha for ಅರ್ಕಾವತ್ತು in ಅರ್ಹ for Kannada transliteration "/>
+    <test input="dhvani" output="ಧ್ವನಿ" description="dhvani for ಧ್ವನಿ for Kannada transliteration "/>
+    <test input="marmara" output="ಮರ್ಮರ" description="marmara for ಮರ್ಮರ for Kannada transliteration "/>
+    <test input="svaataMtrya" output="ಸ್ವಾತಂತ್ರ್ಯ" description="svaataMtrya for ಸ್ವಾತಂತ್ರ್ಯ for Kannada transliteration "/>
+    <test input="sarvaj~na" output="ಸರ್ವಜ್ಞ" description="sarvadnya for ಸರ್ವಜ್ಞ for Kannada transliteration "/>
+    <test input="sarvaj~na" output="ಸರ್ವಜ್ಞ" description="sarvaj~na for ಸರ್ವಜ್ಞ for Kannada transliteration "/>
+    <test input="O~M" output="ॐ" description="O~M for ॐ for Kannada transliteration "/>
+    <test input="byaaskeT" output="ಬ್ಯಾಸ್ಕೆಟ್" description="byaaskeT for  ಬ್ಯಾಸ್ಕೆಟ್ for Kannada transliteration "/>
+    <test input="braakeT" output="ಬ್ರಾಕೆಟ್" description="braakeT for  ಬ್ರ್ಯಾಕೆಟ್ for Kannada transliteration "/>
+    <test input="nOTna" output="ನೋಟ್ನ" description="noTna for ನೋಟ್ನ for Kannada transliteration "/>
+    <test input="saMskRta" output="ಸಂಸ್ಕೃತ" description="saMskRta for ಸಂಸ್ಕೃತ for Kannada transliteration "/>
+    <test input="aalTarxnETIv" output="ಆಲ್ಟರ್‍ನೇಟೀವ್" description="aalTarxnETIv for ಆಲ್ಟರ್‍ನೇಟೀವ್ for Kannada transliteration "/>
+    <test input="kaarxnalli" output="ಕಾರ್‍ನಲ್ಲಿ" description="kaarxnalli for ಕಾರ್‍ನಲ್ಲಿ for Kannada transliteration "/>
+    <test input="a" output="ಅ" description="a for ಅ in Kannada transliteration"/>
+    <test input="ka" output="ಕ" description="ka for ಕ in Kannada transliteration"/>
+    <test input="Ka" output="ಖ" description="Ka for ಖ in Kannada transliteration"/>
+    <test input="ga" output="ಗ" description="ga for ಗ in Kannada transliteration"/>
+    <test input="Ga" output="ಘ" description="Ga for ಘ in Kannada transliteration"/>
+    <test input="~ga" output="ಙ" description="~ga for ಙ in Kannada transliteration"/>
+    <test input="ca" output="ಚ" description="ca for ಚ in Kannada transliteration"/>
+    <test input="Ca" output="ಛ" description="Ca for ಛ in Kannada transliteration"/>
+    <test input="ja" output="ಜ" description="ja for ಜ in Kannada transliteration"/>
+    <test input="Ja" output="ಝ" description="Ja for ಝ in Kannada transliteration"/>
+    <test input="~ja" output="ಞ" description="~ja for ಞ in Kannada transliteration"/>
+    <test input="Ta" output="ಟ" description="Ta for ಟ in Kannada transliteration"/>
+    <test input="Tha" output="ಠ" description="Tha for ಠ in Kannada transliteration"/>
+    <test input="Da" output="ಡ" description="Da for ಡ in Kannada transliteration"/>
+    <test input="Dha" output="ಢ" description="Dha for ಢ in Kannada transliteration"/>
+    <test input="Na" output="ಣ" description="Na for ಣ in Kannada transliteration"/>
+    <test input="ta" output="ತ" description="ta for ತ in Kannada transliteration"/>
+    <test input="tha" output="ಥ" description="tha for ಥ in Kannada transliteration"/>
+    <test input="da" output="ದ" description="da for ದ in Kannada transliteration"/>
+    <test input="dha" output="ಧ" description="dha for ಧ in Kannada transliteration"/>
+    <test input="na" output="ನ" description="na for ನ in Kannada transliteration"/>
+    <test input="pa" output="ಪ" description="pa for ಪ in Kannada transliteration"/>
+    <test input="Pa" output="ಫ" description="Pa for ಫ in Kannada transliteration"/>
+    <test input="ba" output="ಬ" description="ba for ಬ in Kannada transliteration"/>
+    <test input="Ba" output="ಭ" description="Ba for ಭ in Kannada transliteration"/>
+    <test input="ma" output="ಮ" description="ma for ಮ in Kannada transliteration"/>
+    <test input="ya" output="ಯ" description="ya for ಯ in Kannada transliteration"/>
+    <test input="ra" output="ರ" description="ra for ರ in Kannada transliteration"/>
+    <test input="qa" output="ಱ" description="qa for ಱ in Kannada transliteration"/>
+    <test input="la" output="ಲ" description="la for ಲ in Kannada transliteration"/>
+    <test input="va" output="ವ" description="va for ವ in Kannada transliteration"/>
+    <test input="Sa" output="ಶ" description="Sa for ಶ in Kannada transliteration"/>
+    <test input="Sha" output="ಷ" description="Sha for ಷ in Kannada transliteration"/>
+    <test input="sa" output="ಸ" description="sa for ಸ in Kannada transliteration"/>
+    <test input="ha" output="ಹ" description="ha for ಹ in Kannada transliteration"/>
+    <test input="La" output="ಳ" description="La for ಳ in Kannada transliteration"/>
+    <test input="Qa" output="ೞ" description="Qa for ೞ in Kannada transliteration"/>
+    <test input="A" output="ಆ" description="A for ಆ in Kannada transliteration"/>
+    <test input="kA" output="ಕಾ" description="kA for ಕಾ in Kannada transliteration"/>
+    <test input="KA" output="ಖಾ" description="KA for ಖಾ in Kannada transliteration"/>
+    <test input="gA" output="ಗಾ" description="gA for ಗಾ in Kannada transliteration"/>
+    <test input="GA" output="ಘಾ" description="GA for ಘಾ in Kannada transliteration"/>
+    <test input="~gA" output="ಙಾ" description="~gA for ಙಾ in Kannada transliteration"/>
+    <test input="cA" output="ಚಾ" description="cA for ಚಾ in Kannada transliteration"/>
+    <test input="CA" output="ಛಾ" description="CA for ಛಾ in Kannada transliteration"/>
+    <test input="jA" output="ಜಾ" description="jA for ಜಾ in Kannada transliteration"/>
+    <test input="JA" output="ಝಾ" description="JA for ಝಾ in Kannada transliteration"/>
+    <test input="~jA" output="ಞಾ" description="~jA for ಞಾ in Kannada transliteration"/>
+    <test input="TA" output="ಟಾ" description="TA for ಟಾ in Kannada transliteration"/>
+    <test input="ThA" output="ಠಾ" description="ThA for ಠಾ in Kannada transliteration"/>
+    <test input="DA" output="ಡಾ" description="DA for ಡಾ in Kannada transliteration"/>
+    <test input="DhA" output="ಢಾ" description="DhA for ಢಾ in Kannada transliteration"/>
+    <test input="NA" output="ಣಾ" description="NA for ಣಾ in Kannada transliteration"/>
+    <test input="tA" output="ತಾ" description="tA for ತಾ in Kannada transliteration"/>
+    <test input="thA" output="ಥಾ" description="thA for ಥಾ in Kannada transliteration"/>
+    <test input="dA" output="ದಾ" description="dA for ದಾ in Kannada transliteration"/>
+    <test input="dhA" output="ಧಾ" description="dhA for ಧಾ in Kannada transliteration"/>
+    <test input="nA" output="ನಾ" description="nA for ನಾ in Kannada transliteration"/>
+    <test input="pA" output="ಪಾ" description="pA for ಪಾ in Kannada transliteration"/>
+    <test input="PA" output="ಫಾ" description="PA for ಫಾ in Kannada transliteration"/>
+    <test input="bA" output="ಬಾ" description="bA for ಬಾ in Kannada transliteration"/>
+    <test input="BA" output="ಭಾ" description="BA for ಭಾ in Kannada transliteration"/>
+    <test input="mA" output="ಮಾ" description="mA for ಮಾ in Kannada transliteration"/>
+    <test input="yA" output="ಯಾ" description="yA for ಯಾ in Kannada transliteration"/>
+    <test input="rA" output="ರಾ" description="rA for ರಾ in Kannada transliteration"/>
+    <test input="qA" output="ಱಾ" description="qA for ಱಾ in Kannada transliteration"/>
+    <test input="lA" output="ಲಾ" description="lA for ಲಾ in Kannada transliteration"/>
+    <test input="vA" output="ವಾ" description="vA for ವಾ in Kannada transliteration"/>
+    <test input="SA" output="ಶಾ" description="SA for ಶಾ in Kannada transliteration"/>
+    <test input="ShA" output="ಷಾ" description="ShA for ಷಾ in Kannada transliteration"/>
+    <test input="sA" output="ಸಾ" description="sA for ಸಾ in Kannada transliteration"/>
+    <test input="hA" output="ಹಾ" description="hA for ಹಾ in Kannada transliteration"/>
+    <test input="LA" output="ಳಾ" description="LA for ಳಾ in Kannada transliteration"/>
+    <test input="QA" output="ೞಾ" description="QA for ೞಾ in Kannada transliteration"/>
+    <test input="i" output="ಇ" description="i for ಇ in Kannada transliteration"/>
+    <test input="ki" output="ಕಿ" description="ki for ಕಿ in Kannada transliteration"/>
+    <test input="Ki" output="ಖಿ" description="Ki for ಖಿ in Kannada transliteration"/>
+    <test input="gi" output="ಗಿ" description="gi for ಗಿ in Kannada transliteration"/>
+    <test input="Gi" output="ಘಿ" description="Gi for ಘಿ in Kannada transliteration"/>
+    <test input="~gi" output="ಙಿ" description="~gi for ಙಿ in Kannada transliteration"/>
+    <test input="ci" output="ಚಿ" description="ci for ಚಿ in Kannada transliteration"/>
+    <test input="Ci" output="ಛಿ" description="Ci for ಛಿ in Kannada transliteration"/>
+    <test input="ji" output="ಜಿ" description="ji for ಜಿ in Kannada transliteration"/>
+    <test input="Ji" output="ಝಿ" description="Ji for ಝಿ in Kannada transliteration"/>
+    <test input="~ji" output="ಞಿ" description="~ji for ಞಿ in Kannada transliteration"/>
+    <test input="Ti" output="ಟಿ" description="Ti for ಟಿ in Kannada transliteration"/>
+    <test input="Thi" output="ಠಿ" description="Thi for ಠಿ in Kannada transliteration"/>
+    <test input="Di" output="ಡಿ" description="Di for ಡಿ in Kannada transliteration"/>
+    <test input="Dhi" output="ಢಿ" description="Dhi for ಢಿ in Kannada transliteration"/>
+    <test input="Ni" output="ಣಿ" description="Ni for ಣಿ in Kannada transliteration"/>
+    <test input="ti" output="ತಿ" description="ti for ತಿ in Kannada transliteration"/>
+    <test input="thi" output="ಥಿ" description="thi for ಥಿ in Kannada transliteration"/>
+    <test input="di" output="ದಿ" description="di for ದಿ in Kannada transliteration"/>
+    <test input="dhi" output="ಧಿ" description="dhi for ಧಿ in Kannada transliteration"/>
+    <test input="ni" output="ನಿ" description="ni for ನಿ in Kannada transliteration"/>
+    <test input="pi" output="ಪಿ" description="pi for ಪಿ in Kannada transliteration"/>
+    <test input="Pi" output="ಫಿ" description="Pi for ಫಿ in Kannada transliteration"/>
+    <test input="bi" output="ಬಿ" description="bi for ಬಿ in Kannada transliteration"/>
+    <test input="Bi" output="ಭಿ" description="Bi for ಭಿ in Kannada transliteration"/>
+    <test input="mi" output="ಮಿ" description="mi for ಮಿ in Kannada transliteration"/>
+    <test input="yi" output="ಯಿ" description="yi for ಯಿ in Kannada transliteration"/>
+    <test input="ri" output="ರಿ" description="ri for ರಿ in Kannada transliteration"/>
+    <test input="qi" output="ಱಿ" description="qi for ಱಿ in Kannada transliteration"/>
+    <test input="li" output="ಲಿ" description="li for ಲಿ in Kannada transliteration"/>
+    <test input="vi" output="ವಿ" description="vi for ವಿ in Kannada transliteration"/>
+    <test input="Si" output="ಶಿ" description="Si for ಶಿ in Kannada transliteration"/>
+    <test input="Shi" output="ಷಿ" description="Shi for ಷಿ in Kannada transliteration"/>
+    <test input="si" output="ಸಿ" description="si for ಸಿ in Kannada transliteration"/>
+    <test input="hi" output="ಹಿ" description="hi for ಹಿ in Kannada transliteration"/>
+    <test input="Li" output="ಳಿ" description="Li for ಳಿ in Kannada transliteration"/>
+    <test input="Qi" output="ೞಿ" description="Qi for ೞಿ in Kannada transliteration"/>
+    <test input="I" output="ಈ" description="I for ಈ in Kannada transliteration"/>
+    <test input="kI" output="ಕೀ" description="kI for ಕೀ in Kannada transliteration"/>
+    <test input="KI" output="ಖೀ" description="KI for ಖೀ in Kannada transliteration"/>
+    <test input="gI" output="ಗೀ" description="gI for ಗೀ in Kannada transliteration"/>
+    <test input="GI" output="ಘೀ" description="GI for ಘೀ in Kannada transliteration"/>
+    <test input="~gI" output="ಙೀ" description="~gI for ಙೀ in Kannada transliteration"/>
+    <test input="cI" output="ಚೀ" description="cI for ಚೀ in Kannada transliteration"/>
+    <test input="CI" output="ಛೀ" description="CI for ಛೀ in Kannada transliteration"/>
+    <test input="jI" output="ಜೀ" description="jI for ಜೀ in Kannada transliteration"/>
+    <test input="JI" output="ಝೀ" description="JI for ಝೀ in Kannada transliteration"/>
+    <test input="~jI" output="ಞೀ" description="~jI for ಞೀ in Kannada transliteration"/>
+    <test input="TI" output="ಟೀ" description="TI for ಟೀ in Kannada transliteration"/>
+    <test input="ThI" output="ಠೀ" description="ThI for ಠೀ in Kannada transliteration"/>
+    <test input="DI" output="ಡೀ" description="DI for ಡೀ in Kannada transliteration"/>
+    <test input="DhI" output="ಢೀ" description="DhI for ಢೀ in Kannada transliteration"/>
+    <test input="NI" output="ಣೀ" description="NI for ಣೀ in Kannada transliteration"/>
+    <test input="tI" output="ತೀ" description="tI for ತೀ in Kannada transliteration"/>
+    <test input="thI" output="ಥೀ" description="thI for ಥೀ in Kannada transliteration"/>
+    <test input="dI" output="ದೀ" description="dI for ದೀ in Kannada transliteration"/>
+    <test input="dhI" output="ಧೀ" description="dhI for ಧೀ in Kannada transliteration"/>
+    <test input="nI" output="ನೀ" description="nI for ನೀ in Kannada transliteration"/>
+    <test input="pI" output="ಪೀ" description="pI for ಪೀ in Kannada transliteration"/>
+    <test input="PI" output="ಫೀ" description="PI for ಫೀ in Kannada transliteration"/>
+    <test input="bI" output="ಬೀ" description="bI for ಬೀ in Kannada transliteration"/>
+    <test input="BI" output="ಭೀ" description="BI for ಭೀ in Kannada transliteration"/>
+    <test input="mI" output="ಮೀ" description="mI for ಮೀ in Kannada transliteration"/>
+    <test input="yI" output="ಯೀ" description="yI for ಯೀ in Kannada transliteration"/>
+    <test input="rI" output="ರೀ" description="rI for ರೀ in Kannada transliteration"/>
+    <test input="qI" output="ಱೀ" description="qI for ಱೀ in Kannada transliteration"/>
+    <test input="lI" output="ಲೀ" description="lI for ಲೀ in Kannada transliteration"/>
+    <test input="vI" output="ವೀ" description="vI for ವೀ in Kannada transliteration"/>
+    <test input="SI" output="ಶೀ" description="SI for ಶೀ in Kannada transliteration"/>
+    <test input="ShI" output="ಷೀ" description="ShI for ಷೀ in Kannada transliteration"/>
+    <test input="sI" output="ಸೀ" description="sI for ಸೀ in Kannada transliteration"/>
+    <test input="hI" output="ಹೀ" description="hI for ಹೀ in Kannada transliteration"/>
+    <test input="LI" output="ಳೀ" description="LI for ಳೀ in Kannada transliteration"/>
+    <test input="QI" output="ೞೀ" description="QI for ೞೀ in Kannada transliteration"/>
+    <test input="u" output="ಉ" description="u for ಉ in Kannada transliteration"/>
+    <test input="ku" output="ಕು" description="ku for ಕು in Kannada transliteration"/>
+    <test input="Ku" output="ಖು" description="Ku for ಖು in Kannada transliteration"/>
+    <test input="gu" output="ಗು" description="gu for ಗು in Kannada transliteration"/>
+    <test input="Gu" output="ಘು" description="Gu for ಘು in Kannada transliteration"/>
+    <test input="~gu" output="ಙು" description="~gu for ಙು in Kannada transliteration"/>
+    <test input="cu" output="ಚು" description="cu for ಚು in Kannada transliteration"/>
+    <test input="Cu" output="ಛು" description="Cu for ಛು in Kannada transliteration"/>
+    <test input="ju" output="ಜು" description="ju for ಜು in Kannada transliteration"/>
+    <test input="Ju" output="ಝು" description="Ju for ಝು in Kannada transliteration"/>
+    <test input="~ju" output="ಞು" description="~ju for ಞು in Kannada transliteration"/>
+    <test input="Tu" output="ಟು" description="Tu for ಟು in Kannada transliteration"/>
+    <test input="Thu" output="ಠು" description="Thu for ಠು in Kannada transliteration"/>
+    <test input="Du" output="ಡು" description="Du for ಡು in Kannada transliteration"/>
+    <test input="Dhu" output="ಢು" description="Dhu for ಢು in Kannada transliteration"/>
+    <test input="Nu" output="ಣು" description="Nu for ಣು in Kannada transliteration"/>
+    <test input="tu" output="ತು" description="tu for ತು in Kannada transliteration"/>
+    <test input="thu" output="ಥು" description="thu for ಥು in Kannada transliteration"/>
+    <test input="du" output="ದು" description="du for ದು in Kannada transliteration"/>
+    <test input="dhu" output="ಧು" description="dhu for ಧು in Kannada transliteration"/>
+    <test input="nu" output="ನು" description="nu for ನು in Kannada transliteration"/>
+    <test input="pu" output="ಪು" description="pu for ಪು in Kannada transliteration"/>
+    <test input="Pu" output="ಫು" description="Pu for ಫು in Kannada transliteration"/>
+    <test input="bu" output="ಬು" description="bu for ಬು in Kannada transliteration"/>
+    <test input="Bu" output="ಭು" description="Bu for ಭು in Kannada transliteration"/>
+    <test input="mu" output="ಮು" description="mu for ಮು in Kannada transliteration"/>
+    <test input="yu" output="ಯು" description="yu for ಯು in Kannada transliteration"/>
+    <test input="ru" output="ರು" description="ru for ರು in Kannada transliteration"/>
+    <test input="qu" output="ಱು" description="qu for ಱು in Kannada transliteration"/>
+    <test input="lu" output="ಲು" description="lu for ಲು in Kannada transliteration"/>
+    <test input="vu" output="ವು" description="vu for ವು in Kannada transliteration"/>
+    <test input="Su" output="ಶು" description="Su for ಶು in Kannada transliteration"/>
+    <test input="Shu" output="ಷು" description="Shu for ಷು in Kannada transliteration"/>
+    <test input="su" output="ಸು" description="su for ಸು in Kannada transliteration"/>
+    <test input="hu" output="ಹು" description="hu for ಹು in Kannada transliteration"/>
+    <test input="Lu" output="ಳು" description="Lu for ಳು in Kannada transliteration"/>
+    <test input="Qu" output="ೞು" description="Qu for ೞು in Kannada transliteration"/>
+    <test input="U" output="ಊ" description="U for ಊ in Kannada transliteration"/>
+    <test input="kU" output="ಕೂ" description="kU for ಕೂ in Kannada transliteration"/>
+    <test input="KU" output="ಖೂ" description="KU for ಖೂ in Kannada transliteration"/>
+    <test input="gU" output="ಗೂ" description="gU for ಗೂ in Kannada transliteration"/>
+    <test input="GU" output="ಘೂ" description="GU for ಘೂ in Kannada transliteration"/>
+    <test input="~gU" output="ಙೂ" description="~gU for ಙೂ in Kannada transliteration"/>
+    <test input="cU" output="ಚೂ" description="cU for ಚೂ in Kannada transliteration"/>
+    <test input="CU" output="ಛೂ" description="CU for ಛೂ in Kannada transliteration"/>
+    <test input="jU" output="ಜೂ" description="jU for ಜೂ in Kannada transliteration"/>
+    <test input="JU" output="ಝೂ" description="JU for ಝೂ in Kannada transliteration"/>
+    <test input="~jU" output="ಞೂ" description="~jU for ಞೂ in Kannada transliteration"/>
+    <test input="TU" output="ಟೂ" description="TU for ಟೂ in Kannada transliteration"/>
+    <test input="ThU" output="ಠೂ" description="ThU for ಠೂ in Kannada transliteration"/>
+    <test input="DU" output="ಡೂ" description="DU for ಡೂ in Kannada transliteration"/>
+    <test input="DhU" output="ಢೂ" description="DhU for ಢೂ in Kannada transliteration"/>
+    <test input="NU" output="ಣೂ" description="NU for ಣೂ in Kannada transliteration"/>
+    <test input="tU" output="ತೂ" description="tU for ತೂ in Kannada transliteration"/>
+    <test input="thU" output="ಥೂ" description="thU for ಥೂ in Kannada transliteration"/>
+    <test input="dU" output="ದೂ" description="dU for ದೂ in Kannada transliteration"/>
+    <test input="dhU" output="ಧೂ" description="dhU for ಧೂ in Kannada transliteration"/>
+    <test input="nU" output="ನೂ" description="nU for ನೂ in Kannada transliteration"/>
+    <test input="pU" output="ಪೂ" description="pU for ಪೂ in Kannada transliteration"/>
+    <test input="PU" output="ಫೂ" description="PU for ಫೂ in Kannada transliteration"/>
+    <test input="bU" output="ಬೂ" description="bU for ಬೂ in Kannada transliteration"/>
+    <test input="BU" output="ಭೂ" description="BU for ಭೂ in Kannada transliteration"/>
+    <test input="mU" output="ಮೂ" description="mU for ಮೂ in Kannada transliteration"/>
+    <test input="yU" output="ಯೂ" description="yU for ಯೂ in Kannada transliteration"/>
+    <test input="rU" output="ರೂ" description="rU for ರೂ in Kannada transliteration"/>
+    <test input="qU" output="ಱೂ" description="qU for ಱೂ in Kannada transliteration"/>
+    <test input="lU" output="ಲೂ" description="lU for ಲೂ in Kannada transliteration"/>
+    <test input="vU" output="ವೂ" description="vU for ವೂ in Kannada transliteration"/>
+    <test input="SU" output="ಶೂ" description="SU for ಶೂ in Kannada transliteration"/>
+    <test input="ShU" output="ಷೂ" description="ShU for ಷೂ in Kannada transliteration"/>
+    <test input="sU" output="ಸೂ" description="sU for ಸೂ in Kannada transliteration"/>
+    <test input="hU" output="ಹೂ" description="hU for ಹೂ in Kannada transliteration"/>
+    <test input="LU" output="ಳೂ" description="LU for ಳೂ in Kannada transliteration"/>
+    <test input="QU" output="ೞೂ" description="QU for ೞೂ in Kannada transliteration"/>
+    <test input="R" output="ಋ" description="R for ಋ in Kannada transliteration"/>
+    <test input="kR" output="ಕೃ" description="kR for ಕೃ in Kannada transliteration"/>
+    <test input="KR" output="ಖೃ" description="KR for ಖೃ in Kannada transliteration"/>
+    <test input="gR" output="ಗೃ" description="gR for ಗೃ in Kannada transliteration"/>
+    <test input="GR" output="ಘೃ" description="GR for ಘೃ in Kannada transliteration"/>
+    <test input="~gR" output="ಙೃ" description="~gR for ಙೃ in Kannada transliteration"/>
+    <test input="cR" output="ಚೃ" description="cR for ಚೃ in Kannada transliteration"/>
+    <test input="CR" output="ಛೃ" description="CR for ಛೃ in Kannada transliteration"/>
+    <test input="jR" output="ಜೃ" description="jR for ಜೃ in Kannada transliteration"/>
+    <test input="JR" output="ಝೃ" description="JR for ಝೃ in Kannada transliteration"/>
+    <test input="~jR" output="ಞೃ" description="~jR for ಞೃ in Kannada transliteration"/>
+    <test input="TR" output="ಟೃ" description="TR for ಟೃ in Kannada transliteration"/>
+    <test input="ThR" output="ಠೃ" description="ThR for ಠೃ in Kannada transliteration"/>
+    <test input="DR" output="ಡೃ" description="DR for ಡೃ in Kannada transliteration"/>
+    <test input="DhR" output="ಢೃ" description="DhR for ಢೃ in Kannada transliteration"/>
+    <test input="NR" output="ಣೃ" description="NR for ಣೃ in Kannada transliteration"/>
+    <test input="tR" output="ತೃ" description="tR for ತೃ in Kannada transliteration"/>
+    <test input="thR" output="ಥೃ" description="thR for ಥೃ in Kannada transliteration"/>
+    <test input="dR" output="ದೃ" description="dR for ದೃ in Kannada transliteration"/>
+    <test input="dhR" output="ಧೃ" description="dhR for ಧೃ in Kannada transliteration"/>
+    <test input="nR" output="ನೃ" description="nR for ನೃ in Kannada transliteration"/>
+    <test input="pR" output="ಪೃ" description="pR for ಪೃ in Kannada transliteration"/>
+    <test input="PR" output="ಫೃ" description="PR for ಫೃ in Kannada transliteration"/>
+    <test input="bR" output="ಬೃ" description="bR for ಬೃ in Kannada transliteration"/>
+    <test input="BR" output="ಭೃ" description="BR for ಭೃ in Kannada transliteration"/>
+    <test input="mR" output="ಮೃ" description="mR for ಮೃ in Kannada transliteration"/>
+    <test input="yR" output="ಯೃ" description="yR for ಯೃ in Kannada transliteration"/>
+    <test input="rR" output="ರೃ" description="rR for ರೃ in Kannada transliteration"/>
+    <test input="qR" output="ಱೃ" description="qR for ಱೃ in Kannada transliteration"/>
+    <test input="lR" output="ಲೃ" description="lR for ಲೃ in Kannada transliteration"/>
+    <test input="vR" output="ವೃ" description="vR for ವೃ in Kannada transliteration"/>
+    <test input="SR" output="ಶೃ" description="SR for ಶೃ in Kannada transliteration"/>
+    <test input="ShR" output="ಷೃ" description="ShR for ಷೃ in Kannada transliteration"/>
+    <test input="sR" output="ಸೃ" description="sR for ಸೃ in Kannada transliteration"/>
+    <test input="hR" output="ಹೃ" description="hR for ಹೃ in Kannada transliteration"/>
+    <test input="LR" output="ಳೃ" description="LR for ಳೃ in Kannada transliteration"/>
+    <test input="QR" output="ೞೃ" description="QR for ೞೃ in Kannada transliteration"/>
+    <test input="e" output="ಎ" description="e for ಎ in Kannada transliteration"/>
+    <test input="ke" output="ಕೆ" description="ke for ಕೆ in Kannada transliteration"/>
+    <test input="Ke" output="ಖೆ" description="Ke for ಖೆ in Kannada transliteration"/>
+    <test input="ge" output="ಗೆ" description="ge for ಗೆ in Kannada transliteration"/>
+    <test input="Ge" output="ಘೆ" description="Ge for ಘೆ in Kannada transliteration"/>
+    <test input="~ge" output="ಙೆ" description="~ge for ಙೆ in Kannada transliteration"/>
+    <test input="ce" output="ಚೆ" description="ce for ಚೆ in Kannada transliteration"/>
+    <test input="Ce" output="ಛೆ" description="Ce for ಛೆ in Kannada transliteration"/>
+    <test input="je" output="ಜೆ" description="je for ಜೆ in Kannada transliteration"/>
+    <test input="Je" output="ಝೆ" description="Je for ಝೆ in Kannada transliteration"/>
+    <test input="~je" output="ಞೆ" description="~je for ಞೆ in Kannada transliteration"/>
+    <test input="Te" output="ಟೆ" description="Te for ಟೆ in Kannada transliteration"/>
+    <test input="The" output="ಠೆ" description="The for ಠೆ in Kannada transliteration"/>
+    <test input="De" output="ಡೆ" description="De for ಡೆ in Kannada transliteration"/>
+    <test input="Dhe" output="ಢೆ" description="Dhe for ಢೆ in Kannada transliteration"/>
+    <test input="Ne" output="ಣೆ" description="Ne for ಣೆ in Kannada transliteration"/>
+    <test input="te" output="ತೆ" description="te for ತೆ in Kannada transliteration"/>
+    <test input="the" output="ಥೆ" description="the for ಥೆ in Kannada transliteration"/>
+    <test input="de" output="ದೆ" description="de for ದೆ in Kannada transliteration"/>
+    <test input="dhe" output="ಧೆ" description="dhe for ಧೆ in Kannada transliteration"/>
+    <test input="ne" output="ನೆ" description="ne for ನೆ in Kannada transliteration"/>
+    <test input="pe" output="ಪೆ" description="pe for ಪೆ in Kannada transliteration"/>
+    <test input="Pe" output="ಫೆ" description="Pe for ಫೆ in Kannada transliteration"/>
+    <test input="be" output="ಬೆ" description="be for ಬೆ in Kannada transliteration"/>
+    <test input="Be" output="ಭೆ" description="Be for ಭೆ in Kannada transliteration"/>
+    <test input="me" output="ಮೆ" description="me for ಮೆ in Kannada transliteration"/>
+    <test input="ye" output="ಯೆ" description="ye for ಯೆ in Kannada transliteration"/>
+    <test input="re" output="ರೆ" description="re for ರೆ in Kannada transliteration"/>
+    <test input="qe" output="ಱೆ" description="qe for ಱೆ in Kannada transliteration"/>
+    <test input="le" output="ಲೆ" description="le for ಲೆ in Kannada transliteration"/>
+    <test input="ve" output="ವೆ" description="ve for ವೆ in Kannada transliteration"/>
+    <test input="Se" output="ಶೆ" description="Se for ಶೆ in Kannada transliteration"/>
+    <test input="She" output="ಷೆ" description="She for ಷೆ in Kannada transliteration"/>
+    <test input="se" output="ಸೆ" description="se for ಸೆ in Kannada transliteration"/>
+    <test input="he" output="ಹೆ" description="he for ಹೆ in Kannada transliteration"/>
+    <test input="Le" output="ಳೆ" description="Le for ಳೆ in Kannada transliteration"/>
+    <test input="Qe" output="ೞೆ" description="Qe for ೞೆ in Kannada transliteration"/>
+    <test input="E" output="ಏ" description="E for ಏ in Kannada transliteration"/>
+    <test input="kE" output="ಕೇ" description="kE for ಕೇ in Kannada transliteration"/>
+    <test input="KE" output="ಖೇ" description="KE for ಖೇ in Kannada transliteration"/>
+    <test input="gE" output="ಗೇ" description="gE for ಗೇ in Kannada transliteration"/>
+    <test input="GE" output="ಘೇ" description="GE for ಘೇ in Kannada transliteration"/>
+    <test input="~gE" output="ಙೇ" description="~gE for ಙೇ in Kannada transliteration"/>
+    <test input="cE" output="ಚೇ" description="cE for ಚೇ in Kannada transliteration"/>
+    <test input="CE" output="ಛೇ" description="CE for ಛೇ in Kannada transliteration"/>
+    <test input="jE" output="ಜೇ" description="jE for ಜೇ in Kannada transliteration"/>
+    <test input="JE" output="ಝೇ" description="JE for ಝೇ in Kannada transliteration"/>
+    <test input="~jE" output="ಞೇ" description="~jE for ಞೇ in Kannada transliteration"/>
+    <test input="TE" output="ಟೇ" description="TE for ಟೇ in Kannada transliteration"/>
+    <test input="ThE" output="ಠೇ" description="ThE for ಠೇ in Kannada transliteration"/>
+    <test input="DE" output="ಡೇ" description="DE for ಡೇ in Kannada transliteration"/>
+    <test input="DhE" output="ಢೇ" description="DhE for ಢೇ in Kannada transliteration"/>
+    <test input="NE" output="ಣೇ" description="NE for ಣೇ in Kannada transliteration"/>
+    <test input="tE" output="ತೇ" description="tE for ತೇ in Kannada transliteration"/>
+    <test input="thE" output="ಥೇ" description="thE for ಥೇ in Kannada transliteration"/>
+    <test input="dE" output="ದೇ" description="dE for ದೇ in Kannada transliteration"/>
+    <test input="dhE" output="ಧೇ" description="dhE for ಧೇ in Kannada transliteration"/>
+    <test input="nE" output="ನೇ" description="nE for ನೇ in Kannada transliteration"/>
+    <test input="pE" output="ಪೇ" description="pE for ಪೇ in Kannada transliteration"/>
+    <test input="PE" output="ಫೇ" description="PE for ಫೇ in Kannada transliteration"/>
+    <test input="bE" output="ಬೇ" description="bE for ಬೇ in Kannada transliteration"/>
+    <test input="BE" output="ಭೇ" description="BE for ಭೇ in Kannada transliteration"/>
+    <test input="mE" output="ಮೇ" description="mE for ಮೇ in Kannada transliteration"/>
+    <test input="yE" output="ಯೇ" description="yE for ಯೇ in Kannada transliteration"/>
+    <test input="rE" output="ರೇ" description="rE for ರೇ in Kannada transliteration"/>
+    <test input="qE" output="ಱೇ" description="qE for ಱೇ in Kannada transliteration"/>
+    <test input="lE" output="ಲೇ" description="lE for ಲೇ in Kannada transliteration"/>
+    <test input="vE" output="ವೇ" description="vE for ವೇ in Kannada transliteration"/>
+    <test input="SE" output="ಶೇ" description="SE for ಶೇ in Kannada transliteration"/>
+    <test input="ShE" output="ಷೇ" description="ShE for ಷೇ in Kannada transliteration"/>
+    <test input="sE" output="ಸೇ" description="sE for ಸೇ in Kannada transliteration"/>
+    <test input="hE" output="ಹೇ" description="hE for ಹೇ in Kannada transliteration"/>
+    <test input="LE" output="ಳೇ" description="LE for ಳೇ in Kannada transliteration"/>
+    <test input="QE" output="ೞೇ" description="QE for ೞೇ in Kannada transliteration"/>
+    <test input="Y" output="ಐ" description="Y for ಐ in Kannada transliteration"/>
+    <test input="kY" output="ಕೈ" description="kY for ಕೈ in Kannada transliteration"/>
+    <test input="KY" output="ಖೈ" description="KY for ಖೈ in Kannada transliteration"/>
+    <test input="gY" output="ಗೈ" description="gY for ಗೈ in Kannada transliteration"/>
+    <test input="GY" output="ಘೈ" description="GY for ಘೈ in Kannada transliteration"/>
+    <test input="~gY" output="ಙೈ" description="~gY for ಙೈ in Kannada transliteration"/>
+    <test input="cY" output="ಚೈ" description="cY for ಚೈ in Kannada transliteration"/>
+    <test input="CY" output="ಛೈ" description="CY for ಛೈ in Kannada transliteration"/>
+    <test input="jY" output="ಜೈ" description="jY for ಜೈ in Kannada transliteration"/>
+    <test input="JY" output="ಝೈ" description="JY for ಝೈ in Kannada transliteration"/>
+    <test input="~jY" output="ಞೈ" description="~jY for ಞೈ in Kannada transliteration"/>
+    <test input="TY" output="ಟೈ" description="TY for ಟೈ in Kannada transliteration"/>
+    <test input="ThY" output="ಠೈ" description="ThY for ಠೈ in Kannada transliteration"/>
+    <test input="DY" output="ಡೈ" description="DY for ಡೈ in Kannada transliteration"/>
+    <test input="DhY" output="ಢೈ" description="DhY for ಢೈ in Kannada transliteration"/>
+    <test input="NY" output="ಣೈ" description="NY for ಣೈ in Kannada transliteration"/>
+    <test input="tY" output="ತೈ" description="tY for ತೈ in Kannada transliteration"/>
+    <test input="thY" output="ಥೈ" description="thY for ಥೈ in Kannada transliteration"/>
+    <test input="dY" output="ದೈ" description="dY for ದೈ in Kannada transliteration"/>
+    <test input="dhY" output="ಧೈ" description="dhY for ಧೈ in Kannada transliteration"/>
+    <test input="nY" output="ನೈ" description="nY for ನೈ in Kannada transliteration"/>
+    <test input="pY" output="ಪೈ" description="pY for ಪೈ in Kannada transliteration"/>
+    <test input="PY" output="ಫೈ" description="PY for ಫೈ in Kannada transliteration"/>
+    <test input="bY" output="ಬೈ" description="bY for ಬೈ in Kannada transliteration"/>
+    <test input="BY" output="ಭೈ" description="BY for ಭೈ in Kannada transliteration"/>
+    <test input="mY" output="ಮೈ" description="mY for ಮೈ in Kannada transliteration"/>
+    <test input="yY" output="ಯೈ" description="yY for ಯೈ in Kannada transliteration"/>
+    <test input="rY" output="ರೈ" description="rY for ರೈ in Kannada transliteration"/>
+    <test input="qY" output="ಱೈ" description="qY for ಱೈ in Kannada transliteration"/>
+    <test input="lY" output="ಲೈ" description="lY for ಲೈ in Kannada transliteration"/>
+    <test input="vY" output="ವೈ" description="vY for ವೈ in Kannada transliteration"/>
+    <test input="SY" output="ಶೈ" description="SY for ಶೈ in Kannada transliteration"/>
+    <test input="ShY" output="ಷೈ" description="ShY for ಷೈ in Kannada transliteration"/>
+    <test input="sY" output="ಸೈ" description="sY for ಸೈ in Kannada transliteration"/>
+    <test input="hY" output="ಹೈ" description="hY for ಹೈ in Kannada transliteration"/>
+    <test input="LY" output="ಳೈ" description="LY for ಳೈ in Kannada transliteration"/>
+    <test input="QY" output="ೞೈ" description="QY for ೞೈ in Kannada transliteration"/>
+    <test input="o" output="ಒ" description="o for ಒ in Kannada transliteration"/>
+    <test input="ko" output="ಕೊ" description="ko for ಕೊ in Kannada transliteration"/>
+    <test input="Ko" output="ಖೊ" description="Ko for ಖೊ in Kannada transliteration"/>
+    <test input="go" output="ಗೊ" description="go for ಗೊ in Kannada transliteration"/>
+    <test input="Go" output="ಘೊ" description="Go for ಘೊ in Kannada transliteration"/>
+    <test input="~go" output="ಙೊ" description="~go for ಙೊ in Kannada transliteration"/>
+    <test input="co" output="ಚೊ" description="co for ಚೊ in Kannada transliteration"/>
+    <test input="Co" output="ಛೊ" description="Co for ಛೊ in Kannada transliteration"/>
+    <test input="jo" output="ಜೊ" description="jo for ಜೊ in Kannada transliteration"/>
+    <test input="Jo" output="ಝೊ" description="Jo for ಝೊ in Kannada transliteration"/>
+    <test input="~jo" output="ಞೊ" description="~jo for ಞೊ in Kannada transliteration"/>
+    <test input="To" output="ಟೊ" description="To for ಟೊ in Kannada transliteration"/>
+    <test input="Tho" output="ಠೊ" description="Tho for ಠೊ in Kannada transliteration"/>
+    <test input="Do" output="ಡೊ" description="Do for ಡೊ in Kannada transliteration"/>
+    <test input="Dho" output="ಢೊ" description="Dho for ಢೊ in Kannada transliteration"/>
+    <test input="No" output="ಣೊ" description="No for ಣೊ in Kannada transliteration"/>
+    <test input="to" output="ತೊ" description="to for ತೊ in Kannada transliteration"/>
+    <test input="tho" output="ಥೊ" description="tho for ಥೊ in Kannada transliteration"/>
+    <test input="do" output="ದೊ" description="do for ದೊ in Kannada transliteration"/>
+    <test input="dho" output="ಧೊ" description="dho for ಧೊ in Kannada transliteration"/>
+    <test input="no" output="ನೊ" description="no for ನೊ in Kannada transliteration"/>
+    <test input="po" output="ಪೊ" description="po for ಪೊ in Kannada transliteration"/>
+    <test input="Po" output="ಫೊ" description="Po for ಫೊ in Kannada transliteration"/>
+    <test input="bo" output="ಬೊ" description="bo for ಬೊ in Kannada transliteration"/>
+    <test input="Bo" output="ಭೊ" description="Bo for ಭೊ in Kannada transliteration"/>
+    <test input="mo" output="ಮೊ" description="mo for ಮೊ in Kannada transliteration"/>
+    <test input="yo" output="ಯೊ" description="yo for ಯೊ in Kannada transliteration"/>
+    <test input="ro" output="ರೊ" description="ro for ರೊ in Kannada transliteration"/>
+    <test input="qo" output="ಱೊ" description="qo for ಱೊ in Kannada transliteration"/>
+    <test input="lo" output="ಲೊ" description="lo for ಲೊ in Kannada transliteration"/>
+    <test input="vo" output="ವೊ" description="vo for ವೊ in Kannada transliteration"/>
+    <test input="So" output="ಶೊ" description="So for ಶೊ in Kannada transliteration"/>
+    <test input="Sho" output="ಷೊ" description="Sho for ಷೊ in Kannada transliteration"/>
+    <test input="so" output="ಸೊ" description="so for ಸೊ in Kannada transliteration"/>
+    <test input="ho" output="ಹೊ" description="ho for ಹೊ in Kannada transliteration"/>
+    <test input="Lo" output="ಳೊ" description="Lo for ಳೊ in Kannada transliteration"/>
+    <test input="Qo" output="ೞೊ" description="Qo for ೞೊ in Kannada transliteration"/>
+    <test input="O" output="ಓ" description="O for ಓ in Kannada transliteration"/>
+    <test input="kO" output="ಕೋ" description="kO for ಕೋ in Kannada transliteration"/>
+    <test input="KO" output="ಖೋ" description="KO for ಖೋ in Kannada transliteration"/>
+    <test input="gO" output="ಗೋ" description="gO for ಗೋ in Kannada transliteration"/>
+    <test input="GO" output="ಘೋ" description="GO for ಘೋ in Kannada transliteration"/>
+    <test input="~gO" output="ಙೋ" description="~gO for ಙೋ in Kannada transliteration"/>
+    <test input="cO" output="ಚೋ" description="cO for ಚೋ in Kannada transliteration"/>
+    <test input="CO" output="ಛೋ" description="CO for ಛೋ in Kannada transliteration"/>
+    <test input="jO" output="ಜೋ" description="jO for ಜೋ in Kannada transliteration"/>
+    <test input="JO" output="ಝೋ" description="JO for ಝೋ in Kannada transliteration"/>
+    <test input="~jO" output="ಞೋ" description="~jO for ಞೋ in Kannada transliteration"/>
+    <test input="TO" output="ಟೋ" description="TO for ಟೋ in Kannada transliteration"/>
+    <test input="ThO" output="ಠೋ" description="ThO for ಠೋ in Kannada transliteration"/>
+    <test input="DO" output="ಡೋ" description="DO for ಡೋ in Kannada transliteration"/>
+    <test input="DhO" output="ಢೋ" description="DhO for ಢೋ in Kannada transliteration"/>
+    <test input="NO" output="ಣೋ" description="NO for ಣೋ in Kannada transliteration"/>
+    <test input="tO" output="ತೋ" description="tO for ತೋ in Kannada transliteration"/>
+    <test input="thO" output="ಥೋ" description="thO for ಥೋ in Kannada transliteration"/>
+    <test input="dO" output="ದೋ" description="dO for ದೋ in Kannada transliteration"/>
+    <test input="dhO" output="ಧೋ" description="dhO for ಧೋ in Kannada transliteration"/>
+    <test input="nO" output="ನೋ" description="nO for ನೋ in Kannada transliteration"/>
+    <test input="pO" output="ಪೋ" description="pO for ಪೋ in Kannada transliteration"/>
+    <test input="PO" output="ಫೋ" description="PO for ಫೋ in Kannada transliteration"/>
+    <test input="bO" output="ಬೋ" description="bO for ಬೋ in Kannada transliteration"/>
+    <test input="BO" output="ಭೋ" description="BO for ಭೋ in Kannada transliteration"/>
+    <test input="mO" output="ಮೋ" description="mO for ಮೋ in Kannada transliteration"/>
+    <test input="yO" output="ಯೋ" description="yO for ಯೋ in Kannada transliteration"/>
+    <test input="rO" output="ರೋ" description="rO for ರೋ in Kannada transliteration"/>
+    <test input="qO" output="ಱೋ" description="qO for ಱೋ in Kannada transliteration"/>
+    <test input="lO" output="ಲೋ" description="lO for ಲೋ in Kannada transliteration"/>
+    <test input="vO" output="ವೋ" description="vO for ವೋ in Kannada transliteration"/>
+    <test input="SO" output="ಶೋ" description="SO for ಶೋ in Kannada transliteration"/>
+    <test input="ShO" output="ಷೋ" description="ShO for ಷೋ in Kannada transliteration"/>
+    <test input="sO" output="ಸೋ" description="sO for ಸೋ in Kannada transliteration"/>
+    <test input="hO" output="ಹೋ" description="hO for ಹೋ in Kannada transliteration"/>
+    <test input="LO" output="ಳೋ" description="LO for ಳೋ in Kannada transliteration"/>
+    <test input="QO" output="ೞೋ" description="QO for ೞೋ in Kannada transliteration"/>
+    <test input="W" output="ಔ" description="W for ಔ in Kannada transliteration"/>
+    <test input="kW" output="ಕೌ" description="kW for ಕೌ in Kannada transliteration"/>
+    <test input="KW" output="ಖೌ" description="KW for ಖೌ in Kannada transliteration"/>
+    <test input="gW" output="ಗೌ" description="gW for ಗೌ in Kannada transliteration"/>
+    <test input="GW" output="ಘೌ" description="GW for ಘೌ in Kannada transliteration"/>
+    <test input="~gW" output="ಙೌ" description="~gW for ಙೌ in Kannada transliteration"/>
+    <test input="cW" output="ಚೌ" description="cW for ಚೌ in Kannada transliteration"/>
+    <test input="CW" output="ಛೌ" description="CW for ಛೌ in Kannada transliteration"/>
+    <test input="jW" output="ಜೌ" description="jW for ಜೌ in Kannada transliteration"/>
+    <test input="JW" output="ಝೌ" description="JW for ಝೌ in Kannada transliteration"/>
+    <test input="~jW" output="ಞೌ" description="~jW for ಞೌ in Kannada transliteration"/>
+    <test input="TW" output="ಟೌ" description="TW for ಟೌ in Kannada transliteration"/>
+    <test input="ThW" output="ಠೌ" description="ThW for ಠೌ in Kannada transliteration"/>
+    <test input="DW" output="ಡೌ" description="DW for ಡೌ in Kannada transliteration"/>
+    <test input="DhW" output="ಢೌ" description="DhW for ಢೌ in Kannada transliteration"/>
+    <test input="NW" output="ಣೌ" description="NW for ಣೌ in Kannada transliteration"/>
+    <test input="tW" output="ತೌ" description="tW for ತೌ in Kannada transliteration"/>
+    <test input="thW" output="ಥೌ" description="thW for ಥೌ in Kannada transliteration"/>
+    <test input="dW" output="ದೌ" description="dW for ದೌ in Kannada transliteration"/>
+    <test input="dhW" output="ಧೌ" description="dhW for ಧೌ in Kannada transliteration"/>
+    <test input="nW" output="ನೌ" description="nW for ನೌ in Kannada transliteration"/>
+    <test input="pW" output="ಪೌ" description="pW for ಪೌ in Kannada transliteration"/>
+    <test input="PW" output="ಫೌ" description="PW for ಫೌ in Kannada transliteration"/>
+    <test input="bW" output="ಬೌ" description="bW for ಬೌ in Kannada transliteration"/>
+    <test input="BW" output="ಭೌ" description="BW for ಭೌ in Kannada transliteration"/>
+    <test input="mW" output="ಮೌ" description="mW for ಮೌ in Kannada transliteration"/>
+    <test input="yW" output="ಯೌ" description="yW for ಯೌ in Kannada transliteration"/>
+    <test input="rW" output="ರೌ" description="rW for ರೌ in Kannada transliteration"/>
+    <test input="qW" output="ಱೌ" description="qW for ಱೌ in Kannada transliteration"/>
+    <test input="lW" output="ಲೌ" description="lW for ಲೌ in Kannada transliteration"/>
+    <test input="vW" output="ವೌ" description="vW for ವೌ in Kannada transliteration"/>
+    <test input="SW" output="ಶೌ" description="SW for ಶೌ in Kannada transliteration"/>
+    <test input="ShW" output="ಷೌ" description="ShW for ಷೌ in Kannada transliteration"/>
+    <test input="sW" output="ಸೌ" description="sW for ಸೌ in Kannada transliteration"/>
+    <test input="hW" output="ಹೌ" description="hW for ಹೌ in Kannada transliteration"/>
+    <test input="LW" output="ಳೌ" description="LW for ಳೌ in Kannada transliteration"/>
+    <test input="QW" output="ೞೌ" description="QW for ೞೌ in Kannada transliteration"/>
+    <test input="aM" output="ಅಂ" description="aM for ಅಂ in Kannada transliteration"/>
+    <test input="kaM" output="ಕಂ" description="kM for ಕಂ in Kannada transliteration"/>
+    <test input="KaM" output="ಖಂ" description="KM for ಖಂ in Kannada transliteration"/>
+    <test input="gaM" output="ಗಂ" description="gM for ಗಂ in Kannada transliteration"/>
+    <test input="GaM" output="ಘಂ" description="GM for ಘಂ in Kannada transliteration"/>
+    <test input="~gaM" output="ಙಂ" description="~gM for ಙಂ in Kannada transliteration"/>
+    <test input="caM" output="ಚಂ" description="cM for ಚಂ in Kannada transliteration"/>
+    <test input="CaM" output="ಛಂ" description="CM for ಛಂ in Kannada transliteration"/>
+    <test input="jaM" output="ಜಂ" description="jM for ಜಂ in Kannada transliteration"/>
+    <test input="JaM" output="ಝಂ" description="JM for ಝಂ in Kannada transliteration"/>
+    <test input="~jaM" output="ಞಂ" description="~jM for ಞಂ in Kannada transliteration"/>
+    <test input="TaM" output="ಟಂ" description="TM for ಟಂ in Kannada transliteration"/>
+    <test input="ThaM" output="ಠಂ" description="ThM for ಠಂ in Kannada transliteration"/>
+    <test input="DaM" output="ಡಂ" description="DM for ಡಂ in Kannada transliteration"/>
+    <test input="DhaM" output="ಢಂ" description="DhM for ಢಂ in Kannada transliteration"/>
+    <test input="NaM" output="ಣಂ" description="NM for ಣಂ in Kannada transliteration"/>
+    <test input="taM" output="ತಂ" description="tM for ತಂ in Kannada transliteration"/>
+    <test input="thaM" output="ಥಂ" description="thM for ಥಂ in Kannada transliteration"/>
+    <test input="daM" output="ದಂ" description="dM for ದಂ in Kannada transliteration"/>
+    <test input="dhaM" output="ಧಂ" description="dhM for ಧಂ in Kannada transliteration"/>
+    <test input="naM" output="ನಂ" description="nM for ನಂ in Kannada transliteration"/>
+    <test input="paM" output="ಪಂ" description="pM for ಪಂ in Kannada transliteration"/>
+    <test input="PaM" output="ಫಂ" description="PM for ಫಂ in Kannada transliteration"/>
+    <test input="baM" output="ಬಂ" description="bM for ಬಂ in Kannada transliteration"/>
+    <test input="BaM" output="ಭಂ" description="BM for ಭಂ in Kannada transliteration"/>
+    <test input="maM" output="ಮಂ" description="mM for ಮಂ in Kannada transliteration"/>
+    <test input="yaM" output="ಯಂ" description="yM for ಯಂ in Kannada transliteration"/>
+    <test input="raM" output="ರಂ" description="rM for ರಂ in Kannada transliteration"/>
+    <test input="qaM" output="ಱಂ" description="qM for ಱಂ in Kannada transliteration"/>
+    <test input="laM" output="ಲಂ" description="lM for ಲಂ in Kannada transliteration"/>
+    <test input="vaM" output="ವಂ" description="vM for ವಂ in Kannada transliteration"/>
+    <test input="SaM" output="ಶಂ" description="SM for ಶಂ in Kannada transliteration"/>
+    <test input="ShaM" output="ಷಂ" description="ShM for ಷಂ in Kannada transliteration"/>
+    <test input="saM" output="ಸಂ" description="sM for ಸಂ in Kannada transliteration"/>
+    <test input="haM" output="ಹಂ" description="hM for ಹಂ in Kannada transliteration"/>
+    <test input="LaM" output="ಳಂ" description="LM for ಳಂ in Kannada transliteration"/>
+    <test input="QaM" output="ೞಂ" description="QM for ೞಂ in Kannada transliteration"/>
+    <test input="aH" output="ಅಃ" description="aH for ಅಃ in Kannada transliteration"/>
+    <test input="kaH" output="ಕಃ" description="kH for ಕಃ in Kannada transliteration"/>
+    <test input="KaH" output="ಖಃ" description="KH for ಖಃ in Kannada transliteration"/>
+    <test input="gaH" output="ಗಃ" description="gH for ಗಃ in Kannada transliteration"/>
+    <test input="GaH" output="ಘಃ" description="GH for ಘಃ in Kannada transliteration"/>
+    <test input="~gaH" output="ಙಃ" description="~gH for ಙಃ in Kannada transliteration"/>
+    <test input="caH" output="ಚಃ" description="cH for ಚಃ in Kannada transliteration"/>
+    <test input="CaH" output="ಛಃ" description="CH for ಛಃ in Kannada transliteration"/>
+    <test input="jaH" output="ಜಃ" description="jH for ಜಃ in Kannada transliteration"/>
+    <test input="JaH" output="ಝಃ" description="JH for ಝಃ in Kannada transliteration"/>
+    <test input="~jaH" output="ಞಃ" description="~jH for ಞಃ in Kannada transliteration"/>
+    <test input="TaH" output="ಟಃ" description="TH for ಟಃ in Kannada transliteration"/>
+    <test input="ThaH" output="ಠಃ" description="ThH for ಠಃ in Kannada transliteration"/>
+    <test input="DaH" output="ಡಃ" description="DH for ಡಃ in Kannada transliteration"/>
+    <test input="DhaH" output="ಢಃ" description="DhH for ಢಃ in Kannada transliteration"/>
+    <test input="NaH" output="ಣಃ" description="NH for ಣಃ in Kannada transliteration"/>
+    <test input="taH" output="ತಃ" description="tH for ತಃ in Kannada transliteration"/>
+    <test input="thaH" output="ಥಃ" description="thH for ಥಃ in Kannada transliteration"/>
+    <test input="daH" output="ದಃ" description="dH for ದಃ in Kannada transliteration"/>
+    <test input="dhaH" output="ಧಃ" description="dhH for ಧಃ in Kannada transliteration"/>
+    <test input="naH" output="ನಃ" description="nH for ನಃ in Kannada transliteration"/>
+    <test input="paH" output="ಪಃ" description="pH for ಪಃ in Kannada transliteration"/>
+    <test input="PaH" output="ಫಃ" description="PH for ಫಃ in Kannada transliteration"/>
+    <test input="baH" output="ಬಃ" description="bH for ಬಃ in Kannada transliteration"/>
+    <test input="BaH" output="ಭಃ" description="BH for ಭಃ in Kannada transliteration"/>
+    <test input="maH" output="ಮಃ" description="mH for ಮಃ in Kannada transliteration"/>
+    <test input="yaH" output="ಯಃ" description="yH for ಯಃ in Kannada transliteration"/>
+    <test input="raH" output="ರಃ" description="rH for ರಃ in Kannada transliteration"/>
+    <test input="qaH" output="ಱಃ" description="qH for ಱಃ in Kannada transliteration"/>
+    <test input="laH" output="ಲಃ" description="lH for ಲಃ in Kannada transliteration"/>
+    <test input="vaH" output="ವಃ" description="vH for ವಃ in Kannada transliteration"/>
+    <test input="SaH" output="ಶಃ" description="SH for ಶಃ in Kannada transliteration"/>
+    <test input="ShaH" output="ಷಃ" description="ShH for ಷಃ in Kannada transliteration"/>
+    <test input="saH" output="ಸಃ" description="sH for ಸಃ in Kannada transliteration"/>
+    <test input="haH" output="ಹಃ" description="hH for ಹಃ in Kannada transliteration"/>
+    <test input="LaH" output="ಳಃ" description="LH for ಳಃ in Kannada transliteration"/>
+    <test input="QaH" output="ೞಃ" description="QH for ೞಃ in Kannada transliteration"/>
+    <test input="k" output="ಕ್" description="k for ಕ್ in Kannada transliteration"/>
+    <test input="K" output="ಖ್" description="K for ಖ್ in Kannada transliteration"/>
+    <test input="g" output="ಗ್" description="g for ಗ್ in Kannada transliteration"/>
+    <test input="G" output="ಘ್" description="G for ಘ್ in Kannada transliteration"/>
+    <test input="~g" output="ಙ್" description="~g for ಙ್ in Kannada transliteration"/>
+    <test input="c" output="ಚ್" description="c for ಚ್ in Kannada transliteration"/>
+    <test input="C" output="ಛ್" description="C for ಛ್ in Kannada transliteration"/>
+    <test input="j" output="ಜ್" description="j for ಜ್ in Kannada transliteration"/>
+    <test input="J" output="ಝ್" description="J for ಝ್ in Kannada transliteration"/>
+    <test input="~j" output="ಞ್" description="~j for ಞ್ in Kannada transliteration"/>
+    <test input="T" output="ಟ್" description="T for ಟ್ in Kannada transliteration"/>
+    <test input="Th" output="ಠ್" description="Th for ಠ್ in Kannada transliteration"/>
+    <test input="D" output="ಡ್" description="D for ಡ್ in Kannada transliteration"/>
+    <test input="Dh" output="ಢ್" description="Dh for ಢ್ in Kannada transliteration"/>
+    <test input="N" output="ಣ್" description="N for ಣ್ in Kannada transliteration"/>
+    <test input="t" output="ತ್" description="t for ತ್ in Kannada transliteration"/>
+    <test input="th" output="ಥ್" description="th for ಥ್ in Kannada transliteration"/>
+    <test input="d" output="ದ್" description="d for ದ್ in Kannada transliteration"/>
+    <test input="dh" output="ಧ್" description="dh for ಧ್ in Kannada transliteration"/>
+    <test input="n" output="ನ್" description="n for ನ್ in Kannada transliteration"/>
+    <test input="p" output="ಪ್" description="p for ಪ್ in Kannada transliteration"/>
+    <test input="P" output="ಫ್" description="P for ಫ್ in Kannada transliteration"/>
+    <test input="b" output="ಬ್" description="b for ಬ್ in Kannada transliteration"/>
+    <test input="B" output="ಭ್" description="B for ಭ್ in Kannada transliteration"/>
+    <test input="m" output="ಮ್" description="m for ಮ್ in Kannada transliteration"/>
+    <test input="y" output="ಯ್" description="y for ಯ್ in Kannada transliteration"/>
+    <test input="r" output="ರ್" description="r for ರ್ in Kannada transliteration"/>
+    <test input="q" output="ಱ್" description="q for ಱ್ in Kannada transliteration"/>
+    <test input="l" output="ಲ್" description="l for ಲ್ in Kannada transliteration"/>
+    <test input="v" output="ವ್" description="v for ವ್ in Kannada transliteration"/>
+    <test input="S" output="ಶ್" description="S for ಶ್ in Kannada transliteration"/>
+    <test input="Sh" output="ಷ್" description="Sh for ಷ್ in Kannada transliteration"/>
+    <test input="s" output="ಸ್" description="s for ಸ್ in Kannada transliteration"/>
+    <test input="h" output="ಹ್" description="h for ಹ್ in Kannada transliteration"/>
+    <test input="L" output="ಳ್" description="L for ಳ್ in Kannada transliteration"/>
+    <test input="Q" output="ೞ್" description="Q for ೞ್ in Kannada transliteration"/>
+    <test input="d~ha" output="ದ್ಹ" description="d~ha for ದ್ಹ in Kannada transliteration"/>
+  </fixture>
+  <fixture description="Marathi InScript 2 test" inputmethod="mr-inscript2" multiline="false">
+    <test input="1" output="१" description="Marathi InScript regular 1 - १" altGr="0"/>
+    <test input="1" output="‍" description="Marathi InScript regular 1 - ZWJ" altGr="1"/>
+    <test input="2" output="२" description="Marathi InScript regular 2 - २" altGr="0"/>
+    <test input="2" output="‌" description="Marathi InScript regular 2 - ZWNJ" altGr="1"/>
+  </fixture>
+  <fixture description="Marathi Transliteration test" inputmethod="mr-transliteration" multiline="false">
+    <test input="\~" output="~" description="Marathi transliteration - \~ -&gt; ~"/>
+    <test input="dny" output="ज्ञ्" description="dny for ज्ञ् in Marathi transliteration"/>
+    <test input="kOM" output="काँ" description="kOM for काँ (काँग्रेस) in Marathi transliteration"/>
+    <test input="AUM" output="ॐ" description="AUM - ॐ (OM)"/>
+    <test input="oMkaara" output="ओंकार" description="oMkaara (testing correct typing of oM as a simple anusvara)"/>
+    <test input="kshha" output="क्ष" description="kshha for क्ष translitration"/>
+    <test input="mukhapRShTha" output="मुखपृष्ठ" description="mukhapRShTha for मुखपृष्ठ (Home page) translitration"/>
+    <test input="La" output="ळ" description="La for ळ translitration"/>
+    <test input="a" output="अ" description="a for अ translitration"/>
+    <test input="aa" output="आ" description="aa for आ translitration"/>
+    <test input="i" output="इ" description="i for इ translitration"/>
+    <test input="I" output="ई" description="I for ई translitration"/>
+    <test input="u" output="उ" description="u for U translitration"/>
+    <test input="U" output="ऊ" description="U for ऊ translitration"/>
+    <test input="e" output="ए" description="e for ए translitration"/>
+    <test input="ai" output="ऐ" description="ai for ऐ  translitration"/>
+    <test input="o" output="ओ" description="o for ओ translitration"/>
+    <test input="au" output="औ" description="au for औ translitration"/>
+    <test input="O" output="ऑ" description="O for ऑ translitration"/>
+    <test input="E" output="ॲ" description="E for ॲ translitration"/>
+    <test input="aM" output="अं" description="aM for अं translitration"/>
+    <test input="aH" output="अः" description="aH for अः translitration"/>
+    <test input="ka" output="क" description="ka for क translitration"/>
+    <test input="kha" output="ख" description="kha for ख translitration"/>
+    <test input="ga" output="ग" description="ga for ग translitration"/>
+    <test input="gha" output="घ" description="gha for घ translitration"/>
+    <test input="nga" output="ङ" description="nga for ङ translitration"/>
+    <test input="cha" output="च" description="cha for च translitration"/>
+    <test input="chha" output="छ" description="chha for छ translitration"/>
+    <test input="ja" output="ज" description="ja for ज translitration"/>
+    <test input="jha" output="झ" description="jha for झ translitration"/>
+    <test input="nja" output="ञ" description="nja for ञ translitration"/>
+    <test input="Ta" output="ट" description="Ta for ट translitration"/>
+    <test input="Tha" output="ठ" description="Tha for ठ translitration"/>
+    <test input="Da" output="ड" description="Da for ड translitration"/>
+    <test input="Dha" output="ढ" description="Dha for ढ translitration"/>
+    <test input="Na" output="ण" description="Na for ण translitration"/>
+    <test input="ta" output="त" description="ta for त translitration"/>
+    <test input="tha" output="थ" description="tha for थ translitration"/>
+    <test input="da" output="द" description="da for द translitration"/>
+    <test input="dha" output="ध" description="dha for ध translitration"/>
+    <test input="na" output="न" description="na for न translitration"/>
+    <test input="pha" output="फ" description="pha for फ translitration"/>
+    <test input="tha" output="थ" description="tha for थ translitration"/>
+    <test input="ba" output="ब" description="ba for ब translitration"/>
+    <test input="bha" output="भ" description="bha for भ translitration"/>
+    <test input="ma" output="म" description="ma for म translitration"/>
+    <test input="ya" output="य" description="ya for य translitration"/>
+    <test input="ra" output="र" description="ra for र translitration"/>
+    <test input="la" output="ल" description="la for ल translitration"/>
+    <test input="va" output="व" description="va for व translitration"/>
+    <test input="sha" output="श" description="sha for श translitration"/>
+    <test input="ya" output="य" description="ya for य translitration"/>
+    <test input="Sha" output="ष" description="Sha for ष translitration"/>
+    <test input="sa" output="स" description="sa for स translitration"/>
+    <test input="ha" output="ह" description="ha for ह translitration"/>
+    <test input="sha" output="श" description="sha for श translitration"/>
+    <test input="R" output="ऋ" description="R for ऋ translitration"/>
+    <test input="shrI" output="श्री" description="shrI for श्री translitration"/>
+    <test input="0" output="०" description="0 for ० translitration"/>
+    <test input="1" output="१" description="1 for १ translitration"/>
+    <test input="2" output="२" description="2 for २ translitration"/>
+    <test input="3" output="३" description="3 for ३ translitration"/>
+    <test input="4" output="४" description="4 for ४ translitration"/>
+    <test input="5" output="५" description="5 for ५ translitration"/>
+    <test input="6" output="६" description="6 for ६ translitration"/>
+    <test input="7" output="७" description="7 for ७ translitration"/>
+    <test input="8" output="८" description="8 for ८ translitration"/>
+    <test input="9" output="९" description="9 for ९ translitration"/>
+    <test input="0" output="०" description="0 for ० translitration "/>
+    <test input="aMkita" output="अंकित" description="aMkita for अंकित translitration"/>
+    <test input="RShi" output="ऋषि" description="Rshi for ऋषि translitration"/>
+    <test input="vikipIDiyaa" output="विकिपीडिया" description="vikipIdiya for विकिपीडिया translitration"/>
+    <test input="manaHpUrvahaka" output="मनःपूर्वहक" description="manaHpUrvaka for मनःपूर्वहक translitration"/>
+    <test input="dhanyavaada" output="धन्यवाद" description="dhanyavaada for धन्यवाद translitration"/>
+    <test input="laThTha" output="लठ्ठ" description="laThTha for लठ्ठ translitration"/>
+    <test input="iMgrajI" output="इंग्रजी" description="iMgrajI for इंग्रजी translitration"/>
+    <test input="nRsiMhasarasvatI" output="नृसिंहसरस्वती" description="nRsiMhasarasvatI for नृसिंहसरस्वती  translitration"/>
+    <test input="agni" output="अग्नि" description="agni for अग्नि translitration"/>
+    <test input="saMskRta" output="संस्कृत" description="saMskRta for संस्कृत translitration"/>
+    <test input="dRShTIkona" output="दृष्टीकोन" description="dRShTIkona for दृष्टीकोन translitration"/>
+    <test input="tryaM" output="त्र्यं" description="tryaM for त्र्यं translitration"/>
+    <test input="maatRbhaaShaa" output="मातृभाषा" description="maatRbhaaShaa for मातृभाषा translitration"/>
+    <test input="vakratuNDa" output="वक्रतुण्ड" description="vakratuNDa for वक्रतुण्ड translitration"/>
+    <test input="ariShTanemiH" output="अरिष्टनेमिः" description="ariShTanemiH for अरिष्टनेमिः translitration"/>
+    <test input="shiShya" output="शिष्य" description="shiShya for शिष्य translitration"/>
+    <test input="bramha" output="ब्रम्ह" description="bramha for ब्रम्ह translitration"/>
+    <test input="dvitIya" output="द्वितीय" description="dvitIya for द्वितीय translitration"/>
+    <test input="dnyaana" output="ज्ञान" description="dnyana for ज्ञान translitration"/>
+  </fixture>
+  <fixture description="Malayalam InScript test" inputmethod="ml-inscript" multiline="false">
+    <test input="ka" output="കോ"/>
+  </fixture>
+  <fixture description="Malayalam Transliteration test" inputmethod="ml-transliteration" multiline="false">
+    <test input="\~" output="~" description="Malayalam transliteration - \~ -&gt; ~"/>
+    <test input="a" output="അ" description="Malayalam a"/>
+    <test input="ra" output="ര" description="Malayalam ra"/>
+    <test input="p" output="പ്" description="Malayalam p"/>
+    <test input="kh" output="ഖ്" description="Malayalam kh"/>
+    <test input="nch" output="ഞ്ച്" description="Malayalam nch"/>
+    <test input="au" output="ഔ" description="Malayalam au"/>
+    <test input="maU" output="മൌ" description="Malayalam aU"/>
+    <test input="kshau" output="ക്ഷൗ" description="Malayalam kshau"/>
+    <test input="ram" output="രം" description="Malayalam ram"/>
+    <test input="rama" output="രമ" description="Malayalam rama"/>
+    <test input="baH" output="ബഃ" description="baH"/>
+    <test input="bah" output="ബഹ്" description="bah"/>
+    <test input="ai" output="ഐ" description="ai"/>
+    <test input="lai" output="ലൈ" description="lai"/>
+    <test input="nta" output="ന്റ" description="Malayalam nta"/>
+  </fixture>
+  <fixture description="Oriya InScript test" inputmethod="or-inscript" multiline="false">
+    <test input="ka" output="କୋ" description="Odia InScript ka -&gt; କୋ"/>
+  </fixture>
+  <fixture description="Oriya phonetic test" inputmethod="or-lekhani" multiline="false">
+    <test input="\~" output="~" description="Oriya phonetic - \~ -&gt; ~"/>
+    <test input="a" output="ଅ" description="Odia phonetic a -&gt; ଅ "/>
+    <test input="aa" output="ଆ" description="Odia phonetic aa -&gt; ଆ"/>
+    <test input="A" output="ଆ" description="Odia phonetic A -&gt; ଆ"/>
+    <test input="i" output="ଇ" description="Odia phonetic i -&gt; ଇ"/>
+    <test input="I" output="ଈ" description="Odia phonetic I -&gt; ଈ"/>
+    <test input="u" output="ଉ" description="Odia phonetic u -&gt; ଉ"/>
+    <test input="U" output="ଊ" description="Odia phonetic U -&gt; ଊ"/>
+    <test input="r" output="ର" description="Odia phonetic r -&gt; ର୍"/>
+    <test input="R" output="ଋ" description="Odia phonetic R -&gt; ଋ"/>
+    <test input="e" output="ଏ" description="Odia phonetic e -&gt; ଏ"/>
+    <test input="ai" output="ଐ" description="Odia phonetic ai -&gt; ଐ"/>
+    <test input="o" output="ଓ" description="Odia phonetic o -&gt; ଓ"/>
+    <test input="O" output="ଔ" description="Odia phonetic O -&gt; ଔ"/>
+    <test input="k" output="କ" description="Odia phonetic k -&gt; କ"/>
+    <test input="kh" output="ଖ" description="Odia phonetic kh -&gt; ଖ"/>
+    <test input="g" output="ଗ" description="Odia phonetic g -&gt; ଗ"/>
+    <test input="gh" output="ଘ" description="Odia phonetic gh -&gt; ଘ"/>
+    <test input="NG" output="ଙ" description="Odia phonetic NG -&gt; ଙ"/>
+    <test input="c" output="ଚ" description="Odia phonetic c -&gt; ଚ"/>
+    <test input="ch" output="ଛ" description="Odia phonetic ch -&gt; ଛ"/>
+    <test input="j" output="ଜ" description="Odia phonetic j -&gt; ଜ"/>
+    <test input="jh" output="ଝ" description="Odia phonetic jh -&gt; ଝ"/>
+    <test input="Ng" output="ଞ" description="Odia phonetic Ng -&gt; ଞ"/>
+    <test input="T" output="ଟ" description="Odia phonetic Ta -&gt; ଟ"/>
+    <test input="Th" output="ଠ" description="Odia phonetic Th -&gt; ଠ"/>
+    <test input="D" output="ଡ" description="Odia phonetic D -&gt; ଡ"/>
+    <test input="Dh" output="ଢ" description="Odia phonetic Dh -&gt; ଢ"/>
+    <test input="N" output="ଣ" description="Odia phonetic n -&gt; ଣ"/>
+    <test input="t" output="ତ" description="Odia phonetic t -&gt; ତ"/>
+    <test input="th" output="ଥ" description="Odia phonetic th -&gt; ଥ"/>
+    <test input="d" output="ଦ" description="Odia phonetic d -&gt; ଦ"/>
+    <test input="dh" output="ଧ" description="Odia phonetic dh -&gt; ଧ"/>
+    <test input="n" output="ନ" description="Odia phonetic n -&gt; ନ"/>
+    <test input="p" output="ପ" description="Odia phonetic p -&gt; ପ"/>
+    <test input="ph" output="ଫ" description="Odia phonetic ph -&gt; ଫ"/>
+    <test input="b" output="ବ" description="Odia phonetic b -&gt; ବ"/>
+    <test input="bh" output="ଭ" description="Odia phonetic b -&gt; ଭ"/>
+    <test input="m" output="ମ" description="Odia phonetic m -&gt; ମ"/>
+    <test input="y" output="ଯ" description="Odia phonetic y -&gt; ଯ"/>
+    <test input="Y" output="ୟ" description="Odia phonetic Y -&gt; ୟ"/>
+    <test input="r" output="ର" description="Odia phonetic r -&gt; ର"/>
+    <test input="l" output="ଲ" description="Odia phonetic l -&gt; ଲ"/>
+    <test input="L" output="ଳ" description="Odia phonetic L -&gt; ଳ"/>
+    <test input="S" output="ଶ" description="Odia phonetic S -&gt; ଶ"/>
+    <test input="s" output="ସ" description="Odia phonetic s -&gt; ସ"/>
+    <test input="sh" output="ଷ" description="Odia phonetic sh -&gt; ଷ"/>
+    <test input="h" output="ହ" description="Odia phonetic h -&gt; ହ"/>
+    <test input="." output="।" description="Odia phonetic . -&gt; । "/>
+    <test input="dxiNeSwr" output="ଦକ୍ଷିଣେଶ୍ୱର" description="Odia phonetic dxiNeSwr -&gt; ଦକ୍ଷିଣେଶ୍ୱର "/>
+    <test input="kumbhkrzNeshu" output="କୁମ୍ଭକର୍ଣେଷୁ" description="Odia phonetic kumbhkrzNeshu -&gt; କୁମ୍ଭକର୍ଣେଷୁ"/>
+  </fixture>
+  <fixture description="Oriya transliteration test" inputmethod="or-transliteration" multiline="false">
+    <test input="\~" output="~" description="Oriya transliteration - \~ -&gt; ~"/>
+    <test input="a" output="ଅ" description="Odia transliteration a -&gt; ଅ "/>
+    <test input="aa" output="ଆ" description="Odia transliteration aa -&gt; ଆ"/>
+    <test input="A" output="ଆ" description="Odia transliteration A -&gt; ଆ"/>
+    <test input="i" output="ଇ" description="Odia transliteration i -&gt; ଇ"/>
+    <test input="I" output="ଈ" description="Odia transliteration I -&gt; ଈ"/>
+    <test input="u" output="ଉ" description="Odia transliteration u -&gt; ଉ"/>
+    <test input="U" output="ଊ" description="Odia transliteration U -&gt; ଊ"/>
+    <test input="r" output="ର୍" description="Odia transliteration r -&gt; ର୍"/>
+    <test input="R" output="ଋ" description="Odia transliteration R -&gt; ଋ"/>
+    <test input="e" output="ଏ" description="Odia transliteration e -&gt; ଏ"/>
+    <test input="ai" output="ଐ" description="Odia transliteration ai -&gt; ଐ"/>
+    <test input="o" output="ଓ" description="Odia transliteration o -&gt; ଓ"/>
+    <test input="O" output="ଔ" description="Odia transliteration O -&gt; ଔ"/>
+    <test input="k" output="କ୍" description="Odia transliteration k -&gt; କ୍"/>
+    <test input="kh" output="ଖ୍" description="Odia transliteration kh -&gt; ଖ୍"/>
+    <test input="g" output="ଗ୍" description="Odia transliteration g -&gt; ଗ୍"/>
+    <test input="gh" output="ଘ୍" description="Odia transliteration gh -&gt; ଘ୍"/>
+    <test input="NGa" output="ଙ" description="Odia transliteration NGa -&gt; ଙ"/>
+    <test input="ca" output="ଚ" description="Odia transliteration ca -&gt; ଚ"/>
+    <test input="cha" output="ଛ" description="Odia transliteration cha -&gt; ଛ"/>
+    <test input="ja" output="ଜ" description="Odia transliteration ja -&gt; ଜ"/>
+    <test input="jha" output="ଝ" description="Odia transliteration jha -&gt; ଝ"/>
+    <test input="Nga" output="ଞ" description="Odia transliteration Nga -&gt; ଞ"/>
+    <test input="Ta" output="ଟ" description="Odia transliteration Ta -&gt; ଟ"/>
+    <test input="Tha" output="ଠ" description="Odia transliteration Tha -&gt; ଠ"/>
+    <test input="Da" output="ଡ" description="Odia transliteration Da -&gt; ଡ"/>
+    <test input="Dha" output="ଢ" description="Odia transliteration Dha -&gt; ଢ"/>
+    <test input="Na" output="ଣ" description="Odia transliteration na -&gt; ଣ"/>
+    <test input="ta" output="ତ" description="Odia transliteration ta -&gt; ତ"/>
+    <test input="tha" output="ଥ" description="Odia transliteration tha -&gt; ଥ"/>
+    <test input="da" output="ଦ" description="Odia transliteration da -&gt; ଦ"/>
+    <test input="dha" output="ଧ" description="Odia transliteration dha -&gt; ଧ"/>
+    <test input="na" output="ନ" description="Odia transliteration na -&gt; ନ"/>
+    <test input="pa" output="ପ" description="Odia transliteration pa -&gt; ପ"/>
+    <test input="pha" output="ଫ" description="Odia transliteration pha -&gt; ଫ"/>
+    <test input="ba" output="ବ" description="Odia transliteration ba -&gt; ବ"/>
+    <test input="bha" output="ଭ" description="Odia transliteration bha -&gt; ଭ"/>
+    <test input="ma" output="ମ" description="Odia transliteration ma -&gt; ମ"/>
+    <test input="ya" output="ୟ" description="Odia transliteration ya -&gt; ୟ"/>
+    <test input="ra" output="ର" description="Odia transliteration ra -&gt; ର"/>
+    <test input="la" output="ଲ" description="Odia transliteration la -&gt; ଲ"/>
+    <test input="La" output="ଳ" description="Odia transliteration La -&gt; ଳ"/>
+    <test input="Sa" output="ଶ" description="Odia transliteration Sa -&gt; ଶ"/>
+    <test input="sa" output="ସ" description="Odia transliteration sa -&gt; ସ"/>
+    <test input="sha" output="ଷ" description="Odia transliteration sha -&gt; ଷ"/>
+    <test input="ha" output="ହ" description="Odia transliteration ha -&gt; ହ"/>
+  </fixture>
+  <fixture description="Punjabi Gurmukhi Transliteration" inputmethod="pa-transliteration" multiline="false">
+    <test input="\~" output="~" description="Punjabi Gurmukhi transliteration - \~ -&gt; ~"/>
+    <test input="kaI" output="ਕਈ" description="Punjabi Gurmukhi kaI"/>
+    <test input="hoiaa" output="ਹੋਇਆ" description="Punjabi Gurmukhi hoiaa"/>
+    <test input="ki" output="ਕਿ" description="Punjabi Gurmukhi ki"/>
+    <test input="kii" output="ਕੀ" description="Punjabi Gurmukhi kii"/>
+    <test input="kI" output="ਕੀ" description="Punjabi Gurmukhi kI"/>
+    <test input="kee" output="ਕੀ" description="Punjabi Gurmukhi kee"/>
+    <test input="ku" output="ਕੁ" description="Punjabi Gurmukhi ku"/>
+    <test input="kuu" output="ਕੂ" description="Punjabi Gurmukhi kuu"/>
+    <test input="kU" output="ਕੂ" description="Punjabi Gurmukhi kU"/>
+    <test input="koo" output="ਕੂ" description="Punjabi Gurmukhi koo"/>
+    <test input="kai" output="ਕੈ" description="Punjabi Gurmukhi kai"/>
+    <test input="kE" output="ਕੈ" description="Punjabi Gurmukhi kE"/>
+    <test input="ko" output="ਕੋ" description="Punjabi Gurmukhi ko"/>
+    <test input="kO" output="ਕੋ" description="Punjabi Gurmukhi ko"/>
+    <test input="kau" output="ਕੌ" description="Punjabi Gurmukhi kau"/>
+    <test input="g`a" output="ਗ਼" description="Punjabi Gurmukhi g`a (bindi)"/>
+    <test input="u" output="ਉ" description="Punjabi Gurmukhi u"/>
+    <test input="uu" output="ਊ" description="Punjabi Gurmukhi uu"/>
+    <test input="oo" output="ਊ" description="Punjabi Gurmukhi oo"/>
+    <test input="a^" output="ੲ" description="Punjabi Gurmukhi a^ (iri)"/>
+    <test input="u^" output="ੳ" description="Punjabi Gurmukhi u^ (ura)"/>
+    <test input="X" output="ੴ" description="Punjabi Gurmukhi X (Ek onkar)"/>
+    <test input="kaM" output="ਕਂ" description="Punjabi Gurmukhi kaM (bindi)"/>
+    <test input="kaMM" output="ਕਁ" description="Punjabi Gurmukhi kaMM (adak bindi)"/>
+    <test input="kaMm" output="ਕਁ" description="Punjabi Gurmukhi kaMm (adak bindi)"/>
+    <test input="kaM^" output="ਕਁ" description="Punjabi Gurmukhi kaM^ (adak bindi)"/>
+    <test input="k`haalasaa" output="ਖ਼ਾਲਸਾ" description="Punjabi Gurmukhi k`haalasaa"/>
+    <test input="raNajiita" output="ਰਣਜੀਤ" description="Punjabi Gurmukhi raNajiita (testing NNA)"/>
+    <test input="khadeRhana" output="ਖਦੇੜ੍ਹਨ" description="Punjabi Gurmukhi khadeRhana (testing R and subjoined h)"/>
+    <test input="siNNgha" output="ਸਿੰਘ" description="Punjabi Gurmukhi siNNgha (testing Tippi)"/>
+    <test input="hai." output="ਹੈ।" description="Punjabi Gurmukhi hai. (testing danda)"/>
+    <test input="phaaga.." output="ਫਾਗ॥" description="Punjabi Gurmukhi phaaga.. (testing double danda)"/>
+    <test input="iiTaanagara" output="ਈਟਾਨਗਰ" description="Punjabi Gurmukhi iiTaanagara"/>
+    <test input="eeTaanagara" output="ਈਟਾਨਗਰ" description="Punjabi Gurmukhi eeTaanagara"/>
+  </fixture>
+  <fixture description="Tamil InScript test" inputmethod="ta-inscript" multiline="false">
+    <test input="ka" output="கோ" description="Tamil Inscript கோ"/>
+    <test input="lfkd)&lt;fld" output="திக்‌ஷித்" description="Tamil Inscript திக்‌ஷித் non conjunct form with ZWNJ in between"/>
+    <test input="lf&amp;fld" output="திக்ஷித்" description="Tamil Inscript திக்ஷித் conjunct form"/>
+    <test input=";sjVd" output="சேரன்" description="Tamil Inscript சேரன் Cheran"/>
+    <test input=";aBVd" output="சோழன்" description="Tamil Inscript சோழன் Chozhan"/>
+    <test input="/gbjepd" output="யுவராஜ்" description="Tamil Inscript யுவராஜ் Yuvaraj"/>
+    <test input="heCd&apos;f/jd" output="பாண்டியர்" description="Tamil Inscript பாண்டியர் Pandiyar"/>
+    <test input="Ecrjd" output="ஆமீர்" description="Tamil Inscript ஆமீர் Aamir"/>
+    <test input="Duj`Vf" output="அஹரொனி" description="Tamil Inscript அஹரொனி Aharoni"/>
+    <test input="md)jrkevdld" output="ஸ்‌ரீகாந்த்" description="Tamil Inscript ஸ்‌ரீகாந்த் with ZWNJ between ஸ் and ரீ Srikanth"/>
+    <test input="mdjrkevdld" output="ஸ்ரீகாந்த்" description="Tamil Inscript ஸ்ரீகாந்த் with SHRI = SA+RII"/>
+    <test input="MdjrjcC" output="ஶ்ரீரமண" description="Tamil Inscript ஶ்ரீரமண Shriramana with SHRI = SHA+RII"/>
+    <test input="Dnanfle" output="அலோலிதா" description="Tamil Inscript அலோலிதா Alolitha"/>
+    <test input="&lt;jdce" output="ஷர்மா" description="Tamil Inscript ஷர்மா Sharma"/>
+    <test input="hfjbrVd" output="பிரவீன்" description="Tamil Inscript பிரவீன் Pravin"/>
+    <test input=";vdla&lt;d" output="சந்தோஷ்" description="Tamil Inscript சந்தோஷ் Santhosh"/>
+    <test input="vfkdnmd" output="நிக்லஸ்" description="Tamil Inscript நிக்லஸ் Niklas"/>
+    <test input=";rhdjCd&apos;g" output="சீப்ரண்டு" description="Tamil Inscript சீப்ரண்டு Siebrand"/>
+    <test input="hzUdkNtjg" output="பெங்களூரு" description="Tamil Inscript பெங்களூரு Bengalooru"/>
+    <test input=";qje&apos;d&apos;fj" output="சௌராட்டிர" description="Tamil Inscript சௌராட்டிர Saurattira"/>
+  </fixture>
+  <fixture description="Tamil Transliteration test" inputmethod="ta-transliteration" multiline="false">
+    <test input="thikshith" output="திக்‌ஷித்" description="thikshith in Tamil transliteration for திக்‌ஷித் non conjunct form"/>
+    <test input="thikShith" output="திக்‌ஷித்" description="thikShith in Tamil transliteration for திக்‌ஷித் non conjunct form"/>
+    <test input="thiksHith" output="திக்ஷித்" description="thiksHith in Tamil transliteration for திக்ஷித் conjunct form"/>
+    <test input="thiKSHith" output="திக்ஷித்" description="thiKSHith in Tamil transliteration for திக்ஷித் conjunct form"/>
+    <test input="Sri" output="ஸ்ரீ" description="Sri in Tamil transliteration for ஸ்ரீ Sri"/>
+    <test input="Sruthi" output="ஸ்ருதி" description="Sruthi in Tamil transliteration for ஸ்ருதி"/>
+    <test input="Sreeyaa" output="ஸ்ரேயா" description="Sreeyaa in Tamil transliteration for ஸ்ரேயா"/>
+    <test input="shaajakaan" output="ஷாஜகான்" description="shaajakaan in Tamil transliteration for ஷாஜகான் non conjunct form"/>
+    <test input="anbu" output="அன்பு" description="anbu in Tamil transliteration for அன்பு non conjunct form"/>
+    <test input="aarvam" output="ஆர்வம்" description="aarvam in Tamil transliteration for ஆர்வம் non conjunct form"/>
+    <test input="inRu" output="இன்று" description="inRu in Tamil transliteration for இன்று non conjunct form"/>
+    <test input="iizam" output="ஈழம்" description="iizam in Tamil transliteration for ஈழம் non conjunct form"/>
+    <test input="iilam" output="ஈலம்" description="iilam in Tamil transliteration for ஈலம் non conjunct form"/>
+    <test input="iiLam" output="ஈளம்" description="iiLam in Tamil transliteration for ஈளம் non conjunct form"/>
+    <test input="eNNam" output="எண்ணம்" description="eNNam in Tamil transliteration for எண்ணம் non conjunct form"/>
+    <test input="eeu" output="ஏஉ" description="eeu in Tamil transliteration for ஏஉ non conjunct form"/>
+    <test input="uuo" output="ஊஒ" description="uuo in Tamil transliteration for ஊஒ non conjunct form"/>
+    <test input="ooNam" output="ஓணம்" description="ooNam in Tamil transliteration for ஓணம் non conjunct form"/>
+    <test input="autatham" output="ஔடதம்" description="autatham in Tamil transliteration for ஔடதம் non conjunct form"/>
+    <test input="kangkaa" output="கங்கா" description="kangkaa in Tamil transliteration for கங்கா non conjunct form"/>
+    <test input="ngaasata" output="ஙாசட" description="ngaasata in Tamil transliteration for ஙாசட non conjunct form"/>
+    <test input="naNawa" output="னணந" description="naNawa in Tamil transliteration for னணந non conjunct form"/>
+    <test input="njaanam" output="ஞானம்" description="shajakaan in Tamil transliteration for ஞானம் non conjunct form"/>
+    <test input="thapamayaa" output="தபமயா" description="thapamayaa in Tamil transliteration for தபமயா non conjunct form"/>
+    <test input="jijigjaa" output="ஜிஜிக்ஜா" description="jijigjaa in Tamil transliteration for ஜிஜிக்ஜா non conjunct form"/>
+    <test input="vaNNam" output="வண்ணம்" description="vaNNam in Tamil transliteration for வண்ணம் non conjunct form"/>
+    <test input="haay" output="ஹாய்" description="haay in Tamil transliteration for ஹாய் non conjunct form"/>
+    <test input="aHku" output="அஃகு" description="aHku in Tamil transliteration for அஃகு non conjunct form"/>
+    <test input="jijoo" output="ஜிஜோ" description="jijoo in Tamil transliteration for ஜிஜோ non conjunct form"/>
+    <test input="yarazavalaLaRana" output="யரழவலளறன" description="yarazavalaLaRana in Tamil transliteration for யரழவலளறன non conjunct form"/>
+    <test input="juuhuu" output="ஜூஹூ" description="juuhuu in Tamil transliteration for ஜூஹூ non conjunct form"/>
+    <test input="Sashasa" output="ஸஷச" description="Sashasa in Tamil transliteration for ஸஷச non conjunct form"/>
+    <test input="Shuushaakikuu" output="ஷூஷாகிகூ" description="Shuushaakikuu in Tamil transliteration for ஷூஷாகிகூ non conjunct form"/>
+    <test input="kEkAkaa" output="கேகாகா" description="kEkAkaa in Tamil transliteration for கேகாகா non conjunct form"/>
+    <test input="zaazAAraRA" output="ழாழாஆரறா" description="zaazAAraRA in Tamil transliteration for ழாழாஆரறா non conjunct form"/>
+    <test input="naiwowO" output="னைநொநோ" description="naiwowO in Tamil transliteration for னைநொநோ non conjunct form"/>
+    <test input="rarAririireerE" output="ரராரிரீரேரே" description="rarAririireerE in Tamil transliteration for ரராரிரீரேரே non conjunct form"/>
+    <test input="lailOlauLau" output="லைலோலௌளௌ" description="lailOlauLau in Tamil transliteration for லைலோலௌளௌ non conjunct form"/>
+    <test input="kakaakAkikIkokOkai" output="ககாகாகிகீகொகோகை" description="kakaakAkikIkokOkai in Tamil transliteration for ககாகாகிகீகொகோகை non conjunct form"/>
+    <test input="kakaakAkikIkiikukUkuukekEkeekaikokookOkau" output="ககாகாகிகீகீகுகூகூகெகேகேகைகொகோகோகௌ" description="kakaakAkikIkiikukUkuukekEkeekaikokookOkau in Tamil transliteration for ககாகாகிகீகீகுகூகூகெகேகேகைகொகோகோகௌ non conjunct form"/>
+    <test input="ngangAngaangingiingIngungUnguungengEngeengaingongoongOngau" output="ஙஙாஙாஙிஙீஙீஙுஙூஙூஙெஙேஙேஙைஙொஙோஙோஙௌ" description="ngangAngaangingiingIngungUnguungengEngeengaingongoongOngu in Tamil transliteration for ஙஙாஙாஙிஙீஙீஙுஙூஙூஙெஙேஙேஙைஙொஙோஙோனௌ non conjunct form"/>
+    <test input="sasaasAsisIsiisusUsuusesEseesaisosoosOsau" output="சசாசாசிசீசீசுசூசூசெசேசேசைசொசோசோசௌ" description="sasaasAsisIsiisusUsuusesEseesaisosoosOsau in Tamil transliteration for சசாசாசிசீசீசுசூசூசெசேசேசைசொசோசோசௌ non conjunct form"/>
+    <test input="njanjaanjAnjinjiinjInjunjuunjUnjenjeenjEnjainjonjoonjOnjau" output="ஞஞாஞாஞிஞீஞீஞுஞூஞூஞெஞேஞேஞைஞொஞோஞோஞௌ" description="njanjaanjAnjinjiinjInjunjuunjUnjenjeenjEnjainjonjoonjOnjau in Tamil transliteration for ஞஞாஞாஞிஞீஞீஞுஞூஞூஞெஞேஞேஞைஞொஞோஞோஞௌ non conjunct form"/>
+    <test input="cacaacAcicIciicucUcuucecEceecaicocoocOcau" output="சசாசாசிசீசீசுசூசூசெசேசேசைசொசோசோசௌ" description="cacaacAcicIciicucUcuucecEceecaicocoocOcau in Tamil transliteration for சசாசாசிசீசீசுசூசூசெசேசேசைசொசோசோசௌ non conjunct form"/>
+    <test input="tataatAtitItiitutUtuutetEteetaitotootOtau" output="டடாடாடிடீடீடுடூடூடெடேடேடைடொடோடோடௌ" description="tataatAtitItiitutUtuutetEteetaitotootOtau in Tamil transliteration for டடாடாடிடீடீடுடூடூடெடேடேடைடொடோடோடௌ non conjunct form"/>
+    <test input="dadaadAdidIdiidudUduudedEdeedaidodoodOdau" output="டடாடாடிடீடீடுடூடூடெடேடேடைடொடோடோடௌ" description="dadaadAdidIdiidudUduudedEdeedaidodoodOdau in Tamil Transliteration for டடாடாடிடீடீடுடூடூடெடேடேடைடொடோடோடௌ non conjunct form"/>
+    <test input="NaNaaNANiNINiiNuNUNuuNeNENeeNaiNoNooNONau" output="ணணாணாணிணீணீணுணூணூணெணேணேணைணொணோணோணௌ" description="NaNaaNANiNINiiNuNUNuuNeNENeeNaiNoNooNONau in Tamil transliteration for ணணாணாணிணீணீணுணூணூணெணேணேணைணொணோணோனணௌ non conjunct form"/>
+    <test input="thathaathAthithIthiithuthUthuuthethEtheethaithothoothOthau" output="ததாதாதிதீதீதுதூதூதெதேதேதைதொதோதோதௌ" description="thathaathAthithIthiithuthUthuuthethEtheethaithothoothOthau in Tamil transliteration for ததாதாதிதீதீதுதூதூதெதேதேதைதொதோதோதௌ non conjunct form"/>
+    <test input="wawaawAwiwIwiiwuwUwuuwewEweewaiwowoowOwau" output="நநாநாநிநீநீநுநூநூநெநேநேநைநொநோநோநௌ" description="wawaawAwiwIwiiwuwUwuuwewEweewaiwowoowOwau in Tamil transliteration for நநாநிநீநீநுநூநூநெநேநேநைநொநோநோநௌ non conjunct form"/>
+    <test input="papaapApipIpiipupUpuupepEpeepaipopoopOpau" output="பபாபாபிபீபீபுபூபூபெபேபேபைபொபோபோபௌ" description="papaapApipIpiipupUpuupepEpeepaipopoopOpau in Tamil transliteration for பபாபாபிபீபீபுபூபூபெபேபேபைபொபோபோபௌ non conjunct form"/>
+    <test input="mamaamAmimImiimumUmuumemEmeemaimomoomOmau" output="மமாமாமிமீமீமுமூமூமெமேமேமைமொமோமோமௌ" description="mamaamAmimImiimumUmuumemEmeemaimomoomOmau in Tamil transliteration for மமாமாமிமீமீமுமூமூமெமேமேமைமொமோமோமௌ non conjunct form"/>
+    <test input="yayaayAyiyIyiiyuyUyuuyeyEyeeyaiyoyooyOyau" output="யயாயாயியீயீயுயூயூயெயேயேயையொயோயோயௌ" description="yayaayAyiyIyiiyuyUyuuyeyEyeeyaiyoyooyOyau in Tamil transliteration for யயாயாயியீயீயுயூயூயெயேயேயையொயோயோயௌ non conjunct form"/>
+    <test input="raraarArirIriirurUruurerEreerairoroorOrau" output="ரராராரிரீரீருரூரூரெரேரேரைரொரோரோரௌ" description="raraarArirIriirurUruurerEreerairoroorOrau in Tamil transliteration for ரராராரிரீரீருரூரூரெரேரேரைரொரோரோரௌ non conjunct form"/>
+    <test input="lalaalAlilIliilulUluulelEleelailoloolOlau" output="லலாலாலிலீலீலுலூலூலெலேலேலைலொலோலோலௌ" desription="lalaalAlilIliilulUluulelEleelailoloolOlau in Tamil transliteration for லலாலாலிலீலீலுலூலூலெலேலேலைலொலோலோலௌ non conjunct form"/>
+    <test input="vavaavAvivIviivuvUvuuvevEveevaivovoovOvau" output="வவாவாவிவீவீவுவூவூவெவேவேவைவொவோவோவௌ" description="vavaavAvivIviivuvUvuuvevEveevaivovoovOvau in Tamil transliteration for வவாவாவிவீவீவுவூவூவெவேவேவைவொவோவோவௌ non conjunct form"/>
+    <test input="zazaazAzizIziizuzUzuuzezEzeezaizozoozOzau" output="ழழாழாழிழீழீழுழூழூழெழேழேழைழொழோழோழௌ" description="zazaazAzizIziizuzUzuuzezEzeezaizozoozOzau in Tamil transliteration for ழழாழாழிழீழீழுழூழூழெழேழேழைழொழோழோழௌ non conjunct form"/>
+    <test input="zhazhaazhAzhizhIzhiizhuzhUzhuuzhezhEzheezhaizhozhoozhOzhau" output="ழழாழாழிழீழீழுழூழூழெழேழேழைழொழோழோழௌ" description="zhazhaazhAzhizhIzhiizhuzhUzhuuzhezhEzheezhaizhozhoozhOzhau in Tamil transliteration for ழழாழாழிழீழீழுழூழூழெழேழேழைழொழோழோழௌ non conjunct form"/>
+    <test input="LaLaaLALiLILiiLuLULuuLeLELeeLaiLoLooLOLau" output="ளளாளாளிளீளீளுளூளூளெளேளேளைளொளோளோளௌ" description="LaLaaLALiLILiiLuLULuuLeLELeeLaiLoLooLOLau in Tamil transliteration for ளளாளாளிளீளீளுளூளூளெளேளேளைளொளோளோளௌ non conjunct form"/>
+    <test input="RaRaaRARiRIRiiRuRURuuReREReeRaiRoRooRORau" output="றறாறாறிறீறீறுறூறூறெறேறேறைறொறோறோறௌ" description="RaRaaRARiRIRiiRuRURuuReREReeRaiRoRooRORau in Tamil transliteration for றறாறாறிறீறீறுறூறூறெறேறேறைறொறோறோறௌ non conjunct form"/>
+    <test input="nanaanAninIniinunUnuunenEneenainonoonOnau" output="னனானானினீனீனுனூனூனெனேனேனைனொனோனோனௌ" description="nanaanAninIniinunUnuunenEneenainonoonOnau in Tamil transliteration for னனானானினீனீனுனூனூனெனேனேனைனொனோனோனௌ non conjunct form"/>
+    <test input="SaSaaSASiSISiiSuSUSuuSeSESeeSaiSoSooSOSau" output="ஸஸாஸாஸிஸீஸீஸுஸூஸூஸெஸேஸேஸைஸொஸோஸோஸௌ" description="SaSaaSASiSISiiSuSUSuuSeSESeeSaiSoSooSOSau in Tamil transliteration for ஸஸாஸாஸிஸீஸீஸுஸூஸூஸெஸேஸேஸைஸொஸோஸோஸௌ non conjunct form"/>
+    <test input="shashaashAshishIshiishushUshuusheshEsheeshaishoshooshOshau" output="ஷஷாஷாஷிஷீஷீஷுஷூஷூஷெஷேஷேஷைஷொஷோஷோஷௌ" description="shashaashAshishIshiishushUshuusheshEsheeshaishoshooshOshau in Tamil transliteration for ஷஷாஷாஷிஷீஷீஷுஷூஷூஷெஷேஷேஷைஷொஷோஷோஷௌ non conjunct form"/>
+    <test input="jajaajAjijIjiijujUjuujejEjeejaijojoojOjau" output="ஜஜாஜாஜிஜீஜீஜுஜூஜூஜெஜேஜேஜைஜொஜோஜோஜௌ" description="jajaajAjijIjiijujUjuujejEjeejaijojoojOjau in Tamil transliteration for ஜஜாஜாஜிஜீஜீஜுஜூஜூஜெஜேஜேஜைஜொஜோஜோஜௌ non conjunct form"/>
+    <test input="hahaahAhihIhiihuhUhuuhehEheehaihohoohOhau" output="ஹஹாஹாஹிஹீஹீஹுஹூஹூஹெஹேஹேஹைஹொஹோஹோஹௌ" description="hahaahAhihIhiihuhUhuuhehEheehaihohoohOhau in Tamil transliteration for ஹஹாஹாஹிஹீஹீஹுஹூஹூஹெஹேஹேஹைஹொஹோஹோஹௌ non conjunct form"/>
+  </fixture>
+  <fixture description="Tamil 99 test" inputmethod="ta-99" multiline="false">
+    <test input="lshfWslf" output="திக்‌ஷித்" description="lshfWslf in Tamil99 for திக்‌ஷித் non conjunct form"/>
+    <test input="lsTslf" output="திக்ஷித்" description="lsTslf in Tamil99 for திக்ஷித் conjunct form"/>
+    <test input="hfWtkakf" output="க்‌ஷேமம்" description="hfWtkakf in Tamil99 for க்‌ஷேமம் hfW -&gt; க்‌ஷ non conjunct form"/>
+    <test input="Ttkakf" output="க்ஷேமம்" description="Ttkakf in Tamil99 for க்ஷேமம் T -&gt; க்ஷ conjunct form"/>
+  </fixture>
+  <fixture description="Telugu InScript test" inputmethod="te-inscript" multiline="false">
+    <test input="k-" output="కః" description="Telugu k- (visarga)"/>
+    <test input="}" output="ఞ" description="Telugu } (nya)"/>
+    <test input="J" output="ఱ" description="Telugu J (rra)"/>
+    <test input="/" output="య" description="Telugu / (ya)"/>
+    <test input="pz" output="జె" description="Telugu pz (je)"/>
+    <test input="p`" output="జొ" description="Telugu p` (jo)"/>
+    <test input="kX" output="కఁ" description="Telugu kX (ka@m, candrabindu)"/>
+    <test input="hx" output="పం" description="Telugu hx (paM, anusvara)"/>
+    <test input="&gt;" output="।" description="Telugu &gt; (danda)"/>
+    <test input=";" output="ౘ" description="Telugu Alt ; (tsa)" altGr="1"/>
+    <test input="p" output="ౙ" description="Telugu Alt p (dza)" altGr="1"/>
+    <test input="4" output="₹" description="Alt 4; (rupee sign)" altGr="1"/>
+    <test input="=" output="ౄ" description="Telugu Alt = (RRuu, vowel)" altGr="1"/>
+    <test input="+" output="ౠ" description="Telugu Alt + (RRuu)" altGr="1"/>
+  </fixture>
+  <fixture description="Telugu Transliteration test" inputmethod="te-transliteration" multiline="false">
+    <test input="c" output="చ్" description="Telugu c"/>
+    <test input="ch" output="చ్" description="Telugu ch"/>
+  </fixture>
+  <fixture description="Sanskrit transliteration test" inputmethod="sa-transliteration" multiline="false">
+    <test input="\~" output="~" description="Sanskrit transliteration - \~ -&gt; ~"/>
+  </fixture>
+  <fixture description="Sinhala Wijesekara transliteration tests" inputmethod="si-wijesekara" multiline="false">
+    <test input="l" output="ක" description="Sinhala Wijesekara - l -&gt; ක (KA)"/>
+    <test input="w" output="අ" description="Sinhala Wijesekara - w -&gt; අ (A)"/>
+    <test input="wd" output="ආ" description="Sinhala Wijesekara - wd -&gt; ආ (AA)"/>
+    <test input="we" output="ඇ" description="Sinhala Wijesekara - wd -&gt; ඇ (AE)"/>
+    <test input="wE" output="ඈ" description="Sinhala Wijesekara - wd -&gt; ඈ (AAE)"/>
+    <test input="b" output="ඉ" description="Sinhala Wijesekara - b -&gt; ඉ (I)"/>
+    <test input="B" output="ඊ" description="Sinhala Wijesekara - B -&gt; ඊ (II)"/>
+    <test input="W" output="උ" description="Sinhala Wijesekara - W -&gt; උ (U)"/>
+    <test input="WA" output="ඌ" description="Sinhala Wijesekara - WA -&gt; ඌ (UU)"/>
+    <test input="R" output="ඍ" description="Sinhala Wijesekara - R -&gt; ඍ (R)"/>
+    <test input="RD" output="ඎ" description="Sinhala Wijesekara - RD -&gt; ඎ (RR)"/>
+    <test input="," output="ඏ" description="Sinhala Wijesekara - Alt-, -&gt; ඏ (L)" altGr="1"/>
+    <test input=",A" output="ඐ" description="Sinhala Wijesekara - Alt-,+A -&gt; ඐ (LL)" altGr="10"/>
+    <test input="t" output="එ" description="Sinhala Wijesekara - t -&gt; එ (E)"/>
+    <test input="ta" output="ඒ" description="Sinhala Wijesekara - ta -&gt; ඒ (EE)"/>
+    <test input="ft" output="ඓ" description="Sinhala Wijesekara - ft -&gt; ඓ (AI)"/>
+    <test input="T" output="ඔ" description="Sinhala Wijesekara - T -&gt; ඔ (O)"/>
+    <test input="Ta" output="ඕ" description="Sinhala Wijesekara - Ta -&gt; ඕ (OO)"/>
+    <test input="TA" output="ඖ" description="Sinhala Wijesekara - TA -&gt; ඖ (AU)"/>
+    <test input="la" output="ක්" description="Sinhala Wijesekara - la -&gt; ක් (K)"/>
+    <test input="ld" output="කා" description="Sinhala Wijesekara - ld -&gt; කා (KAA)"/>
+    <test input=".e" output="ගැ" description="Sinhala Wijesekara - .e -&gt; ගැ (GAE)"/>
+    <test input="gE" output="ටෑ" description="Sinhala Wijesekara - gE -&gt; ටෑ (TTAAE)"/>
+    <test input="vs" output="ඩි" description="Sinhala Wijesekara - vs -&gt; ඩි (DDI)"/>
+    <test input=";S" output="තී" description="Sinhala Wijesekara - ;S -&gt; තී (TII)"/>
+    <test input="oq" output="දු" description="Sinhala Wijesekara - oq -&gt; දු (DU)"/>
+    <test input="mQ" output="පූ" description="Sinhala Wijesekara - mQ -&gt; පූ (PUU)"/>
+    <test input="nD" output="බෘ" description="Sinhala Wijesekara - nD -&gt; බෘ (BR)"/>
+    <test input="iDD" output="සෲ" description="Sinhala Wijesekara - iDD -&gt; සෲ (SRR)"/>
+  </fixture>
+  <fixture description="SIL IPA keyboard test" inputmethod="ipa-sil" multiline="false">
+    <test input="p" output="p" description="Voiceless bilabial stop"/>
+    <test input="b" output="b" description="Voiced bilabial stop"/>
+    <test input="m" output="m" description="Bilabial nasal"/>
+    <test input="B=" output="ʙ" description="Voiced bilabial trill"/>
+    <test input="f=" output="ɸ" description="Voiceless bilabial fricative"/>
+    <test input="b=" output="β" description="Voiced bilabial fricative"/>
+    <test input="m&gt;" output="ɱ" description="Labiodental nasal"/>
+    <test input="v&lt;" output="ⱱ" description="Labiodental flap"/>
+    <test input="f" output="f" description="Voiceless abiodental fricative"/>
+    <test input="v" output="v" description="Voiced labiodental fricative"/>
+    <test input="v=" output="ʋ" description="Labiodental approximant"/>
+    <test input="t=" output="θ" description="Voiceless dental fricative"/>
+    <test input="d=" output="ð" description="Voiced dental fricative"/>
+    <test input="t" output="t" description="Voiceless alveolar stop"/>
+    <test input="d" output="d" description="Voiced alveolar stop"/>
+    <test input="n" output="n" description="Alveolar nasal"/>
+    <test input="r" output="r" description="Alveolar trill"/>
+    <test input="r&gt;" output="ɾ" description="Alveolar flap"/>
+    <test input="s" output="s" description="Voiceless alveolar fricative"/>
+    <test input="z" output="z" description="Voiced alveolar fricative"/>
+    <test input="l=" output="ɬ" description="Voiceless alveolar lateral fricative"/>
+    <test input="l&gt;" output="ɮ" description="Voiced alveolar lateral fricative"/>
+    <test input="r=" output="ɹ" description="Alveolar approximant"/>
+    <test input="l" output="l" description="Alveolar lateral approximant"/>
+    <test input="s=" output="ʃ" description="Voiceless postalveolar fricative"/>
+    <test input="z=" output="ʒ" description="Voiced postalveolar fricative"/>
+    <test input="t&lt;" output="ʈ" description="Voiceless retroflex stop"/>
+    <test input="d&lt;" output="ɖ" description="Voiced retroflex stop"/>
+    <test input="n&lt;" output="ɳ" description="Retroflex nasal"/>
+    <test input="r&lt;" output="ɽ" description="Retroflex flap"/>
+    <test input="s&lt;" output="ʂ" description="Voiceless retroflex fricative"/>
+    <test input="z&lt;" output="ʐ" description="Voiced retroflex fricative"/>
+    <test input="R&lt;" output="ɻ" description="Retroflex approximant"/>
+    <test input="l&lt;" output="ɭ" description="Retroflex lateral approximant"/>
+    <test input="c" output="c" description="Voiceless palatal stop"/>
+    <test input="j=" output="ɟ" description="Voiced palatal stop"/>
+    <test input="n=" output="ɲ" description="Palatal nasal"/>
+    <test input="c=" output="ç" description="Voiceless palatal fricative"/>
+    <test input="j&lt;" output="ʝ" description="Voiced palatal fricative"/>
+    <test input="j" output="j" description="Palatal approximant"/>
+    <test input="L&lt;" output="ʎ" description="Palatal lateral approximant"/>
+    <test input="k" output="k" description="Voiceless velar stop"/>
+    <test input="g&lt;" output="ɡ" description="Voiced velar stop"/>
+    <test input="n&gt;" output="ŋ" description="Velar nasal"/>
+    <test input="x" output="x" description="Voiceless velar fricative"/>
+    <test input="g=" output="ɣ" description="Voiced velar fricative"/>
+    <test input="w&gt;" output="ɰ" description="Velar approximant"/>
+    <test input="L=" output="ʟ" description="Velar lateral approximant"/>
+    <test input="q" output="q" description="Voiceless uvular stop"/>
+    <test input="G=" output="ɢ" description="Voiced uvular stop"/>
+    <test input="N=" output="ɴ" description="Uvular nasal"/>
+    <test input="R=" output="ʀ" description="Uvular trill"/>
+    <test input="x=" output="χ" description="Voiceless uvular fricative"/>
+    <test input="R&gt;" output="ʁ" description="Voiced uvular fricative"/>
+    <test input="h&gt;" output="ħ" description="Voiceless pharyngeal fricative"/>
+    <test input="?&lt;" output="ʕ" description="Voiced pharyngeal fricative"/>
+    <test input="?=" output="ʔ" description="Glottal stop"/>
+    <test input="h" output="h" description="Voiceless glottal fricative"/>
+    <test input="h&lt;" output="ɦ" description="Voiced glottal fricative"/>
+    <test input="p=" output="ʘ" description="Bilabial click"/>
+    <test input="!&lt;" output="ǀ" description="Dental click"/>
+    <test input="!" output="ǃ" description="Postalveolar click"/>
+    <test input="!=" output="ǂ" description="Palatoalveolar click"/>
+    <test input="!&gt;" output="ǁ" description="Alveolar lateral click"/>
+    <test input="b&gt;" output="ɓ" description="Bilabial voiced implosive"/>
+    <test input="d&gt;" output="ɗ" description="Dental/alveolar voiced implosive"/>
+    <test input="j&gt;" output="ʄ" description="Palatal voiced implosive"/>
+    <test input="g&gt;" output="ɠ" description="Velar voiced implosive"/>
+    <test input="G&gt;" output="ʛ" description="Uvular voiced implosive"/>
+    <test input="w=" output="ʍ" description="Voiceless labial-velar fricative"/>
+    <test input="w" output="w" description="Voiced labial-velar approximant"/>
+    <test input="y&lt;" output="ɥ" description="Voiced labial-palatal approximant (y&lt;)"/>
+    <test input="h=" output="ɥ" description="Voiced labial-palatal approximant (h=)"/>
+    <test input="H=" output="ʜ" description="Voiceless epiglottal fricative"/>
+    <test input="Q&lt;" output="ʢ" description="Voiced epiglottal fricative"/>
+    <test input="Q=" output="ʡ" description="Voiced epiglottal stop"/>
+    <test input="c&lt;" output="ɕ" description="Voiceless alveolo-palatal fricative"/>
+    <test input="z&gt;" output="ʑ" description="Voiced alveolo-palatal fricative"/>
+    <test input="L&gt;" output="ɺ" description="Voiced alveolar lateral flap"/>
+    <test input="H&lt;" output="ɧ" description="Simultaneous ʃ and x"/>
+    <test input="i" output="i" description="Close front unrounded vowel"/>
+    <test input="i=" output="ɪ" description="Near-close near-front unrounded vowel"/>
+    <test input="e" output="e" description="Close-mid front unrounded vowel"/>
+    <test input="e&lt;" output="ɛ" description="Open-mid front unrounded vowel"/>
+    <test input="a&lt;" output="æ" description="Near-open front unrounded vowel"/>
+    <test input="a" output="a" description="Open front unrounded vowel"/>
+    <test input="y" output="y" description="Close front rounded vowel"/>
+    <test input="y=" output="ʏ" description="Near-close near-front rounded vowel"/>
+    <test input="o&gt;" output="ø" description="Close-mid front rounded vowel"/>
+    <test input="E&lt;" output="œ" description="Open-mid front rounded vowel"/>
+    <test input="E&gt;" output="ɶ" description="Open front rounded vowel"/>
+    <test input="I=" output="ɨ" description="Close central unrounded vowel"/>
+    <test input="E=" output="ɘ" description="Close-mid central unrounded vowel"/>
+    <test input="e=" output="ə" description="Mid-central vowel"/>
+    <test input="e&gt;" output="ɜ" description="Open-mid central unrounded vowel"/>
+    <test input="a&gt;" output="ɐ" description="Near-open central vowel"/>
+    <test input="U=" output="ʉ" description="Close central rounded vowel"/>
+    <test input="O=" output="ɵ" description="Close-mid central rounded vowel"/>
+    <test input="O&lt;" output="ɞ" description="Open-mid central rounded vowel"/>
+    <test input="u=" output="ɯ" description="Close back unrounded vowel"/>
+    <test input="O&gt;" output="ɤ" description="Close-mid back unrounded vowel"/>
+    <test input="u&gt;" output="ʌ" description="Open-mid back unrounded vowel"/>
+    <test input="a=" output="ɑ" description="Open back unrounded vowel"/>
+    <test input="u" output="u" description="Close back rounded vowel"/>
+    <test input="u&lt;" output="ʊ" description="Near-close near-back vowel"/>
+    <test input="o" output="o" description="Close-mid back rounded vowel"/>
+    <test input="o&lt;" output="ɔ" description="Open-mid back rounded vowel"/>
+    <test input="o=" output="ɒ" description="Open back rounded vowel"/>
+    <test input="}" output="ˈ" description="Primary stress"/>
+    <test input="}}" output="ˌ" description="Secondary stress"/>
+    <test input=":" output="ː" description="Long"/>
+    <test input="::" output="ˑ" description="Half long"/>
+    <test input=":::" output="ːː" description="Extra long"/>
+    <test input=".&lt;" output="|" description="Minor (foot) group"/>
+    <test input=".=" output="‖" description="Major (intonation) group"/>
+    <test input="." output="." description="Syllable break"/>
+    <test input="#=" output="‿" description="Linking (absence of a break)"/>
+    <test input="#4" output="˥" description="Extra-high tone bar"/>
+    <test input="#3" output="˦" description="High tone bar"/>
+    <test input="#2" output="˧" description="Mid tone bar"/>
+    <test input="#1" output="˨" description="Low tone bar"/>
+    <test input="#0" output="˩" description="Extra-low tone bar"/>
+    <test input="e@4" output="e̋" description="Extra-high tone diacritic"/>
+    <test input="e@3" output="é" description="High tone diacritic"/>
+    <test input="e@2" output="ē" description="Mid tone diacritic"/>
+    <test input="e@1" output="è" description="Low tone diacritic"/>
+    <test input="e@0" output="ȅ" description="Extra-low tone diacritic"/>
+    <test input="#04" output="˩˥" description="Rising tone bar (04)"/>
+    <test input="#40" output="˥˩" description="Falling tone bar (40)"/>
+    <test input="#24" output="˧˥" description="High rising tone bar (24)"/>
+    <test input="#12" output="˨˧" description="Low rising tone bar (12)"/>
+    <test input="#141" output="˨˥˨" description="Rising-falling tone bar (141)"/>
+    <test input="e@13" output="ě" description="Rising tone diacritic"/>
+    <test input="e@31" output="ê" description="Falling tone diacritic"/>
+    <test input="e@23" output="e᷄" description="High rising tone diacritic"/>
+    <test input="e@12" output="e᷅" description="Low rising tone diacritic"/>
+    <test input="e@131" output="e᷈" description="Rising-falling tone diacritic"/>
+    <test input="e@21" output="e᷆" description="Low falling tone diacritic"/>
+    <test input="e@32" output="e᷇" description="High falling tone diacritic"/>
+    <test input="e@313" output="e᷉" description="Falling-rising tone diacritic"/>
+    <test input="#&lt;" output="ꜜ" description="Downstep"/>
+    <test input="#&gt;" output="ꜛ" description="Upstep"/>
+    <test input="#&gt;&gt;" output="↗" description="Global rise"/>
+    <test input="#&lt;&lt;" output="↘" description="Global fall"/>
+    <test input="^0" output="⁰" description="Tone number 0"/>
+    <test input="^1" output="¹" description="Tone number 1"/>
+    <test input="^2" output="²" description="Tone number 2"/>
+    <test input="^3" output="³" description="Tone number 3"/>
+    <test input="^4" output="⁴" description="Tone number 4"/>
+    <test input="^5" output="⁵" description="Tone number 5"/>
+    <test input="^6" output="⁶" description="Tone number 6"/>
+    <test input="^7" output="⁷" description="Tone number 7"/>
+    <test input="^8" output="⁸" description="Tone number 8"/>
+    <test input="^9" output="⁹" description="Tone number 9"/>
+    <test input="^-" output="⁻" description="Superscript hyphen"/>
+    <test input="h^" output="ʰ" description="Aspirated"/>
+    <test input="w^" output="ʷ" description="Labialised"/>
+    <test input="j^" output="ʲ" description="Palatalised"/>
+    <test input="g=^" output="ˠ" description="Velarised"/>
+    <test input="?&lt;^" output="ˤ" description="Pharyngealised"/>
+    <test input="n^" output="ⁿ" description="Nasal release"/>
+    <test input="l^" output="ˡ" description="Lateral release"/>
+    <test input="[[" output="ʽ" description="Light aspiration"/>
+    <test input="e[[[" output="e˞" description="Rhoticity"/>
+    <test input="]]" output="’" description="Ejective"/>
+    <test input="d]]]" output="d̚" description="No audible release"/>
+    <test input="]]]]" output="‘" description="Weak aspiration"/>
+    <test input="n$" output="n̩" description="Syllabic"/>
+    <test input="e$$" output="e̯" description="Non-syllabic"/>
+    <test input="a$$$" output="a̰" description="Creaky voiced"/>
+    <test input="n%" output="n̥" description="Voiceless"/>
+    <test input="s%%" output="s̬" description="Voiced"/>
+    <test input="b%%%" output="b̤" description="Breathy voiced"/>
+    <test input="n&gt;@" output="ŋ̊" description="Voiceless with diacritic above"/>
+    <test input="t{" output="t̪" description="Dental"/>
+    <test input="t{{" output="t̺" description="Apical"/>
+    <test input="t{{{" output="t̻" description="Laminal"/>
+    <test input="t{{{{" output="t̼" description="Lingulabial"/>
+    <test input="s{{{{{" output="ṣ" description="Closer variety / Fricative"/>
+    <test input="e~" output="ẽ" description="Nasalised"/>
+    <test input="l~~" output="l̴" description="Velarized or pharyngealized"/>
+    <test input="e*" output="ë" description="Centralised"/>
+    <test input="e**" output="e̽" description="Mid centralised"/>
+    <test input="e***" output="ĕ" description="Extra short"/>
+    <test input="e****" output="ė" description="Palatalization/Centralization"/>
+    <test input="k#&amp;p" output="k͡p" description="Double articulation above"/>
+    <test input="t@&amp;s" output="t͜s" description="Double articulation below"/>
+    <test input="u+" output="u̟" description="Advanced"/>
+    <test input="i_" output="i̠" description="Retracted"/>
+    <test input="e++" output="e̝" description="Raised"/>
+    <test input="e__" output="e̞" description="Lowered"/>
+    <test input="e+++" output="e̘" description="Advanced tongue root"/>
+    <test input="e___" output="e̙" description="Retracted tongue root"/>
+    <test input="e++++" output="e̹" description="More rounded"/>
+    <test input="e____" output="e̜" description="Less rounded"/>
+    <test input="=&gt;" output="→" description="Is realized as (arrow)"/>
+    <test input="s&gt;" output="σ" description="Syllable (sigma)"/>
+    <test input="=&lt;" output="‍" description="Combining Grapheme Joiner"/>
+    <test input="[}e:i=ja}}fjatl%a}}jE&lt;:ky=tl%]" output="[ˈeːɪjaˌfjatl̥aˌjœːkʏtl̥]" description="Eyjafjallajökull"/>
+  </fixture>
+</fixtures>

@@ -1,0 +1,55 @@
+package com.mobiletin.inputmethod.sqlite;/*
+   Created by Noman and  Email = nomanarif.cdz@gmail.com on 6/7/2016.
+*/
+
+
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DBDictionary {
+    private DataBaseHelper databaseHelper;
+    private Context mContext;
+
+    public DBDictionary(Context context) {
+        this.databaseHelper = new DataBaseHelper(context);
+        this.mContext = context;
+    }
+
+
+
+    public List<DictionaryModel> getUrduDicFromEnglishWord(String word) {
+        String sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "%' limit 30" ;
+        SQLiteDatabase db = this.databaseHelper.getReadableDatabase();
+        if (db == null)
+            return null;
+        List<DictionaryModel> dictionaryModelModelList = new ArrayList<DictionaryModel>();
+        Cursor c = db.rawQuery(sqlStatement, null);
+        DictionaryModel dictionaryModelModel = null;
+        // looping through all rows and adding to list
+        if (c.moveToFirst()) {
+            do {
+                dictionaryModelModel = new DictionaryModel();
+                dictionaryModelModel.setZ_PK(c.getInt(c.getColumnIndex("Z_PK")));
+                dictionaryModelModel.setZWORD(c.getString(c.getColumnIndex("ZWORD")));
+                dictionaryModelModel.setTARGETWORD(c.getString(c.getColumnIndex("TARGETWORD")));
+                dictionaryModelModel.setSUGGESTIONS(c.getString(c.getColumnIndex("SUGGESTIONS")));
+                dictionaryModelModel.setINDEXING(c.getInt(c.getColumnIndex("INDEXING")));
+
+                dictionaryModelModelList.add(dictionaryModelModel);
+
+            } while (c.moveToNext());
+            c.close();
+        }
+        db.close();
+        return dictionaryModelModelList;
+    }
+
+
+
+
+}
+
