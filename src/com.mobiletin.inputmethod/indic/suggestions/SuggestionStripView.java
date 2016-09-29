@@ -42,9 +42,7 @@ import android.widget.TextView;
 import com.android.inputmethod.keyboard.Keyboard;
 import com.android.inputmethod.keyboard.MainKeyboardView;
 import com.android.inputmethod.keyboard.MoreKeysPanel;
-
-import java.util.ArrayList;
-
+import com.android.inputmethod.latin.utils.ImportantNoticeUtils;
 import com.mobiletin.inputmethod.accessibility.AccessibilityUtils;
 import com.mobiletin.inputmethod.indic.AudioAndHapticFeedbackManager;
 import com.mobiletin.inputmethod.indic.Constants;
@@ -55,7 +53,8 @@ import com.mobiletin.inputmethod.indic.define.DebugFlags;
 import com.mobiletin.inputmethod.indic.settings.Settings;
 import com.mobiletin.inputmethod.indic.settings.SettingsValues;
 import com.mobiletin.inputmethod.indic.suggestions.MoreSuggestionsView.MoreSuggestionsListener;
-import com.android.inputmethod.latin.utils.ImportantNoticeUtils;
+
+import java.util.ArrayList;
 
 public final class SuggestionStripView extends RelativeLayout implements OnClickListener,
         OnLongClickListener {

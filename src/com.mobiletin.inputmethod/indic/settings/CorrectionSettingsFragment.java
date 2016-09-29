@@ -27,13 +27,11 @@ import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 
-import com.mobiletin.inputmethod.dictionarypack.DictionarySettingsActivity;
+import com.mobiletin.inputmethod.indic.R;
 import com.mobiletin.inputmethod.indic.userdictionary.UserDictionaryList;
 import com.mobiletin.inputmethod.indic.userdictionary.UserDictionarySettings;
 
 import java.util.TreeSet;
-
-import com.mobiletin.inputmethod.indic.R;
 
 /**
  * "Text correction" settings sub screen.
@@ -76,8 +74,7 @@ public final class CorrectionSettingsFragment extends SubScreenFragment {
             removePreference(Settings.PREF_CONFIGURE_DICTIONARIES_KEY);
         }
 
-        final Preference editPersonalDictionary =
-                findPreference(Settings.PREF_EDIT_PERSONAL_DICTIONARY);
+        final Preference editPersonalDictionary = findPreference(Settings.PREF_EDIT_PERSONAL_DICTIONARY);
         final Intent editPersonalDictionaryIntent = editPersonalDictionary.getIntent();
         final ResolveInfo ri = USE_INTERNAL_PERSONAL_DICTIONARY_SETTIGS ? null
                 : pm.resolveActivity(

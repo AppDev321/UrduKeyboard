@@ -22,7 +22,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Provide audio and haptic feedback by ourselves based on the keyboard settings.
          We just need to ignore the system's audio and haptic feedback settings. -->
-    <LinearLayout
+
+
+ <!--   <LinearLayout
         android:id="@+id/suggestions_strip"
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -30,7 +32,20 @@
         android:layout_marginLeft="@dimen/config_suggestions_strip_horizontal_margin"
         android:layout_marginRight="@dimen/config_suggestions_strip_horizontal_margin"
         android:hapticFeedbackEnabled="false"
+        android:soundEffectsEnabled="false" />-->
+
+
+    <LinearLayout
+        android:id="@+id/suggestions_strip"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:hapticFeedbackEnabled="false"
         android:soundEffectsEnabled="false" />
+
+
     <!-- Provide audio and haptic feedback by ourselves based on the keyboard settings.
          We just need to ignore the system's audio and haptic feedback settings. -->
     <LinearLayout

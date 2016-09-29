@@ -1,9 +1,9 @@
 package com.mobiletin.inputmethod.ime;
 
 import android.content.Context;
-import android.util.Log;
 
 import com.mobiletin.inputmethod.indic.R;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -207,7 +207,6 @@ public class InputMethod {
     }
 
     public static InputMethod fromName(String name, Context context) throws IllegalArgumentException {
-        Log.e("Key Board Name", name);
         if(mapKeyBoard.get(name) == null) {
             throw new IllegalArgumentException("No such input method exists!");
         }

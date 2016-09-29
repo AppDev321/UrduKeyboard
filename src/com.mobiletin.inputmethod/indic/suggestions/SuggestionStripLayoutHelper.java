@@ -114,7 +114,6 @@ public class SuggestionStripLayoutHelper {
         mWordViews = wordViews;
         mDividerViews = dividerViews;
         mDebugInfoViews = debugInfoViews;
-
         final TextView wordView = wordViews.get(0);
         final View dividerView = dividerViews.get(0);
         mPadding = wordView.getCompoundPaddingLeft() + wordView.getCompoundPaddingRight();
@@ -361,11 +360,11 @@ public class SuggestionStripLayoutHelper {
      */
     public int layoutAndReturnStartIndexOfMoreSuggestions(final SuggestedWords suggestedWords,
             final ViewGroup stripView, final ViewGroup placerView) {
+
         if (suggestedWords.isPunctuationSuggestions()) {
             return layoutPunctuationsAndReturnStartIndexOfMoreSuggestions(
                     (PunctuationSuggestions)suggestedWords, stripView);
         }
-
         final int startIndexOfMoreSuggestions = setupWordViewsAndReturnStartIndexOfMoreSuggestions(
                 suggestedWords, mSuggestionsCountInStrip);
         final TextView centerWordView = mWordViews.get(mCenterPositionInStrip);
@@ -387,7 +386,15 @@ public class SuggestionStripLayoutHelper {
             return (lastIndex == null ? 0 : lastIndex) + 1;
         }
 
+      //  final int countInStrip = mSuggestionsCountInStrip;
+
+        //
+        // Changes apply here
+        //
+        // Increase the strip size coloum
+
         final int countInStrip = mSuggestionsCountInStrip;
+
         mMoreSuggestionsAvailable = (suggestedWords.size() > countInStrip);
         int x = 0;
         for (int positionInStrip = 0; positionInStrip < countInStrip; positionInStrip++) {
@@ -400,6 +407,7 @@ public class SuggestionStripLayoutHelper {
 
             final int width = getSuggestionWidth(positionInStrip, stripWidth);
             final TextView wordView = layoutWord(positionInStrip, width);
+
             stripView.addView(wordView);
             setLayoutWeight(wordView, getSuggestionWeight(positionInStrip),
                     ViewGroup.LayoutParams.MATCH_PARENT);
@@ -429,7 +437,11 @@ public class SuggestionStripLayoutHelper {
      * @return the {@link TextView} containing the suggested word appropriately formatted.
      */
     private TextView layoutWord(final int positionInStrip, final int width) {
+
+    //    final TextView wordView = mWordViews.get(positionInStrip);
+
         final TextView wordView = mWordViews.get(positionInStrip);
+
         final CharSequence word = wordView.getText();
         if (positionInStrip == mCenterPositionInStrip && mMoreSuggestionsAvailable) {
             // TODO: This "more suggestions hint" should have a nicely designed icon.

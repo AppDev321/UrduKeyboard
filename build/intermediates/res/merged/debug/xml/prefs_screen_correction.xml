@@ -19,7 +19,7 @@
     xmlns:latin="http://schemas.android.com/apk/res-auto"
     android:title="@string/settings_screen_correction"
     android:key="screen_correction">
-   <!-- <PreferenceScreen
+    <PreferenceScreen
         android:key="edit_personal_dictionary"
         android:title="@string/edit_personal_dictionary">
         <intent android:action="android.settings.USER_DICTIONARY_SETTINGS" />
@@ -34,13 +34,13 @@
                 android:name="clientId"
                 android:value="@string/dictionary_pack_client_id" />
         </intent>
-    </PreferenceScreen>-->
-   <!-- <CheckBoxPreference
+    </PreferenceScreen>
+    <CheckBoxPreference
         android:key="pref_key_block_potentially_offensive"
         android:title="@string/prefs_block_potentially_offensive_title"
         android:summary="@string/prefs_block_potentially_offensive_summary"
         android:defaultValue="@bool/config_block_potentially_offensive"
-        android:persistent="true" />-->
+        android:persistent="true" />
     <ListPreference
         android:key="auto_correction_threshold"
         android:title="@string/auto_correction"
@@ -61,16 +61,16 @@
         android:summary="@string/use_personalized_dicts_summary"
         android:defaultValue="true"
         android:persistent="true" />
-   <!-- <CheckBoxPreference
+    <CheckBoxPreference
         android:key="pref_key_use_contacts_dict"
         android:title="@string/use_contacts_dict"
         android:summary="@string/use_contacts_dict_summary"
         android:defaultValue="true"
-        android:persistent="true" />-->
-   <!-- <CheckBoxPreference
+        android:persistent="true" />
+    <CheckBoxPreference
         android:key="next_word_prediction"
         android:title="@string/bigram_prediction"
         android:summary="@string/bigram_prediction_summary"
         android:defaultValue="true"
-        android:persistent="true" />-->
+        android:persistent="true" />
 </PreferenceScreen>

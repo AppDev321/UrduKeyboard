@@ -1,4 +1,10 @@
-import static org.junit.Assert.*;
+import com.mobiletin.ime.InputMethod;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import org.xml.sax.SAXException;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,13 +14,7 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
-import org.w3c.dom.*;
-import com.mobiletin.ime.InputMethod;
-import org.xml.sax.SAXException;
+import static org.junit.Assert.*;
 
 
 @RunWith(Parameterized.class)

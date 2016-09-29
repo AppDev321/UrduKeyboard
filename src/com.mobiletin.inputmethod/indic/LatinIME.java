@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.inputmethodservice.InputMethodService;
@@ -161,6 +162,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     // If it turns out we need several, it will get grown seamlessly.
     final SparseArray<HardwareEventDecoder> mHardwareEventDecoders = new SparseArray<>(1);
 
+
     // TODO: Move these {@link View}s to {@link KeyboardSwitcher}.
     private View mInputView;
     private SuggestionStripView mSuggestionStripView;
@@ -286,7 +288,10 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 case MSG_WAIT_FOR_DICTIONARY_LOAD:
                     Log.i(TAG, "Timeout waiting for dictionary load");
                     break;
+
             }
+
+
         }
 
         public void postUpdateSuggestionStrip(final int inputStyle) {
@@ -444,26 +449,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
 
         public void onStartInputView(final EditorInfo editorInfo, final boolean restarting) {
-
-          /*  int orientation = getOwnerInstance().getResources().getConfiguration().orientation;
-            if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-                getOwnerInstance().adView.setVisibility(View.VISIBLE);
-                Log.e("keyboar", "Ad Created");
-            } else {
-                getOwnerInstance().adView.setVisibility(View.GONE);
-                Log.e("keyboar", "Ad Destroy");
-            }*/
-
-
-           /* if((!getOwnerInstance().isFullscreenMode())) {
-
-
-            }
-            else
-            {
-
-
-            }*/
 
 
             if (hasMessages(MSG_PENDING_IMS_CALLBACK)
@@ -713,6 +698,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
      * @param locale the locale
      */
     private void resetSuggestForLocale(final Locale locale) {
+
         final SettingsValues settingsValues = mSettings.getCurrent();
         mDictionaryFacilitator.resetDictionaries(this /* context */, locale,
                 settingsValues.mUseContactsDict, settingsValues.mUsePersonalizedDicts,
@@ -727,6 +713,8 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
      * Reset suggest by loading the main dictionary of the current locale.
      */
     /* package private */ void resetSuggestMainDict() {
+
+
         final SettingsValues settingsValues = mSettings.getCurrent();
         mDictionaryFacilitator.resetDictionaries(this /* context */,
                 mDictionaryFacilitator.getLocale(), settingsValues.mUseContactsDict,
@@ -756,6 +744,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
     @Override
     public void onConfigurationChanged(final Configuration conf) {
+
         SettingsValues settingsValues = mSettings.getCurrent();
         if (settingsValues.mDisplayOrientation != conf.orientation) {
             mHandler.startOrientationChanging();
@@ -780,6 +769,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         // TODO: Remove this test.
         if (!conf.locale.equals(mPersonalizationDictionaryUpdater.getLocale())) {
             refreshPersonalizationDictionarySession(settingsValues);
+
         }
         super.onConfigurationChanged(conf);
     }
@@ -796,9 +786,11 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         mInputView = view;
 
         mSuggestionStripView = (SuggestionStripView) view.findViewById(R.id.suggestion_strip_view);
+
         if (hasSuggestionStripView()) {
             mSuggestionStripView.setListener(this, view);
         }
+
 
         adView = (AdView) view.findViewById(R.id.adView);
         LinearLayout linearLayout = (LinearLayout) adView.getParent();
@@ -938,7 +930,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                     + ", word caps = "
                     + ((editorInfo.inputType & InputType.TYPE_TEXT_FLAG_CAP_WORDS) != 0));
         }
-        Log.i(TAG, "Starting input. Cursor position = "
+        Log.e(TAG, "Starting input. Cursor position = "
                 + editorInfo.initialSelStart + "," + editorInfo.initialSelEnd);
         // TODO: Consolidate these checks with {@link InputAttributes}.
         if (InputAttributes.inPrivateImeOptions(null, NO_MICROPHONE_COMPAT, editorInfo)) {
@@ -980,6 +972,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         // can go into the correct mode, so we need to do some housekeeping here.
         final boolean needToCallLoadKeyboardLater;
         final Suggest suggest = mInputLogic.mSuggest;
+
         if (!currentSettingsValues.mHasHardwareKeyboard) {
             // The app calling setText() has the effect of clearing the composing
             // span, so we should reset our state unconditionally, even if restarting is true.
@@ -1187,7 +1180,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     @Override
     public void onDisplayCompletions(final CompletionInfo[] applicationSpecifiedCompletions) {
         if (DEBUG) {
-            Log.i(TAG, "Received completions:");
+            Log.e(TAG, "Received completions:");
             if (applicationSpecifiedCompletions != null) {
                 for (int i = 0; i < applicationSpecifiedCompletions.length; i++) {
                     Log.i(TAG, "  #" + i + ": " + applicationSpecifiedCompletions[i]);
@@ -1234,8 +1227,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             return;
         }
 
-        final int suggestionsHeight = (!mKeyboardSwitcher.isShowingEmojiPalettes()
-                && mSuggestionStripView.getVisibility() == View.VISIBLE)
+        final int suggestionsHeight = (!mKeyboardSwitcher.isShowingEmojiPalettes() && mSuggestionStripView.getVisibility() == View.VISIBLE)
                 ? mSuggestionStripView.getHeight() : 0;
         final int visibleTopY = inputHeight - visibleKeyboardView.getHeight() - suggestionsHeight - adView.getHeight();
         mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
@@ -1561,18 +1553,17 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         if (!onEvaluateInputViewShown()) {
             return;
         }
-
         final boolean shouldShowImportantNotice =
                 ImportantNoticeUtils.shouldShowImportantNotice(this);
         final boolean shouldShowSuggestionCandidates =
                 currentSettingsValues.mInputAttributes.mShouldShowSuggestions
                         && currentSettingsValues.isSuggestionsEnabledPerUserSettings();
+
         final boolean shouldShowSuggestionsStripUnlessPassword = shouldShowImportantNotice
                 || currentSettingsValues.mShowsVoiceInputKey
                 || shouldShowSuggestionCandidates
                 || currentSettingsValues.isApplicationSpecifiedCompletionsOn();
-        final boolean shouldShowSuggestionsStrip = shouldShowSuggestionsStripUnlessPassword
-                && !currentSettingsValues.mInputAttributes.mIsPasswordField;
+        final boolean shouldShowSuggestionsStrip = shouldShowSuggestionsStripUnlessPassword && !currentSettingsValues.mInputAttributes.mIsPasswordField;
         mSuggestionStripView.updateVisibility(shouldShowSuggestionsStrip, isFullscreenMode());
         if (!shouldShowSuggestionsStrip) {
             return;
@@ -1598,9 +1589,10 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 || currentSettingsValues.isApplicationSpecifiedCompletionsOn()
                 // We should clear the contextual strip if there is no suggestion from dictionaries.
                 || noSuggestionsFromDictionaries) {
-            mSuggestionStripView.setSuggestions(suggestedWords,
-                    SubtypeLocaleUtils.isRtlLanguage(mSubtypeSwitcher.getCurrentSubtype()));
+
+            mSuggestionStripView.setSuggestions(suggestedWords, SubtypeLocaleUtils.isRtlLanguage(mSubtypeSwitcher.getCurrentSubtype()));
         }
+
     }
 
     // TODO[IL]: Move this out of LatinIME.
@@ -1618,30 +1610,34 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     @Override
     public void showSuggestionStrip(final SuggestedWords sourceSuggestedWords) {
 
+        SharedPreferences prefs = getSharedPreferences("TranslationPref", MODE_PRIVATE);
+        int idName = prefs.getInt("pos", 0); //0 is the default value.
+        SuggestedWords suggestedWords = sourceSuggestedWords.isEmpty() ? SuggestedWords.EMPTY : sourceSuggestedWords;
 
-        DBDictionary dbManager = new DBDictionary(this);
+        if (idName == 0) {
+            DBDictionary dbManager = new DBDictionary(this);
+            List<DictionaryModel> dictionaryModelList = new ArrayList<>();
+            if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+                dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 13);
+            }
+            final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
 
-        List<DictionaryModel> dictionaryModelList=new ArrayList<>();
-        if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
-            Log.e("LatinIme", sourceSuggestedWords.mTypedWord);
+            for (int i = 0; i < dictionaryModelList.size(); i++) {
+                suggestionsList.add(new SuggestedWordInfo(dictionaryModelList.get(i).getTARGETWORD(), SuggestedWordInfo.MAX_SCORE,
+                        SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                        SuggestedWordInfo.NOT_AN_INDEX,
+                        SuggestedWordInfo.NOT_A_CONFIDENCE
+                ));
+            }
 
-            dictionaryModelList=dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord);
+            suggestedWords = new SuggestedWords(suggestionsList, suggestionsList, false, false, false, SuggestedWords.INPUT_STYLE_NONE, SuggestedWords.NOT_A_SEQUENCE_NUMBER);
         }
 
 
-        final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
-
-        for (int i = 0; i < dictionaryModelList.size(); i++) {
-            suggestionsList.add(new SuggestedWordInfo(dictionaryModelList.get(i).getTARGETWORD(), SuggestedWordInfo.MAX_SCORE,
-                    SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
-                    SuggestedWordInfo.NOT_AN_INDEX /* indexOfTouchPointOfSecondWord */,
-                    SuggestedWordInfo.NOT_A_CONFIDENCE /* autoCommitFirstWordConfidence */));
-        }
 
 
-        final SuggestedWords suggestedWords = new SuggestedWords(suggestionsList, suggestionsList, false, false, false, SuggestedWords.INPUT_STYLE_NONE, SuggestedWords.NOT_A_SEQUENCE_NUMBER);
-        // final SuggestedWords suggestedWords = sourceSuggestedWords.isEmpty() ? SuggestedWords.EMPTY : sourceSuggestedWords;
         if (SuggestedWords.EMPTY == suggestedWords) {
+
             setNeutralSuggestionStrip();
         } else {
             setSuggestedWords(suggestedWords);
@@ -1865,7 +1861,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         final CharSequence languageSelectionTitle = getString(R.string.language_selection_title);
         final CharSequence[] items = new CharSequence[]{
                 languageSelectionTitle,
-                getString(ApplicationUtils.getActivityTitleResId(this, SettingsActivity.class))
+                getString(ApplicationUtils.getActivityTitleResId(this, SettingsActivity.class)), "Translation"
         };
         final OnClickListener listener = new OnClickListener() {
             @Override
@@ -1883,6 +1879,34 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                         break;
                     case 1:
                         launchSettings();
+                        break;
+                    case 2:
+
+                        SharedPreferences prefs = getSharedPreferences("TranslationPref",MODE_PRIVATE);
+                        int idName = prefs.getInt("pos", 0); //0 is the default value.
+
+                        final CharSequence[] items = new CharSequence[]{
+                                "ON",
+                                "OFF"
+                        };
+                        AlertDialog.Builder builder = new AlertDialog.Builder(
+                                DialogUtils.getPlatformDialogThemeContext(getApplicationContext()));
+                        builder.setTitle("Translation");
+                        builder.setSingleChoiceItems(items, idName, null);
+                        builder.setPositiveButton("Save", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                dialog.dismiss();
+                                int selectedPosition = ((AlertDialog) dialog).getListView().getCheckedItemPosition();
+                                //Save Value in Pref
+                                SharedPreferences.Editor editor = getSharedPreferences("TranslationPref", MODE_PRIVATE).edit();
+                                editor.putInt("pos", selectedPosition);
+                                editor.commit();
+                            }
+                        });
+                        final AlertDialog dialog = builder.create();
+                        dialog.setCancelable(true /* cancelable */);
+                        dialog.setCanceledOnTouchOutside(true /* cancelable */);
+                        showOptionDialog(dialog);
                         break;
                 }
             }

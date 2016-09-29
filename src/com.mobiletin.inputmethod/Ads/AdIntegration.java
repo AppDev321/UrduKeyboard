@@ -14,7 +14,9 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.indic.R;
+import com.mobiletin.inputmethod.sqlite.DBDictionary;
 import com.mobiletin.inputmethod.sqlite.DataBaseHelper;
 
 
@@ -40,8 +42,7 @@ public class AdIntegration extends Activity {
         this.adLayout.addView(mAdView, params);
         adsDisplay();
 
-//Integrate Database
-
+        //Integrate Database
         DataBaseHelper db = new DataBaseHelper(context);
 
     }

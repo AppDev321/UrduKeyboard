@@ -17,6 +17,7 @@
 package com.mobiletin.inputmethod.indic.inputlogic;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.inputmethodservice.InputMethodService;
 import android.os.SystemClock;
@@ -43,6 +44,7 @@ import com.android.inputmethod.latin.utils.InputTypeUtils;
 import com.android.inputmethod.latin.utils.RecapitalizeStatus;
 import com.android.inputmethod.latin.utils.StringUtils;
 import com.android.inputmethod.latin.utils.TextRange;
+import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.compat.CursorAnchorInfoCompatWrapper;
 import com.mobiletin.inputmethod.compat.SuggestionSpanUtils;
 import com.mobiletin.inputmethod.event.Event;
@@ -65,6 +67,8 @@ import com.mobiletin.inputmethod.indic.settings.SettingsValues;
 import com.mobiletin.inputmethod.indic.settings.SettingsValuesForSuggestion;
 import com.mobiletin.inputmethod.indic.settings.SpacingAndPunctuations;
 import com.mobiletin.inputmethod.indic.suggestions.SuggestionStripViewAccessor;
+import com.mobiletin.inputmethod.sqlite.DBDictionary;
+import com.mobiletin.inputmethod.sqlite.DictionaryModel;
 
 import java.util.ArrayList;
 import java.util.TreeSet;
@@ -75,7 +79,7 @@ import java.util.concurrent.TimeUnit;
  */
 public final class InputLogic {
     private static final String TAG = InputLogic.class.getSimpleName();
-
+    private static String saveTypedWord = "";
     // TODO : Remove this member when we can.
     private final LatinIME mLatinIME;
     private final SuggestionStripViewAccessor mSuggestionStripViewAccessor;
@@ -687,6 +691,10 @@ public final class InputLogic {
                                        final int currentKeyboardScriptId, final LatinIME.UIHandler handler) {
         switch (event.mKeyCode) {
             case Constants.CODE_DELETE:
+
+                //changes here to remove charcter from the word
+                saveTypedWord = removeLastChar(saveTypedWord);
+
                 handleBackspaceEvent(event, inputTransaction, currentKeyboardScriptId);
                 // Backspace is a functional key, but it affects the contents of the editor.
                 inputTransaction.setDidAffectContents();
@@ -1922,6 +1930,7 @@ public final class InputLogic {
      * @param keyCode the key code to send inside the key event.
      */
     private void sendDownUpKeyEvent(final int keyCode) {
+
         final long eventTime = SystemClock.uptimeMillis();
         mConnection.sendKeyEvent(new KeyEvent(eventTime, eventTime,
                 KeyEvent.ACTION_DOWN, keyCode, 0, 0, KeyCharacterMap.VIRTUAL_KEYBOARD, 0,
@@ -1959,8 +1968,59 @@ public final class InputLogic {
         } else if (transliteration && isIndic) {
             mConnection.applyTransliteration(StringUtils.newSingleCodePointString(codePoint), 1);
         } else {
-            mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+            // mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+
+
+            // Changes here for handle space to transalte word
+
+            if (codePoint == 32) {
+
+                Log.e("word", "" + saveTypedWord);
+                SharedPreferences prefs = mLatinIME.getBaseContext().getSharedPreferences("TranslationPref", mLatinIME.getBaseContext().MODE_PRIVATE);
+                int idName = prefs.getInt("pos", 0); //0 is the default value.
+
+
+                if (!MySuperAppApplication.isProbablyArabic(saveTypedWord) && idName == 0) {
+                    DBDictionary dbManager = new DBDictionary(mLatinIME.getBaseContext());
+                    DictionaryModel dictionaryModelList = new DictionaryModel();
+                    if (saveTypedWord != null && saveTypedWord.length() > 0) {
+                        dictionaryModelList = dbManager.getSingleWordUrdu(saveTypedWord);
+                        if (dictionaryModelList != null) {
+                            if (dictionaryModelList.getTARGETWORD() != null && dictionaryModelList.getTARGETWORD().length() > 0) {
+                                //Remove the inserted charcter that typed before space
+                                mConnection.deleteSurroundingText(saveTypedWord.length(), 0);
+                                mConnection.commitText(dictionaryModelList.getTARGETWORD() + " ", 1);
+                            } else {
+                                mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                            }
+                        } else {
+                            mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                        }
+                    } else {
+                        mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                    }
+                } else {
+                    mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                }
+
+                    saveTypedWord = "";
+
+            }
+                else {
+                saveTypedWord += StringUtils.newSingleCodePointString(codePoint);
+                mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+            }
         }
+
+    }
+
+    //Custom implementation
+    //remove last charcter of string
+    private String removeLastChar(String str) {
+        if (str != null && str.length() > 0) {
+            str = str.substring(0, str.length() - 1);
+        }
+        return str;
     }
 
     /**
