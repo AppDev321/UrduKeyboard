@@ -17,7 +17,8 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <style name="setupTitleStyleCommon">
         <item name="android:textColor">@color/setup_text_dark</item>
-        <item name="android:textSize">@dimen/setup_title_text_size</item>
+       <!-- <item name="android:textSize">@dimen/setup_title_text_size</item>-->
+        <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
@@ -30,9 +31,12 @@
     </style>
     <style name="setupStepBulletStyle">
         <item name="android:textColor">@color/setup_text_dark</item>
-        <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1.0</item>
+
+
+       <!-- <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>-->
+        <item name="android:textSize">@dimen/_40sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+      <!--  <item name="android:layout_weight">1.0</item>-->
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>
     </style>

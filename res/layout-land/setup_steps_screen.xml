@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 /*
 **
 ** Copyright 2013, The Android Open Source Project
@@ -16,13 +15,14 @@
 ** See the License for the specific language governing permissions and
 ** limitations under the License.
 */
--->
-
+--><!--
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:baselineAligned="false">
+    android:baselineAligned="false"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/round_rectangle">
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -35,6 +35,36 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_weight="@integer/setup_body_weight_in_screen"
+        android:orientation="vertical">
+        <include layout="@layout/setup_steps_cards" />
+    </LinearLayout>
+</LinearLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/round_rectangle"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/setup_title_end_margin"
+        android:layout_marginRight="@dimen/setup_title_end_margin"
+        android:layout_weight="@integer/setup_title_weight_in_screen"
+        android:orientation="vertical">
+
+        <include layout="@layout/setup_steps_title" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/setup_text_action" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="@integer/setup_body_weight_in_screen"
         android:orientation="vertical">
         <include layout="@layout/setup_steps_cards" />

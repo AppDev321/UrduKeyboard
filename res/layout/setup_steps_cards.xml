@@ -19,29 +19,7 @@
 -->
 
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout
-        android:id="@+id/setup_step_bullets"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/setup_step_vertical_padding"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/setup_step1_bullet"
-            style="@style/setupStepBulletStyle"
-            android:text="@string/setup_step1_bullet" />
-        <TextView
-            android:id="@+id/setup_step2_bullet"
-            style="@style/setupStepBulletStyle"
-            android:text="@string/setup_step2_bullet" />
-        <TextView
-            android:id="@+id/setup_step3_bullet"
-            style="@style/setupStepBulletStyle"
-            android:text="@string/setup_step3_bullet" />
-        <TextView
-            android:id="@+id/setup_step4_bullet"
-            style="@style/setupStepBulletStyle"
-            android:text="@string/setup_step4_bullet" />
-    </LinearLayout>
+
     <com.mobiletin.inputmethod.indic.setup.SetupStepIndicatorView
         android:id="@+id/setup_step_indicator"
         style="@style/setupStepIndicatorStyle" />
@@ -68,4 +46,30 @@
         android:gravity="end|center_vertical"
         style="@style/setupStepActionLabelStyleCommon"
         android:layout_marginTop="@dimen/setup_step_horizontal_line_height" />
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/setup_step_bullets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/setup_step_vertical_padding"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/setup_step1_bullet"
+            style="@style/setupStepBulletStyle"
+            android:text="@string/setup_step1_bullet" />
+        <TextView
+            android:id="@+id/setup_step2_bullet"
+            style="@style/setupStepBulletStyle"
+            android:text="@string/setup_step2_bullet" />
+        <TextView
+            android:id="@+id/setup_step3_bullet"
+            style="@style/setupStepBulletStyle"
+            android:text="@string/setup_step3_bullet" />
+        <TextView
+            android:id="@+id/setup_step4_bullet"
+            style="@style/setupStepBulletStyle"
+            android:text="@string/setup_step4_bullet" />
+    </LinearLayout>
 </merge>

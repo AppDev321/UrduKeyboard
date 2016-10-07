@@ -3,15 +3,21 @@ project.ext.set("archivesBaseName", "IndicKeyboard");
 buildscript {
     repositories {
         mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.5.0+'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
 apply plugin: 'com.android.application'
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
 }
 
 dependencies {
@@ -21,6 +27,10 @@ dependencies {
     /*compile project(':ime')*/
     /*   compile 'com.google.android.gms:play-services:8.3.0'*/
     compile 'com.google.android.gms:play-services-ads:9.4.0'
+    compile ('com.github.ozodrukh:CircularReveal:1.1.1@aar') {
+        transitive = true;
+    }
+
 }
 
 android {

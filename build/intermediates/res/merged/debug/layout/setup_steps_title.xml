@@ -19,7 +19,9 @@
 -->
 
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
+
     <TextView
+        android:layout_margin="10dp"
         android:id="@+id/setup_title"
         style="@style/setupTitleStyle" />
 </merge>

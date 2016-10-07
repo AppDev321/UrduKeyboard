@@ -1,3 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.4.0_d3bdfa8126bb56f282f55ab6f7d372df41b5b3ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.github.ozodrukh-CircularReveal-1.1.1_976b02f632d09d29aba5f5d92e9d82cb2b2d0dce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_95dbbcbd3974d1ee75260dc142627b9e5b41b101.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_0819bf9005931bf49618aa0c6527ab84c3b6c299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.4.0_cebbe5a16e10b34e7e402f908078b0cfc0688d98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_81e3c485ac30225c1812d83333ce3ffb32a0bf84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\jsr305-3.0.0_a971f67c50848f35eab062a5cec0856f32aa537b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_357c32cc838e32e7073884a5c5cfa21d018769ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_d2f06213b0e0593bb7dfebe82cb6a9daeacfcf05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.4.0_379f05d4bb6deda1a5586d64111794929884f282.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.4.0_91af79d86dfcf778759215db03f3e0679a16011d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_7ba0f6fa7d4d62aae7a6cda1b6703d9e017b078e.jar" />
+    </item>
+
+</items>

@@ -71,14 +71,23 @@
             android:label="@string/english_ime_name"
             android:launchMode="singleTask"
             android:noHistory="true"
+            android:screenOrientation="portrait"
             android:theme="@style/platformActivityTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
+            android:name=".setup.AboutActivity"
+            android:icon="@drawable/ic_launcher_keyboard"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
             android:name=".setup.SetupWizardActivity"
             android:clearTaskOnLaunch="true"
             android:label="@string/english_ime_name"

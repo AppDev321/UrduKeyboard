@@ -1578,10 +1578,11 @@
     <color name="language_on_spacebar_text_color_lxx_dark">#B3FFFFFF</color>
     <color name="language_on_spacebar_text_color_lxx_light">#B337474F</color>
     <color name="notification_accent_color">#FF607D8B</color>
+    <color name="ripplecolor">#01579b</color>
     <color name="setup_background">#FFEBEBEB</color>
     <color name="setup_step_background">@android:color/background_light</color>
     <color name="setup_text_action">@android:color/holo_blue_light</color>
-    <color name="setup_text_dark">#FF707070</color>
+    <color name="setup_text_dark">#000000</color>
     <color name="setup_welcome_video_margin_color">#FFCCCCCC</color>
     <color name="sliding_key_input_preview_color_lxx_dark">#B380CBC4</color>
     <color name="sliding_key_input_preview_color_lxx_light">#B34DB6AC</color>
@@ -1608,22 +1609,167 @@
     <color name="typed_word_color_lxx_light">#D937474F</color>
     <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
     <declare-styleable name="EmojiPalettesView"><attr format="boolean" name="categoryIndicatorEnabled"/><attr format="reference" name="categoryIndicatorDrawable"/><attr format="reference" name="categoryIndicatorBackground"/><attr format="color" name="categoryPageIndicatorColor"/><attr format="color" name="categoryPageIndicatorBackground"/><attr format="reference" name="iconEmojiRecentsTab"/><attr format="reference" name="iconEmojiCategory1Tab"/><attr format="reference" name="iconEmojiCategory2Tab"/><attr format="reference" name="iconEmojiCategory3Tab"/><attr format="reference" name="iconEmojiCategory4Tab"/><attr format="reference" name="iconEmojiCategory5Tab"/><attr format="reference" name="iconEmojiCategory6Tab"/></declare-styleable>
-    <declare-styleable name="Keyboard"><attr format="enum" name="themeId"><enum name="ICS" value="0"/><enum name="KLP" value="2"/><enum name="LXXLight" value="3"/><enum name="LXXDark" value="4"/></attr><attr format="reference" name="touchPositionCorrectionData"/><attr format="fraction" name="keyboardTopPadding"/><attr format="fraction" name="keyboardBottomPadding"/><attr format="fraction" name="keyboardLeftPadding"/><attr format="fraction" name="keyboardRightPadding"/><attr format="dimension|fraction" name="rowHeight"/><attr format="fraction" name="horizontalGap"/><attr format="fraction" name="verticalGap"/><attr format="reference" name="moreKeysTemplate"/><attr format="reference" name="iconShiftKey"/><attr format="reference" name="iconDeleteKey"/><attr format="reference" name="iconSettingsKey"/><attr format="reference" name="iconSpaceKey"/><attr format="reference" name="iconEnterKey"/><attr format="reference" name="iconGoKey"/><attr format="reference" name="iconSearchKey"/><attr format="reference" name="iconSendKey"/><attr format="reference" name="iconNextKey"/><attr format="reference" name="iconDoneKey"/><attr format="reference" name="iconPreviousKey"/><attr format="reference" name="iconTabKey"/><attr format="reference" name="iconShortcutKey"/><attr format="reference" name="iconSpaceKeyForNumberLayout"/><attr format="reference" name="iconShiftKeyShifted"/><attr format="reference" name="iconShortcutKeyDisabled"/><attr format="reference" name="iconLanguageSwitchKey"/><attr format="reference" name="iconZwnjKey"/><attr format="reference" name="iconZwjKey"/><attr format="reference" name="iconImeKey"/><attr format="reference" name="iconEmojiActionKey"/><attr format="reference" name="iconEmojiNormalKey"/></declare-styleable>
-    <declare-styleable name="KeyboardLayoutSet_Element"><attr format="enum" name="elementName"><enum name="alphabet" value="0"/><enum name="alphabetManualShifted" value="1"/><enum name="alphabetAutomaticShifted" value="2"/><enum name="alphabetShiftLocked" value="3"/><enum name="alphabetShiftLockShifted" value="4"/><enum name="symbols" value="5"/><enum name="symbolsShifted" value="6"/><enum name="phone" value="7"/><enum name="phoneSymbols" value="8"/><enum name="number" value="9"/><enum name="emojiRecents" value="10"/><enum name="emojiCategory1" value="11"/><enum name="emojiCategory2" value="12"/><enum name="emojiCategory3" value="13"/><enum name="emojiCategory4" value="14"/><enum name="emojiCategory5" value="15"/><enum name="emojiCategory6" value="16"/></attr><attr format="reference" name="elementKeyboard"/><attr format="boolean" name="enableProximityCharsCorrection"/></declare-styleable>
-    <declare-styleable name="KeyboardLayoutSet_Feature"><attr format="enum" name="supportedScript"><enum name="arabic" value="0"/><enum name="armenian" value="1"/><enum name="bengali" value="2"/><enum name="cyrillic" value="3"/><enum name="devanagari" value="4"/><enum name="georgian" value="5"/><enum name="greek" value="6"/><enum name="hebrew" value="7"/><enum name="kannada" value="8"/><enum name="khmer" value="9"/><enum name="lao" value="10"/><enum name="latin" value="11"/><enum name="malayalam" value="12"/><enum name="myanmar" value="13"/><enum name="sinhala" value="14"/><enum name="tamil" value="15"/><enum name="telugu" value="16"/><enum name="thai" value="17"/></attr></declare-styleable>
+    <declare-styleable name="Keyboard"><attr format="enum" name="themeId">
+            
+            <enum name="ICS" value="0"/>
+            <enum name="KLP" value="2"/>
+            <enum name="LXXLight" value="3"/>
+            <enum name="LXXDark" value="4"/>
+        </attr><attr format="reference" name="touchPositionCorrectionData"/><attr format="fraction" name="keyboardTopPadding"/><attr format="fraction" name="keyboardBottomPadding"/><attr format="fraction" name="keyboardLeftPadding"/><attr format="fraction" name="keyboardRightPadding"/><attr format="dimension|fraction" name="rowHeight"/><attr format="fraction" name="horizontalGap"/><attr format="fraction" name="verticalGap"/><attr format="reference" name="moreKeysTemplate"/><attr format="reference" name="iconShiftKey"/><attr format="reference" name="iconDeleteKey"/><attr format="reference" name="iconSettingsKey"/><attr format="reference" name="iconSpaceKey"/><attr format="reference" name="iconEnterKey"/><attr format="reference" name="iconGoKey"/><attr format="reference" name="iconSearchKey"/><attr format="reference" name="iconSendKey"/><attr format="reference" name="iconNextKey"/><attr format="reference" name="iconDoneKey"/><attr format="reference" name="iconPreviousKey"/><attr format="reference" name="iconTabKey"/><attr format="reference" name="iconShortcutKey"/><attr format="reference" name="iconSpaceKeyForNumberLayout"/><attr format="reference" name="iconShiftKeyShifted"/><attr format="reference" name="iconShortcutKeyDisabled"/><attr format="reference" name="iconLanguageSwitchKey"/><attr format="reference" name="iconZwnjKey"/><attr format="reference" name="iconZwjKey"/><attr format="reference" name="iconImeKey"/><attr format="reference" name="iconEmojiActionKey"/><attr format="reference" name="iconEmojiNormalKey"/></declare-styleable>
+    <declare-styleable name="KeyboardLayoutSet_Element"><attr format="enum" name="elementName">
+            <enum name="alphabet" value="0"/>
+            <enum name="alphabetManualShifted" value="1"/>
+            <enum name="alphabetAutomaticShifted" value="2"/>
+            <enum name="alphabetShiftLocked" value="3"/>
+            <enum name="alphabetShiftLockShifted" value="4"/>
+            <enum name="symbols" value="5"/>
+            <enum name="symbolsShifted" value="6"/>
+            <enum name="phone" value="7"/>
+            <enum name="phoneSymbols" value="8"/>
+            <enum name="number" value="9"/>
+            <enum name="emojiRecents" value="10"/>
+            <enum name="emojiCategory1" value="11"/>
+            <enum name="emojiCategory2" value="12"/>
+            <enum name="emojiCategory3" value="13"/>
+            <enum name="emojiCategory4" value="14"/>
+            <enum name="emojiCategory5" value="15"/>
+            <enum name="emojiCategory6" value="16"/>
+        </attr><attr format="reference" name="elementKeyboard"/><attr format="boolean" name="enableProximityCharsCorrection"/></declare-styleable>
+    <declare-styleable name="KeyboardLayoutSet_Feature"><attr format="enum" name="supportedScript">
+            <enum name="arabic" value="0"/>
+            <enum name="armenian" value="1"/>
+            <enum name="bengali" value="2"/>
+            <enum name="cyrillic" value="3"/>
+            <enum name="devanagari" value="4"/>
+            <enum name="georgian" value="5"/>
+            <enum name="greek" value="6"/>
+            <enum name="hebrew" value="7"/>
+            <enum name="kannada" value="8"/>
+            <enum name="khmer" value="9"/>
+            <enum name="lao" value="10"/>
+            <enum name="latin" value="11"/>
+            <enum name="malayalam" value="12"/>
+            <enum name="myanmar" value="13"/>
+            <enum name="sinhala" value="14"/>
+            <enum name="tamil" value="15"/>
+            <enum name="telugu" value="16"/>
+            <enum name="thai" value="17"/>
+        </attr></declare-styleable>
     <declare-styleable name="KeyboardTheme"><attr format="reference" name="keyboardStyle"/><attr format="reference" name="keyboardViewStyle"/><attr format="reference" name="mainKeyboardViewStyle"/><attr format="reference" name="emojiPalettesViewStyle"/><attr format="reference" name="moreKeysKeyboardStyle"/><attr format="reference" name="moreKeysKeyboardViewStyle"/><attr format="reference" name="moreKeysKeyboardViewForActionStyle"/><attr format="reference" name="suggestionStripViewStyle"/><attr format="reference" name="suggestionWordStyle"/></declare-styleable>
     <declare-styleable name="KeyboardView"><attr format="reference" name="keyBackground"/><attr format="reference" name="functionalKeyBackground"/><attr format="reference" name="spacebarBackground"/><attr format="float" name="spacebarIconWidthRatio"/><attr format="dimension" name="keyHintLetterPadding"/><attr format="string" name="keyPopupHintLetter"/><attr format="dimension" name="keyPopupHintLetterPadding"/><attr format="dimension" name="keyShiftedLetterHintPadding"/><attr format="float" name="keyTextShadowRadius"/><attr format="boolean" name="state_left_edge"/><attr format="boolean" name="state_right_edge"/><attr format="boolean" name="state_has_morekeys"/><attr format="dimension" name="verticalCorrection"/></declare-styleable>
-    <declare-styleable name="Keyboard_Case"><attr format="string" name="keyboardLayoutSet"/><attr format="enum|string" name="keyboardLayoutSetElement"><enum name="alphabet" value="0"/><enum name="alphabetManualShifted" value="1"/><enum name="alphabetAutomaticShifted" value="2"/><enum name="alphabetShiftLocked" value="3"/><enum name="alphabetShiftLockShifted" value="4"/><enum name="symbols" value="5"/><enum name="symbolsShifted" value="6"/><enum name="phone" value="7"/><enum name="phoneSymbols" value="8"/><enum name="number" value="9"/><enum name="emojiRecents" value="10"/><enum name="emojiCategory1" value="11"/><enum name="emojiCategory2" value="12"/><enum name="emojiCategory3" value="13"/><enum name="emojiCategory4" value="14"/><enum name="emojiCategory5" value="15"/><enum name="emojiCategory6" value="16"/></attr><attr format="enum|string" name="keyboardTheme"><enum name="ICS" value="0"/><enum name="KLP" value="2"/><enum name="LXXLight" value="3"/><enum name="LXXDark" value="4"/></attr><attr format="enum|string" name="mode"><enum name="text" value="0"/><enum name="url" value="1"/><enum name="email" value="2"/><enum name="im" value="3"/><enum name="phone" value="4"/><enum name="number" value="5"/></attr><attr format="boolean" name="navigateNext"/><attr format="boolean" name="navigatePrevious"/><attr format="boolean" name="passwordInput"/><attr format="boolean" name="clobberSettingsKey"/><attr format="boolean" name="hasShortcutKey"/><attr format="boolean" name="languageSwitchKeyEnabled"/><attr format="boolean" name="isMultiLine"/><attr format="enum" name="imeAction"><enum name="actionUnspecified" value="0"/><enum name="actionNone" value="1"/><enum name="actionGo" value="2"/><enum name="actionSearch" value="3"/><enum name="actionSend" value="4"/><enum name="actionNext" value="5"/><enum name="actionDone" value="6"/><enum name="actionPrevious" value="7"/><enum name="actionCustomLabel" value="0x100"/></attr><attr format="string" name="isIconDefined"/><attr format="string" name="localeCode"/><attr format="string" name="languageCode"/><attr format="string" name="countryCode"/></declare-styleable>
+    <declare-styleable name="Keyboard_Case"><attr format="string" name="keyboardLayoutSet"/><attr format="enum|string" name="keyboardLayoutSetElement">
+            <enum name="alphabet" value="0"/>
+            <enum name="alphabetManualShifted" value="1"/>
+            <enum name="alphabetAutomaticShifted" value="2"/>
+            <enum name="alphabetShiftLocked" value="3"/>
+            <enum name="alphabetShiftLockShifted" value="4"/>
+            <enum name="symbols" value="5"/>
+            <enum name="symbolsShifted" value="6"/>
+            <enum name="phone" value="7"/>
+            <enum name="phoneSymbols" value="8"/>
+            <enum name="number" value="9"/>
+            <enum name="emojiRecents" value="10"/>
+            <enum name="emojiCategory1" value="11"/>
+            <enum name="emojiCategory2" value="12"/>
+            <enum name="emojiCategory3" value="13"/>
+            <enum name="emojiCategory4" value="14"/>
+            <enum name="emojiCategory5" value="15"/>
+            <enum name="emojiCategory6" value="16"/>
+        </attr><attr format="enum|string" name="keyboardTheme">
+            <enum name="ICS" value="0"/>
+            <enum name="KLP" value="2"/>
+            <enum name="LXXLight" value="3"/>
+            <enum name="LXXDark" value="4"/>
+        </attr><attr format="enum|string" name="mode">
+            <enum name="text" value="0"/>
+            <enum name="url" value="1"/>
+            <enum name="email" value="2"/>
+            <enum name="im" value="3"/>
+            <enum name="phone" value="4"/>
+            <enum name="number" value="5"/>
+        </attr><attr format="boolean" name="navigateNext"/><attr format="boolean" name="navigatePrevious"/><attr format="boolean" name="passwordInput"/><attr format="boolean" name="clobberSettingsKey"/><attr format="boolean" name="hasShortcutKey"/><attr format="boolean" name="languageSwitchKeyEnabled"/><attr format="boolean" name="isMultiLine"/><attr format="enum" name="imeAction">
+            
+            <enum name="actionUnspecified" value="0"/>
+            <enum name="actionNone" value="1"/>
+            <enum name="actionGo" value="2"/>
+            <enum name="actionSearch" value="3"/>
+            <enum name="actionSend" value="4"/>
+            <enum name="actionNext" value="5"/>
+            <enum name="actionDone" value="6"/>
+            <enum name="actionPrevious" value="7"/>
+            
+            <enum name="actionCustomLabel" value="0x100"/>
+        </attr><attr format="string" name="isIconDefined"/><attr format="string" name="localeCode"/><attr format="string" name="languageCode"/><attr format="string" name="countryCode"/></declare-styleable>
     <declare-styleable name="Keyboard_GridRows"><attr format="reference" name="codesArray"/><attr format="reference" name="textsArray"/></declare-styleable>
     <declare-styleable name="Keyboard_Include"><attr format="reference" name="keyboardLayout"/></declare-styleable>
-    <declare-styleable name="Keyboard_Key"><attr format="string" name="altCode"/><attr format="string" name="moreKeys"/><attr format="string" name="additionalMoreKeys"/><attr format="integer" name="maxMoreKeysColumn"/><attr format="enum" name="backgroundType"><enum name="empty" value="0"/><enum name="normal" value="1"/><enum name="functional" value="2"/><enum name="stickyOff" value="3"/><enum name="stickyOn" value="4"/><enum name="action" value="5"/><enum name="spacebar" value="6"/></attr><attr format="integer" name="keyActionFlags"><flag name="isRepeatable" value="0x01"/><flag name="noKeyPreview" value="0x02"/><flag name="altCodeWhileTyping" value="0x04"/><flag name="enableLongPress" value="0x08"/></attr><attr format="string" name="keySpec"/><attr format="string" name="keyHintLabel"/><attr format="fraction" name="keyHintLabelVerticalAdjustment"/><attr format="integer" name="keyLabelFlags"><flag name="alignHintLabelToBottom" value="0x02"/><flag name="alignIconToBottom" value="0x04"/><flag name="alignLabelOffCenter" value="0x08"/><flag name="fontNormal" value="0x10"/><flag name="fontMonoSpace" value="0x20"/><flag name="fontDefault" value="0x30"/><flag name="followKeyLargeLetterRatio" value="0x40"/><flag name="followKeyLetterRatio" value="0x80"/><flag name="followKeyLabelRatio" value="0xC0"/><flag name="followKeyHintLabelRatio" value="0x140"/><flag name="hasPopupHint" value="0x200"/><flag name="hasShiftedLetterHint" value="0x400"/><flag name="hasHintLabel" value="0x800"/><flag name="autoXScale" value="0x4000"/><flag name="autoScale" value="0xc000"/><flag name="preserveCase" value="0x10000"/><flag name="shiftedLetterActivated" value="0x20000"/><flag name="fromCustomActionLabel" value="0x40000"/><flag name="followFunctionalTextColor" value="0x80000"/><flag name="keepBackgroundAspectRatio" value="0x100000"/><flag name="disableKeyHintLabel" value="0x40000000"/><flag name="disableAdditionalMoreKeys" value="0x80000000"/></attr><attr format="string" name="keyIconDisabled"/><attr format="string" name="keyStyle"/><attr format="fraction" name="visualInsetsLeft"/><attr format="fraction" name="visualInsetsRight"/><attr format="fraction|enum" name="keyWidth"><enum name="fillRight" value="-1"/></attr><attr format="fraction" name="keyXPos"/><attr format="enum" name="keyTypeface"><enum name="normal" value="0"/><enum name="bold" value="1"/><enum name="italic" value="2"/><enum name="boldItalic" value="3"/></attr><attr format="dimension|fraction" name="keyLetterSize"/><attr format="dimension|fraction" name="keyLabelSize"/><attr format="fraction" name="keyLargeLetterRatio"/><attr format="fraction" name="keyHintLetterRatio"/><attr format="fraction" name="keyHintLabelRatio"/><attr format="fraction" name="keyShiftedLetterHintRatio"/><attr format="fraction" name="keyLabelOffCenterRatio"/><attr format="fraction" name="keyHintLabelOffCenterRatio"/><attr format="color" name="keyTextColor"/><attr format="color" name="keyTextShadowColor"/><attr format="color" name="keyTextInactivatedColor"/><attr format="color" name="functionalTextColor"/><attr format="color" name="keyHintLetterColor"/><attr format="color" name="keyHintLabelColor"/><attr format="color" name="keyShiftedLetterHintInactivatedColor"/><attr format="color" name="keyShiftedLetterHintActivatedColor"/><attr format="color" name="keyPreviewTextColor"/><attr format="fraction" name="keyPreviewTextRatio"/></declare-styleable>
+    <declare-styleable name="Keyboard_Key"><attr format="string" name="altCode"/><attr format="string" name="moreKeys"/><attr format="string" name="additionalMoreKeys"/><attr format="integer" name="maxMoreKeysColumn"/><attr format="enum" name="backgroundType">
+            
+            <enum name="empty" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="functional" value="2"/>
+            <enum name="stickyOff" value="3"/>
+            <enum name="stickyOn" value="4"/>
+            <enum name="action" value="5"/>
+            <enum name="spacebar" value="6"/>
+        </attr><attr format="integer" name="keyActionFlags">
+            
+            <flag name="isRepeatable" value="0x01"/>
+            <flag name="noKeyPreview" value="0x02"/>
+            <flag name="altCodeWhileTyping" value="0x04"/>
+            <flag name="enableLongPress" value="0x08"/>
+        </attr><attr format="string" name="keySpec"/><attr format="string" name="keyHintLabel"/><attr format="fraction" name="keyHintLabelVerticalAdjustment"/><attr format="integer" name="keyLabelFlags">
+            
+            <flag name="alignHintLabelToBottom" value="0x02"/>
+            <flag name="alignIconToBottom" value="0x04"/>
+            <flag name="alignLabelOffCenter" value="0x08"/>
+            <flag name="fontNormal" value="0x10"/>
+            <flag name="fontMonoSpace" value="0x20"/>
+            <flag name="fontDefault" value="0x30"/>
+            <flag name="followKeyLargeLetterRatio" value="0x40"/>
+            <flag name="followKeyLetterRatio" value="0x80"/>
+            <flag name="followKeyLabelRatio" value="0xC0"/>
+            <flag name="followKeyHintLabelRatio" value="0x140"/>
+            <flag name="hasPopupHint" value="0x200"/>
+            <flag name="hasShiftedLetterHint" value="0x400"/>
+            <flag name="hasHintLabel" value="0x800"/>
+            <flag name="autoXScale" value="0x4000"/>
+            
+            <flag name="autoScale" value="0xc000"/>
+            
+            <flag name="preserveCase" value="0x10000"/>
+            
+            <flag name="shiftedLetterActivated" value="0x20000"/>
+            
+            <flag name="fromCustomActionLabel" value="0x40000"/>
+            
+            <flag name="followFunctionalTextColor" value="0x80000"/>
+            
+            <flag name="keepBackgroundAspectRatio" value="0x100000"/>
+            
+            <flag name="disableKeyHintLabel" value="0x40000000"/>
+            
+            <flag name="disableAdditionalMoreKeys" value="0x80000000"/>
+        </attr><attr format="string" name="keyIconDisabled"/><attr format="string" name="keyStyle"/><attr format="fraction" name="visualInsetsLeft"/><attr format="fraction" name="visualInsetsRight"/><attr format="fraction|enum" name="keyWidth">
+            <enum name="fillRight" value="-1"/>
+        </attr><attr format="fraction" name="keyXPos"/><attr format="enum" name="keyTypeface">
+            
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="boldItalic" value="3"/>
+        </attr><attr format="dimension|fraction" name="keyLetterSize"/><attr format="dimension|fraction" name="keyLabelSize"/><attr format="fraction" name="keyLargeLetterRatio"/><attr format="fraction" name="keyHintLetterRatio"/><attr format="fraction" name="keyHintLabelRatio"/><attr format="fraction" name="keyShiftedLetterHintRatio"/><attr format="fraction" name="keyLabelOffCenterRatio"/><attr format="fraction" name="keyHintLabelOffCenterRatio"/><attr format="color" name="keyTextColor"/><attr format="color" name="keyTextShadowColor"/><attr format="color" name="keyTextInactivatedColor"/><attr format="color" name="functionalTextColor"/><attr format="color" name="keyHintLetterColor"/><attr format="color" name="keyHintLabelColor"/><attr format="color" name="keyShiftedLetterHintInactivatedColor"/><attr format="color" name="keyShiftedLetterHintActivatedColor"/><attr format="color" name="keyPreviewTextColor"/><attr format="fraction" name="keyPreviewTextRatio"/></declare-styleable>
     <declare-styleable name="Keyboard_KeyStyle"><attr format="string" name="styleName"/><attr format="string" name="parentStyle"/></declare-styleable>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MainKeyboardView"><attr format="fraction" name="languageOnSpacebarTextRatio"/><attr format="color" name="languageOnSpacebarTextColor"/><attr format="float" name="languageOnSpacebarTextShadowRadius"/><attr format="color" name="languageOnSpacebarTextShadowColor"/><attr format="integer" name="languageOnSpacebarFinalAlpha"/><attr format="reference" name="languageOnSpacebarFadeoutAnimator"/><attr format="reference" name="altCodeKeyWhileTypingFadeoutAnimator"/><attr format="reference" name="altCodeKeyWhileTypingFadeinAnimator"/><attr format="dimension" name="keyHysteresisDistance"/><attr format="dimension" name="keyHysteresisDistanceForSlidingModifier"/><attr format="integer" name="touchNoiseThresholdTime"/><attr format="dimension" name="touchNoiseThresholdDistance"/><attr format="boolean" name="keySelectionByDraggingFinger"/><attr format="color" name="slidingKeyInputPreviewColor"/><attr format="dimension" name="slidingKeyInputPreviewWidth"/><attr format="integer" name="slidingKeyInputPreviewBodyRatio"/><attr format="integer" name="slidingKeyInputPreviewShadowRatio"/><attr format="integer" name="keyRepeatStartTimeout"/><attr format="integer" name="keyRepeatInterval"/><attr format="integer" name="longPressShiftLockTimeout"/><attr format="integer" name="ignoreAltCodeKeyTimeout"/><attr format="reference" name="keyPreviewBackground"/><attr format="dimension" name="keyPreviewOffset"/><attr format="dimension" name="keyPreviewHeight"/><attr format="integer" name="keyPreviewLingerTimeout"/><attr format="reference" name="keyPreviewShowUpAnimator"/><attr format="reference" name="keyPreviewDismissAnimator"/><attr format="reference" name="moreKeysKeyboardLayout"/><attr format="reference" name="moreKeysKeyboardForActionLayout"/><attr format="integer" name="backgroundDimAlpha"/><attr format="boolean" name="showMoreKeysKeyboardAtTouchedPoint"/><attr format="dimension" name="gestureTrailMinSamplingDistance"/><attr format="integer" name="gestureTrailMaxInterpolationAngularThreshold"/><attr format="dimension" name="gestureTrailMaxInterpolationDistanceThreshold"/><attr format="integer" name="gestureTrailMaxInterpolationSegments"/><attr format="integer" name="gestureTrailFadeoutStartDelay"/><attr format="integer" name="gestureTrailFadeoutDuration"/><attr format="integer" name="gestureTrailUpdateInterval"/><attr format="color" name="gestureTrailColor"/><attr format="dimension" name="gestureTrailStartWidth"/><attr format="dimension" name="gestureTrailEndWidth"/><attr format="integer" name="gestureTrailBodyRatio"/><attr format="integer" name="gestureTrailShadowRatio"/><attr format="integer" name="gestureFloatingPreviewTextLingerTimeout"/><attr format="dimension" name="gestureFloatingPreviewTextSize"/><attr format="color" name="gestureFloatingPreviewTextColor"/><attr format="dimension" name="gestureFloatingPreviewTextOffset"/><attr format="color" name="gestureFloatingPreviewColor"/><attr format="dimension" name="gestureFloatingPreviewHorizontalPadding"/><attr format="dimension" name="gestureFloatingPreviewVerticalPadding"/><attr format="dimension" name="gestureFloatingPreviewRoundRadius"/><attr format="integer" name="gestureStaticTimeThresholdAfterFastTyping"/><attr format="fraction" name="gestureDetectFastMoveSpeedThreshold"/><attr format="integer" name="gestureDynamicThresholdDecayDuration"/><attr format="integer" name="gestureDynamicTimeThresholdFrom"/><attr format="integer" name="gestureDynamicTimeThresholdTo"/><attr format="fraction" name="gestureDynamicDistanceThresholdFrom"/><attr format="fraction" name="gestureDynamicDistanceThresholdTo"/><attr format="fraction" name="gestureSamplingMinimumDistance"/><attr format="integer" name="gestureRecognitionMinimumTime"/><attr format="integer" name="gestureRecognitionUpdateTime"/><attr format="fraction" name="gestureRecognitionSpeedThreshold"/><attr format="integer" name="suppressKeyPreviewAfterBatchInputDuration"/></declare-styleable>
     <declare-styleable name="MoreKeysKeyboardView"><attr format="reference" name="divider"/></declare-styleable>
     <declare-styleable name="SeekBarDialogPreference"><attr format="integer" name="maxValue"/><attr format="integer" name="minValue"/><attr format="integer" name="stepValue"/></declare-styleable>
     <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
-    <declare-styleable name="SuggestionStripView"><attr format="integer" name="suggestionStripOptions"><flag name="autoCorrectBold" value="0x01"/><flag name="autoCorrectUnderline" value="0x02"/><flag name="validTypedWordBold" value="0x04"/></attr><attr format="color" name="colorValidTypedWord"/><attr format="color" name="colorTypedWord"/><attr format="color" name="colorAutoCorrect"/><attr format="color" name="colorSuggested"/><attr format="fraction" name="alphaObsoleted"/><attr format="integer" name="suggestionsCountInStrip"/><attr format="fraction" name="centerSuggestionPercentile"/><attr format="integer" name="maxMoreSuggestionsRow"/><attr format="float" name="minMoreSuggestionsWidth"/></declare-styleable>
+    <declare-styleable name="SuggestionStripView"><attr format="integer" name="suggestionStripOptions">
+            
+            <flag name="autoCorrectBold" value="0x01"/>
+            <flag name="autoCorrectUnderline" value="0x02"/>
+            <flag name="validTypedWordBold" value="0x04"/>
+        </attr><attr format="color" name="colorValidTypedWord"/><attr format="color" name="colorTypedWord"/><attr format="color" name="colorAutoCorrect"/><attr format="color" name="colorSuggested"/><attr format="fraction" name="alphaObsoleted"/><attr format="integer" name="suggestionsCountInStrip"/><attr format="fraction" name="centerSuggestionPercentile"/><attr format="integer" name="maxMoreSuggestionsRow"/><attr format="float" name="minMoreSuggestionsWidth"/></declare-styleable>
     <dimen name="config_accessibility_edge_slop">8dp</dimen>
     <dimen name="config_default_keyboard_height">205.6dp</dimen>
     <dimen name="config_emoji_category_page_id_height">2dp</dimen>
@@ -1762,10 +1908,11 @@
     <string name="accept">Accept</string>
     <string name="add">Add</string>
     <string name="add_style">Add style</string>
-    <string name="android_spell_checker_settings">Easy Urdu Keyboard Spell Checker Settings</string>
+    <string name="android_spell_checker_settings">Asan Urdu Typing Spell Checker Settings</string>
     <string name="announce_keyboard_hidden">Keyboard hidden</string>
     <string name="announce_keyboard_mode">Showing <ns1:g example="email" id="KEYBOARD_MODE">%s</ns1:g> keyboard</string>
     <string name="app_name">Dictionary Provider</string>
+    <string name="app_sub_title">Create Task to remind</string>
     <string name="authority" translatable="false">com.mobiletin.inputmethod.dictionarypack.aosp</string>
     <string name="auto_cap">Auto-capitalization</string>
     <string name="auto_cap_summary">Capitalize the first word of each sentence</string>
@@ -1841,8 +1988,8 @@
     <string name="enable_metrics_logging_summary" translatable="false"/>
     <string name="english_ime_debug_settings">Android Keyboard Debug settings</string>
     <string name="english_ime_input_options">Input options</string>
-    <string name="english_ime_name">Easy Urdu Keyboard</string>
-    <string name="english_ime_settings">Easy Urdu Keyboard Settings</string>
+    <string name="english_ime_name">Asan Urdu Typing</string>
+    <string name="english_ime_settings">Asan Urdu Typing Settings</string>
     <string name="facebook_app_id">830020890461859</string>
     <string name="gesture_floating_preview_text">Dynamic floating preview</string>
     <string name="gesture_floating_preview_text_summary">See the suggested word while gesturing</string>
@@ -1993,22 +2140,22 @@
     <string name="setup_next_action">Next step</string>
     <string name="setup_start_action">Get started</string>
     <string name="setup_step1_action">Enable in Settings</string>
-    <string name="setup_step1_bullet" translatable="false">1</string>
+    <string name="setup_step1_bullet" translatable="false">\u2022</string>
     <string name="setup_step1_finished_instruction">"<ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g> is already enabled in your Language &amp; input settings, so this step is done. On to the next one!"</string>
     <string name="setup_step1_instruction">"Please check \"<ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>\" in your Language &amp; input settings. This will authorize it to run on your device."</string>
     <string name="setup_step1_title">"Enable <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string name="setup_step2_action">Switch input methods</string>
-    <string name="setup_step2_bullet" translatable="false">2</string>
+    <string name="setup_step2_bullet" translatable="false">\u2022</string>
     <string name="setup_step2_instruction">"Next, select \"<ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>\" as your active text-input method."</string>
     <string name="setup_step2_title">"Switch to <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string name="setup_step3_action">Configure languages</string>
-    <string name="setup_step3_bullet" translatable="false">3</string>
+    <string name="setup_step3_bullet" translatable="false">\u2022</string>
     <string name="setup_step3_instruction">Select the languages and layouts you want to use.</string>
     <string name="setup_step3_title">"Select languages"</string>
-    <string name="setup_step4_bullet" translatable="false">4</string>
+    <string name="setup_step4_bullet" translatable="false">\u2022</string>
     <string name="setup_step4_instruction">Now you can type in all your favorite apps with <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>.</string>
     <string name="setup_step4_title">"Congratulations, you're all set!"</string>
-    <string name="setup_steps_title">"Setting up <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string name="setup_steps_title">"Setting <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string name="setup_welcome_additional_description">Types in urdu / english</string>
     <string name="setup_welcome_title">"Welcome to <ns1:g id="application_name">%s</ns1:g>"</string>
     <string name="should_download_over_metered_prompt">The selected language on your mobile device has an available dictionary.&lt;br/>
@@ -2025,7 +2172,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <string name="sliding_key_input_preview">Show slide indicator</string>
     <string name="sliding_key_input_preview_summary">Display visual cue while sliding from Shift or Symbol keys</string>
     <string name="sound_on_keypress">Sound on keypress</string>
-    <string name="spell_checker_service_name">Easy Urdu Keyboard Spell Checker</string>
+    <string name="spell_checker_service_name">Asan Urdu Typing Spell Checker</string>
     <string name="spellchecker_recommended_threshold_value" translatable="false">0.11</string>
     <string name="spoken_accented_letter_00AA">Feminine ordinal indicator</string>
     <string name="spoken_accented_letter_00B5">Micro sign</string>
@@ -3111,6 +3258,10 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <string name="symbols_word_separators">"	 
  "()[]{}*&amp;&lt;>+=|.,;:!?/_\"</string>
     <string name="toast_downloading_suggestions">Downloading: suggestions for <ns1:g example="English" id="LANGUAGE_NAME">%1$s</ns1:g> will be ready soon.</string>
+    <string name="txt_copy_right">Copyright © 2016 - 2017</string>
+    <string name="txt_rights">MobileTin.All rights reserved</string>
+    <string name="txt_splash">www.MobileTin.com</string>
+    <string name="txt_version">Version 1.0</string>
     <string name="use_contacts_dict">Suggest Contact names</string>
     <string name="use_contacts_dict_summary">Use names from Contacts for suggestions and corrections</string>
     <string name="use_contacts_for_spellchecking_option_summary">Spell checker uses entries from your contact list</string>
@@ -3742,9 +3893,12 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     </style>
     <style name="setupStepBulletStyle">
         <item name="android:textColor">@color/setup_text_dark</item>
-        <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1.0</item>
+
+
+       <!-- <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>-->
+        <item name="android:textSize">@dimen/_40sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+      <!--  <item name="android:layout_weight">1.0</item>-->
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
@@ -3770,7 +3924,8 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <style name="setupTitleStyle" parent="setupTitleStyleCommon"/>
     <style name="setupTitleStyleCommon">
         <item name="android:textColor">@color/setup_text_dark</item>
-        <item name="android:textSize">@dimen/setup_title_text_size</item>
+       <!-- <item name="android:textSize">@dimen/setup_title_text_size</item>-->
+        <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
