@@ -19,20 +19,25 @@ package com.mobiletin.inputmethod.indic.setup;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.os.Message;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import com.android.inputmethod.latin.utils.LeakGuardHandlerWrapper;
 import com.android.inputmethod.latin.utils.UncachedInputMethodManagerUtils;
@@ -119,7 +124,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
     boolean hidden = true;
     LinearLayout mRevealView;
     ImageButton ib_more, ib_share;
-    ImageButton  ib_about, ib_rate;
+    ImageButton ib_about, ib_rate;
 
 
     @Override
@@ -142,20 +147,20 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             mStepNumber = savedInstanceState.getInt(STATE_STEP);
         }
 
+
+
+
         final String applicationName = getResources().getString(getApplicationInfo().labelRes);
         mWelcomeScreen = findViewById(R.id.setup_welcome_screen);
         final TextView welcomeTitle = (TextView) findViewById(R.id.setup_welcome_title);
         welcomeTitle.setText(getString(R.string.setup_welcome_title, applicationName));
+        welcomeTitle.setVisibility(View.INVISIBLE);
 
-
-      if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-          welcomeTitle.setTextSize(getResources().getDimension(R.dimen._25sdp));
-      }
-
-        else
-      {
-          welcomeTitle.setTextSize(getResources().getDimension(R.dimen._15sdp));
-      }
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            welcomeTitle.setTextSize(getResources().getDimension(R.dimen._25sdp));
+        } else {
+            welcomeTitle.setTextSize(getResources().getDimension(R.dimen._15sdp));
+        }
         mSetupScreen = findViewById(R.id.setup_steps_screen);
         final TextView stepsTitle = (TextView) findViewById(R.id.setup_title);
         stepsTitle.setText(getString(R.string.setup_steps_title, applicationName));
@@ -232,7 +237,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
 
 //Ripple menu
-        imgMenuBtn=(ImageView) findViewById(R.id.menu_btn);
+        imgMenuBtn = (ImageView) findViewById(R.id.menu_btn);
         imgMenuBtn.setOnClickListener(this);
         initRevealMenu();
     }
@@ -245,10 +250,17 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             return;
         }
         */
+
+
         final int currentStep = determineSetupStepNumber();
         final int nextStep;
+
+
+
         if (v == mActionStart) {
+            hideRevealView();
             nextStep = STEP_1;
+
             /*PopupMenu popup = new PopupMenu(SetupWizardActivity.this, mActionStart);
             //Inflating the Popup using xml file
             popup.getMenuInflater().inflate(R.menu.popup_menu, popup.getMenu());
@@ -285,6 +297,9 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         if (mStepNumber != nextStep) {
             mStepNumber = nextStep;
             updateSetupStepView();
+
+
+            hideRevealView();
         }
 
 
@@ -306,10 +321,10 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
                 hidden = true;
                 break;
             case R.id.about:
-             
+
                 mRevealView.setVisibility(View.GONE);
                 hidden = true;
-                startActivity(new Intent(this,AboutActivity.class));
+                startActivity(new Intent(this, AboutActivity.class));
                 break;
 
             case R.id.menu_btn:
@@ -442,8 +457,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             mRevealView.setVisibility(View.GONE);
             hidden = true;
             return;
-        }
-        else {
+        } else {
             if (mStepNumber == STEP_1) {
                 mStepNumber = STEP_WELCOME;
                 updateSetupStepView();
@@ -481,6 +495,12 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         mSetupStepGroup.enableStep(mStepNumber, isStepActionAlreadyDone);
         mActionNext.setVisibility(isStepActionAlreadyDone ? View.VISIBLE : View.GONE);
         //mActionFinish.setVisibility((mStepNumber == STEP_4) ? View.VISIBLE : View.GONE);
+
+        if(mStepNumber==STEP_4)
+        {
+                showFinishedView();
+
+        }
     }
 
     static final class SetupStep implements View.OnClickListener {
@@ -587,6 +607,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             hidden = true;
         }
     }
+
     public void clickMenuBtn() {
 
         int cx = (mRevealView.getLeft() + mRevealView.getRight());
@@ -655,4 +676,31 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         }
     }
 
+    public void showFinishedView() {
+        LinearLayout continerFinish = (LinearLayout) findViewById(R.id.containerFinish);
+        continerFinish.setVisibility(View.VISIBLE);
+        ToggleButton btnInputMethod = (ToggleButton) findViewById(R.id.toggle);
+        btnInputMethod.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (!b) {
+
+                    try {
+                        InputMethodManager imm = (InputMethodManager) SetupWizardActivity.this.getSystemService(Context.INPUT_METHOD_SERVICE);
+                        final IBinder token = SetupWizardActivity.this.getWindow().getAttributes().token;
+                        //imm.setInputMethod(token, LATIN);
+                        imm.switchToLastInputMethod(token);
+                    } catch (Throwable t) { // java.lang.NoSuchMethodError if API_level<11
+                        Log.e(TAG, "cannot set the previous input method:");
+                        t.printStackTrace();
+                    }
+                }
+                else
+                {
+                    InputMethodManager imeManager = (InputMethodManager) getApplicationContext().getSystemService(INPUT_METHOD_SERVICE);
+                    imeManager.showInputMethodPicker();
+                }
+            }
+        });
+    }
 }

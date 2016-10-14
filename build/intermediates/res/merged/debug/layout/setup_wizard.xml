@@ -10,7 +10,7 @@
         android:id="@+id/top_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/black"
+        android:background="@color/menu_bg"
         android:padding="@dimen/_8sdp">
 
         <RelativeLayout
@@ -164,6 +164,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_5sdp"
+
                         android:text="More" />
 
                 </LinearLayout>
@@ -214,10 +215,11 @@
 
             </LinearLayout>
 
-        <!--    <View
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/black" />-->
+                android:layout_height="5dp"
+                android:background="@drawable/drop_shadow" />
+
         </LinearLayout>
 
     </io.codetail.widget.RevealFrameLayout>

@@ -22,9 +22,9 @@ import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.util.SparseIntArray;
 
-import java.util.HashMap;
-
 import com.mobiletin.inputmethod.indic.R;
+
+import java.util.HashMap;
 
 public final class KeyboardIconsSet {
     private static final String TAG = KeyboardIconsSet.class.getSimpleName();
@@ -55,6 +55,8 @@ public final class KeyboardIconsSet {
     public static final String NAME_ZWJ_KEY = "zwj_key";
     public static final String NAME_EMOJI_ACTION_KEY = "emoji_action_key";
     public static final String NAME_EMOJI_NORMAL_KEY = "emoji_normal_key";
+    public static final String NAME_TOOGLE_SWITCH_KEY = "urdubtn";
+
 
     private static final SparseIntArray ATTR_ID_TO_ICON_ID = new SparseIntArray();
 
@@ -84,6 +86,7 @@ public final class KeyboardIconsSet {
         NAME_ZWJ_KEY,                     R.styleable.Keyboard_iconZwjKey,
         NAME_EMOJI_ACTION_KEY,            R.styleable.Keyboard_iconEmojiActionKey,
         NAME_EMOJI_NORMAL_KEY,            R.styleable.Keyboard_iconEmojiNormalKey,
+        NAME_TOOGLE_SWITCH_KEY,           R.styleable.Keyboard_urdubtn,
     };
 
     private static int NUM_ICONS = NAMES_AND_ATTR_IDS.length / 2;

@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/black"
+            android:background="@color/menu_bg"
             android:orientation="horizontal"
             android:padding="10dp"
             android:weightSum="2">
@@ -59,8 +59,8 @@
 
         <ImageView
             android:id="@+id/img_about"
-            android:layout_width="@dimen/_180sdp"
-            android:layout_height="@dimen/_180sdp"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/_10sdp"
@@ -72,6 +72,7 @@
             android:src="@drawable/icon" />
 
         <LinearLayout
+            android:layout_marginTop="@dimen/_30sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/img_about"
@@ -85,7 +86,7 @@
                 android:gravity="center"
                 android:text="@string/english_ime_name"
                 android:textColor="#000000"
-                android:textSize="@dimen/_20sdp"
+                android:textSize="@dimen/_18sdp"
                 android:textStyle="bold" />
 
             <TextView
@@ -105,7 +106,7 @@
                 android:gravity="center"
                 android:text="@string/txt_copy_right"
                 android:textColor="#000000"
-                android:textSize="@dimen/_18sdp" />
+                android:textSize="@dimen/_16sdp" />
 
             <TextView
                 android:id="@+id/rightstxt"
@@ -114,7 +115,7 @@
                 android:gravity="center"
                 android:text="@string/txt_rights"
                 android:textColor="#000000"
-                android:textSize="@dimen/_18sdp" />
+                android:textSize="@dimen/_16sdp" />
 
             <TextView
                 android:id="@+id/splashTxt"
@@ -123,7 +124,7 @@
                 android:gravity="center"
                 android:text="@string/txt_splash"
                 android:textColor="#000000"
-                android:textSize="@dimen/_18sdp" />
+                android:textSize="@dimen/_16sdp" />
 
 
         </LinearLayout>

@@ -26,12 +26,15 @@
     >
         <Key
             latin:keyStyle="toSymbolKeyStyle"
-            latin:keyWidth="15%p" />
+            latin:keyWidth="10%p" />
         <include
             latin:keyboardLayout="@xml/key_comma" />
         <include
-            latin:keyXPos="25%p"
+            latin:keyXPos="20%p"
             latin:keyboardLayout="@xml/key_space_5kw" />
+
+      <!--  <Key
+            latin:keyStyle="toggleKeyStyle" />-->
         <include
             latin:keyboardLayout="@xml/key_period" />
         <Key

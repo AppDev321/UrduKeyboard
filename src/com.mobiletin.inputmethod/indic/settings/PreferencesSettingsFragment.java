@@ -53,6 +53,7 @@ public final class PreferencesSettingsFragment extends SubScreenFragment {
 
         final boolean showVoiceKeyOption = res.getBoolean(
                 R.bool.config_enable_show_voice_key_option);
+
         if (!showVoiceKeyOption) {
             removePreference(Settings.PREF_VOICE_INPUT_KEY);
         }
@@ -73,7 +74,7 @@ public final class PreferencesSettingsFragment extends SubScreenFragment {
         if (voiceInputKeyOption != null) {
             final boolean isShortcutImeEnabled = SubtypeSwitcher.getInstance()
                     .isShortcutImeEnabled();
-            voiceInputKeyOption.setEnabled(isShortcutImeEnabled);
+          voiceInputKeyOption.setEnabled(isShortcutImeEnabled);
             voiceInputKeyOption.setSummary(
                     isShortcutImeEnabled ? null : getText(R.string.voice_input_disabled_summary));
         }

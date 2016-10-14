@@ -44,5 +44,13 @@
         <item name="iconEmojiActionKey">@drawable/sym_keyboard_smiley_lxx_dark</item>
         <!-- Use dark green emoji icon (for lxx_light) because a normal key has white color background. -->
         <item name="iconEmojiNormalKey">@drawable/sym_keyboard_smiley_lxx_light</item>
+
+
+
+        <!--Changes here-->
+        <item name="urduKeyoff">@drawable/off_roman</item>
+        <item name="urduKeyon">@drawable/on_roman</item>
+        <item name="urdubtn">@drawable/urdu</item>
+
     </style>
 </resources>

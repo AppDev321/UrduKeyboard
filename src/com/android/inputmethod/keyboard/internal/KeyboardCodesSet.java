@@ -16,9 +16,9 @@
 
 package com.android.inputmethod.keyboard.internal;
 
-import java.util.HashMap;
-
 import com.mobiletin.inputmethod.indic.Constants;
+
+import java.util.HashMap;
 
 public final class KeyboardCodesSet {
     public static final String PREFIX_CODE = "!code/";
@@ -53,6 +53,7 @@ public final class KeyboardCodesSet {
         "key_emoji",
         "key_alpha_from_emoji",
         "key_unspecified",
+            "key_toogle_switch"
     };
 
     private static final int[] DEFAULT = {

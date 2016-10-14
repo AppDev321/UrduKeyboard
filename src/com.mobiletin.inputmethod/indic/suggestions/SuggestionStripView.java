@@ -210,7 +210,7 @@ public final class SuggestionStripView extends RelativeLayout implements OnClick
         final SettingsValues currentSettingsValues = Settings.getInstance().getCurrent();
         mVoiceKey.setVisibility(currentSettingsValues.mShowsVoiceInputKey ? VISIBLE : INVISIBLE);
         Log.e(" ","Voice Search Disable");
-      //  mVoiceKey.setVisibility(View.INVISIBLE);
+        mVoiceKey.setVisibility(View.GONE);
 
     }
 

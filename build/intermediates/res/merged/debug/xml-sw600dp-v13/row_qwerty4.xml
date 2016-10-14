@@ -24,17 +24,20 @@
     <Row
         latin:keyWidth="9.0%p"
         latin:backgroundType="functional"
-    >
+    ><!--latin:keyWidth="10.0%p"-->
         <Key
             latin:keyStyle="toSymbolKeyStyle"
-            latin:keyWidth="10.0%p" />
+            latin:keyWidth="8.0%p" />
         <include
             latin:keyboardLayout="@xml/key_comma" />
         <!-- Space key. -->
+        <!--19.0-->
         <include
-            latin:keyXPos="19.0%p"
+            latin:keyXPos="17%p"
             latin:keyboardLayout="@xml/key_space_7kw"
             latin:backgroundType="normal" />
+        <include
+            latin:keyboardLayout="@xml/key_comma" />
         <include
             latin:keyboardLayout="@xml/key_period" />
         <include

@@ -168,4 +168,13 @@
         latin:keyLabelFlags="autoXScale|fontNormal|hasPopupHint|preserveCase"
         latin:moreKeys="!text/morekeys_popular_domain"
         latin:backgroundType="functional" />
+    <!--Changes here -->
+    <key-style
+        latin:styleName="toggleKeyStyle"
+        latin:keySpec="!icon/urdubtn|!code/key_language_switch"
+        latin:keyActionFlags="noKeyPreview|altCodeWhileTyping|enableLongPress"
+       />
+    <!-- latin:keySpec="!icon/urdubtn|!code/key_toogle_switch"
+     latin:keyActionFlags="noKeyPreview"
+     latin:altCode="!code/key_toogle_switch" />-->
 </merge>

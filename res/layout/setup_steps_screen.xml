@@ -32,7 +32,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/setup_text_action" />
+        android:background="@color/setup_background" />
 
     <include layout="@layout/setup_steps_cards" />
 

@@ -72,6 +72,10 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\btn_keyboard_key_functional_lxx_dark.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\off_roman.png",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\off_roman.png"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\rate.png",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\rate.png"
     },
@@ -106,6 +110,10 @@
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_setup_step3.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\ic_setup_step3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\on_roman.png",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\on_roman.png"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
@@ -156,12 +164,20 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\ic_emoji_symbols_lxx_light.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\switch2.png",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\switch2.png"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_emoji_objects_holo_dark.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\ic_emoji_objects_holo_dark.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\urdu.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\urdu.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_keyboard_key_functional_ics.xml",
@@ -172,12 +188,20 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\keyboard_key_feedback_klp.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\drop_shadow.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\drop_shadow.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_emoji_symbols_holo_dark.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\ic_emoji_symbols_holo_dark.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_keyboard_key_klp.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\btn_keyboard_key_klp.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\switch1.png",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\drawable\\switch1.png"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_emoji_objects_lxx_light.xml",
