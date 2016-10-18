@@ -32,9 +32,17 @@
     <Row
         latin:keyWidth="10%p"
     >
+<!--
         <include
             latin:keyboardLayout="@xml/rowkeys_qwerty2"
-            latin:keyXPos="5%p" />
+            latin:keyXPos="5%p" />-->
+        <include
+            latin:keyboardLayout="@xml/rowkeys_qwerty2"
+             />
+        <Key
+            latin:keyStyle="toggleKeyStyle"
+            latin:keyWidth="fillRight"
+            latin:visualInsetsLeft="0%p" />
     </Row>
     <Row
         latin:keyWidth="10%p"

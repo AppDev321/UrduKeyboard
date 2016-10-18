@@ -19,15 +19,12 @@ package com.mobiletin.inputmethod.indic.setup;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.IBinder;
 import android.os.Message;
 import android.provider.Settings;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.inputmethod.InputMethodInfo;
@@ -228,6 +225,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
         mActionNext = findViewById(R.id.setup_next);
         mActionNext.setOnClickListener(this);
+
         /*
         mActionFinish = (TextView)findViewById(R.id.setup_finish);
         TextViewCompatUtils.setCompoundDrawablesRelativeWithIntrinsicBounds(mActionFinish,
@@ -240,6 +238,10 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         imgMenuBtn = (ImageView) findViewById(R.id.menu_btn);
         imgMenuBtn.setOnClickListener(this);
         initRevealMenu();
+
+
+        //Perfome get Started Action
+        mActionNext.performClick();
     }
 
     @Override
@@ -261,32 +263,6 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             hideRevealView();
             nextStep = STEP_1;
 
-            /*PopupMenu popup = new PopupMenu(SetupWizardActivity.this, mActionStart);
-            //Inflating the Popup using xml file
-            popup.getMenuInflater().inflate(R.menu.popup_menu, popup.getMenu());
-            //registering popup with OnMenuItemClickListener
-            popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-                public boolean onMenuItemClick(MenuItem item) {
-                    Toast.makeText(SetupWizardActivity.this,"You Clicked : " + item.getTitle(),Toast.LENGTH_SHORT).show();
-                    return true;
-                }
-            });
-
-            // Force icons to show
-            Object menuHelper;
-            Class[] argTypes;
-            try {
-                Field fMenuHelper = PopupMenu.class.getDeclaredField("mPopup");
-                fMenuHelper.setAccessible(true);
-                menuHelper = fMenuHelper.get(popup);
-                argTypes = new Class[] { boolean.class };
-                menuHelper.getClass().getDeclaredMethod("setForceShowIcon", argTypes).invoke(menuHelper, true);
-            } catch (Exception e) {
-                Log.w(TAG, "error forcing menu icons to show", e);
-                popup.show();
-                return;
-            }
-            popup.show();//showing popup menu*/
         } else if (v == mActionNext) {
             nextStep = mStepNumber + 1;
         } else if (v == mStep1Bullet && currentStep == STEP_2) {
@@ -297,7 +273,6 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         if (mStepNumber != nextStep) {
             mStepNumber = nextStep;
             updateSetupStepView();
-
 
             hideRevealView();
         }
@@ -683,24 +658,17 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         btnInputMethod.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (!b) {
+                if (b) {
 
-                    try {
-                        InputMethodManager imm = (InputMethodManager) SetupWizardActivity.this.getSystemService(Context.INPUT_METHOD_SERVICE);
-                        final IBinder token = SetupWizardActivity.this.getWindow().getAttributes().token;
-                        //imm.setInputMethod(token, LATIN);
-                        imm.switchToLastInputMethod(token);
-                    } catch (Throwable t) { // java.lang.NoSuchMethodError if API_level<11
-                        Log.e(TAG, "cannot set the previous input method:");
-                        t.printStackTrace();
-                    }
-                }
-                else
+
+                } else
                 {
-                    InputMethodManager imeManager = (InputMethodManager) getApplicationContext().getSystemService(INPUT_METHOD_SERVICE);
-                    imeManager.showInputMethodPicker();
+
                 }
+
             }
         });
     }
+
+
 }

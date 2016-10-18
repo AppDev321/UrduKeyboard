@@ -52,6 +52,15 @@
             latin:keyboardLayout="@xml/rowkeys_qwerty3" />
         <include
             latin:keyboardLayout="@xml/keys_exclamation_question" />
+
+
+      <!--  Changes here to add key-->
+        <Key
+            latin:keyStyle="toggleKeyStyle"
+            latin:keyWidth="fillRight"
+            latin:visualInsetsLeft="1%p" />
+       <!-- End -->
+
         <Key
             latin:keyStyle="shiftKeyStyle"
             latin:keyWidth="fillRight" />

@@ -22,17 +22,16 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseIntArray;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Toast;
 
 import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.Keyboard;
 import com.android.inputmethod.keyboard.KeyboardId;
+import com.android.inputmethod.latin.utils.StringUtils;
+import com.mobiletin.inputmethod.indic.Constants;
+import com.mobiletin.inputmethod.indic.R;
 
 import java.util.Locale;
-
-import com.mobiletin.inputmethod.indic.Constants;
-
-import com.android.inputmethod.latin.utils.StringUtils;
-import com.mobiletin.inputmethod.indic.R;
 
 final class KeyCodeDescriptionMapper {
     private static final String TAG = KeyCodeDescriptionMapper.class.getSimpleName();
@@ -68,6 +67,10 @@ final class KeyCodeDescriptionMapper {
         mKeyCodeMap.put(Constants.CODE_ACTION_PREVIOUS,
                 R.string.spoken_description_action_previous);
         mKeyCodeMap.put(Constants.CODE_EMOJI, R.string.spoken_description_emoji);
+        mKeyCodeMap.put(Constants.CODE_TOOGLE_SWITCH,
+                R.string.urdu_btn);
+
+
         // Because the upper-case and lower-case mappings of the following letters is depending on
         // the locale, the upper case descriptions should be defined here. The lower case
         // descriptions are handled in {@link #getSpokenLetterDescriptionId(Context,int)}.
@@ -131,6 +134,10 @@ final class KeyCodeDescriptionMapper {
             }
             return context.getString(R.string.spoken_description_unknown);
         }
+
+
+
+
         return null;
     }
 
@@ -342,4 +349,7 @@ final class KeyCodeDescriptionMapper {
         }
         return resId;
     }
+
+
+
 }

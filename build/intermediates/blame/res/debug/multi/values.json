@@ -19326,20 +19326,20 @@
                     "startLine": 3257,
                     "startColumn": 4,
                     "startOffset": 168300,
-                    "endColumn": 67,
-                    "endOffset": 168363
+                    "endColumn": 41,
+                    "endOffset": 168337
                 },
                 "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings-talkback-descriptions.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3258,
                     "startColumn": 4,
-                    "startOffset": 168368,
-                    "endColumn": 109,
-                    "endOffset": 168473
+                    "startOffset": 168342,
+                    "endColumn": 67,
+                    "endOffset": 168405
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19349,9 +19349,9 @@
                 "to": {
                     "startLine": 3259,
                     "startColumn": 4,
-                    "startOffset": 168478,
-                    "endColumn": 123,
-                    "endOffset": 168597
+                    "startOffset": 168410,
+                    "endColumn": 109,
+                    "endOffset": 168515
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19361,9 +19361,9 @@
                 "to": {
                     "startLine": 3260,
                     "startColumn": 4,
-                    "startOffset": 168602,
-                    "endColumn": 93,
-                    "endOffset": 168691
+                    "startOffset": 168520,
+                    "endColumn": 123,
+                    "endOffset": 168639
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19373,9 +19373,9 @@
                 "to": {
                     "startLine": 3261,
                     "startColumn": 4,
-                    "startOffset": 168696,
-                    "endColumn": 71,
-                    "endOffset": 168763
+                    "startOffset": 168644,
+                    "endColumn": 93,
+                    "endOffset": 168733
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19385,9 +19385,9 @@
                 "to": {
                     "startLine": 3262,
                     "startColumn": 4,
-                    "startOffset": 168768,
-                    "endColumn": 119,
-                    "endOffset": 168883
+                    "startOffset": 168738,
+                    "endColumn": 71,
+                    "endOffset": 168805
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19397,9 +19397,9 @@
                 "to": {
                     "startLine": 3263,
                     "startColumn": 4,
-                    "startOffset": 168888,
-                    "endColumn": 75,
-                    "endOffset": 168959
+                    "startOffset": 168810,
+                    "endColumn": 119,
+                    "endOffset": 168925
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19409,21 +19409,9 @@
                 "to": {
                     "startLine": 3264,
                     "startColumn": 4,
-                    "startOffset": 168964,
-                    "endColumn": 127,
-                    "endOffset": 169087
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings-config-important-notice.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3265,
-                    "startColumn": 4,
-                    "startOffset": 169092,
-                    "endColumn": 91,
-                    "endOffset": 169179
+                    "startOffset": 168930,
+                    "endColumn": 75,
+                    "endOffset": 169001
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19431,11 +19419,23 @@
             },
             {
                 "to": {
+                    "startLine": 3265,
+                    "startColumn": 4,
+                    "startOffset": 169006,
+                    "endColumn": 127,
+                    "endOffset": 169129
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings-config-important-notice.xml"
+                }
+            },
+            {
+                "to": {
                     "startLine": 3266,
                     "startColumn": 4,
-                    "startOffset": 169184,
-                    "endColumn": 68,
-                    "endOffset": 169248
+                    "startOffset": 169134,
+                    "endColumn": 91,
+                    "endOffset": 169221
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19445,9 +19445,9 @@
                 "to": {
                     "startLine": 3267,
                     "startColumn": 4,
-                    "startOffset": 169253,
-                    "endColumn": 83,
-                    "endOffset": 169332
+                    "startOffset": 169226,
+                    "endColumn": 68,
+                    "endOffset": 169290
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19457,9 +19457,9 @@
                 "to": {
                     "startLine": 3268,
                     "startColumn": 4,
-                    "startOffset": 169337,
+                    "startOffset": 169295,
                     "endColumn": 83,
-                    "endOffset": 169416
+                    "endOffset": 169374
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19469,9 +19469,9 @@
                 "to": {
                     "startLine": 3269,
                     "startColumn": 4,
-                    "startOffset": 169421,
-                    "endColumn": 81,
-                    "endOffset": 169498
+                    "startOffset": 169379,
+                    "endColumn": 83,
+                    "endOffset": 169458
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19481,9 +19481,9 @@
                 "to": {
                     "startLine": 3270,
                     "startColumn": 4,
-                    "startOffset": 169503,
-                    "endColumn": 79,
-                    "endOffset": 169578
+                    "startOffset": 169463,
+                    "endColumn": 81,
+                    "endOffset": 169540
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19493,9 +19493,9 @@
                 "to": {
                     "startLine": 3271,
                     "startColumn": 4,
-                    "startOffset": 169583,
-                    "endColumn": 65,
-                    "endOffset": 169644
+                    "startOffset": 169545,
+                    "endColumn": 79,
+                    "endOffset": 169620
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19505,9 +19505,9 @@
                 "to": {
                     "startLine": 3272,
                     "startColumn": 4,
-                    "startOffset": 169649,
-                    "endColumn": 70,
-                    "endOffset": 169715
+                    "startOffset": 169625,
+                    "endColumn": 65,
+                    "endOffset": 169686
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19517,9 +19517,9 @@
                 "to": {
                     "startLine": 3273,
                     "startColumn": 4,
-                    "startOffset": 169720,
-                    "endColumn": 82,
-                    "endOffset": 169798
+                    "startOffset": 169691,
+                    "endColumn": 70,
+                    "endOffset": 169757
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19529,9 +19529,9 @@
                 "to": {
                     "startLine": 3274,
                     "startColumn": 4,
-                    "startOffset": 169803,
-                    "endColumn": 81,
-                    "endOffset": 169880
+                    "startOffset": 169762,
+                    "endColumn": 82,
+                    "endOffset": 169840
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19541,9 +19541,9 @@
                 "to": {
                     "startLine": 3275,
                     "startColumn": 4,
-                    "startOffset": 169885,
-                    "endColumn": 72,
-                    "endOffset": 169953
+                    "startOffset": 169845,
+                    "endColumn": 81,
+                    "endOffset": 169922
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19553,9 +19553,9 @@
                 "to": {
                     "startLine": 3276,
                     "startColumn": 4,
-                    "startOffset": 169958,
-                    "endColumn": 73,
-                    "endOffset": 170027
+                    "startOffset": 169927,
+                    "endColumn": 72,
+                    "endOffset": 169995
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19565,9 +19565,9 @@
                 "to": {
                     "startLine": 3277,
                     "startColumn": 4,
-                    "startOffset": 170032,
-                    "endColumn": 78,
-                    "endOffset": 170106
+                    "startOffset": 170000,
+                    "endColumn": 73,
+                    "endOffset": 170069
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19577,9 +19577,9 @@
                 "to": {
                     "startLine": 3278,
                     "startColumn": 4,
-                    "startOffset": 170111,
-                    "endColumn": 79,
-                    "endOffset": 170186
+                    "startOffset": 170074,
+                    "endColumn": 78,
+                    "endOffset": 170148
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19589,9 +19589,9 @@
                 "to": {
                     "startLine": 3279,
                     "startColumn": 4,
-                    "startOffset": 170191,
-                    "endColumn": 75,
-                    "endOffset": 170262
+                    "startOffset": 170153,
+                    "endColumn": 79,
+                    "endOffset": 170228
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19601,9 +19601,9 @@
                 "to": {
                     "startLine": 3280,
                     "startColumn": 4,
-                    "startOffset": 170267,
-                    "endColumn": 60,
-                    "endOffset": 170323
+                    "startOffset": 170233,
+                    "endColumn": 75,
+                    "endOffset": 170304
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19613,9 +19613,9 @@
                 "to": {
                     "startLine": 3281,
                     "startColumn": 4,
-                    "startOffset": 170328,
-                    "endColumn": 74,
-                    "endOffset": 170398
+                    "startOffset": 170309,
+                    "endColumn": 60,
+                    "endOffset": 170365
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19625,9 +19625,9 @@
                 "to": {
                     "startLine": 3282,
                     "startColumn": 4,
-                    "startOffset": 170403,
-                    "endColumn": 150,
-                    "endOffset": 170549
+                    "startOffset": 170370,
+                    "endColumn": 74,
+                    "endOffset": 170440
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19637,9 +19637,9 @@
                 "to": {
                     "startLine": 3283,
                     "startColumn": 4,
-                    "startOffset": 170554,
-                    "endColumn": 77,
-                    "endOffset": 170627
+                    "startOffset": 170445,
+                    "endColumn": 150,
+                    "endOffset": 170591
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19649,9 +19649,9 @@
                 "to": {
                     "startLine": 3284,
                     "startColumn": 4,
-                    "startOffset": 170632,
-                    "endColumn": 78,
-                    "endOffset": 170706
+                    "startOffset": 170596,
+                    "endColumn": 77,
+                    "endOffset": 170669
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19661,9 +19661,9 @@
                 "to": {
                     "startLine": 3285,
                     "startColumn": 4,
-                    "startOffset": 170711,
-                    "endColumn": 63,
-                    "endOffset": 170770
+                    "startOffset": 170674,
+                    "endColumn": 78,
+                    "endOffset": 170748
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19673,9 +19673,9 @@
                 "to": {
                     "startLine": 3286,
                     "startColumn": 4,
-                    "startOffset": 170775,
-                    "endColumn": 114,
-                    "endOffset": 170885
+                    "startOffset": 170753,
+                    "endColumn": 63,
+                    "endOffset": 170812
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19685,9 +19685,9 @@
                 "to": {
                     "startLine": 3287,
                     "startColumn": 4,
-                    "startOffset": 170890,
-                    "endColumn": 67,
-                    "endOffset": 170953
+                    "startOffset": 170817,
+                    "endColumn": 114,
+                    "endOffset": 170927
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19697,9 +19697,9 @@
                 "to": {
                     "startLine": 3288,
                     "startColumn": 4,
-                    "startOffset": 170958,
-                    "endColumn": 55,
-                    "endOffset": 171009
+                    "startOffset": 170932,
+                    "endColumn": 67,
+                    "endOffset": 170995
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19709,9 +19709,9 @@
                 "to": {
                     "startLine": 3289,
                     "startColumn": 4,
-                    "startOffset": 171014,
-                    "endColumn": 125,
-                    "endOffset": 171135
+                    "startOffset": 171000,
+                    "endColumn": 55,
+                    "endOffset": 171051
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
@@ -19721,9 +19721,21 @@
                 "to": {
                     "startLine": 3290,
                     "startColumn": 4,
-                    "startOffset": 171140,
+                    "startOffset": 171056,
+                    "endColumn": 125,
+                    "endOffset": 171177
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3291,
+                    "startColumn": 4,
+                    "startOffset": 171182,
                     "endColumn": 45,
-                    "endOffset": 171181
+                    "endOffset": 171223
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\donottranslate.xml"
@@ -19731,76 +19743,11 @@
             },
             {
                 "to": {
-                    "startLine": 3291,
-                    "startColumn": 4,
-                    "startOffset": 171186,
-                    "endColumn": 37,
-                    "endOffset": 171219
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 3292,
                     "startColumn": 4,
-                    "startOffset": 171224,
-                    "endLine": 3305,
-                    "endColumn": 12,
-                    "endOffset": 172359
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3306,
-                    "startColumn": 4,
-                    "startOffset": 172364,
-                    "endLine": 3319,
-                    "endColumn": 12,
-                    "endOffset": 173499
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3320,
-                    "startColumn": 4,
-                    "startOffset": 173504,
-                    "endLine": 3331,
-                    "endColumn": 12,
-                    "endOffset": 174450
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3332,
-                    "startColumn": 4,
-                    "startOffset": 174455,
-                    "endLine": 3343,
-                    "endColumn": 12,
-                    "endOffset": 175412
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3344,
-                    "startColumn": 4,
-                    "startOffset": 175417,
-                    "endLine": 3355,
-                    "endColumn": 12,
-                    "endOffset": 176284
+                    "startOffset": 171228,
+                    "endColumn": 37,
+                    "endOffset": 171261
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
@@ -19808,12 +19755,12 @@
             },
             {
                 "to": {
-                    "startLine": 3356,
+                    "startLine": 3293,
                     "startColumn": 4,
-                    "startOffset": 176289,
-                    "endLine": 3359,
+                    "startOffset": 171266,
+                    "endLine": 3306,
                     "endColumn": 12,
-                    "endOffset": 176396
+                    "endOffset": 172401
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -19821,12 +19768,12 @@
             },
             {
                 "to": {
-                    "startLine": 3360,
+                    "startLine": 3307,
                     "startColumn": 4,
-                    "startOffset": 176401,
-                    "endLine": 3363,
+                    "startOffset": 172406,
+                    "endLine": 3320,
                     "endColumn": 12,
-                    "endOffset": 176508
+                    "endOffset": 173541
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -19834,12 +19781,12 @@
             },
             {
                 "to": {
-                    "startLine": 3364,
+                    "startLine": 3321,
                     "startColumn": 4,
-                    "startOffset": 176513,
-                    "endLine": 3367,
+                    "startOffset": 173546,
+                    "endLine": 3332,
                     "endColumn": 12,
-                    "endOffset": 176629
+                    "endOffset": 174492
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -19847,12 +19794,12 @@
             },
             {
                 "to": {
-                    "startLine": 3368,
+                    "startLine": 3333,
                     "startColumn": 4,
-                    "startOffset": 176634,
-                    "endLine": 3371,
+                    "startOffset": 174497,
+                    "endLine": 3344,
                     "endColumn": 12,
-                    "endOffset": 176752
+                    "endOffset": 175454
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
@@ -19860,37 +19807,110 @@
             },
             {
                 "to": {
-                    "startLine": 3372,
+                    "startLine": 3345,
                     "startColumn": 4,
-                    "startOffset": 176757,
-                    "endColumn": 33,
-                    "endOffset": 176786
+                    "startOffset": 175459,
+                    "endLine": 3356,
+                    "endColumn": 12,
+                    "endOffset": 176326
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3357,
+                    "startColumn": 4,
+                    "startOffset": 176331,
+                    "endLine": 3360,
+                    "endColumn": 12,
+                    "endOffset": 176438
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3361,
+                    "startColumn": 4,
+                    "startOffset": 176443,
+                    "endLine": 3364,
+                    "endColumn": 12,
+                    "endOffset": 176550
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3365,
+                    "startColumn": 4,
+                    "startOffset": 176555,
+                    "endLine": 3368,
+                    "endColumn": 12,
+                    "endOffset": 176671
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3369,
+                    "startColumn": 4,
+                    "startOffset": 176676,
+                    "endLine": 3372,
+                    "endColumn": 12,
+                    "endOffset": 176794
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3373,
                     "startColumn": 4,
-                    "startOffset": 176791,
-                    "endLine": 3397,
-                    "endColumn": 12,
-                    "endOffset": 178347
+                    "startOffset": 176799,
+                    "endColumn": 33,
+                    "endOffset": 176828
                 },
                 "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\keyboard-icons-holo.xml"
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 3398,
+                    "startLine": 3374,
                     "startColumn": 4,
-                    "startOffset": 178352,
-                    "endLine": 3428,
+                    "startOffset": 176833,
+                    "endLine": 3398,
                     "endColumn": 12,
-                    "endOffset": 180292
+                    "endOffset": 178431
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\keyboard-icons-holo.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 742,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 2340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3399,
+                    "startColumn": 4,
+                    "startOffset": 178436,
+                    "endLine": 3429,
+                    "endColumn": 12,
+                    "endOffset": 180376
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\keyboard-icons-lxx-dark.xml"
@@ -19898,33 +19918,25 @@
             },
             {
                 "to": {
-                    "startLine": 3429,
+                    "startLine": 3430,
                     "startColumn": 4,
-                    "startOffset": 180297,
-                    "endLine": 3462,
+                    "startOffset": 180381,
+                    "endLine": 3463,
                     "endColumn": 12,
-                    "endOffset": 182516
+                    "endOffset": 182360
                 },
                 "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\keyboard-icons-lxx-light.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 742,
-                        "endLine": 54,
-                        "endColumn": 12,
-                        "endOffset": 2961
-                    }
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\keyboard-icons-lxx-light.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 3463,
+                    "startLine": 3464,
                     "startColumn": 4,
-                    "startOffset": 182521,
-                    "endLine": 3474,
+                    "startOffset": 182365,
+                    "endLine": 3475,
                     "endColumn": 12,
-                    "endOffset": 183310
+                    "endOffset": 183154
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -19932,12 +19944,12 @@
             },
             {
                 "to": {
-                    "startLine": 3475,
+                    "startLine": 3476,
                     "startColumn": 4,
-                    "startOffset": 183315,
-                    "endLine": 3486,
+                    "startOffset": 183159,
+                    "endLine": 3487,
                     "endColumn": 12,
-                    "endOffset": 184104
+                    "endOffset": 183948
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -19945,12 +19957,12 @@
             },
             {
                 "to": {
-                    "startLine": 3487,
+                    "startLine": 3488,
                     "startColumn": 4,
-                    "startOffset": 184109,
-                    "endLine": 3497,
+                    "startOffset": 183953,
+                    "endLine": 3498,
                     "endColumn": 12,
-                    "endOffset": 184950
+                    "endOffset": 184794
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -19958,12 +19970,12 @@
             },
             {
                 "to": {
-                    "startLine": 3498,
+                    "startLine": 3499,
                     "startColumn": 4,
-                    "startOffset": 184955,
-                    "endLine": 3508,
+                    "startOffset": 184799,
+                    "endLine": 3509,
                     "endColumn": 12,
-                    "endOffset": 185807
+                    "endOffset": 185651
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
@@ -19971,12 +19983,12 @@
             },
             {
                 "to": {
-                    "startLine": 3509,
+                    "startLine": 3510,
                     "startColumn": 4,
-                    "startOffset": 185812,
-                    "endLine": 3573,
+                    "startOffset": 185656,
+                    "endLine": 3574,
                     "endColumn": 12,
-                    "endOffset": 191719
+                    "endOffset": 191563
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
@@ -19984,12 +19996,12 @@
             },
             {
                 "to": {
-                    "startLine": 3574,
+                    "startLine": 3575,
                     "startColumn": 4,
-                    "startOffset": 191724,
-                    "endLine": 3586,
+                    "startOffset": 191568,
+                    "endLine": 3587,
                     "endColumn": 12,
-                    "endOffset": 192550
+                    "endOffset": 192394
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-holo.xml"
@@ -19997,12 +20009,12 @@
             },
             {
                 "to": {
-                    "startLine": 3587,
+                    "startLine": 3588,
                     "startColumn": 4,
-                    "startOffset": 192555,
-                    "endLine": 3600,
+                    "startOffset": 192399,
+                    "endLine": 3601,
                     "endColumn": 12,
-                    "endOffset": 193647
+                    "endOffset": 193491
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -20010,12 +20022,12 @@
             },
             {
                 "to": {
-                    "startLine": 3601,
+                    "startLine": 3602,
                     "startColumn": 4,
-                    "startOffset": 193652,
-                    "endLine": 3614,
+                    "startOffset": 193496,
+                    "endLine": 3615,
                     "endColumn": 12,
-                    "endOffset": 194744
+                    "endOffset": 194588
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -20023,12 +20035,12 @@
             },
             {
                 "to": {
-                    "startLine": 3615,
+                    "startLine": 3616,
                     "startColumn": 4,
-                    "startOffset": 194749,
-                    "endLine": 3629,
+                    "startOffset": 194593,
+                    "endLine": 3630,
                     "endColumn": 12,
-                    "endOffset": 195682
+                    "endOffset": 195526
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx.xml"
@@ -20036,12 +20048,12 @@
             },
             {
                 "to": {
-                    "startLine": 3630,
+                    "startLine": 3631,
                     "startColumn": 4,
-                    "startOffset": 195687,
-                    "endLine": 3643,
+                    "startOffset": 195531,
+                    "endLine": 3644,
                     "endColumn": 12,
-                    "endOffset": 196807
+                    "endOffset": 196651
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -20049,37 +20061,37 @@
             },
             {
                 "to": {
-                    "startLine": 3644,
+                    "startLine": 3645,
                     "startColumn": 4,
-                    "startOffset": 196812,
-                    "endLine": 3657,
+                    "startOffset": 196656,
+                    "endLine": 3658,
                     "endColumn": 12,
-                    "endOffset": 197954
+                    "endOffset": 197798
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3658,
-                    "startColumn": 4,
-                    "startOffset": 197959,
-                    "endColumn": 58,
-                    "endOffset": 198013
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3659,
                     "startColumn": 4,
-                    "startOffset": 198018,
-                    "endLine": 3672,
+                    "startOffset": 197803,
+                    "endColumn": 58,
+                    "endOffset": 197857
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3660,
+                    "startColumn": 4,
+                    "startOffset": 197862,
+                    "endLine": 3673,
                     "endColumn": 12,
-                    "endOffset": 199122
+                    "endOffset": 198966
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -20087,12 +20099,12 @@
             },
             {
                 "to": {
-                    "startLine": 3673,
+                    "startLine": 3674,
                     "startColumn": 4,
-                    "startOffset": 199127,
-                    "endLine": 3686,
+                    "startOffset": 198971,
+                    "endLine": 3687,
                     "endColumn": 12,
-                    "endOffset": 200231
+                    "endOffset": 200075
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -20100,12 +20112,12 @@
             },
             {
                 "to": {
-                    "startLine": 3687,
+                    "startLine": 3688,
                     "startColumn": 4,
-                    "startOffset": 200236,
-                    "endLine": 3701,
+                    "startOffset": 200080,
+                    "endLine": 3702,
                     "endColumn": 12,
-                    "endOffset": 201400
+                    "endOffset": 201244
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -20113,37 +20125,37 @@
             },
             {
                 "to": {
-                    "startLine": 3702,
+                    "startLine": 3703,
                     "startColumn": 4,
-                    "startOffset": 201405,
-                    "endLine": 3716,
+                    "startOffset": 201249,
+                    "endLine": 3717,
                     "endColumn": 12,
-                    "endOffset": 202585
+                    "endOffset": 202429
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3717,
-                    "startColumn": 4,
-                    "startOffset": 202590,
-                    "endColumn": 36,
-                    "endOffset": 202622
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3718,
                     "startColumn": 4,
-                    "startOffset": 202627,
-                    "endLine": 3723,
+                    "startOffset": 202434,
+                    "endColumn": 36,
+                    "endOffset": 202466
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3719,
+                    "startColumn": 4,
+                    "startOffset": 202471,
+                    "endLine": 3724,
                     "endColumn": 12,
-                    "endOffset": 202910
+                    "endOffset": 202754
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -20151,12 +20163,12 @@
             },
             {
                 "to": {
-                    "startLine": 3724,
+                    "startLine": 3725,
                     "startColumn": 4,
-                    "startOffset": 202915,
-                    "endLine": 3729,
+                    "startOffset": 202759,
+                    "endLine": 3730,
                     "endColumn": 12,
-                    "endOffset": 203198
+                    "endOffset": 203042
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -20164,12 +20176,12 @@
             },
             {
                 "to": {
-                    "startLine": 3730,
+                    "startLine": 3731,
                     "startColumn": 4,
-                    "startOffset": 203203,
-                    "endLine": 3735,
+                    "startOffset": 203047,
+                    "endLine": 3736,
                     "endColumn": 12,
-                    "endOffset": 203496
+                    "endOffset": 203340
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -20177,37 +20189,37 @@
             },
             {
                 "to": {
-                    "startLine": 3736,
+                    "startLine": 3737,
                     "startColumn": 4,
-                    "startOffset": 203501,
-                    "endLine": 3741,
+                    "startOffset": 203345,
+                    "endLine": 3742,
                     "endColumn": 12,
-                    "endOffset": 203796
+                    "endOffset": 203640
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3742,
-                    "startColumn": 4,
-                    "startOffset": 203801,
-                    "endColumn": 40,
-                    "endOffset": 203837
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3743,
                     "startColumn": 4,
-                    "startOffset": 203842,
-                    "endLine": 3749,
+                    "startOffset": 203645,
+                    "endColumn": 40,
+                    "endOffset": 203681
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3744,
+                    "startColumn": 4,
+                    "startOffset": 203686,
+                    "endLine": 3750,
                     "endColumn": 12,
-                    "endOffset": 204308
+                    "endOffset": 204152
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -20215,12 +20227,12 @@
             },
             {
                 "to": {
-                    "startLine": 3750,
+                    "startLine": 3751,
                     "startColumn": 4,
-                    "startOffset": 204313,
-                    "endLine": 3756,
+                    "startOffset": 204157,
+                    "endLine": 3757,
                     "endColumn": 12,
-                    "endOffset": 204779
+                    "endOffset": 204623
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -20228,12 +20240,12 @@
             },
             {
                 "to": {
-                    "startLine": 3757,
+                    "startLine": 3758,
                     "startColumn": 4,
-                    "startOffset": 204784,
-                    "endLine": 3763,
+                    "startOffset": 204628,
+                    "endLine": 3764,
                     "endColumn": 12,
-                    "endOffset": 205270
+                    "endOffset": 205114
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -20241,12 +20253,12 @@
             },
             {
                 "to": {
-                    "startLine": 3764,
+                    "startLine": 3765,
                     "startColumn": 4,
-                    "startOffset": 205275,
-                    "endLine": 3769,
+                    "startOffset": 205119,
+                    "endLine": 3770,
                     "endColumn": 12,
-                    "endOffset": 205653
+                    "endOffset": 205497
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -20254,12 +20266,12 @@
             },
             {
                 "to": {
-                    "startLine": 3770,
+                    "startLine": 3771,
                     "startColumn": 4,
-                    "startOffset": 205658,
-                    "endLine": 3776,
+                    "startOffset": 205502,
+                    "endLine": 3777,
                     "endColumn": 12,
-                    "endOffset": 206148
+                    "endOffset": 205992
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
@@ -20267,89 +20279,24 @@
             },
             {
                 "to": {
-                    "startLine": 3777,
+                    "startLine": 3778,
                     "startColumn": 4,
-                    "startOffset": 206153,
-                    "endLine": 3782,
+                    "startOffset": 205997,
+                    "endLine": 3783,
                     "endColumn": 12,
-                    "endOffset": 206534
+                    "endOffset": 206378
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3783,
-                    "startColumn": 4,
-                    "startOffset": 206539,
-                    "endColumn": 39,
-                    "endOffset": 206574
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3784,
                     "startColumn": 4,
-                    "startOffset": 206579,
-                    "endLine": 3797,
-                    "endColumn": 12,
-                    "endOffset": 207632
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3798,
-                    "startColumn": 4,
-                    "startOffset": 207637,
-                    "endLine": 3811,
-                    "endColumn": 12,
-                    "endOffset": 208690
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3812,
-                    "startColumn": 4,
-                    "startOffset": 208695,
-                    "endLine": 3825,
-                    "endColumn": 12,
-                    "endOffset": 209789
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3826,
-                    "startColumn": 4,
-                    "startOffset": 209794,
-                    "endLine": 3839,
-                    "endColumn": 12,
-                    "endOffset": 210896
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3840,
-                    "startColumn": 4,
-                    "startOffset": 210901,
-                    "endLine": 3855,
-                    "endColumn": 12,
-                    "endOffset": 211796
+                    "startOffset": 206383,
+                    "endColumn": 39,
+                    "endOffset": 206418
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
@@ -20357,12 +20304,12 @@
             },
             {
                 "to": {
-                    "startLine": 3856,
+                    "startLine": 3785,
                     "startColumn": 4,
-                    "startOffset": 211801,
-                    "endLine": 3859,
+                    "startOffset": 206423,
+                    "endLine": 3798,
                     "endColumn": 12,
-                    "endOffset": 212020
+                    "endOffset": 207476
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
@@ -20370,12 +20317,12 @@
             },
             {
                 "to": {
-                    "startLine": 3860,
+                    "startLine": 3799,
                     "startColumn": 4,
-                    "startOffset": 212025,
-                    "endLine": 3863,
+                    "startOffset": 207481,
+                    "endLine": 3812,
                     "endColumn": 12,
-                    "endOffset": 212244
+                    "endOffset": 208534
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
@@ -20383,12 +20330,12 @@
             },
             {
                 "to": {
-                    "startLine": 3864,
+                    "startLine": 3813,
                     "startColumn": 4,
-                    "startOffset": 212249,
-                    "endLine": 3867,
+                    "startOffset": 208539,
+                    "endLine": 3826,
                     "endColumn": 12,
-                    "endOffset": 212483
+                    "endOffset": 209633
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
@@ -20396,12 +20343,12 @@
             },
             {
                 "to": {
-                    "startLine": 3868,
+                    "startLine": 3827,
                     "startColumn": 4,
-                    "startOffset": 212488,
-                    "endLine": 3871,
+                    "startOffset": 209638,
+                    "endLine": 3840,
                     "endColumn": 12,
-                    "endOffset": 212725
+                    "endOffset": 210740
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
@@ -20409,12 +20356,77 @@
             },
             {
                 "to": {
-                    "startLine": 3872,
+                    "startLine": 3841,
                     "startColumn": 4,
-                    "startOffset": 212730,
-                    "endLine": 3879,
+                    "startOffset": 210745,
+                    "endLine": 3856,
+                    "endColumn": 12,
+                    "endOffset": 211640
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3857,
+                    "startColumn": 4,
+                    "startOffset": 211645,
+                    "endLine": 3860,
+                    "endColumn": 12,
+                    "endOffset": 211864
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-ics.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3861,
+                    "startColumn": 4,
+                    "startOffset": 211869,
+                    "endLine": 3864,
+                    "endColumn": 12,
+                    "endOffset": 212088
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-klp.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3865,
+                    "startColumn": 4,
+                    "startOffset": 212093,
+                    "endLine": 3868,
+                    "endColumn": 12,
+                    "endOffset": 212327
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-dark.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3869,
+                    "startColumn": 4,
+                    "startOffset": 212332,
+                    "endLine": 3872,
+                    "endColumn": 12,
+                    "endOffset": 212569
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\themes-lxx-light.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3873,
+                    "startColumn": 4,
+                    "startOffset": 212574,
+                    "endLine": 3880,
                     "endColumn": 10,
-                    "endOffset": 213149
+                    "endOffset": 212993
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\9.4.0\\res\\values\\values.xml"
@@ -20422,23 +20434,11 @@
             },
             {
                 "to": {
-                    "startLine": 3880,
-                    "startColumn": 4,
-                    "startOffset": 213154,
-                    "endColumn": 85,
-                    "endOffset": 213235
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\platform-theme.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 3881,
                     "startColumn": 4,
-                    "startOffset": 213240,
-                    "endColumn": 90,
-                    "endOffset": 213326
+                    "startOffset": 212998,
+                    "endColumn": 85,
+                    "endOffset": 213079
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\platform-theme.xml"
@@ -20448,9 +20448,9 @@
                 "to": {
                     "startLine": 3882,
                     "startColumn": 4,
-                    "startOffset": 213331,
-                    "endColumn": 85,
-                    "endOffset": 213412
+                    "startOffset": 213084,
+                    "endColumn": 90,
+                    "endOffset": 213170
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\platform-theme.xml"
@@ -20460,125 +20460,21 @@
                 "to": {
                     "startLine": 3883,
                     "startColumn": 4,
-                    "startOffset": 213417,
-                    "endColumn": 86,
-                    "endOffset": 213499
+                    "startOffset": 213175,
+                    "endColumn": 85,
+                    "endOffset": 213256
                 },
                 "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles.xml"
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\platform-theme.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 3884,
                     "startColumn": 4,
-                    "startOffset": 213504,
-                    "endLine": 3894,
-                    "endColumn": 12,
-                    "endOffset": 214262
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3895,
-                    "startColumn": 4,
-                    "startOffset": 214267,
-                    "endLine": 3902,
-                    "endColumn": 12,
-                    "endOffset": 214754
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3903,
-                    "startColumn": 4,
-                    "startOffset": 214759,
-                    "endLine": 3913,
-                    "endColumn": 12,
-                    "endOffset": 215139
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3914,
-                    "startColumn": 4,
-                    "startOffset": 215144,
-                    "endLine": 3917,
-                    "endColumn": 12,
-                    "endOffset": 215351
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3918,
-                    "startColumn": 4,
-                    "startOffset": 215356,
-                    "endLine": 3920,
-                    "endColumn": 12,
-                    "endOffset": 215522
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3921,
-                    "startColumn": 4,
-                    "startOffset": 215527,
-                    "endLine": 3924,
-                    "endColumn": 12,
-                    "endOffset": 215803
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3925,
-                    "startColumn": 4,
-                    "startOffset": 215808,
-                    "endLine": 3929,
-                    "endColumn": 12,
-                    "endOffset": 216048
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3930,
-                    "startColumn": 4,
-                    "startOffset": 216053,
-                    "endLine": 3932,
-                    "endColumn": 12,
-                    "endOffset": 216207
-                },
-                "from": {
-                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3933,
-                    "startColumn": 4,
-                    "startOffset": 216212,
-                    "endColumn": 66,
-                    "endOffset": 216274
+                    "startOffset": 213261,
+                    "endColumn": 86,
+                    "endOffset": 213343
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles.xml"
@@ -20586,12 +20482,12 @@
             },
             {
                 "to": {
-                    "startLine": 3934,
+                    "startLine": 3885,
                     "startColumn": 4,
-                    "startOffset": 216279,
-                    "endLine": 3940,
+                    "startOffset": 213348,
+                    "endLine": 3895,
                     "endColumn": 12,
-                    "endOffset": 216610
+                    "endOffset": 214106
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
@@ -20599,12 +20495,128 @@
             },
             {
                 "to": {
-                    "startLine": 3941,
+                    "startLine": 3896,
                     "startColumn": 4,
-                    "startOffset": 216615,
-                    "endLine": 3943,
+                    "startOffset": 214111,
+                    "endLine": 3903,
                     "endColumn": 12,
-                    "endOffset": 216784
+                    "endOffset": 214598
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3904,
+                    "startColumn": 4,
+                    "startOffset": 214603,
+                    "endLine": 3914,
+                    "endColumn": 12,
+                    "endOffset": 214983
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3915,
+                    "startColumn": 4,
+                    "startOffset": 214988,
+                    "endLine": 3918,
+                    "endColumn": 12,
+                    "endOffset": 215195
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3919,
+                    "startColumn": 4,
+                    "startOffset": 215200,
+                    "endLine": 3921,
+                    "endColumn": 12,
+                    "endOffset": 215366
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3922,
+                    "startColumn": 4,
+                    "startOffset": 215371,
+                    "endLine": 3925,
+                    "endColumn": 12,
+                    "endOffset": 215647
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3926,
+                    "startColumn": 4,
+                    "startOffset": 215652,
+                    "endLine": 3930,
+                    "endColumn": 12,
+                    "endOffset": 215892
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3931,
+                    "startColumn": 4,
+                    "startOffset": 215897,
+                    "endLine": 3933,
+                    "endColumn": 12,
+                    "endOffset": 216051
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3934,
+                    "startColumn": 4,
+                    "startOffset": 216056,
+                    "endColumn": 66,
+                    "endOffset": 216118
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3935,
+                    "startColumn": 4,
+                    "startOffset": 216123,
+                    "endLine": 3941,
+                    "endColumn": 12,
+                    "endOffset": 216454
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3942,
+                    "startColumn": 4,
+                    "startOffset": 216459,
+                    "endLine": 3944,
+                    "endColumn": 12,
+                    "endOffset": 216628
                 },
                 "from": {
                     "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values\\setup-styles-common.xml"

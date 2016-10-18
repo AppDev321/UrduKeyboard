@@ -78,6 +78,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".setup.Test"
+            android:icon="@drawable/ic_launcher_keyboard"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
+        </activity>
+
         <activity
             android:name=".setup.AboutActivity"
             android:icon="@drawable/ic_launcher_keyboard"

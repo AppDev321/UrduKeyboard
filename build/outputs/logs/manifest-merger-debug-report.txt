@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:16:1-202:12
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:16:1-212:12
 	package
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:18:5-46
 		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
@@ -79,7 +79,7 @@ ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
 	android:name
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:35:22-77
 application
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:37:5-201:19
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:37:5-211:19
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.0.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
@@ -164,180 +164,192 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:78:17-77
 	android:name
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:78:27-74
-activity#com.mobiletin.inputmethod.indic.setup.AboutActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:81:9-88:20
+activity#com.mobiletin.inputmethod.indic.setup.Test
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:82:9-89:20
 	android:screenOrientation
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:85:13-49
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:86:13-49
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:84:13-53
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:85:13-53
 	android:icon
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:83:13-58
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:84:13-58
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:86:13-75
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:87:13-75
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:82:13-48
-activity#com.mobiletin.inputmethod.indic.setup.SetupWizardActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:89:9-98:20
-	android:clearTaskOnLaunch
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:92:13-45
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:83:13-39
+activity#com.mobiletin.inputmethod.indic.setup.AboutActivity
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:91:9-98:20
 	android:screenOrientation
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:90:13-49
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:95:13-49
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:93:13-53
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:94:13-53
+	android:icon
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:93:13-58
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:94:13-57
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:96:13-75
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:91:13-54
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:92:13-48
+activity#com.mobiletin.inputmethod.indic.setup.SetupWizardActivity
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:99:9-108:20
+	android:clearTaskOnLaunch
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:102:13-45
+	android:screenOrientation
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:100:13-49
+	android:label
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:103:13-53
+	android:theme
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:104:13-57
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:101:13-54
 intent-filter#android.intent.action.MAIN
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:95:13-97:29
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:105:13-107:29
 receiver#com.mobiletin.inputmethod.indic.SystemBroadcastReceiver
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:100:9-107:20
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:110:9-117:20
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:100:19-57
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:110:19-57
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.LOCALE_CHANGED+android.intent.action.MY_PACKAGE_REPLACED+android.intent.action.USER_INITIALIZE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:101:13-106:29
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:111:13-116:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:102:17-84
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:112:17-84
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:102:25-81
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:112:25-81
 action#android.intent.action.BOOT_COMPLETED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:103:17-79
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:113:17-79
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:103:25-76
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:113:25-76
 action#android.intent.action.USER_INITIALIZE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:104:17-80
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:114:17-80
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:104:25-77
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:114:25-77
 action#android.intent.action.LOCALE_CHANGED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:105:17-79
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:115:17-79
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:105:25-76
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:115:25-76
 activity#com.mobiletin.inputmethod.indic.settings.SettingsActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:109:9-117:20
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:119:9-127:20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:111:13-57
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:121:13-57
 	android:uiOptions
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:113:13-57
-	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:112:13-57
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:110:13-54
-activity#com.mobiletin.inputmethod.indic.spellcheck.SpellCheckerSettingsActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:119:9-126:20
-	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:121:13-67
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:123:13-57
 	android:theme
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:122:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:120:13-68
-receiver#com.mobiletin.inputmethod.indic.SuggestionSpanPickedNotificationReceiver
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:128:9-134:20
-	android:enabled
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:130:13-35
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:129:13-68
-intent-filter#android.text.style.SUGGESTION_PICKED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:131:13-133:29
-action#android.text.style.SUGGESTION_PICKED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:132:17-79
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:132:25-76
-receiver#com.mobiletin.inputmethod.indic.personalization.DictionaryDecayBroadcastReciever
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:136:9-142:20
-	android:exported
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:138:13-37
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:137:13-77
-intent-filter#com.mobiletin.inputmethod.indic.personalization.DICT_DECAY
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:139:13-141:29
-action#com.mobiletin.inputmethod.indic.personalization.DICT_DECAY
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:140:17-101
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:140:25-98
-receiver#com.mobiletin.inputmethod.indic.DictionaryPackInstallBroadcastReceiver
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:144:9-150:20
-	android:exported
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:146:13-37
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:145:13-67
-intent-filter#com.mobiletin.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:147:13-149:29
-action#com.mobiletin.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:148:17-103
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:148:25-100
-provider#com.mobiletin.inputmethod.dictionarypack.DictionaryProvider
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:152:9-158:53
-	android:authorities
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:154:13-52
-	android:grantUriPermissions
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:156:13-47
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:120:13-54
+activity#com.mobiletin.inputmethod.indic.spellcheck.SpellCheckerSettingsActivity
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:129:9-136:20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:157:13-61
-	android:multiprocess
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:158:13-41
-	android:exported
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:155:13-37
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:153:13-87
-service#com.mobiletin.inputmethod.dictionarypack.DictionaryService
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:160:9-162:71
-	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:162:13-60
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:161:13-86
-receiver#com.mobiletin.inputmethod.dictionarypack.EventHandler
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:164:9-170:20
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:164:19-87
-intent-filter#android.intent.action.DATE_CHANGED+android.intent.action.DOWNLOAD_COMPLETE+org.smc.inputmethod.dictionarypack.aosp.UPDATE_NOW
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:165:13-169:29
-action#android.intent.action.DOWNLOAD_COMPLETE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:166:17-82
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:166:25-79
-action#android.intent.action.DATE_CHANGED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:167:17-77
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:167:25-74
-action#org.smc.inputmethod.dictionarypack.aosp.UPDATE_NOW
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:168:17-93
-	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:168:25-90
-activity#com.mobiletin.inputmethod.dictionarypack.DictionarySettingsActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:172:9-180:20
-	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:174:13-62
-	android:uiOptions
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:176:13-57
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:131:13-67
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:175:13-57
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:132:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:173:13-95
-activity#com.mobiletin.inputmethod.dictionarypack.DownloadOverMeteredDialog
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:182:9-189:20
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:130:13-68
+receiver#com.mobiletin.inputmethod.indic.SuggestionSpanPickedNotificationReceiver
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:138:9-144:20
+	android:enabled
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:140:13-35
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:139:13-68
+intent-filter#android.text.style.SUGGESTION_PICKED
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:141:13-143:29
+action#android.text.style.SUGGESTION_PICKED
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:142:17-79
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:142:25-76
+receiver#com.mobiletin.inputmethod.indic.personalization.DictionaryDecayBroadcastReciever
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:146:9-152:20
+	android:exported
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:147:13-77
+intent-filter#com.mobiletin.inputmethod.indic.personalization.DICT_DECAY
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:149:13-151:29
+action#com.mobiletin.inputmethod.indic.personalization.DICT_DECAY
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:150:17-101
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:150:25-98
+receiver#com.mobiletin.inputmethod.indic.DictionaryPackInstallBroadcastReceiver
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:154:9-160:20
+	android:exported
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:156:13-37
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:155:13-67
+intent-filter#com.mobiletin.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:157:13-159:29
+action#com.mobiletin.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:158:17-103
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:158:25-100
+provider#com.mobiletin.inputmethod.dictionarypack.DictionaryProvider
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:162:9-168:53
+	android:authorities
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:164:13-52
+	android:grantUriPermissions
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:166:13-47
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:184:13-83
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:167:13-61
+	android:multiprocess
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:168:13-41
+	android:exported
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:165:13-37
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:163:13-87
+service#com.mobiletin.inputmethod.dictionarypack.DictionaryService
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:170:9-172:71
+	android:label
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:172:13-60
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:171:13-86
+receiver#com.mobiletin.inputmethod.dictionarypack.EventHandler
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:174:9-180:20
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:174:19-87
+intent-filter#android.intent.action.DATE_CHANGED+android.intent.action.DOWNLOAD_COMPLETE+org.smc.inputmethod.dictionarypack.aosp.UPDATE_NOW
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:175:13-179:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:176:17-82
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:176:25-79
+action#android.intent.action.DATE_CHANGED
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:177:17-77
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:177:25-74
+action#org.smc.inputmethod.dictionarypack.aosp.UPDATE_NOW
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:178:17-93
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:178:25-90
+activity#com.mobiletin.inputmethod.dictionarypack.DictionarySettingsActivity
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:182:9-190:20
+	android:label
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:184:13-62
+	android:uiOptions
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:186:13-57
 	android:theme
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:185:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:183:13-94
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:183:13-95
+activity#com.mobiletin.inputmethod.dictionarypack.DownloadOverMeteredDialog
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:192:9-199:20
+	android:label
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:194:13-83
+	android:theme
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:195:13-57
+	android:name
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:193:13-94
 meta-data#com.google.android.gms.version
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:194:9-196:69
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:204:9-206:69
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:196:13-66
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:206:13-66
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:195:13-58
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:205:13-58
 activity#com.google.android.gms.ads.AdActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:197:9-200:64
+ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:207:9-210:64
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:199:13-122
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:209:13-122
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:200:13-61
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:210:13-61
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:198:13-65
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:208:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:30:9-31:52
 	android:theme

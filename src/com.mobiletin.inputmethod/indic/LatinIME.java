@@ -164,12 +164,13 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
 
     // TODO: Move these {@link View}s to {@link KeyboardSwitcher}.
-    private View mInputView;
+    public View mInputView;
+    public MainKeyboardView mainKeyboardView;
     private SuggestionStripView mSuggestionStripView;
     private TextView mExtractEditText;
     private RichInputMethodManager mRichImm;
     @UsedForTesting
-    final KeyboardSwitcher mKeyboardSwitcher;
+    public final KeyboardSwitcher mKeyboardSwitcher;
     private final SubtypeSwitcher mSubtypeSwitcher;
     private final SubtypeState mSubtypeState = new SubtypeState();
 
@@ -903,7 +904,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     private void onStartInputViewInternal(final EditorInfo editorInfo, final boolean restarting) {
         super.onStartInputView(editorInfo, restarting);
 
-
         mRichImm.clearSubtypeCaches();
         final KeyboardSwitcher switcher = mKeyboardSwitcher;
         switcher.updateKeyboardTheme();
@@ -1212,6 +1212,8 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     @Override
     public void onComputeInsets(final InputMethodService.Insets outInsets) {
         super.onComputeInsets(outInsets);
+
+
         final SettingsValues settingsValues = mSettings.getCurrent();
         final View visibleKeyboardView = mKeyboardSwitcher.getVisibleKeyboardView();
         if (visibleKeyboardView == null || !hasSuggestionStripView()) {
@@ -1634,8 +1636,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         }
 
 
-
-
         if (SuggestedWords.EMPTY == suggestedWords) {
 
             setNeutralSuggestionStrip();
@@ -1693,6 +1693,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             // Reload keyboard because the current language has been changed.
             mKeyboardSwitcher.loadKeyboard(getCurrentInputEditorInfo(), mSettings.getCurrent(),
                     getCurrentAutoCapsState(), getCurrentRecapitalizeState());
+
         }
     }
 
@@ -1861,7 +1862,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         final CharSequence languageSelectionTitle = getString(R.string.language_selection_title);
         final CharSequence[] items = new CharSequence[]{
                 languageSelectionTitle,
-                getString(ApplicationUtils.getActivityTitleResId(this, SettingsActivity.class)), "Translation"
+                getString(ApplicationUtils.getActivityTitleResId(this, SettingsActivity.class))
         };
         final OnClickListener listener = new OnClickListener() {
             @Override
@@ -1880,34 +1881,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                     case 1:
                         launchSettings();
                         break;
-                    case 2:
 
-                        SharedPreferences prefs = getSharedPreferences("TranslationPref",MODE_PRIVATE);
-                        int idName = prefs.getInt("pos", 0); //0 is the default value.
-
-                        final CharSequence[] items = new CharSequence[]{
-                                "ON",
-                                "OFF"
-                        };
-                        AlertDialog.Builder builder = new AlertDialog.Builder(
-                                DialogUtils.getPlatformDialogThemeContext(getApplicationContext()));
-                        builder.setTitle("Translation");
-                        builder.setSingleChoiceItems(items, idName, null);
-                        builder.setPositiveButton("Save", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int whichButton) {
-                                dialog.dismiss();
-                                int selectedPosition = ((AlertDialog) dialog).getListView().getCheckedItemPosition();
-                                //Save Value in Pref
-                                SharedPreferences.Editor editor = getSharedPreferences("TranslationPref", MODE_PRIVATE).edit();
-                                editor.putInt("pos", selectedPosition);
-                                editor.commit();
-                            }
-                        });
-                        final AlertDialog dialog = builder.create();
-                        dialog.setCancelable(true /* cancelable */);
-                        dialog.setCanceledOnTouchOutside(true /* cancelable */);
-                        showOptionDialog(dialog);
-                        break;
                 }
             }
         };

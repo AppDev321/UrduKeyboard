@@ -57,6 +57,7 @@ public final class UncachedInputMethodManagerUtils {
      */
     public static boolean isThisImeCurrent(final Context context,
             final InputMethodManager imm) {
+
         final InputMethodInfo imi = getInputMethodInfoOf(context.getPackageName(), imm);
         final String currentImeId = Settings.Secure.getString(
                 context.getContentResolver(), Settings.Secure.DEFAULT_INPUT_METHOD);

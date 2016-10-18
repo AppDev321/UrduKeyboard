@@ -171,11 +171,5 @@
         latin:moreKeys="!text/morekeys_popular_domain" />
 
 
-<!--    &lt;!&ndash;
-    Changes here&ndash;&gt;
-    <key-style
-        latin:styleName="toggleKeyStyle"
-        latin:keySpec="!icon/urdu_btn|!code/key_toogle_switch"
-        latin:keyActionFlags="noKeyPreview"
-        latin:altCode="!code/key_toogle_switch" />-->
+
 </merge>

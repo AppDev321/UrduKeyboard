@@ -400,7 +400,10 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
         } else {
             mAccessibilityDelegate = null;
         }
+
+
     }
+
 
     /**
      * Enables or disables the key preview popup. This is a popup that shows a magnified
@@ -867,7 +870,10 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
         } else if (code == Constants.CODE_LANGUAGE_SWITCH) {
             drawKeyPopupHint(key, canvas, paint, params);
         }
+
+
     }
+
 
     private boolean fitsTextIntoWidth(final int width, final String text, final Paint paint) {
         final int maxTextWidth = width - mLanguageOnSpacebarHorizontalMargin * 2;
@@ -935,4 +941,7 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
         super.deallocateMemory();
         mDrawingPreviewPlacerView.deallocateMemory();
     }
+
+
+
 }

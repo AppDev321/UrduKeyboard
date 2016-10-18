@@ -17,6 +17,7 @@
 package com.android.inputmethod.keyboard;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -35,47 +36,15 @@ import android.view.View;
 
 import com.android.inputmethod.keyboard.internal.KeyDrawParams;
 import com.android.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.android.inputmethod.latin.utils.TypefaceUtils;
+import com.mobiletin.inputmethod.MySuperAppApplication;
+import com.mobiletin.inputmethod.indic.Constants;
+import com.mobiletin.inputmethod.indic.R;
 
 import java.util.HashSet;
 
-import com.mobiletin.inputmethod.indic.Constants;
-import com.mobiletin.inputmethod.indic.R;
-import com.android.inputmethod.latin.utils.TypefaceUtils;
+import static android.content.Context.MODE_PRIVATE;
 
-/**
- * A view that renders a virtual {@link Keyboard}.
- *
- * @attr ref R.styleable#KeyboardView_keyBackground
- * @attr ref R.styleable#KeyboardView_functionalKeyBackground
- * @attr ref R.styleable#KeyboardView_spacebarBackground
- * @attr ref R.styleable#KeyboardView_spacebarIconWidthRatio
- * @attr ref R.styleable#Keyboard_Key_keyLabelFlags
- * @attr ref R.styleable#KeyboardView_keyHintLetterPadding
- * @attr ref R.styleable#KeyboardView_keyPopupHintLetter
- * @attr ref R.styleable#KeyboardView_keyPopupHintLetterPadding
- * @attr ref R.styleable#KeyboardView_keyShiftedLetterHintPadding
- * @attr ref R.styleable#KeyboardView_keyTextShadowRadius
- * @attr ref R.styleable#KeyboardView_verticalCorrection
- * @attr ref R.styleable#Keyboard_Key_keyTypeface
- * @attr ref R.styleable#Keyboard_Key_keyLetterSize
- * @attr ref R.styleable#Keyboard_Key_keyLabelSize
- * @attr ref R.styleable#Keyboard_Key_keyLargeLetterRatio
- * @attr ref R.styleable#Keyboard_Key_keyLargeLabelRatio
- * @attr ref R.styleable#Keyboard_Key_keyHintLetterRatio
- * @attr ref R.styleable#Keyboard_Key_keyShiftedLetterHintRatio
- * @attr ref R.styleable#Keyboard_Key_keyHintLabelRatio
- * @attr ref R.styleable#Keyboard_Key_keyLabelOffCenterRatio
- * @attr ref R.styleable#Keyboard_Key_keyHintLabelOffCenterRatio
- * @attr ref R.styleable#Keyboard_Key_keyPreviewTextRatio
- * @attr ref R.styleable#Keyboard_Key_keyTextColor
- * @attr ref R.styleable#Keyboard_Key_keyTextColorDisabled
- * @attr ref R.styleable#Keyboard_Key_keyTextShadowColor
- * @attr ref R.styleable#Keyboard_Key_keyHintLetterColor
- * @attr ref R.styleable#Keyboard_Key_keyHintLabelColor
- * @attr ref R.styleable#Keyboard_Key_keyShiftedLetterHintInactivatedColor
- * @attr ref R.styleable#Keyboard_Key_keyShiftedLetterHintActivatedColor
- * @attr ref R.styleable#Keyboard_Key_keyPreviewTextColor
- */
 public class KeyboardView extends View {
     // XML attributes
     private final KeyVisualAttributes mKeyVisualAttributes;
@@ -103,27 +72,40 @@ public class KeyboardView extends View {
     protected final KeyDrawParams mKeyDrawParams = new KeyDrawParams();
 
     // Drawing
-    /** True if all keys should be drawn */
+    /**
+     * True if all keys should be drawn
+     */
     private boolean mInvalidateAllKeys;
-    /** The keys that should be drawn */
+    /**
+     * The keys that should be drawn
+     */
     private final HashSet<Key> mInvalidatedKeys = new HashSet<>();
-    /** The working rectangle variable */
+    /**
+     * The working rectangle variable
+     */
     private final Rect mWorkingRect = new Rect();
     /** The keyboard bitmap buffer for faster updates */
-    /** The clip region to draw keys */
+    /**
+     * The clip region to draw keys
+     */
     private final Region mClipRegion = new Region();
     private Bitmap mOffscreenBuffer;
-    /** The canvas for the above mutable keyboard bitmap */
+    /**
+     * The canvas for the above mutable keyboard bitmap
+     */
     private final Canvas mOffscreenCanvas = new Canvas();
     private final Paint mPaint = new Paint();
     private final Paint.FontMetrics mFontMetrics = new Paint.FontMetrics();
+    private Context context;
+
     public KeyboardView(final Context context, final AttributeSet attrs) {
+
         this(context, attrs, R.attr.keyboardViewStyle);
     }
 
     public KeyboardView(final Context context, final AttributeSet attrs, final int defStyle) {
         super(context, attrs, defStyle);
-
+        this.context = context;
         final TypedArray keyboardViewAttr = context.obtainStyledAttributes(attrs,
                 R.styleable.KeyboardView, defStyle, R.style.KeyboardView);
         mKeyBackground = keyboardViewAttr.getDrawable(R.styleable.KeyboardView_keyBackground);
@@ -179,9 +161,10 @@ public class KeyboardView extends View {
     /**
      * Attaches a keyboard to this view. The keyboard can be switched at any time and the
      * view will re-layout itself to accommodate the keyboard.
+     *
+     * @param keyboard the keyboard to display in this view
      * @see Keyboard
      * @see #getKeyboard()
-     * @param keyboard the keyboard to display in this view
      */
     public void setKeyboard(final Keyboard keyboard) {
         mKeyboard = keyboard;
@@ -194,6 +177,7 @@ public class KeyboardView extends View {
 
     /**
      * Returns the current keyboard being displayed by this view.
+     *
      * @return the currently attached keyboard
      * @see #setKeyboard(Keyboard)
      */
@@ -340,7 +324,7 @@ public class KeyboardView extends View {
 
     // Draw key background.
     protected void onDrawKeyBackground(final Key key, final Canvas canvas,
-            final Drawable background) {
+                                       final Drawable background) {
         final int keyWidth = key.getDrawWidth();
         final int keyHeight = key.getHeight();
         final int bgWidth, bgHeight, bgX, bgY;
@@ -350,9 +334,9 @@ public class KeyboardView extends View {
             final int intrinsicWidth = background.getIntrinsicWidth();
             final int intrinsicHeight = background.getIntrinsicHeight();
             final float minScale = Math.min(
-                    keyWidth / (float)intrinsicWidth, keyHeight / (float)intrinsicHeight);
-            bgWidth = (int)(intrinsicWidth * minScale);
-            bgHeight = (int)(intrinsicHeight * minScale);
+                    keyWidth / (float) intrinsicWidth, keyHeight / (float) intrinsicHeight);
+            bgWidth = (int) (intrinsicWidth * minScale);
+            bgHeight = (int) (intrinsicHeight * minScale);
             bgX = (keyWidth - bgWidth) / 2;
             bgY = (keyHeight - bgHeight) / 2;
         } else {
@@ -373,14 +357,14 @@ public class KeyboardView extends View {
 
     // Draw key top visuals.
     protected void onDrawKeyTopVisuals(final Key key, final Canvas canvas, final Paint paint,
-            final KeyDrawParams params) {
+                                       final KeyDrawParams params) {
         final int keyWidth = key.getDrawWidth();
         final int keyHeight = key.getHeight();
         final float centerX = keyWidth * 0.5f;
         final float centerY = keyHeight * 0.5f;
 
         // Draw key label.
-        final Drawable icon = key.getIcon(mKeyboard.mIconsSet, params.mAnimAlpha);
+        Drawable icon = key.getIcon(mKeyboard.mIconsSet, params.mAnimAlpha);
         float labelX = centerX;
         float labelBaseline = centerY;
         final String label = key.getLabel();
@@ -478,7 +462,7 @@ public class KeyboardView extends View {
         if (label == null && icon != null) {
             final int iconWidth;
             if (key.getCode() == Constants.CODE_SPACE && icon instanceof NinePatchDrawable) {
-                iconWidth = (int)(keyWidth * mSpacebarIconWidthRatio);
+                iconWidth = (int) (keyWidth * mSpacebarIconWidthRatio);
             } else {
                 iconWidth = Math.min(icon.getIntrinsicWidth(), keyWidth);
             }
@@ -490,17 +474,33 @@ public class KeyboardView extends View {
                 iconY = (keyHeight - iconHeight) / 2; // Align vertically center.
             }
             final int iconX = (keyWidth - iconWidth) / 2; // Align horizontally center.
+
+            SharedPreferences prefs = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE);
+            int idName = prefs.getInt("pos", 0); //0 is the default value.
+            if(idName==0) {
+                if (key.getCode() == Constants.CODE_TOOGLE_SWITCH) {
+                    Drawable icon2 = key.getIcon(mKeyboard.mIconsSet, params.mAnimAlpha);
+                    icon2 = getResources().getDrawable(R.drawable.on_roman);
+                    icon = icon2;
+                }
+            }
+
+
             drawIcon(canvas, icon, iconX, iconY, iconWidth, iconHeight);
+
+
         }
 
         if (key.hasPopupHint() && key.getMoreKeys() != null) {
             drawKeyPopupHint(key, canvas, paint, params);
         }
+
+
     }
 
     // Draw popup hint "..." at the bottom right corner of the key.
     protected void drawKeyPopupHint(final Key key, final Canvas canvas, final Paint paint,
-            final KeyDrawParams params) {
+                                    final KeyDrawParams params) {
         if (TextUtils.isEmpty(mKeyPopupHintLetter)) {
             return;
         }
@@ -518,7 +518,7 @@ public class KeyboardView extends View {
     }
 
     protected static void drawIcon(final Canvas canvas, final Drawable icon, final int x,
-            final int y, final int width, final int height) {
+                                   final int y, final int width, final int height) {
         canvas.translate(x, y);
         icon.setBounds(0, 0, width, height);
         icon.draw(canvas);
@@ -543,6 +543,7 @@ public class KeyboardView extends View {
      * Requests a redraw of the entire keyboard. Calling {@link #invalidate} is not sufficient
      * because the keyboard renders the keys to an off-screen buffer and an invalidate() only
      * draws the cached buffer.
+     *
      * @see #invalidateKey(Key)
      */
     public void invalidateAllKeys() {
@@ -555,6 +556,7 @@ public class KeyboardView extends View {
      * Invalidates a key so that it will be redrawn on the next repaint. Use this method if only
      * one key is changing it's content. Any changes that affect the position or size of the key
      * may not be honored.
+     *
      * @param key key in the attached {@link Keyboard}.
      * @see #invalidateAllKeys
      */

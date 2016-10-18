@@ -263,8 +263,7 @@
         <attr name="iconEmojiActionKey" format="reference" />
         <attr name="iconEmojiNormalKey" format="reference" />
 
-        <!--
-        Changes here-->
+        <!--Changes here-->
         <attr name="urduKeyoff" format="reference" />
         <attr name="urduKeyon" format="reference" />
         <attr name="urdubtn" format="reference" />

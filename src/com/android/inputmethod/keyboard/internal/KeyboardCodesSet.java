@@ -53,7 +53,7 @@ public final class KeyboardCodesSet {
         "key_emoji",
         "key_alpha_from_emoji",
         "key_unspecified",
-            "key_toogle_switch"
+        "key_toogle_switch"
     };
 
     private static final int[] DEFAULT = {
@@ -74,6 +74,7 @@ public final class KeyboardCodesSet {
         Constants.CODE_EMOJI,
         Constants.CODE_ALPHA_FROM_EMOJI,
         Constants.CODE_UNSPECIFIED,
+            Constants.CODE_TOOGLE_SWITCH,
     };
 
     static {

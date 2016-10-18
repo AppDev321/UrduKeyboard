@@ -74,6 +74,8 @@ import java.util.ArrayList;
 import java.util.TreeSet;
 import java.util.concurrent.TimeUnit;
 
+import static android.content.Context.MODE_PRIVATE;
+
 /**
  * This class manages the input logic.
  */
@@ -734,6 +736,14 @@ public final class InputLogic {
             case Constants.CODE_LANGUAGE_SWITCH:
                 handleLanguageSwitchKey();
                 break;
+            case Constants.CODE_TOOGLE_SWITCH:
+                Log.e("InputLogic", "Urdu-Transiliatior");
+
+                handleTranslaiton();
+
+                break;
+
+
             case Constants.CODE_EMOJI:
                 // Note: Switching emoji keyboard is being handled in
                 // {@link KeyboardState#onCodeInput(int,int)}.
@@ -755,6 +765,24 @@ public final class InputLogic {
                 throw new RuntimeException("Unknown key code : " + event.mKeyCode);
         }
     }
+
+    private void handleTranslaiton() {
+     //   mLatinIME.mainKeyboardView.getKeyboardView().setKeyboard(mLatinIME.mainKeyboardView.getKeyboard());
+        SharedPreferences prefs = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE);
+        int idName = prefs.getInt("pos", 0); //0 is the default value.
+        SharedPreferences.Editor editor = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE).edit();
+
+        if(idName == 0) {
+            editor.putInt("pos", 1);
+            editor.commit();
+        }
+        else
+        {
+            editor.putInt("pos", 0);
+            editor.commit();
+        }
+    }
+
 
     /**
      * Handle an event that is not a functional event.
@@ -2003,10 +2031,9 @@ public final class InputLogic {
                     mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
                 }
 
-                    saveTypedWord = "";
+                saveTypedWord = "";
 
-            }
-                else {
+            } else {
                 saveTypedWord += StringUtils.newSingleCodePointString(codePoint);
                 mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
             }
