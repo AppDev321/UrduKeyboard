@@ -36,9 +36,10 @@
             android:id="@+id/setup_step2"
             layout="@layout/setup_step" />
 
-        <include
+        <!--<include
             android:id="@+id/setup_step3"
-            layout="@layout/setup_step" />
+            layout="@layout/setup_step"
+            />-->
 
         <include
             android:id="@+id/setup_step4"
@@ -65,7 +66,7 @@
             android:id="@+id/setup_finish_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="If you want to disable Asan Urdu Typing\nSwitch Input Method"
+            android:text="If you want to disable Asan Urdu Typing Switch Input Method"
             android:textColor="@color/menu_bg"
             android:textSize="@dimen/_16sdp" />
 
@@ -104,11 +105,11 @@
             android:text="@string/setup_step2_bullet"
             android:textColor="@color/menu_bg" />
 
-        <TextView
+        <!--<TextView
             android:id="@+id/setup_step3_bullet"
             style="@style/setupStepBulletStyle"
             android:text="@string/setup_step3_bullet"
-            android:textColor="@color/menu_bg" />
+            android:textColor="@color/menu_bg" />-->
 
         <TextView
             android:id="@+id/setup_step4_bullet"

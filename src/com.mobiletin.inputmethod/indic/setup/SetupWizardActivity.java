@@ -69,11 +69,11 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
     private static final int STEP_WELCOME = 0;
     private static final int STEP_1 = 1;
     private static final int STEP_2 = 2;
-    private static final int STEP_3 = 3;
+    private static final int STEP_3 = 4;//changes here
     private static final int STEP_4 = 4;
     private static final int STEP_LAUNCHING_IME_SETTINGS = 5;
     private static final int STEP_BACK_FROM_IME_SETTINGS = 6;
-
+    LinearLayout continerFinish;
     private SettingsPoolingHandler mHandler;
 
     private static final class SettingsPoolingHandler
@@ -144,9 +144,6 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             mStepNumber = savedInstanceState.getInt(STATE_STEP);
         }
 
-
-
-
         final String applicationName = getResources().getString(getApplicationInfo().labelRes);
         mWelcomeScreen = findViewById(R.id.setup_welcome_screen);
         final TextView welcomeTitle = (TextView) findViewById(R.id.setup_welcome_title);
@@ -195,19 +192,22 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             }
         });
         mSetupStepGroup.addStep(step2);
+/*
 
         final SetupStep step3 = new SetupStep(STEP_3, applicationName,
                 (TextView) findViewById(R.id.setup_step3_bullet), findViewById(R.id.setup_step3),
                 R.string.setup_step3_title, R.string.setup_step3_instruction,
-                0 /* finishedInstruction */, R.drawable.ic_setup_step3,
+                0 , R.drawable.ic_setup_step3,
                 R.string.setup_step3_action);
         step3.setAction(new Runnable() {
             @Override
             public void run() {
                 invokeSubtypeEnablerOfThisIme();
+
             }
         });
         mSetupStepGroup.addStep(step3);
+*/
 
         final SetupStep step4 = new SetupStep(STEP_4, applicationName,
                 (TextView) findViewById(R.id.setup_step4_bullet), findViewById(R.id.setup_step4),
@@ -256,7 +256,6 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
         final int currentStep = determineSetupStepNumber();
         final int nextStep;
-
 
 
         if (v == mActionStart) {
@@ -378,7 +377,9 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         if (finishState) {
             return STEP_4;
         }
+
         return STEP_3;
+        // return STEP_4;
     }
 
     @Override
@@ -411,6 +412,8 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
     @Override
     protected void onResume() {
         super.onResume();
+
+
         if (mStepNumber == STEP_LAUNCHING_IME_SETTINGS) {
             // Prevent white screen flashing while launching settings activity.
             mSetupWizard.setVisibility(View.INVISIBLE);
@@ -419,7 +422,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             return;
         }
         if (mStepNumber == STEP_BACK_FROM_IME_SETTINGS) {
-            finish();
+            //finish();
             return;
         }
         updateSetupStepView();
@@ -455,6 +458,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             mNeedsToAdjustStepNumberToSystemState = false;
             mStepNumber = determineSetupStepNumber();
             updateSetupStepView();
+
         }
     }
 
@@ -467,15 +471,21 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             return;
         }
         final boolean isStepActionAlreadyDone = mStepNumber < determineSetupStepNumber();
-        mSetupStepGroup.enableStep(mStepNumber, isStepActionAlreadyDone);
+       // mSetupStepGroup.enableStep(mStepNumber, isStepActionAlreadyDone);
+
+
+        mSetupStepGroup.enableStep(determineSetupStepNumber(), isStepActionAlreadyDone);
         mActionNext.setVisibility(isStepActionAlreadyDone ? View.VISIBLE : View.GONE);
         //mActionFinish.setVisibility((mStepNumber == STEP_4) ? View.VISIBLE : View.GONE);
 
-        if(mStepNumber==STEP_4)
-        {
-                showFinishedView();
 
+        continerFinish = (LinearLayout) findViewById(R.id.containerFinish);
+        continerFinish.setVisibility(View.GONE);
+        if (determineSetupStepNumber() == STEP_4 || determineSetupStepNumber() == 3) {
+            continerFinish.setVisibility(View.VISIBLE);
+            showFinishedView();
         }
+
     }
 
     static final class SetupStep implements View.OnClickListener {
@@ -533,6 +543,9 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
         @Override
         public void onClick(final View v) {
+
+
+
             if (v == mActionLabel && mAction != null) {
                 mAction.run();
                 return;
@@ -652,23 +665,37 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
     }
 
     public void showFinishedView() {
-        LinearLayout continerFinish = (LinearLayout) findViewById(R.id.containerFinish);
-        continerFinish.setVisibility(View.VISIBLE);
+
         ToggleButton btnInputMethod = (ToggleButton) findViewById(R.id.toggle);
+
+        if (UncachedInputMethodManagerUtils.isThisImeCurrent(this, mImm)) {
+            btnInputMethod.setChecked(true);
+        } else {
+            btnInputMethod.setChecked(false);
+        }
+        btnInputMethod.setOnCheckedChangeListener(null);
         btnInputMethod.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                mRevealView.setVisibility(View.GONE);
+                hidden = true;
+
                 if (b) {
 
 
-                } else
-                {
-
+                } else {
+                    invokeInputMethodPicker();
                 }
 
             }
         });
+
+
+
+
     }
+
+
 
 
 }

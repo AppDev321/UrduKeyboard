@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.android.inputmethod.latin.utils.UncachedInputMethodManagerUtils;
 import com.mobiletin.inputmethod.indic.R;
@@ -66,28 +65,27 @@ public class Test extends Activity {
     public void enableKeyBoard() {
         startActivityForResult(new Intent("android.settings.INPUT_METHOD_SETTINGS"), 0);
 
-        Toast.makeText(this, "Please enable " + getResources().getString(R.string.english_ime_name) + " and press back", Toast.LENGTH_LONG).show();
     }
 
     private void checkKeybordExit() {
 
         if (UncachedInputMethodManagerUtils.isThisImeEnabled(this, mImm)) {
-            b1.setText("Enabled");
+            b1.setBackground(getResources().getDrawable(R.drawable.enable_activated));
+            b1.setEnabled(false);
         } else {
-            b1.setText("Select");
+            b1.setBackground(getResources().getDrawable(R.drawable.enable));
+            b1.setEnabled(true);
         }
         checkCurrentIme();
     }
 
     private void checkCurrentIme() {
-
         if (UncachedInputMethodManagerUtils.isThisImeCurrent(this, mImm)) {
-            b2.setText("Enabled-Keyva");
+            b2.setBackground(getResources().getDrawable(R.drawable.select));
         } else {
-            b2.setText("Diable");
+            b2.setBackground(getResources().getDrawable(R.drawable.select));
         }
     }
-
     @Override
     protected void onResume() {
         super.onResume();

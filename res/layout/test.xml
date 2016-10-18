@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center">
 
     <Button
-
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:background="@drawable/enable"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_70sdp"
         android:id="@+id/button2" />
 
     <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/select"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_70sdp"
         android:id="@+id/button3" />
 </LinearLayout>
