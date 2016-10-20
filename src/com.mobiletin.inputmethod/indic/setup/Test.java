@@ -29,6 +29,7 @@ public class Test extends Activity {
         super.onCreate(savedInstanceState);
         this.packageInstalledKeyboard = new ArrayList();
 
+
         mImm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
         setContentView(R.layout.test);
         b1 = (Button) findViewById(R.id.button2);
@@ -86,9 +87,12 @@ public class Test extends Activity {
             b2.setBackground(getResources().getDrawable(R.drawable.select));
         }
     }
+
     @Override
     protected void onResume() {
         super.onResume();
         checkKeybordExit();
     }
+
+
 }

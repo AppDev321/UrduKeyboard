@@ -3,6 +3,7 @@ package com.mobiletin.inputmethod.sqlite;/*
 */
 
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -27,11 +28,11 @@ public class DBDictionary {
         String sqlStatement=null;
 
         if(!MySuperAppApplication.isProbablyArabic(word)) {
-      sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "%' limit " + limit;
+            sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "' limit " + limit;
         }
         else
         {
-            sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE TARGETWORD LIKE '" + word + "%' limit " + limit;
+            sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "%' limit " + limit;
         }
         SQLiteDatabase db = this.databaseHelper.getReadableDatabase();
         if (db == null)
@@ -82,6 +83,46 @@ public class DBDictionary {
         }
         db.close();
         return dictionaryModelModel;
+    }
+
+
+    public boolean insertSuggestion(DictionaryModel dictionaryModel) {
+        if (this.databaseHelper == null)
+            return false;
+        SQLiteDatabase db = this.databaseHelper.getWritableDatabase();
+        if (db == null)
+            return false;
+
+        ContentValues contentValues = new ContentValues();
+
+        //inset max number
+        Cursor cursor = db.query("ZTRANSLITERATEDDATA", new String[]{"MAX(Z_PK) AS MAX"}, null, null, null, null, null);
+        cursor.moveToFirst(); // to move the cursor to first record
+        int index = cursor.getColumnIndex("MAX");
+        int data = cursor.getInt(index);
+        //////
+
+
+        contentValues.put("Z_PK", (data+1));
+        contentValues.put("ZWORD", dictionaryModel.getZWORD());
+        contentValues.put("TARGETWORD", dictionaryModel.getTARGETWORD());
+        contentValues.put("SUGGESTIONS", dictionaryModel.getSUGGESTIONS());
+        contentValues.put("INDEXING", dictionaryModel.getINDEXING());
+
+
+        String query = "SELECT * FROM ZTRANSLITERATEDDATA WHERE ZWORD = ?";
+
+        Cursor c =db.rawQuery(query, new String[] { dictionaryModel.getZWORD() });
+        if (c.moveToFirst()) {
+            return false;
+        } else {
+            long id = db.insert("ZTRANSLITERATEDDATA", null, contentValues);
+            if (id == -1)
+                return false;
+        }
+
+        db.close();
+        return true;
     }
 
 

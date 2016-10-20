@@ -21,25 +21,25 @@ import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
 import android.provider.Settings;
+import android.view.Gravity;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.CompoundButton;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.ToggleButton;
 
 import com.android.inputmethod.latin.utils.LeakGuardHandlerWrapper;
 import com.android.inputmethod.latin.utils.UncachedInputMethodManagerUtils;
-import com.mobiletin.inputmethod.compat.TextViewCompatUtils;
-import com.mobiletin.inputmethod.compat.ViewCompatUtils;
+import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.indic.R;
 import com.mobiletin.inputmethod.indic.settings.SettingsActivity;
 
@@ -511,6 +511,8 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
             final TextView titleView = (TextView) mStepView.findViewById(R.id.setup_step_title);
             titleView.setText(res.getString(title, applicationName));
+            titleView.setVisibility(View.GONE);
+
             mInstruction = (instruction == 0) ? null
                     : res.getString(instruction, applicationName);
             mFinishedInstruction = (finishedInstruction == 0) ? null
@@ -518,13 +520,22 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
             mActionLabel = (TextView) mStepView.findViewById(R.id.setup_step_action_label);
             mActionLabel.setText(res.getString(actionLabel));
-            if (actionIcon == 0) {
+            mActionLabel.setBackground(MySuperAppApplication.getContext().getResources().getDrawable(R.drawable.btn_selector_setup));
+            mActionLabel.setTextColor(Color.WHITE);
+            mActionLabel.setGravity(Gravity.CENTER);
+            LinearLayout.LayoutParams params = (LinearLayout.LayoutParams)mActionLabel.getLayoutParams();
+
+            int marging=(int)MySuperAppApplication.getContext().getResources().getDimension(R.dimen._15sdp);
+            params.setMargins(marging, 0,marging, 0); //substitute parameters for left, top, right, bottom
+            mActionLabel.setLayoutParams(params);
+           /* if (actionIcon == 0) {
                 final int paddingEnd = ViewCompatUtils.getPaddingEnd(mActionLabel);
                 ViewCompatUtils.setPaddingRelative(mActionLabel, paddingEnd, 0, paddingEnd, 0);
             } else {
                 TextViewCompatUtils.setCompoundDrawablesRelativeWithIntrinsicBounds(
                         mActionLabel, res.getDrawable(actionIcon), null, null, null);
-            }
+            }*/
+
         }
 
         public void setEnabled(final boolean enabled, final boolean isStepActionAlreadyDone) {
@@ -543,8 +554,6 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
         @Override
         public void onClick(final View v) {
-
-
 
             if (v == mActionLabel && mAction != null) {
                 mAction.run();
@@ -614,30 +623,32 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
                 animator.start();
                 hidden = false;
             } else {
-                animator_reverse.addListener(new SupportAnimator.AnimatorListener() {
-                    @Override
-                    public void onAnimationStart() {
+                if (animator_reverse != null) {
+                    animator_reverse.addListener(new SupportAnimator.AnimatorListener() {
+                        @Override
+                        public void onAnimationStart() {
 
-                    }
+                        }
 
-                    @Override
-                    public void onAnimationEnd() {
-                        mRevealView.setVisibility(View.GONE);
-                        hidden = true;
+                        @Override
+                        public void onAnimationEnd() {
+                            mRevealView.setVisibility(View.GONE);
+                            hidden = true;
 
-                    }
+                        }
 
-                    @Override
-                    public void onAnimationCancel() {
+                        @Override
+                        public void onAnimationCancel() {
 
-                    }
+                        }
 
-                    @Override
-                    public void onAnimationRepeat() {
+                        @Override
+                        public void onAnimationRepeat() {
 
-                    }
-                });
-                animator_reverse.start();
+                        }
+                    });
+                    animator_reverse.start();
+                }
             }
         }
         // Android LOLIPOP And ABOVE Version
@@ -666,32 +677,23 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
     public void showFinishedView() {
 
-        ToggleButton btnInputMethod = (ToggleButton) findViewById(R.id.toggle);
+       Button btnInputMethod = (Button) findViewById(R.id.toggle);
+        btnInputMethod.setGravity(Gravity.CENTER);
 
-        if (UncachedInputMethodManagerUtils.isThisImeCurrent(this, mImm)) {
+
+      /*  if (UncachedInputMethodManagerUtils.isThisImeCurrent(this, mImm)) {
             btnInputMethod.setChecked(true);
         } else {
             btnInputMethod.setChecked(false);
-        }
-        btnInputMethod.setOnCheckedChangeListener(null);
-        btnInputMethod.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        }*/
+        btnInputMethod.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            public void onClick(View view) {
                 mRevealView.setVisibility(View.GONE);
                 hidden = true;
-
-                if (b) {
-
-
-                } else {
-                    invokeInputMethodPicker();
-                }
-
+                invokeInputMethodPicker();
             }
         });
-
-
-
 
     }
 

@@ -28,10 +28,12 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.inputmethodservice.InputMethodService;
 import android.media.AudioManager;
+import android.net.ConnectivityManager;
 import android.os.Build;
 import android.os.Debug;
 import android.os.IBinder;
 import android.os.Message;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.support.v4.view.ViewCompat;
 import android.text.InputType;
@@ -103,8 +105,21 @@ import com.mobiletin.inputmethod.indic.suggestions.SuggestionStripViewAccessor;
 import com.mobiletin.inputmethod.sqlite.DBDictionary;
 import com.mobiletin.inputmethod.sqlite.DictionaryModel;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileDescriptor;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.PrintWriter;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -1620,16 +1635,37 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             DBDictionary dbManager = new DBDictionary(this);
             List<DictionaryModel> dictionaryModelList = new ArrayList<>();
             if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
-                dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 13);
+                dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
             }
+            if(dictionaryModelList.size() == 0)
+            {
+                if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+                    String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + sourceSuggestedWords.mTypedWord + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
+               if(isInternetOn())
+               {
+                   goForOnlineSuggetions(url);
+                   if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+                       dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
+                   }
+               }
+                }
+            }
+
             final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
 
             for (int i = 0; i < dictionaryModelList.size(); i++) {
-                suggestionsList.add(new SuggestedWordInfo(dictionaryModelList.get(i).getTARGETWORD(), SuggestedWordInfo.MAX_SCORE,
-                        SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
-                        SuggestedWordInfo.NOT_AN_INDEX,
-                        SuggestedWordInfo.NOT_A_CONFIDENCE
-                ));
+
+                //Spliting String form comma
+                String str = dictionaryModelList.get(i).getSUGGESTIONS();
+                Log.e("Suggest",""+str);
+                String[] animalsArray = str.trim().split(",");
+                for(String name : animalsArray){
+                    suggestionsList.add(new SuggestedWordInfo(name, SuggestedWordInfo.MAX_SCORE,
+                            SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                            SuggestedWordInfo.NOT_AN_INDEX,
+                            SuggestedWordInfo.NOT_A_CONFIDENCE
+                    ));
+                }
             }
 
             suggestedWords = new SuggestedWords(suggestionsList, suggestionsList, false, false, false, SuggestedWords.INPUT_STYLE_NONE, SuggestedWords.NOT_A_SEQUENCE_NUMBER);
@@ -2002,4 +2038,149 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         }
         return mRichImm.shouldOfferSwitchingToNextInputMethod(token, fallbackValue);
     }
+
+    public void goForOnlineSuggetions(String url) {
+        //Parse Method of Online Suggestion
+
+        String zWord = "";
+        String mSugestion = "";
+        String mTargetWord = "";
+
+        if (android.os.Build.VERSION.SDK_INT > 9) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
+        if (downloadFile(url)) {
+            String jsonString = readTxtFile();
+            try {
+                JSONArray jsonArray = new JSONArray(jsonString);
+                if (jsonArray.length() > 0) {
+                    JSONArray jsonArray2 = jsonArray.getJSONArray(1);
+                    JSONArray jsonArray3 = jsonArray2.getJSONArray(0);
+                    for (int i = 0; i < jsonArray3.length(); i++) {
+                        if (i == 0) {
+                            zWord = jsonArray3.getString(i);
+                         //   Log.e("ZWord", i + "=" + zWord);
+                        } else if (i == 1) {
+                            String ZWord = jsonArray3.getString(i);
+                            ZWord = ZWord.replaceAll("\\[", "").replaceAll("\\]", "");
+                            ZWord = ZWord.replaceAll("\"", "").replaceAll("\"", "");
+                            mSugestion = ZWord;
+                          //  Log.e("suggestion---", mSugestion);
+                            String[] wordsArray = mSugestion.split(",");
+                            for (int z = 0; z < wordsArray.length; z++) {
+                                if (z == (wordsArray.length - 1)) {
+                                    mTargetWord = wordsArray[z];
+                              //      Log.e("TargetWord", i + "=" + mTargetWord);
+                                }
+                            }
+                        } else {
+                            break;
+                        }
+                    }
+                }
+            } catch (JSONException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            //Insert Suggestion inDB
+
+            if (zWord.length() > 0 && !zWord.isEmpty() && !mTargetWord.isEmpty()) {
+
+                DBDictionary dbManager = new DBDictionary(this);
+                DictionaryModel suggestionModel = new DictionaryModel();
+
+                suggestionModel.setSUGGESTIONS(mSugestion);
+                suggestionModel.setTARGETWORD(mTargetWord);
+                suggestionModel.setZWORD(zWord);
+                Log.e("insert statu",""+dbManager.insertSuggestion(suggestionModel));
+            }
+        }
+    }
+
+
+    public boolean downloadFile(final String path) {
+        try {
+            URL url = new URL(path);
+
+            URLConnection ucon = url.openConnection();
+            ucon.setReadTimeout(5000);
+            ucon.setConnectTimeout(10000);
+
+            InputStream is = ucon.getInputStream();
+            BufferedInputStream inStream = new BufferedInputStream(is, 1024 * 5);
+
+            File file = new File(LatinIME.this.getDir("filesdir", Context.MODE_PRIVATE) + "/text.txt");
+
+            if (file.exists()) {
+                file.delete();
+            }
+            file.createNewFile();
+
+            FileOutputStream outStream = new FileOutputStream(file);
+            byte[] buff = new byte[5 * 1024];
+
+            int len;
+            while ((len = inStream.read(buff)) != -1) {
+                outStream.write(buff, 0, len);
+            }
+
+            outStream.flush();
+            outStream.close();
+            inStream.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.e("exce", e.toString());
+            return false;
+        }
+
+        return true;
+    }
+
+
+    public String readTxtFile() {
+        BufferedReader br = null;
+        String returnText = "";
+
+        try {
+            br = new BufferedReader(new FileReader(new File(LatinIME.this.getDir("filesdir", Context.MODE_PRIVATE) + "/text.txt")));
+        } catch (FileNotFoundException e1) {
+            e1.printStackTrace();
+        }
+        String line = "";
+        try {
+            while ((line = br.readLine()) != null) {
+                //Do something here
+
+                returnText += line;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return returnText;
+    }
+    public boolean isInternetOn() {
+
+        // get Connectivity Manager object to check connection
+        ConnectivityManager connec =
+                (ConnectivityManager) getSystemService(getBaseContext().CONNECTIVITY_SERVICE);
+
+        // Check for network connections
+        if (connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTED ||
+                connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTING ||
+                connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.CONNECTING ||
+                connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.CONNECTED) {
+            return true;
+
+        } else if (
+                connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.DISCONNECTED ||
+                        connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.DISCONNECTED) {
+
+            return false;
+        }
+        return false;
+    }
 }
+

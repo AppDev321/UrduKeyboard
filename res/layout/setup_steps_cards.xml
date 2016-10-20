@@ -62,27 +62,22 @@
         android:orientation="vertical">
 
         <TextView
-            android:padding="@dimen/_10sdp"
-            android:id="@+id/setup_finish_text"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="If you want to disable Asan Urdu Typing Switch Input Method"
-            android:textColor="@color/menu_bg"
-            android:textSize="@dimen/_16sdp" />
 
-        <ToggleButton
-            android:layout_gravity="center_horizontal"
+            android:id="@+id/setup_finish_text"
+
+            android:text="If you want to disable Asan Urdu Typing Switch Input Method"
+            style="@style/setupStepInstructionStyle"/>
+
+        <Button
+
             android:id="@+id/toggle"
-            android:layout_width="@dimen/_40sdp"
-            android:layout_height="@dimen/_18sdp"
+            style="@style/setupStepActionLabelStyle"
             android:layout_centerVertical="true"
-            android:layout_margin="10dp"
-            android:background="@drawable/radio"
-            android:focusable="false"
-            android:checked="true"
-            android:focusableInTouchMode="false"
-            android:textOff=""
-            android:textOn="" />
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Disable Asan Urdu Typing"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+           android:background="@drawable/btn_selector_setup"/>
     </LinearLayout>
 
     <LinearLayout
