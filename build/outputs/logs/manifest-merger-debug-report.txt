@@ -95,7 +95,7 @@ MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] E:\IonicKeys\IonicKeys\In
 	android:allowBackup
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:39:9-35
 	android:icon
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:40:9-54
+		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:40:9-38
 	android:name
 		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:38:9-71
 service#com.mobiletin.inputmethod.indic.LatinIME

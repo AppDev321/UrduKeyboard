@@ -38,7 +38,7 @@
     <application
         android:name="com.mobiletin.inputmethod.MySuperAppApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher_keyboard"
+        android:icon="@drawable/icon"
         android:label="@string/english_ime_name"
         android:supportsRtl="true" >
         <service
