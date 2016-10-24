@@ -1217,13 +1217,16 @@
       <item>@string/auto_correction_threshold_mode_very_aggressive</item>
     </string-array>
     <string-array name="auto_correction_threshold_values" translatable="false">
-        
+        <!-- Off, When auto correction setting is Off, this value is not used. -->
         <item>floatMaxValue</item>
-        
+        <!-- Modest : Suggestion whose normalized score is greater than this value
+             will be subject to auto-correction. -->
         <item>0.185</item>
-        
+        <!-- Aggressive -->
         <item>0.067</item>
-        
+        <!-- Very Aggressive : Suggestion whose normalized score is greater than this value
+             will be subject to auto-correction. "floatNegativeInfinity" is a special marker
+             string for Float.NEGATIVE_INFINITY -->
         <item>floatNegativeInfinity</item>
     </string-array>
     <array format="string" name="emoji_emoticons">
@@ -1246,85 +1249,85 @@
         <item>-_-</item>
     </array>
     <array format="string" name="emoji_faces">
-        <item>270C</item> 
-        <item>2764</item> 
+        <item>270C</item> <!-- VICTORY HAND -->
+        <item>2764</item> <!-- HEAVY BLACK HEART -->
     </array>
     <array format="string" name="emoji_nature">
-        <item>2744</item> 
+        <item>2744</item> <!-- SNOWFLAKE -->
     </array>
     <array format="string" name="emoji_objects">
-        <item>260e</item> 
-        <item>2709</item> 
-        <item>2712</item> 
-        <item>270f</item> 
-        <item>2702</item> 
-        <item>2669</item> 
-        <item>266a</item> 
-        <item>266c</item> 
+        <item>260e</item> <!-- BLACK TELEPHONE -->
+        <item>2709</item> <!-- ENVELOPE -->
+        <item>2712</item> <!-- BLACK NIB -->
+        <item>270f</item> <!-- PENCIL -->
+        <item>2702</item> <!-- BLACK SCISSORS -->
+        <item>2669</item> <!-- QUARTER NOTE -->
+        <item>266a</item> <!-- EIGHTH NOTE -->
+        <item>266c</item> <!-- BEAMED SIXTEENTH NOTES -->
     </array>
     <array format="string" name="emoji_places">
-        <item>2708</item> 
-        <item>2668</item> 
+        <item>2708</item> <!-- AIRPLANE -->
+        <item>2668</item> <!-- HOT SPRINGS -->
     </array>
     <array format="string" name="emoji_recents">
-        
+        <!-- These code point should be aligned with {@link RecentsKeyboard#TEMPLATE_KEY_CODE_*. -->
         <item>30</item>
         <item>31</item>
     </array>
     <array format="string" name="emoji_symbols">
-        <item>2460</item> 
-        <item>2461</item> 
-        <item>2462</item> 
-        <item>2463</item> 
-        <item>2464</item> 
-        <item>2465</item> 
-        <item>2466</item> 
-        <item>2467</item> 
-        <item>2468</item> 
-        <item>2469</item> 
-        <item>00ae</item> 
-        <item>00a9</item> 
-        <item>2122</item> 
-        <item>2734</item> 
-        <item>2733</item> 
-        <item>2716</item> 
-        <item>2195</item> 
-        <item>2197</item> 
-        <item>27a1</item> 
-        <item>2198</item> 
-        <item>2199</item> 
-        <item>2196</item> 
-        <item>2194</item> 
-        <item>25c0</item> 
-        <item>25b6</item> 
-        <item>2747</item> 
-        <item>25aa</item> 
-        <item>203c</item> 
-        <item>2660</item> 
-        <item>2665</item> 
-        <item>2663</item> 
-        <item>2666</item> 
-        <item>21a9</item> 
-        <item>21aa</item> 
+        <item>2460</item> <!-- CIRCLED DIGIT ONE -->
+        <item>2461</item> <!-- CIRCLED DIGIT TWO -->
+        <item>2462</item> <!-- CIRCLED DIGIT THREE -->
+        <item>2463</item> <!-- CIRCLED DIGIT FOUR -->
+        <item>2464</item> <!-- CIRCLED DIGIT FIVE -->
+        <item>2465</item> <!-- CIRCLED DIGIT SIX -->
+        <item>2466</item> <!-- CIRCLED DIGIT SEVEN -->
+        <item>2467</item> <!-- CIRCLED DIGIT EIGHT -->
+        <item>2468</item> <!-- CIRCLED DIGIT NINE -->
+        <item>2469</item> <!-- CIRCLED DIGIT TEN -->
+        <item>00ae</item> <!-- REGISTERED SIGN -->
+        <item>00a9</item> <!-- COPYRIGHT SIGN -->
+        <item>2122</item> <!-- TRADE MARK SIGN -->
+        <item>2734</item> <!-- EIGHT POINTED BLACK STAR -->
+        <item>2733</item> <!-- EIGHT POINTED PINWHEEL STAR -->
+        <item>2716</item> <!-- HEAVY MULTIPLICATION MARK -->
+        <item>2195</item> <!-- UP DOWN ARROW -->
+        <item>2197</item> <!-- NORTH EAST ARROW -->
+        <item>27a1</item> <!-- BLACK RIGHTWARDS ARROW -->
+        <item>2198</item> <!-- SOUTH EAST ARROW -->
+        <item>2199</item> <!-- SOUTH WEST ARROW -->
+        <item>2196</item> <!-- NORTH EAST ARROW -->
+        <item>2194</item> <!-- LEFT RIGHT ARROW -->
+        <item>25c0</item> <!-- BLACK LEFT-POINTING TRIANGLE -->
+        <item>25b6</item> <!-- BLACK ROGHT-POINTING TRIANGLE -->
+        <item>2747</item> <!-- SPARKLE -->
+        <item>25aa</item> <!-- BLACK SMALL SQUARE -->
+        <item>203c</item> <!-- DOUBLE EXCLAMATION MARK -->
+        <item>2660</item> <!-- BLACK SPADE SUIT -->
+        <item>2665</item> <!-- BLACK HEART SUIT -->
+        <item>2663</item> <!-- BLACK CLUB SUIT -->
+        <item>2666</item> <!-- BLACK DIAMOND SUIT -->
+        <item>21a9</item> <!-- LEFTWARDS ARROW WITH HOOK -->
+        <item>21aa</item> <!-- RIGHTWARDS ARROW WITH HOOK -->
     </array>
     <string-array name="important_notice_contents_array" translatable="false">
-        
+        <!-- empty -->
     </string-array>
     <string-array name="important_notice_title_array" translatable="false">
-        
+        <!-- empty -->
     </string-array>
     <string-array name="keyboard_heights" translatable="false">
-    
-        
+    <!-- Preferable keyboard height in absolute scale: 1.285in -->
+        <!-- Droid -->
         <item>HARDWARE=sholes,227.0167</item>
-        
+        <!-- Nexus One -->
         <item>HARDWARE=mahimahi,217.5932</item>
-        
+        <!-- Nexus S -->
         <item>HARDWARE=herring,200.8554</item>
-        
+        <!-- Galaxy Nexus -->
         <item>HARDWARE=tuna,202.5869</item>
-    
-        
+    <!-- Preferable keyboard height in absolute scale: 48.0mm -->
+        <!-- Xoom -->
         <item>HARDWARE=stingray,283.1337</item>
     </string-array>
     <string-array name="keyboard_theme_ids" translatable="false">
@@ -1340,44 +1343,44 @@
         <item>@string/keyboard_theme_holo_blue</item>
     </string-array>
     <string-array name="keypress_vibration_durations" translatable="false">
-        
+        <!-- Nexus S -->
         <item>MODEL=Nexus S:BRAND=google,5</item>
-        
+        <!-- Galaxy Nexus -->
         <item>MODEL=Galaxy Nexus:BRAND=google,5</item>
-        
+        <!-- Nexus 4 -->
         <item>MODEL=Nexus 4:BRAND=google,8</item>
-        
+        <!-- Nexus 10 -->
         <item>MODEL=Nexus 10:BRAND=google,16</item>
-        
+        <!-- Samsung Galaxy SII -->
         <item>MODEL=GT-I(9100[GMPT]?|9108|9210T?):MANUFACTURER=samsung,8</item>
         <item>MODEL=SGH-(I9[27]7R?|I927|T989D?):MANUFACTURER=samsung,8</item>
         <item>MODEL=SHW-M250[KLS]?|SPH-D710|SCH-R760:MANUFACTURER=samsung,8</item>
         <item>MODEL=ISW11SC|SC-02C:MANUFACTURER=samsung,8</item>
-        
+        <!-- Samsung Galaxy SIII -->
         <item>MODEL=(SAMSUNG-)?GT-I(930[05][NT]?|9308):MANUFACTURER=samsung,8</item>
         <item>MODEL=(SAMSUNG-)?SGH-(T999[V]?|I747[M]?|N064|N035):MANUFACTURER=samsung,8</item>
         <item>MODEL=(SAMSUNG-)?SCH-(J021|R530|I535|I939):MANUFACTURER=samsung,8</item>
         <item>MODEL=(SAMSUNG-)?(SCL21|SC-06D|SC-03E):MANUFACTURER=samsung,8</item>
         <item>MODEL=(SAMSUNG-)?(SHV-210[KLS]?|SPH-L710):MANUFACTURER=samsung,8</item>
-        
+        <!-- Samsung Galaxy S4 -->
         <item>MODEL=(SAMSUNG-)?GT-I(950[0258][G]?):MANUFACTURER=samsung,7</item>
         <item>MODEL=(SAMSUNG-)?SGH-(I337|M919|N045):MANUFACTURER=samsung,7</item>
         <item>MODEL=(SAMSUNG-)?SCH-(I545|I959|R970):MANUFACTURER=samsung,7</item>
         <item>MODEL=(SAMSUNG-)?SPH-(L720):MANUFACTURER=samsung,7</item>
         <item>MODEL=(SAMSUNG-)?(SC-04E):MANUFACTURER=samsung,7</item>
         <item>MODEL=(SAMSUNG-)?(SHV-E300[KLS]?):MANUFACTURER=samsung,7</item>
-        
+        <!-- LG Optimus G -->
         <item>MODEL=LG-E97[013]|LS970|L-01E:MANUFACTURER=LGE,15</item>
-        
+        <!-- HTC One X -->
         <item>MODEL=HTC One X:MANUFACTURER=HTC,20</item>
-        
+        <!-- HTC One -->
         <item>MODEL=HTC One:MANUFACTURER=HTC,15</item>
         <item>MODEL=HTL22:MANUFACTURER=HTC,15</item>
-        
+        <!-- Motorola Razor M -->
         <item>MODEL=XT907:MANUFACTURER=motorola,30</item>
-        
+        <!-- Motorola DVX -->
         <item>MODEL=XT1035:MANUFACTURER=motorola,18</item>
-        
+        <!-- Sony Xperia Z, Z Ultra -->
         <item>MODEL=C6603|C6806:MANUFACTURER=Sony,35</item>
     </string-array>
     <string-array name="keypress_volumes" translatable="false">
@@ -1433,8 +1436,9 @@
         <item>qwerty</item>
     </string-array>
     <string-array name="phantom_sudden_move_event_device_list" translatable="false">
-        
-        
+        <!-- "Build condition,true" that needs "phantom sudden move event" hack.
+             See {@link com.android.com.mobiletin.inputmethod.keyboard.PointerTracker}. -->
+        <!-- Xoom -->
         <item>HARDWARE=stingray,true</item>
     </string-array>
     <string-array name="predefined_layout_display_names">
@@ -1478,20 +1482,24 @@
         <item>220</item>
     </integer-array>
     <string-array name="touch_position_correction_data_default" translatable="false">
-        
+        <!-- The default touch position data (See com.android.com.mobiletin.inputmethod.keyboard.ProximityInfo)
+             correctionX = 0.0f
+             correctionY = 0.0f
+             correctionR = DEFAULT_TOUCH_POSITION_CORRECTION_RADIUS
+        -->
     </string-array>
     <string-array name="touch_position_correction_data_holo" translatable="false">
-        
+        <!-- First row -->
         <item>0.0038756</item>
         <item>-0.0005677</item>
         <item>0.1577026</item>
 
-        
+        <!-- Second row -->
         <item>-0.0236678</item>
         <item>0.0381731</item>
         <item>0.1529972</item>
 
-        
+        <!-- Third row -->
         <item>-0.0086827</item>
         <item>0.0880847</item>
         <item>0.1522819</item>
@@ -3356,24 +3364,24 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="maxMoreKeysColumn">@integer/config_max_more_keys_column</item>
     </style>
     <style name="Keyboard.ICS" parent="Keyboard">
-        
+        <!-- This should be aligned with KeyboardTheme.THEME_ID_* -->
         <item name="themeId">ICS</item>
     </style>
     <style name="Keyboard.KLP" parent="Keyboard">
-        
+        <!-- This should be aligned with KeyboardTheme.THEME_ID_* -->
         <item name="themeId">KLP</item>
     </style>
     <style name="Keyboard.LXX_Dark" parent="Keyboard">
-        
+        <!-- This should be aligned with KeyboardTheme.THEME_ID_* -->
         <item name="themeId">LXXDark</item>
     </style>
     <style name="Keyboard.LXX_Light" parent="Keyboard">
-        
+        <!-- This should be aligned with KeyboardTheme.THEME_ID_* -->
         <item name="themeId">LXXLight</item>
     </style>
     <style name="KeyboardIcons"/>
     <style name="KeyboardIcons.Holo">
-        
+        <!-- Keyboard icons -->
         <item name="iconShiftKey">@drawable/sym_keyboard_shift_holo_dark</item>
         <item name="iconDeleteKey">@drawable/sym_keyboard_delete_holo_dark</item>
         <item name="iconSettingsKey">@drawable/sym_keyboard_settings_holo_dark</item>
@@ -3392,13 +3400,13 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="iconEmojiNormalKey">@drawable/sym_keyboard_smiley_holo_dark</item>
 
 
-        
+        <!--Changes here-->
         <item name="urduKeyoff">@drawable/off_roman</item>
         <item name="urduKeyon">@drawable/on_roman</item>
         <item name="urdubtn">@drawable/urdu</item>
     </style>
     <style name="KeyboardIcons.LXX_Dark">
-        
+        <!-- Keyboard icons -->
         <item name="iconShiftKey">@drawable/sym_keyboard_shift_lxx_dark</item>
         <item name="iconDeleteKey">@drawable/sym_keyboard_delete_lxx_dark</item>
         <item name="iconSettingsKey">@drawable/sym_keyboard_settings_lxx_dark</item>
@@ -3423,13 +3431,13 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
 
 
 
-        
+        <!--Changes here-->
         <item name="urduKeyoff">@drawable/off_roman</item>
         <item name="urduKeyon">@drawable/on_roman</item>
         <item name="urdubtn">@drawable/urdu</item>
     </style>
     <style name="KeyboardIcons.LXX_Light">
-        
+        <!-- Keyboard icons -->
         <item name="iconShiftKey">@drawable/sym_keyboard_shift_lxx_light</item>
         <item name="iconDeleteKey">@drawable/sym_keyboard_delete_lxx_light</item>
         <item name="iconSettingsKey">@drawable/sym_keyboard_settings_lxx_light</item>
@@ -3449,14 +3457,14 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_lxx_light</item>
         <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj_lxx_light</item>
         <item name="iconZwjKey">@drawable/sym_keyboard_zwj_lxx_light</item>
-        
+        <!-- Use white emoji icon (for lxx_dark) because an action key has green/dark color background. -->
         <item name="iconEmojiActionKey">@drawable/sym_keyboard_smiley_lxx_dark</item>
-        
+        <!-- Use dark green emoji icon (for lxx_light) because a normal key has white color background. -->
         <item name="iconEmojiNormalKey">@drawable/sym_keyboard_smiley_lxx_light</item>
 
 
 
-        
+        <!--Changes here-->
         <item name="urduKeyoff">@drawable/off_roman</item>
         <item name="urduKeyon">@drawable/on_roman</item>
         <item name="urdubtn">@drawable/urdu</item>
@@ -3468,7 +3476,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="mainKeyboardViewStyle">@style/MainKeyboardView.ICS</item>
         <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.ICS</item>
         <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.ICS</item>
-        
+        <!-- Note: ICS theme uses the same style for both general more keys and action more keys. -->
         <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.ICS</item>
         <item name="moreKeysKeyboardViewForActionStyle">@style/MoreKeysKeyboardView.ICS</item>
         <item name="suggestionStripViewStyle">@style/SuggestionStripView.ICS</item>
@@ -3480,7 +3488,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="mainKeyboardViewStyle">@style/MainKeyboardView.KLP</item>
         <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.KLP</item>
         <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.KLP</item>
-        
+        <!-- Note: KLP theme uses the same style for both general more keys and action more keys. -->
         <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.KLP</item>
         <item name="moreKeysKeyboardViewForActionStyle">@style/MoreKeysKeyboardView.KLP</item>
         <item name="suggestionStripViewStyle">@style/SuggestionStripView.KLP</item>
@@ -3509,11 +3517,11 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="suggestionWordStyle">@style/SuggestionWord.LXX_Light</item>
     </style>
     <style name="KeyboardView">
-        
-        
+        <!-- This keyBackground is needed to run unit tests based on {@link InputTestBase}. -->
+        <!-- TODO: Apply default {@link KeyboardTheme} to {@link InputTestBase} and remove this. -->
         <item name="keyBackground">@drawable/btn_keyboard_key_klp</item>
         <item name="keyTypeface">normal</item>
-        
+        <!-- A negative value to disable key text shadow layer. -->
         <item name="keyTextShadowRadius">-1.0</item>
         <item name="keyHintLetterPadding">@dimen/config_key_hint_letter_padding</item>
         <item name="keyPopupHintLetterPadding">@dimen/config_key_popup_hint_letter_padding</item>
@@ -3537,7 +3545,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="gestureTrailEndWidth">@dimen/config_gesture_trail_end_width</item>
         <item name="gestureTrailBodyRatio">@integer/config_gesture_trail_body_ratio</item>
         <item name="gestureTrailShadowRatio">@integer/config_gesture_trail_shadow_ratio</item>
-        
+        <!-- Common attributes of MainKeyboardView -->
         <item name="keyHysteresisDistance">@dimen/config_key_hysteresis_distance</item>
         <item name="keyHysteresisDistanceForSlidingModifier">@dimen/config_key_hysteresis_distance_for_sliding_modifier</item>
         <item name="touchNoiseThresholdTime">@integer/config_touch_noise_threshold_time</item>
@@ -3550,15 +3558,18 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="keyRepeatInterval">@integer/config_key_repeat_interval</item>
         <item name="longPressShiftLockTimeout">@integer/config_longpress_shift_lock_timeout</item>
         <item name="ignoreAltCodeKeyTimeout">@integer/config_ignore_alt_code_key_timeout</item>
-        
+        <!-- TODO: consolidate key preview linger timeout with the key preview animation parameters. -->
         <item name="keyPreviewLingerTimeout">@integer/config_key_preview_linger_timeout</item>
         <item name="moreKeysKeyboardLayout">@layout/more_keys_keyboard</item>
         <item name="showMoreKeysKeyboardAtTouchedPoint">@bool/config_show_more_keys_keyboard_at_touched_point</item>
         <item name="languageOnSpacebarTextRatio">@fraction/config_language_on_spacebar_text_ratio</item>
         <item name="languageOnSpacebarFinalAlpha">@integer/config_language_on_spacebar_final_alpha</item>
         <item name="languageOnSpacebarFadeoutAnimator">@anim/language_on_spacebar_fadeout</item>
-        
-        
+        <!-- Remove animations for now because it could drain a non-negligible amount of battery while typing.
+        <item name="altCodeKeyWhileTypingFadeoutAnimator">@anim/alt_code_key_while_typing_fadeout</item>
+        <item name="altCodeKeyWhileTypingFadeinAnimator">@anim/alt_code_key_while_typing_fadein</item>
+        -->
+        <!-- Common attributes of MainKeyboardView for gesture typing detection and recognition -->
         <item name="gestureFloatingPreviewTextLingerTimeout">@integer/config_gesture_floating_preview_text_linger_timeout</item>
         <item name="gestureStaticTimeThresholdAfterFastTyping">@integer/config_gesture_static_time_threshold_after_fast_typing</item>
         <item name="gestureDetectFastMoveSpeedThreshold">@fraction/config_gesture_detect_fast_move_speed_threshold</item>
@@ -3583,7 +3594,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="keyLabelOffCenterRatio">-175%</item>
         <item name="keyHintLabelRatio">@fraction/config_key_hint_label_ratio_holo</item>
         <item name="keyHintLabelOffCenterRatio">200%</item>
-        
+        <!-- U+2026: "…" HORIZONTAL ELLIPSIS -->
         <item name="keyPopupHintLetter">…</item>
     </style>
     <style name="KeyboardView.ICS" parent="KeyboardView.Holo">
@@ -3626,7 +3637,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="keyHintLabelOffCenterRatio">300%</item>
         <item name="keyLabelFlags">alignHintLabelToBottom</item>
         <item name="spacebarIconWidthRatio">0.9</item>
-        
+        <!-- No popup hint letter -->
         <item name="keyPopupHintLetter"/>
     </style>
     <style name="KeyboardView.LXX_Dark" parent="KeyboardView.LXX">
@@ -3698,7 +3709,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="gestureTrailColor">@color/gesture_trail_color_lxx_dark</item>
         <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_dark</item>
         <item name="languageOnSpacebarTextColor">@color/key_text_inactive_color_lxx_dark</item>
-        
+        <!-- A negative value to disable text shadow layer. -->
         <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
     </style>
     <style name="MainKeyboardView.LXX_Light" parent="KeyboardView.LXX_Light">
@@ -3713,7 +3724,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="gestureTrailColor">@color/gesture_trail_color_lxx_light</item>
         <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_light</item>
         <item name="languageOnSpacebarTextColor">@color/language_on_spacebar_text_color_lxx_light</item>
-        
+        <!-- A negative value to disable text shadow layer. -->
         <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
     </style>
     <style name="MoreKeysKeyboard"/>
@@ -3847,7 +3858,8 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="android:paddingTop">0dp</item>
         <item name="android:paddingRight">@dimen/config_suggestion_text_horizontal_padding</item>
         <item name="android:paddingBottom">0dp</item>
-        
+        <!-- Provide audio and haptic feedback by ourselves based on the keyboard settings.
+             We just need to ignore the system's audio and haptic feedback settings. -->
         <item name="android:hapticFeedbackEnabled">false</item>
         <item name="android:soundEffectsEnabled">false</item>
         <item name="android:focusable">false</item>
@@ -3906,10 +3918,10 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="android:textColor">@color/setup_text_dark</item>
 
 
-       
+       <!-- <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>-->
         <item name="android:textSize">@dimen/_40sdp</item>
         <item name="android:layout_width">wrap_content</item>
-      
+      <!--  <item name="android:layout_weight">1.0</item>-->
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
@@ -3925,7 +3937,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="android:paddingRight">@dimen/setup_step_horizontal_padding</item>
     </style>
     <style name="setupStepStartIndicatorStyle">
-        
+        <!-- The triangle indicator here is placed sideways. -->
         <item name="android:layout_width">@dimen/setup_step_triangle_indicator_height</item>
         <item name="android:layout_height">@dimen/setup_step_action_height</item>
     </style>
@@ -3935,7 +3947,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <style name="setupTitleStyle" parent="setupTitleStyleCommon"/>
     <style name="setupTitleStyleCommon">
         <item name="android:textColor">@color/setup_text_dark</item>
-       
+       <!-- <item name="android:textSize">@dimen/setup_title_text_size</item>-->
         <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

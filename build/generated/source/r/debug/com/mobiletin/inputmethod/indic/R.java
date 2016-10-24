@@ -25,19 +25,30 @@ public final class R {
         public static final int auto_correction_threshold_values=0x7f0b000d;
         public static final int emoji_emoticons=0x7f0b0003;
         /**  <item>1f450</item> 
+ HEAVY BLACK HEART 
          */
         public static final int emoji_faces=0x7f0b0004;
         /**  <item>1f30d</item> 
  <item>1f310</item> 
+ SNOWFLAKE 
          */
         public static final int emoji_nature=0x7f0b0005;
+        /**  BEAMED SIXTEENTH NOTES 
+         */
         public static final int emoji_objects=0x7f0b0006;
         /**  TODO: fix support min sdk version (99) 
+ HOT SPRINGS 
          */
         public static final int emoji_places=0x7f0b0007;
         public static final int emoji_recents=0x7f0b000e;
+        /**  RIGHTWARDS ARROW WITH HOOK 
+         */
         public static final int emoji_symbols=0x7f0b0008;
+        /**  empty 
+         */
         public static final int important_notice_contents_array=0x7f0b000f;
+        /**  empty 
+         */
         public static final int important_notice_title_array=0x7f0b0010;
         public static final int keyboard_heights=0x7f0b0000;
         public static final int keyboard_theme_ids=0x7f0b0011;
@@ -52,6 +63,11 @@ public final class R {
         public static final int subtype_locale_exception_keys=0x7f0b001a;
         public static final int text_decorator_add_to_dictionary_indicator_path=0x7f0b001b;
         /**  The default touch position data (See com.android.com.mobiletin.inputmethod.keyboard.ProximityInfo)
+             correctionX = 0.0f
+             correctionY = 0.0f
+             correctionR = DEFAULT_TOUCH_POSITION_CORRECTION_RADIUS
+        
+ The default touch position data (See com.android.com.mobiletin.inputmethod.keyboard.ProximityInfo)
              correctionX = 0.0f
              correctionY = 0.0f
              correctionR = DEFAULT_TOUCH_POSITION_CORRECTION_RADIUS

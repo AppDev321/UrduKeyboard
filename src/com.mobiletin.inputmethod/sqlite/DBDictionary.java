@@ -109,10 +109,9 @@ public class DBDictionary {
         contentValues.put("SUGGESTIONS", dictionaryModel.getSUGGESTIONS());
         contentValues.put("INDEXING", dictionaryModel.getINDEXING());
 
+        String sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + dictionaryModel.getZWORD() + "' " ;
+        Cursor c = db.rawQuery(sqlStatement, null);
 
-        String query = "SELECT * FROM ZTRANSLITERATEDDATA WHERE ZWORD = ?";
-
-        Cursor c =db.rawQuery(query, new String[] { dictionaryModel.getZWORD() });
         if (c.moveToFirst()) {
             return false;
         } else {

@@ -767,17 +767,15 @@ public final class InputLogic {
     }
 
     private void handleTranslaiton() {
-     //   mLatinIME.mainKeyboardView.getKeyboardView().setKeyboard(mLatinIME.mainKeyboardView.getKeyboard());
+        //   mLatinIME.mainKeyboardView.getKeyboardView().setKeyboard(mLatinIME.mainKeyboardView.getKeyboard());
         SharedPreferences prefs = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE);
         int idName = prefs.getInt("pos", 0); //0 is the default value.
         SharedPreferences.Editor editor = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE).edit();
 
-        if(idName == 0) {
+        if (idName == 0) {
             editor.putInt("pos", 1);
             editor.commit();
-        }
-        else
-        {
+        } else {
             editor.putInt("pos", 0);
             editor.commit();
         }
@@ -2018,10 +2016,37 @@ public final class InputLogic {
                                 //Remove the inserted charcter that typed before space
                                 mConnection.deleteSurroundingText(saveTypedWord.length(), 0);
                                 mConnection.commitText(dictionaryModelList.getTARGETWORD() + " ", 1);
-                            } else {
+                            }
+                            else {
+
                                 mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
                             }
-                        } else {
+                        }
+
+                        //Write online searching code here when space is pressed
+///////****************************************
+                        else if (dictionaryModelList == null) {
+                            if (saveTypedWord != null && saveTypedWord.length() > 0) {
+                                String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + saveTypedWord + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
+                                if (mLatinIME.isInternetOn()) {
+                                 mLatinIME.goForOnlineSuggetions(url);
+                                  //  mLatinIME.new GoogleTransaltor().execute(url);
+                                    dictionaryModelList = dbManager.getSingleWordUrdu(saveTypedWord);
+                                    if (dictionaryModelList != null) {
+                                        if (dictionaryModelList.getTARGETWORD() != null && dictionaryModelList.getTARGETWORD().length() > 0) {
+                                            //Remove the inserted charcter that typed before space
+                                            mConnection.deleteSurroundingText(saveTypedWord.length(), 0);
+                                            mConnection.commitText(dictionaryModelList.getTARGETWORD() + " ", 1);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+// ************************************************
+
+
+
+                        else {
                             mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
                         }
                     } else {
@@ -2425,4 +2450,6 @@ public final class InputLogic {
         mConnection.setTransliterationMethod(null);
         isTransliteration = false;
     }
+
+
 }

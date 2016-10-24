@@ -29,6 +29,7 @@ import android.content.res.Resources;
 import android.inputmethodservice.InputMethodService;
 import android.media.AudioManager;
 import android.net.ConnectivityManager;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Debug;
 import android.os.IBinder;
@@ -206,6 +207,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     private final boolean mIsHardwareAcceleratedDrawingEnabled;
 
     public final UIHandler mHandler = new UIHandler(this);
+
 
     public static final class UIHandler extends LeakGuardHandlerWrapper<LatinIME> {
         private static final int MSG_UPDATE_SHIFT_STATE = 0;
@@ -1466,6 +1468,9 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         updateStateAfterInputTransaction(completeInputTransaction);
         mKeyboardSwitcher.onCodeInput(codePoint, getCurrentAutoCapsState(),
                 getCurrentRecapitalizeState());
+        if (Constants.CODE_SPACE == codePoint) {
+            Log.e("is space", "hiiting");
+        }
     }
 
     // A helper method to split the code point and the key code. Ultimately, they should not be
@@ -1637,17 +1642,19 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
                 dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
             }
-            if(dictionaryModelList.size() == 0)
-            {
+            if (dictionaryModelList.size() == 0) {
+
                 if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+
                     String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + sourceSuggestedWords.mTypedWord + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
-               if(isInternetOn())
-               {
-                   goForOnlineSuggetions(url);
-                   if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
-                       dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
-                   }
-               }
+                    if (isInternetOn()) {
+                        goForOnlineSuggetions(url);
+                        // new GoogleTransaltor().execute(url);
+                        if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+                            dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
+                        }
+                    }
+
                 }
             }
 
@@ -1657,9 +1664,9 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
                 //Spliting String form comma
                 String str = dictionaryModelList.get(i).getSUGGESTIONS();
-                Log.e("Suggest",""+str);
+                Log.e("Suggest", "" + str);
                 String[] animalsArray = str.trim().split(",");
-                for(String name : animalsArray){
+                for (String name : animalsArray) {
                     suggestionsList.add(new SuggestedWordInfo(name, SuggestedWordInfo.MAX_SCORE,
                             SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
                             SuggestedWordInfo.NOT_AN_INDEX,
@@ -2060,18 +2067,18 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                     for (int i = 0; i < jsonArray3.length(); i++) {
                         if (i == 0) {
                             zWord = jsonArray3.getString(i);
-                         //   Log.e("ZWord", i + "=" + zWord);
+                            //   Log.e("ZWord", i + "=" + zWord);
                         } else if (i == 1) {
                             String ZWord = jsonArray3.getString(i);
                             ZWord = ZWord.replaceAll("\\[", "").replaceAll("\\]", "");
                             ZWord = ZWord.replaceAll("\"", "").replaceAll("\"", "");
                             mSugestion = ZWord;
-                          //  Log.e("suggestion---", mSugestion);
+                            //  Log.e("suggestion---", mSugestion);
                             String[] wordsArray = mSugestion.split(",");
                             for (int z = 0; z < wordsArray.length; z++) {
-                                if (z == (wordsArray.length - 1)) {
+                                if (z == 0 /*(wordsArray.length - 1)*/) {
                                     mTargetWord = wordsArray[z];
-                              //      Log.e("TargetWord", i + "=" + mTargetWord);
+                                    //Log.e("TargetWord", i + "=" + mTargetWord);
                                 }
                             }
                         } else {
@@ -2087,14 +2094,12 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             //Insert Suggestion inDB
 
             if (zWord.length() > 0 && !zWord.isEmpty() && !mTargetWord.isEmpty()) {
-
                 DBDictionary dbManager = new DBDictionary(this);
                 DictionaryModel suggestionModel = new DictionaryModel();
-
                 suggestionModel.setSUGGESTIONS(mSugestion);
                 suggestionModel.setTARGETWORD(mTargetWord);
                 suggestionModel.setZWORD(zWord);
-                Log.e("insert statu",""+dbManager.insertSuggestion(suggestionModel));
+                dbManager.insertSuggestion(suggestionModel);
             }
         }
     }
@@ -2107,6 +2112,10 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             URLConnection ucon = url.openConnection();
             ucon.setReadTimeout(5000);
             ucon.setConnectTimeout(10000);
+
+           /* ucon.setReadTimeout(1000);
+            ucon.setConnectTimeout(1000);*/
+
 
             InputStream is = ucon.getInputStream();
             BufferedInputStream inStream = new BufferedInputStream(is, 1024 * 5);
@@ -2161,6 +2170,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         }
         return returnText;
     }
+
     public boolean isInternetOn() {
 
         // get Connectivity Manager object to check connection
@@ -2181,6 +2191,41 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             return false;
         }
         return false;
+    }
+
+
+    //New Asynch Class here
+    public class GoogleTransaltor extends AsyncTask<String, String, String> {
+
+        private Exception exception;
+
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            /**
+             * show dialog
+             */
+            super.onPreExecute();
+        }
+
+        protected String doInBackground(String... urls) {
+            try {
+                //Go for online
+                goForOnlineSuggetions(urls[0]);
+
+            } catch (Exception e) {
+                this.exception = e;
+
+                return null;
+            }
+            return null;
+        }
+
+        protected void onPostExecute(String result) {
+
+            super.onPostExecute(result);
+        }
     }
 }
 
