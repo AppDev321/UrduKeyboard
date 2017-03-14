@@ -2,35 +2,40 @@ project.ext.set("archivesBaseName", "IndicKeyboard");
 
 buildscript {
     repositories {
-        mavenCentral()
+       /*// mavenCentral()
         maven {
             url "https://jitpack.io"
-        }
+        }*/
+        jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.0'
+        classpath 'com.android.tools.build:gradle:2.2.2'
     }
 }
 apply plugin: 'com.android.application'
 
 repositories {
-    mavenCentral()
+    /*mavenCentral()
     maven {
         url "https://jitpack.io"
-    }
+    }*/
+    jcenter()
 }
 
 dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
     compile 'com.android.support:support-v4:22.1.0'
+
+    compile 'com.android.support:cardview-v7:22.1.0'
     compile 'com.google.code.findbugs:jsr305:3.0.0'
     /*compile project(':ime')*/
-    /*   compile 'com.google.android.gms:play-services:8.3.0'*/
+    compile 'com.google.android.gms:play-services-analytics:9.4.0'
     compile 'com.google.android.gms:play-services-ads:9.4.0'
-    compile ('com.github.ozodrukh:CircularReveal:1.1.1@aar') {
+   /* compile ('com.github.ozodrukh:CircularReveal:1.1.1@aar') {
         transitive = true;
-    }
-
+    }*/
+    // Android SDK
+    compile 'com.facebook.android:facebook-android-sdk:4.10.1'
 }
 
 android {

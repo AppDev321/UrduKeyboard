@@ -25,19 +25,19 @@ import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import java.util.Collections;
-import java.util.Locale;
-import java.util.Set;
-import java.util.concurrent.locks.ReentrantLock;
-
-import com.mobiletin.inputmethod.compat.BuildCompatUtils;
-import com.mobiletin.inputmethod.indic.AudioAndHapticFeedbackManager;
-import com.mobiletin.inputmethod.indic.InputAttributes;
-import com.mobiletin.inputmethod.indic.R;
 import com.android.inputmethod.latin.utils.AdditionalSubtypeUtils;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 import com.android.inputmethod.latin.utils.RunInLocale;
 import com.android.inputmethod.latin.utils.StringUtils;
+import com.mobiletin.inputmethod.compat.BuildCompatUtils;
+import com.mobiletin.inputmethod.indic.AudioAndHapticFeedbackManager;
+import com.mobiletin.inputmethod.indic.InputAttributes;
+import com.mobiletin.inputmethod.indic.R;
+
+import java.util.Collections;
+import java.util.Locale;
+import java.util.Set;
+import java.util.concurrent.locks.ReentrantLock;
 
 public final class Settings implements SharedPreferences.OnSharedPreferenceChangeListener {
     private static final String TAG = Settings.class.getSimpleName();
@@ -255,8 +255,8 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
 
     public static boolean readKeyPreviewPopupEnabled(final SharedPreferences prefs,
             final Resources res) {
-        final boolean defaultKeyPreviewPopup = res.getBoolean(
-                R.bool.config_default_key_preview_popup);
+        final boolean defaultKeyPreviewPopup = false;//res.getBoolean( R.bool.config_default_key_preview_popup);
+
         if (!readFromBuildConfigIfToShowKeyPreviewPopupOption(res)) {
             return defaultKeyPreviewPopup;
         }

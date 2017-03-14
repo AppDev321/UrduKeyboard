@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<inputmethod id="ta-99" name="தமிழ்99" description="Tamil 99 Keyboard" author="Junaid P V, Jishnu Mohan" version="1.0" contextLength="1" maxKeyLength="4">
+  <pattern input="([க-ஹ])க" context="அ" replacement="$1க"/>
+  <pattern input="([க-ஹ])ங" context="அ" replacement="$1ங"/>
+  <pattern input="([க-ஹ])ச" context="அ" replacement="$1ச"/>
+  <pattern input="([க-ஹ])ங" context="அ" replacement="$1ஜ"/>
+  <pattern input="([க-ஹ])ஞ" context="அ" replacement="$1ஞ"/>
+  <pattern input="([க-ஹ])ட" context="அ" replacement="$1ட"/>
+  <pattern input="([க-ஹ])ண" context="அ" replacement="$1ண"/>
+  <pattern input="([க-ஹ])த" context="அ" replacement="$1த"/>
+  <pattern input="([க-ஹ])ந" context="அ" replacement="$1ந"/>
+  <pattern input="([க-ஹ])ன" context="அ" replacement="$1ன"/>
+  <pattern input="([க-ஹ])ப" context="அ" replacement="$1ப"/>
+  <pattern input="([க-ஹ])ம" context="அ" replacement="$1ம"/>
+  <pattern input="([க-ஹ])ய" context="அ" replacement="$1ய"/>
+  <pattern input="([க-ஹ])ர" context="அ" replacement="$1ர"/>
+  <pattern input="([க-ஹ])ற" context="அ" replacement="$1ற"/>
+  <pattern input="([க-ஹ])ல" context="அ" replacement="$1ல"/>
+  <pattern input="([க-ஹ])ள" context="அ" replacement="$1ள"/>
+  <pattern input="([க-ஹ])ழ" context="அ" replacement="$1ழ"/>
+  <pattern input="([க-ஹ])வ" context="அ" replacement="$1வ"/>
+  <pattern input="([க-ஹ])ஷ" context="அ" replacement="$1ஷ"/>
+  <pattern input="([க-ஹ])ஸ" context="அ" replacement="$1ஸ"/>
+  <pattern input="([க-ஹ])ஹ" context="அ" replacement="$1ஹ"/>
+  <pattern input="க்கக" replacement="க்கக"/>
+  <pattern input="ங்ஙங" replacement="ங்ஙங"/>
+  <pattern input="ச்சச" replacement="ச்சச"/>
+  <pattern input="ஜ்ஜஜ" replacement="ஜ்ஜஜ"/>
+  <pattern input="ஞ்ஞஞ" replacement="ஞ்ஞஞ"/>
+  <pattern input="ட்டட" replacement="ட்டட"/>
+  <pattern input="ண்ணண" replacement="ண்ணண"/>
+  <pattern input="த்தத" replacement="த்தத"/>
+  <pattern input="ந்நந" replacement="ந்நந"/>
+  <pattern input="ன்னன" replacement="ன்னன"/>
+  <pattern input="ப்பப" replacement="ப்பப"/>
+  <pattern input="ம்மம" replacement="ம்மம"/>
+  <pattern input="ய்யய" replacement="ய்யய"/>
+  <pattern input="ர்ரர" replacement="ர்ரர"/>
+  <pattern input="ற்றற" replacement="ற்றற"/>
+  <pattern input="ல்லல" replacement="ல்லல"/>
+  <pattern input="ள்ளள" replacement="ள்ளள"/>
+  <pattern input="ழ்ழழ" replacement="ழ்ழழ"/>
+  <pattern input="வ்வவ" replacement="வ்வவ"/>
+  <pattern input="ஷ்ஷஷ" replacement="ஷ்ஷஷ"/>
+  <pattern input="ஸ்ஸஸ" replacement="ஸ்ஸஸ"/>
+  <pattern input="ஹ்ஹஹ" replacement="ஹ்ஹஹ"/>
+  <pattern input="([க-ஹ])ஆ" replacement="$1ா"/>
+  <pattern input="([க-ஹ])இ" replacement="$1ி"/>
+  <pattern input="([க-ஹ])ஈ" replacement="$1ீ"/>
+  <pattern input="([க-ஹ])உ" replacement="$1ு"/>
+  <pattern input="([க-ஹ])ஊ" replacement="$1ூ"/>
+  <pattern input="([க-ஹ])எ" replacement="$1ெ"/>
+  <pattern input="([க-ஹ])ஏ" replacement="$1ே"/>
+  <pattern input="([க-ஹ])ஐ" replacement="$1ை"/>
+  <pattern input="([க-ஹ])ஒ" replacement="$1ொ"/>
+  <pattern input="([க-ஹ])ஓ" replacement="$1ோ"/>
+  <pattern input="([க-ஹ])ஔ" replacement="$1ௌ"/>
+  <pattern input="([க-ஹ])அ" replacement="$1"/>
+  <pattern input="கக" replacement="க்க"/>
+  <pattern input="ஙங" replacement="ங்ங"/>
+  <pattern input="சச" replacement="ச்ச"/>
+  <pattern input="ஜஜ" replacement="ஜ்ஜ"/>
+  <pattern input="ஞஞ" replacement="ஞ்ஞ"/>
+  <pattern input="டட" replacement="ட்ட"/>
+  <pattern input="ணண" replacement="ண்ண"/>
+  <pattern input="தத" replacement="த்த"/>
+  <pattern input="நந" replacement="ந்ந"/>
+  <pattern input="னன" replacement="ன்ன"/>
+  <pattern input="பப" replacement="ப்ப"/>
+  <pattern input="மம" replacement="ம்ம"/>
+  <pattern input="யய" replacement="ய்ய"/>
+  <pattern input="ரர" replacement="ர்ர"/>
+  <pattern input="றற" replacement="ற்ற"/>
+  <pattern input="லல" replacement="ல்ல"/>
+  <pattern input="ளள" replacement="ள்ள"/>
+  <pattern input="ழழ" replacement="ழ்ழ"/>
+  <pattern input="வவ" replacement="வ்வ"/>
+  <pattern input="ஷஷ" replacement="ஷ்ஷ"/>
+  <pattern input="ஸஸ" replacement="ஸ்ஸ"/>
+  <pattern input="ஹஹ" replacement="ஹ்ஹ"/>
+  <pattern input="நத" replacement="ந்த"/>
+  <pattern input="ஙக" replacement="ங்க"/>
+  <pattern input="னற" replacement="ன்ற"/>
+  <pattern input="ணட" replacement="ண்ட"/>
+  <pattern input="ஞச" replacement="ஞ்ச"/>
+  <pattern input="மப" replacement="ம்ப"/>
+</inputmethod>

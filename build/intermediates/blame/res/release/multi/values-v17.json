@@ -1,0 +1,75 @@
+[
+    {
+        "outputFile": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v17\\values-v17.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v17\\setup-styles.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1096,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 348
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v17\\setup-styles.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1239,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 353,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 553
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v17\\setup-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 558,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 697
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v17\\setup-styles.xml"
+                }
+            }
+        ]
+    }
+]

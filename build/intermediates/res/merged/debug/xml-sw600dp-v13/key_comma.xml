@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 /*
 **
 ** Copyright 2012, The Android Open Source Project
@@ -18,39 +17,34 @@
 */
 -->
 
-<merge
-    xmlns:latin="http://schemas.android.com/apk/res-auto"
->
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
     <switch>
-        <case
-            latin:mode="url"
-        >
+        <case latin:mode="url">
             <Key
                 latin:keySpec="/"
                 latin:keyStyle="settingsMoreKeysStyle" />
         </case>
-        <case
-            latin:mode="email"
-        >
+        <case latin:mode="email">
             <Key
                 latin:keySpec="\@"
                 latin:keyStyle="settingsMoreKeysStyle" />
         </case>
-        <case
-            latin:keyboardLayoutSet="dvorak"
-        >
+        <case latin:keyboardLayoutSet="dvorak">
             <Key
                 latin:keySpec="!"
-                latin:moreKeys="!text/morekeys_exclamation,%"
-                latin:keyStyle="settingsMoreKeysStyle" />
+                latin:keyStyle="settingsMoreKeysStyle"
+                latin:moreKeys="!text/morekeys_exclamation,%" />
+        </case>
+        <case latin:languageCode="ar|fa">
+            <Key  latin:keySpec="&#x60c;" />
         </case>
         <default>
             <Key
-                latin:keySpec="!text/keyspec_tablet_comma"
-                latin:moreKeys="!text/morekeys_tablet_comma,%"
                 latin:keyHintLabel="!text/keyhintlabel_tablet_comma"
                 latin:keyLabelFlags="hasPopupHint"
-                latin:keyStyle="settingsMoreKeysStyle" />
+                latin:keySpec="!text/keyspec_tablet_comma"
+                latin:keyStyle="settingsMoreKeysStyle"
+                latin:moreKeys="!text/morekeys_tablet_comma,%" />
         </default>
     </switch>
 </merge>

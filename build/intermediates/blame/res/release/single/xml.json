@@ -1,0 +1,1326 @@
+[
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_burmese3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_burmese3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_malayalam_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_malayalam_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_mon3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_mon3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keys_square_brackets.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keys_square_brackets.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_arabic1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_arabic1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_telugu_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_telugu_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_assamese_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_assamese_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_nepali_traditional.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_nepali_traditional.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_qwerty1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_qwerty1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_manipuri_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_manipuri_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_romanized3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_romanized3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_compact1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_compact1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_marathi3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_marathi3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kashmiri_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kashmiri_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_emoji.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_emoji.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_traditional2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_traditional2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_mon.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_mon.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_10_10_7_symbols_shift.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_10_10_7_symbols_shift.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_gujarati_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_gujarati_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_santali_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_santali_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_kashmiri_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_kashmiri_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_phone.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_phone.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_marathi1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_marathi1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_manipuri_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_manipuri_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_hindi_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_hindi_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_romanized1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_romanized1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_compact3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_compact3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_malayalam_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_malayalam_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_qwerty3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_qwerty3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_kannada_anysoft_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_kannada_anysoft_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_currency_generic.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_currency_generic.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_burmese1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_burmese1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_bengali.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_bengali.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_telugu_kachatathapa.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_telugu_kachatathapa.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_assamese_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_assamese_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_kannada.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_kannada.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_99_1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_99_1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_qwerty.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_qwerty.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_assamese_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_assamese_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_appearance.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_appearance.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_symbols_shift1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_symbols_shift1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_more_keys_keyboard_template.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_more_keys_keyboard_template.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_bengali.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_bengali.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_oriya_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_oriya_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_period.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_period.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_sinhala2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_sinhala2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_arabic3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_arabic3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_tamil_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_tamil_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_probhat1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_probhat1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kashmiri_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kashmiri_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_compact1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_compact1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_qwerty.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_qwerty.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_oriya_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_oriya_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keys_arabic3_left.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keys_arabic3_left.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_symbols3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_symbols3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_myanmar3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_myanmar3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_actions.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_actions.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_bengali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_bengali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_telugu_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_telugu_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_myanmar2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_myanmar2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_assamese_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_assamese_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_sinhala.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_sinhala.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_compact1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_compact1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_gujarati.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_gujarati.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_number_normal.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_number_normal.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_mon.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_mon.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_burmese.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_burmese.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_myanmar1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_myanmar1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_bengali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_bengali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_marathi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_marathi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_marathi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_marathi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_telugu_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_telugu_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_symbols1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_symbols1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keys_farsi3_right.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keys_farsi3_right.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_oriya_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_oriya_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\spell_checker_settings.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\spell_checker_settings.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_compact1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_compact1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_category5.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_category5.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\row_symbols_shift4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\row_symbols_shift4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_category6.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_category6.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_hindi_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_hindi_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_space.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_space.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_recents.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_recents.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_myanmar.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_myanmar.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_compact2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_compact2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_nepali_traditional.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_nepali_traditional.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_nepali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_nepali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_probhat3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_probhat3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_gujarati.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_gujarati.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_symbols_shift.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_symbols_shift.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_symbols_shift3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_symbols_shift3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_arabic.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_arabic.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_common.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_common.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_symbols_shift2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_symbols_shift2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_malayalam.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_malayalam.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_burmese.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_burmese.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_santali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_santali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_mon1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_mon1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_arabic.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_arabic.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_manipuri_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_manipuri_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_enter.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_enter.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_less_greater.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_less_greater.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_malayalam_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_malayalam_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_tamil_99.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_tamil_99.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_currency_euro.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_currency_euro.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_hindi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_hindi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_kannada_anysoft_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_kannada_anysoft_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_emoji.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_emoji.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_99_3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_99_3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_nepali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_nepali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_symbols2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_symbols2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\spellchecker.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\spellchecker.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_assamese_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_assamese_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_currency.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_currency.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keys_curly_brackets.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keys_curly_brackets.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_hindi_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_hindi_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_maithili_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_maithili_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kashmiri_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kashmiri_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_kannada.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_kannada.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_romanized2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_romanized2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_sinhala1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_sinhala1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_traditional3_right3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_traditional3_right3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_10_10_7_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_10_10_7_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_malayalam_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_malayalam_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_telugu.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_telugu.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_kannada_anysoft_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_kannada_anysoft_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_kachatathapa1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_kachatathapa1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_kannada.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_kannada.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_maithili_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_maithili_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_debug.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_debug.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_gujarati.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_gujarati.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_marathi2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_marathi2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_tamil.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_tamil.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_preferences.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_preferences.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_burmese2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_burmese2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_bengali_probhat.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_bengali_probhat.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_tamil_99.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_tamil_99.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_punjabi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_punjabi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_arabic2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_arabic2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_santali_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_santali_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_tamil_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_tamil_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_assamese_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_assamese_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_number.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_number.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_tamil_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_tamil_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_malayalam.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_malayalam.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_probhat2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_probhat2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_telugu_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_telugu_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_tamil_99.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_tamil_99.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_theme.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_theme.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_tamil_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_tamil_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_kachatathapa3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_kachatathapa3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_hindi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_hindi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_hindi_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_hindi_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_bengali.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_bengali.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_nepali_romanized.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_nepali_romanized.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_hindi_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_hindi_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_compact1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_compact1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_kannada_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_kannada_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_oriya_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_oriya_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_gesture.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_gesture.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_arabic.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_arabic.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_kannada_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_kannada_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_correction.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_correction.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_nepali_romanized.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_nepali_romanized.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_malayalam_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_malayalam_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_malayalam.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_malayalam.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_99_2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_99_2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_punjabi_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_punjabi_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_telugu_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_telugu_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_number.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_number.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_manipuri_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_manipuri_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_space_5kw.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_space_5kw.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_manipuri_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_manipuri_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_kannada_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_kannada_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_traditional1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_traditional1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\row_pcqwerty5.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\row_pcqwerty5.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_bengali_probhat.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_bengali_probhat.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_compact3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_compact3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_phone_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_phone_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_kashmiri_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_kashmiri_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_oriya_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_oriya_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_hindi_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_hindi_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_compact2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_compact2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_manipuri_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_manipuri_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_punjabi_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_punjabi_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_anysoft_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_anysoft_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_tamil_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_tamil_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_category4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_category4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_category1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_category1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keys_dvorak_123.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keys_dvorak_123.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_bengali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_bengali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_mon2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_mon2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_santali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_santali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_phone_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_phone_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_category3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_category3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_suggestions_pane_template.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_suggestions_pane_template.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_myanmar.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_myanmar.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_telugu_kachatathapa.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_telugu_kachatathapa.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_number.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_number.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_gujarati_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_gujarati_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_anysoft_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_anysoft_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_hindi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_hindi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_comma.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_comma.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_compact2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_compact2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_malayalam_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_malayalam_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_burmese.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_burmese.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keys_parentheses.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keys_parentheses.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_kashmiri_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_kashmiri_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_compact2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_compact2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_myanmar4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_myanmar4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_kannada_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_kannada_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_anysoft_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_anysoft_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\method.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\method.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_tamil_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_tamil_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_emoji_category2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_emoji_category2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_qwerty.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_qwerty.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_sinhala.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_sinhala.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\additional_subtype_settings.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\additional_subtype_settings.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_punjabi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_punjabi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_tamil.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_tamil.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_telugu_kachatathapa.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_telugu_kachatathapa.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_nepali_traditional.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_nepali_traditional.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_sinhala.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_sinhala.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_compact3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_compact3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_telugu_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_telugu_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_phone.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_phone.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_multilingual.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_multilingual.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_punjabi_inscript2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_punjabi_inscript2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_mon.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_mon.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_punjabi_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_punjabi_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil_compact3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil_compact3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_bengali_probhat.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_bengali_probhat.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_sinhala3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_sinhala3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_tamil.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_tamil.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_kannada_compact.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_kannada_compact.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kashmiri_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kashmiri_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\row_qwerty4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\row_qwerty4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_assamese_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_assamese_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_nepali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_nepali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_santali_inscript1.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_santali_inscript1.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_bengali2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_bengali2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_gujarati_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_gujarati_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_nepali_romanized.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_nepali_romanized.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_tamil2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_tamil2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\row_symbols4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\row_symbols4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_oriya_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_oriya_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_traditional3_right5.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_traditional3_right5.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_maithili_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_maithili_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_kannada_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_kannada_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_gujarati2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_gujarati2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_manipuri_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_manipuri_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_space_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_space_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_santali_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_santali_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_hindi_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_hindi_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\keyboard_layout_set_marathi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\keyboard_layout_set_marathi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_malayalam_compact3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_malayalam_compact3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_oriya_inscript.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_oriya_inscript.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_settings.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_settings.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_symbols_shift.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_symbols_shift.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_maithili_inscript4.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_maithili_inscript4.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_telugu.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_telugu.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_kannada_compact2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_kannada_compact2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_inscript3.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_inscript3.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_telugu.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_telugu.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\prefs_screen_advanced.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\prefs_screen_advanced.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rows_number_password.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rows_number_password.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\dictionary_settings.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\dictionary_settings.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_nepali_traditional3_left6.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_nepali_traditional3_left6.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_currency_dollar.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_currency_dollar.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\key_styles_navigate_more_keys.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\key_styles_navigate_more_keys.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_myanmar.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_myanmar.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\kbd_punjabi.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\kbd_punjabi.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_qwerty2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_qwerty2.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml\\rowkeys_telugu_kachatathapa2.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml\\rowkeys_telugu_kachatathapa2.xml"
+    }
+]

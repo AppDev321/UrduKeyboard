@@ -40,11 +40,14 @@
         android:title="@string/sound_on_keypress"
         android:defaultValue="@bool/config_default_sound_enabled"
         android:persistent="true" />
+   <!-- @bool/config_default_key_preview_popup-->
     <CheckBoxPreference
+        android:visibility="gone"
+        android:enabled="false"
         android:key="popup_on"
         android:title="@string/popup_on_keypress"
-        android:defaultValue="@bool/config_default_key_preview_popup"
-        android:persistent="true" />
+        android:defaultValue="false"
+        android:persistent="false" />
     <CheckBoxPreference
         android:key="pref_voice_input_key"
         android:title="@string/voice_input"

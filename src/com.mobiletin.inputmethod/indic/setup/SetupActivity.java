@@ -31,7 +31,7 @@ public final class SetupActivity extends Activity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
             final Intent intent = new Intent();
-            intent.setClass(getBaseContext(), Test.class);
+            intent.setClass(getBaseContext(), SetupWizardActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP
                     | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);

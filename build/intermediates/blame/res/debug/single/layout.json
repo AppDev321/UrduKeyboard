@@ -1,7 +1,327 @@
 [
     {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\main_keyboard_frame.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\main_keyboard_frame.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\suggestion_divider.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\suggestion_divider.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\adview.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\adview.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_video.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_video.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_keyboard_tab_icon.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_keyboard_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\seek_bar_dialog.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\seek_bar_dialog.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\layout_about.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\layout_about.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\activuty_splash.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\activuty_splash.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_cards.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_cards.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_suggestions.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_suggestions.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_add_word.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_add_word.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_wizard.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_wizard.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\input_view.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\input_view.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_preference_list_fragment.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_preference_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_video.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_video.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\suggestions_strip.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\suggestions_strip.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_add_word_fullscreen.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_add_word_fullscreen.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_keys_keyboard_for_action_lxx.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_keys_keyboard_for_action_lxx.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_keyboard_page.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_keyboard_page.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_screen.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_screen.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_keyboard_tab_icon.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_keyboard_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_preference_list_fragment.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_preference_list_fragment.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\activuty_splash.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\activuty_splash.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\download_over_metered.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\download_over_metered.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\loading_page.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\loading_page.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_title.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_title.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_screen.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_screen.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_screen.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_screen.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_screen.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_screen.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_palettes_view.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_palettes_view.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\radio_button_preference_widget.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\radio_button_preference_widget.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\input_view.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\input_view.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_add_word.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_add_word.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\dictionary_line.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\dictionary_line.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_keys_keyboard.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_keys_keyboard.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\layout_about.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\layout_about.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_cards.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_cards.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_item.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_item.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\loading_page.xml",
@@ -12,119 +332,195 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\additional_subtype_dialog.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\suggestions_strip.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\suggestions_strip.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_keys_keyboard_for_action_lxx.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_keys_keyboard_for_action_lxx.xml"
-    },
-    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_wizard.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_wizard.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_keyboard_page.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_keyboard_page.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_keys_keyboard.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_keys_keyboard.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_step.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_step.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\layout_about.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\layout_about.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_suggestions.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_suggestions.xml"
-    },
-    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_item.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_item.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_start_indicator_label.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_start_indicator_label.xml"
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_cards.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_cards.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_start_indicator_label.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_start_indicator_label.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_keyboard_tab_icon.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_keyboard_tab_icon.xml"
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_palettes_view.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_palettes_view.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_preference_list_fragment.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_preference_list_fragment.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_title.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_title.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_add_word.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_add_word.xml"
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\seek_bar_dialog.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\seek_bar_dialog.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_screen.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_screen.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\test.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_screen.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_screen.xml"
-    },
-    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_title.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_title.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\download_over_metered.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\download_over_metered.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_add_word_fullscreen.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_add_word_fullscreen.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\adview.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\adview.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_video.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_video.xml"
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\user_dictionary_add_word_fullscreen.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\user_dictionary_add_word_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_welcome_title.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_welcome_title.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_keyboard_page.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_keyboard_page.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_keys_keyboard_for_action_lxx.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_keys_keyboard_for_action_lxx.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\radio_button_preference_widget.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\radio_button_preference_widget.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\suggestions_strip.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\suggestions_strip.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_step.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_step.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\more_suggestions.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\more_suggestions.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_start_indicator_label.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_start_indicator_label.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_palettes_view.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\emoji_palettes_view.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_steps_title.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_steps_title.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\setup_step.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\setup_step.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\download_over_metered.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\download_over_metered.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\dictionary_line.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\dictionary_line.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\suggestion_divider.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\suggestion_divider.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\main_keyboard_frame.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\main_keyboard_frame.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\radio_button_preference_widget.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\radio_button_preference_widget.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\input_view.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\input_view.xml"
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\additional_subtype_dialog.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\layout\\additional_subtype_dialog.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_view.xml"
     }
 ]

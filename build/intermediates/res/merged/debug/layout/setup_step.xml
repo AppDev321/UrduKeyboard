@@ -30,6 +30,7 @@
     <TextView
         android:id="@+id/setup_step_instruction"
         style="@style/setupStepInstructionStyle"
+        android:layout_marginLeft="@dimen/_3sdp"
         android:paddingBottom="@dimen/setup_step_vertical_padding" />
     <TextView
         android:id="@+id/setup_step_action_label"

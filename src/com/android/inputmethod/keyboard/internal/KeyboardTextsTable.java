@@ -58,10 +58,13 @@ public final class KeyboardTextsTable {
         final int index = indexObj;
         final String text = (index < textsTable.length) ? textsTable[index] : null;
         if (text != null) {
+
             return text;
         }
         // Sanity check.
-        if (index >= 0 && index < TEXTS_DEFAULT.length) {
+        if (index >= 0 && index < TEXTS_DEFAULT.length)
+        {
+
             return TEXTS_DEFAULT[index];
         }
         // Throw exception for debugging purpose.
@@ -369,7 +372,9 @@ public final class KeyboardTextsTable {
         /* keyspec_left_single_angle_quote */ "\u2039",
         /* keyspec_right_single_angle_quote */ "\u203A",
         // Comma key
-        /* keyspec_comma */ ",",
+        /* keyspec_comma */
+
+            ",",
         /* keyspec_tablet_comma */ ",",
         /* keyhintlabel_tablet_comma */ EMPTY,
         /* morekeys_tablet_comma */ EMPTY,

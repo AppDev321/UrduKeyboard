@@ -17,19 +17,17 @@
 package com.mobiletin.inputmethod.indic;
 
 import com.android.inputmethod.latin.PrevWordsInfo;
-
+import com.android.inputmethod.latin.define.DebugFlags;
+import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.android.inputmethod.latin.utils.StringUtils;
+import com.mobiletin.inputmethod.event.CombinerChain;
+import com.mobiletin.inputmethod.event.Event;
 import com.mobiletin.inputmethod.ime.InputMethod;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 import javax.annotation.Nonnull;
-
-import com.mobiletin.inputmethod.event.CombinerChain;
-import com.mobiletin.inputmethod.event.Event;
-import com.android.inputmethod.latin.define.DebugFlags;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
 
 /**
  * A place to store the currently composing word with information such as adjacent key codes as well
@@ -65,7 +63,7 @@ public final class WordComposer {
     private InputMethod mTransliterationMethod;
 
     // Cache these values for performance
-    private CharSequence mTypedWordCache;
+    public CharSequence mTypedWordCache;
     private int mCapsCount;
     private int mDigitsCount;
     private int mCapitalizedMode;

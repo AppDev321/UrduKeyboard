@@ -12,6 +12,7 @@ import com.mobiletin.inputmethod.MySuperAppApplication;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class DBDictionary {
     private DataBaseHelper databaseHelper;
@@ -23,16 +24,24 @@ public class DBDictionary {
     }
 
 
+    public List<DictionaryModel> getUrduDicFromEnglishWord(String word, int limit) {
+        String sqlStatement = null;
 
-    public List<DictionaryModel> getUrduDicFromEnglishWord(String word,int limit) {
-        String sqlStatement=null;
 
-        if(!MySuperAppApplication.isProbablyArabic(word)) {
+        String special = "\"'!:;/#-@#$%^&*()_";
+        String pattern = ".*[" + Pattern.quote(special) + "].*";
+        if(word.matches(pattern))
+        {
+            return  null;
+        }
+
+
+        if (!MySuperAppApplication.isProbablyArabic(word)) {
             sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "' limit " + limit;
         }
         else
         {
-            sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "%' limit " + limit;
+            return null;
         }
         SQLiteDatabase db = this.databaseHelper.getReadableDatabase();
         if (db == null)
@@ -59,9 +68,17 @@ public class DBDictionary {
         return dictionaryModelModelList;
     }
 
+    public List<UrduWordModel> getUrduWords(String word) {
+        DBDictionaryUrdu db = new DBDictionaryUrdu(mContext);
+        List<UrduWordModel> dictionaryModelModelList = db.getUrduWords(word);
+
+        return dictionaryModelModelList;
+    }
 
     public DictionaryModel getSingleWordUrdu(String word) {
-        String sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "' " ;
+
+        word = word.replace("\'", "");
+        String sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + word + "' ";
 
         SQLiteDatabase db = this.databaseHelper.getReadableDatabase();
         if (db == null)
@@ -103,13 +120,13 @@ public class DBDictionary {
         //////
 
 
-        contentValues.put("Z_PK", (data+1));
+        contentValues.put("Z_PK", (data + 1));
         contentValues.put("ZWORD", dictionaryModel.getZWORD());
         contentValues.put("TARGETWORD", dictionaryModel.getTARGETWORD());
         contentValues.put("SUGGESTIONS", dictionaryModel.getSUGGESTIONS());
         contentValues.put("INDEXING", dictionaryModel.getINDEXING());
 
-        String sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + dictionaryModel.getZWORD() + "' " ;
+        String sqlStatement = "Select * from ZTRANSLITERATEDDATA WHERE ZWORD LIKE '" + dictionaryModel.getZWORD() + "' ";
         Cursor c = db.rawQuery(sqlStatement, null);
 
         if (c.moveToFirst()) {

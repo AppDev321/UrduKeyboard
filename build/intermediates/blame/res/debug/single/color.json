@@ -1,23 +1,139 @@
 [
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\setup_step_action_color.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\color\\setup_step_action_color.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\setup_step_action_background.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\color\\setup_step_action_background.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\color\\com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\setup_step_action_color.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\color\\setup_step_action_color.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_send_button_text_color.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\color\\com_facebook_send_button_text_color.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_plus_signin_btn_text_light.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\color\\com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_send_button_text_color.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\color\\com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\color\\setup_step_action_background.xml",

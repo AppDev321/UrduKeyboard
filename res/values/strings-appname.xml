@@ -2,21 +2,26 @@
 
 <resources>
 
-    <string name="english_ime_name">Asan Urdu Typing</string>
-    <string name="spell_checker_service_name">Asan Urdu Typing Spell Checker</string>
-    <string name="english_ime_settings">Asan Urdu Typing Settings</string>
-    <string name="android_spell_checker_settings">Asan Urdu Typing Spell Checker Settings</string>
-    <string name="txt_version">Version 1.0</string>
-    <string name="app_sub_title">Create Task to remind</string>
+    <string name="english_ime_name">Asaan Urdu Typing</string>
+    <string name="spell_checker_service_name">Asaan Urdu Typing Spell Checker</string>
+    <string name="english_ime_settings">Asaan Urdu Typing Settings</string>
+    <string name="android_spell_checker_settings">Asaan Urdu Typing Spell Checker Settings</string>
+    <string name="txt_version">Version 1.2</string>
+
     <string name="txt_splash">www.MobileTin.com</string>
     <string name="txt_copy_right">Copyright &#169; 2016 &#45; 2017</string>
     <string name="txt_rights">MobileTin.All rights reserved</string>
 
-    <!--ids-->
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="intersitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="facebook_app_id">830020890461859</string>
-    <string name="google_analytics_id">UA-65635040-19</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6471360733987211/6967832848</string>
+    <string name="intersitial_ad_unit_id">ca-app-pub-6471360733987211/8444566044</string>
+   <!-- <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intersitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="facebook_app_id">667871740041775</string>
+    <string name="google_analytics_id">UA-65635040-22</string>
 
 
+    <string name="share_message">Check out this wonderful app for managing your Urdu Texting.\nDownload for free from here. https://play.google.com/store/apps/details?id=com.mobiletin.inputmethod</string>
+    <string name="urdu_question">؟</string>
+    <string name="urdu_comma">،</string>
 </resources>

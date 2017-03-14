@@ -52,7 +52,12 @@
                 latin:keySpec="\@"
                 latin:keyStyle="settingsMoreKeysStyle" />
         </case>
+
+        <case latin:languageCode="ar|fa">
+            <Key  latin:keySpec="&#x60c;" />
+        </case>
         <default>
+
             <Key
                 latin:keySpec="!text/keyspec_comma"
                 latin:keyLabelFlags="hasPopupHint"

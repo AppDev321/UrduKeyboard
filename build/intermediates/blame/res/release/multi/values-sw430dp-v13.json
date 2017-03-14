@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw430dp-v13\\values-sw430dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 872,
+                        "endColumn": 61,
+                        "endOffset": 929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 58,
+                    "endOffset": 171
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 934,
+                        "endColumn": 58,
+                        "endOffset": 988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 176,
+                    "endColumn": 72,
+                    "endOffset": 244
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 730,
+                        "endColumn": 72,
+                        "endOffset": 798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 249,
+                    "endColumn": 65,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 993,
+                        "endColumn": 65,
+                        "endOffset": 1054
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 68,
+                    "endOffset": 379
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1059,
+                        "endColumn": 68,
+                        "endOffset": 1123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 384,
+                    "endColumn": 77,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1244,
+                        "endColumn": 77,
+                        "endOffset": 1317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 56,
+                    "endOffset": 514
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1322,
+                        "endColumn": 56,
+                        "endOffset": 1374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 519,
+                    "endColumn": 53,
+                    "endOffset": 568
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-sw430dp\\config-screen-metrics.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endColumn": 53,
+                        "endOffset": 812
+                    }
+                }
+            }
+        ]
+    }
+]

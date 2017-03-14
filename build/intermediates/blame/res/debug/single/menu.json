@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\menu\\add_style.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\menu\\add_style.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\menu\\popup_menu.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\menu\\popup_menu.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\menu\\popup_menu.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\menu\\popup_menu.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\menu\\add_style.xml",

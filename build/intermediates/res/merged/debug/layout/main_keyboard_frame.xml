@@ -25,7 +25,6 @@
     android:orientation="vertical">
 
 
-
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -41,19 +40,38 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layoutDirection="ltr"
-                ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
 
             </com.google.android.gms.ads.AdView>
             <!-- To ensure that key preview popup is correctly placed when the current system locale is
                  one of RTL locales, layoutDirection="ltr" is needed in the SDK version 17+. -->
-            <com.mobiletin.inputmethod.indic.suggestions.SuggestionStripView
-                android:id="@+id/suggestion_strip_view"
-                style="?attr/suggestionStripViewStyle"
+
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/config_suggestions_strip_height"
-                android:gravity="center_vertical"
-                android:layoutDirection="ltr" />
+                android:layout_height="wrap_content">
+
+                <com.mobiletin.inputmethod.indic.suggestions.SuggestionStripView
+                    android:id="@+id/suggestion_strip_view"
+                    style="?attr/suggestionStripViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/config_suggestions_strip_height"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="ltr" />
+
+                <HorizontalScrollView
+                    android:background="@color/suggestion_color"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:id="@+id/linearCustomSuggestion"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/config_suggestions_strip_height"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
         </LinearLayout>
         <!-- To ensure that key preview popup is correctly placed when the current system locale is
              one of RTL locales, layoutDirection="ltr" is needed in the SDK version 17+. -->

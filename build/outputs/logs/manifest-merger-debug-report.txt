@@ -1,366 +1,391 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:16:1-212:12
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:16:1-227:12
 	package
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:18:5-46
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:18:5-46
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:20:5-30
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:20:5-30
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
 	android:versionCode
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:19:5-28
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:19:5-28
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
 	coreApp
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:17:5-19
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:17:5-19
 	xmlns:android
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:16:11-69
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:16:11-69
 uses-sdk
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:22:5-24:41
-MERGED from [com.google.android.gms:play-services-ads:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.0.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-base:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gass:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\AndroidManifest.xml:6:5-8:41
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.facebook.android:facebook-android-sdk:4.10.1] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.1\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:23.2.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.2.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:24:9-38
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:24:9-38
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:23:9-35
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
-		INJECTED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:23:9-35
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
+		INJECTED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:20:5-66
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:26:22-64
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:26:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:27:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:21:5-78
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:21:5-78
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:27:22-76
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:27:22-76
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:28:5-71
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:28:5-71
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:28:22-68
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:28:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:29:5-72
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:29:5-72
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:29:22-69
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:29:22-69
 uses-permission#android.permission.READ_PROFILE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:30:5-71
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:30:5-71
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:30:22-68
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:30:22-68
 uses-permission#android.permission.READ_USER_DICTIONARY
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:31:5-79
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:31:5-79
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:31:22-76
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:31:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:32:5-81
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:32:5-81
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:32:22-78
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:32:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:33:5-66
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:33:5-66
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:33:22-63
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:33:22-63
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:34:5-81
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:34:5-81
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:34:22-78
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:34:22-78
 uses-permission#android.permission.WRITE_USER_DICTIONARY
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:35:5-80
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:35:5-80
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:35:22-77
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:35:22-77
 application
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:37:5-211:19
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.0.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-gass:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.github.ozodrukh\CircularReveal\1.1.1\AndroidManifest.xml:10:5-20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:37:5-226:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.10.1] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.10.1\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:23.2.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.2.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:41:9-49
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:41:9-49
 	android:supportsRtl
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:42:9-35
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:42:9-35
 	android:allowBackup
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:39:9-35
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:39:9-35
 	android:icon
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:40:9-38
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:40:9-43
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:38:9-71
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:38:9-71
 service#com.mobiletin.inputmethod.indic.LatinIME
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:44:9-54:19
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:44:9-55:19
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:46:13-53
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:46:13-53
 	android:permission
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:47:13-70
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:48:13-70
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:45:13-36
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:45:13-36
 intent-filter#android.view.InputMethod
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:48:13-50:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:49:13-51:29
 action#android.view.InputMethod
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:49:17-67
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:50:17-67
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:49:25-64
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:50:25-64
 meta-data#android.view.im
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:51:13-53:50
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:52:13-54:50
 	android:resource
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:53:17-47
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:54:17-47
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:52:17-47
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:53:17-47
 service#com.mobiletin.inputmethod.indic.spellcheck.AndroidSpellCheckerService
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:56:9-66:19
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:57:9-67:19
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:58:13-63
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:59:13-63
 	android:permission
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:59:13-70
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:60:13-70
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:57:13-66
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:58:13-66
 intent-filter#android.service.textservice.SpellCheckerService
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:60:13-62:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:61:13-63:29
 action#android.service.textservice.SpellCheckerService
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:61:17-90
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:62:17-90
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:61:25-87
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:62:25-87
 meta-data#android.view.textservice.scs
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:63:13-65:56
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:64:13-66:56
 	android:resource
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:65:17-53
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:66:17-53
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:64:17-60
-activity#com.mobiletin.inputmethod.indic.setup.SetupActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:68:9-80:20
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:65:17-60
+activity#com.mobiletin.inputmethod.indic.setup.SplashActivity
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:70:9-80:20
 	android:screenOrientation
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:74:13-49
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:74:13-49
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:71:13-53
-	android:launchMode
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:72:13-44
-	android:noHistory
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:73:13-37
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:73:13-53
 	android:icon
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:70:13-58
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:72:13-47
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:75:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:75:13-71
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:69:13-48
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:71:13-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:76:13-79:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:76:13-79:29
 action#android.intent.action.MAIN
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:77:17-69
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:77:17-69
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:77:25-66
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:77:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:78:17-77
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:78:17-77
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:78:27-74
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:78:27-74
+activity#com.mobiletin.inputmethod.indic.setup.SetupActivity
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:83:9-90:20
+	android:screenOrientation
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:86:13-53
+	android:icon
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:85:13-47
+	android:name
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:84:13-48
 activity#com.mobiletin.inputmethod.indic.setup.Test
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:82:9-89:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:93:9-100:20
 	android:screenOrientation
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:86:13-49
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:97:13-49
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:85:13-53
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:96:13-53
 	android:icon
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:84:13-58
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:95:13-47
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:87:13-75
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:98:13-75
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:83:13-39
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:94:13-39
 activity#com.mobiletin.inputmethod.indic.setup.AboutActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:91:9-98:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:102:9-109:20
 	android:screenOrientation
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:95:13-49
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:106:13-49
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:94:13-53
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:105:13-53
 	android:icon
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:93:13-58
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:104:13-47
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:96:13-75
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:107:13-60
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:92:13-48
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:103:13-48
 activity#com.mobiletin.inputmethod.indic.setup.SetupWizardActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:99:9-108:20
-	android:clearTaskOnLaunch
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:102:13-45
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:111:9-119:20
 	android:screenOrientation
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:100:13-49
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:112:13-49
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:103:13-53
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:114:13-53
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:104:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:115:13-75
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:101:13-54
-intent-filter#android.intent.action.MAIN
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:105:13-107:29
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:113:13-54
 receiver#com.mobiletin.inputmethod.indic.SystemBroadcastReceiver
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:110:9-117:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:121:9-128:20
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:110:19-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:121:19-57
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.LOCALE_CHANGED+android.intent.action.MY_PACKAGE_REPLACED+android.intent.action.USER_INITIALIZE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:111:13-116:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:122:13-127:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:112:17-84
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:123:17-84
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:112:25-81
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:123:25-81
 action#android.intent.action.BOOT_COMPLETED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:113:17-79
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:124:17-79
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:113:25-76
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:124:25-76
 action#android.intent.action.USER_INITIALIZE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:114:17-80
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:125:17-80
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:114:25-77
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:125:25-77
 action#android.intent.action.LOCALE_CHANGED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:115:17-79
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:126:17-79
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:115:25-76
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:126:25-76
 activity#com.mobiletin.inputmethod.indic.settings.SettingsActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:119:9-127:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:130:9-138:20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:121:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:132:13-57
 	android:uiOptions
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:123:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:134:13-57
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:122:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:133:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:120:13-54
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:131:13-54
+intent-filter#android.intent.action.MAIN
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:135:13-137:29
 activity#com.mobiletin.inputmethod.indic.spellcheck.SpellCheckerSettingsActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:129:9-136:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:140:9-147:20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:131:13-67
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:142:13-67
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:132:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:143:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:130:13-68
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:141:13-68
 receiver#com.mobiletin.inputmethod.indic.SuggestionSpanPickedNotificationReceiver
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:138:9-144:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:149:9-155:20
 	android:enabled
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:140:13-35
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:151:13-35
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:139:13-68
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:150:13-68
 intent-filter#android.text.style.SUGGESTION_PICKED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:141:13-143:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:152:13-154:29
 action#android.text.style.SUGGESTION_PICKED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:142:17-79
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:153:17-79
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:142:25-76
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:153:25-76
 receiver#com.mobiletin.inputmethod.indic.personalization.DictionaryDecayBroadcastReciever
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:146:9-152:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:157:9-163:20
 	android:exported
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:148:13-37
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:159:13-37
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:147:13-77
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:158:13-77
 intent-filter#com.mobiletin.inputmethod.indic.personalization.DICT_DECAY
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:149:13-151:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:160:13-162:29
 action#com.mobiletin.inputmethod.indic.personalization.DICT_DECAY
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:150:17-101
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:161:17-101
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:150:25-98
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:161:25-98
 receiver#com.mobiletin.inputmethod.indic.DictionaryPackInstallBroadcastReceiver
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:154:9-160:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:165:9-171:20
 	android:exported
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:156:13-37
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:167:13-37
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:155:13-67
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:166:13-67
 intent-filter#com.mobiletin.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:157:13-159:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:168:13-170:29
 action#com.mobiletin.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:158:17-103
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:169:17-103
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:158:25-100
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:169:25-100
 provider#com.mobiletin.inputmethod.dictionarypack.DictionaryProvider
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:162:9-168:53
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:173:9-179:53
 	android:authorities
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:164:13-52
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:175:13-52
 	android:grantUriPermissions
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:166:13-47
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:177:13-47
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:167:13-61
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:178:13-61
 	android:multiprocess
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:168:13-41
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:179:13-41
 	android:exported
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:165:13-37
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:176:13-37
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:163:13-87
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:174:13-87
 service#com.mobiletin.inputmethod.dictionarypack.DictionaryService
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:170:9-172:71
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:181:9-183:71
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:172:13-60
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:183:13-60
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:171:13-86
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:182:13-86
 receiver#com.mobiletin.inputmethod.dictionarypack.EventHandler
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:174:9-180:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:185:9-191:20
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:174:19-87
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:185:19-87
 intent-filter#android.intent.action.DATE_CHANGED+android.intent.action.DOWNLOAD_COMPLETE+org.smc.inputmethod.dictionarypack.aosp.UPDATE_NOW
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:175:13-179:29
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:186:13-190:29
 action#android.intent.action.DOWNLOAD_COMPLETE
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:176:17-82
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:187:17-82
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:176:25-79
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:187:25-79
 action#android.intent.action.DATE_CHANGED
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:177:17-77
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:188:17-77
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:177:25-74
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:188:25-74
 action#org.smc.inputmethod.dictionarypack.aosp.UPDATE_NOW
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:178:17-93
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:189:17-93
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:178:25-90
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:189:25-90
 activity#com.mobiletin.inputmethod.dictionarypack.DictionarySettingsActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:182:9-190:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:193:9-201:20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:184:13-62
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:195:13-62
 	android:uiOptions
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:186:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:197:13-57
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:185:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:196:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:183:13-95
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:194:13-95
 activity#com.mobiletin.inputmethod.dictionarypack.DownloadOverMeteredDialog
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:192:9-199:20
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:203:9-210:20
 	android:label
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:194:13-83
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:205:13-83
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:195:13-57
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:206:13-57
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:193:13-94
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:204:13-94
 meta-data#com.google.android.gms.version
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:204:9-206:69
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:215:9-217:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:206:13-66
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:217:13-66
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:205:13-58
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:216:13-58
 activity#com.google.android.gms.ads.AdActivity
-ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:207:9-210:64
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:26:9-29:64
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:218:9-221:64
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:209:13-122
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:220:13-122
 	android:theme
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:210:13-61
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:221:13-61
 	android:name
-		ADDED from E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:208:13-65
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:219:13-65
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:223:9-225:55
+	android:value
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:225:13-52
+	android:name
+		ADDED from D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\AndroidManifest.xml:224:13-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\AndroidManifest.xml:25:22-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:30:9-31:52
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:30:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\AndroidManifest.xml:30:19-91
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] E:\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\E Drive DATA\IonicKeys\IonicKeys\Indic-Keyboard-master\java\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:19-85

@@ -1,17 +1,19 @@
 package com.mobiletin.inputmethod.indic.setup;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
+import com.mobiletin.inputmethod.Ads.AdIntegration;
+import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.indic.R;
 
 /**
  * Created by Administrator on 10/7/2016.
  */
 
-public class AboutActivity extends Activity{
+public class AboutActivity extends AdIntegration{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +25,16 @@ public class AboutActivity extends Activity{
                 finish();
             }
         });
+
+        /*AnalyticSingaltonClass mAnalyticSingaltonClass = AnalyticSingaltonClass.getInstance(this);
+        mAnalyticSingaltonClass.sendScreenAnalytics("About Index - Testing");*/
+
+        super.showAdd(this,(LinearLayout)findViewById(R.id.adView),false);
+
+        if(MySuperAppApplication.preLoadIntersitial.getAd().isLoaded())
+        {
+            MySuperAppApplication.preLoadIntersitial.getAd().show();
+        }
+
     }
 }

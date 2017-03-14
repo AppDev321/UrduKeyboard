@@ -33,11 +33,6 @@ import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 
 import com.android.inputmethod.latin.PrevWordsInfo;
-
-import java.util.Arrays;
-
-import com.mobiletin.inputmethod.compat.InputConnectionCompatUtils;
-import com.mobiletin.inputmethod.indic.settings.SpacingAndPunctuations;
 import com.android.inputmethod.latin.utils.CapsModeUtils;
 import com.android.inputmethod.latin.utils.DebugLogUtils;
 import com.android.inputmethod.latin.utils.PrevWordsInfoUtils;
@@ -45,8 +40,11 @@ import com.android.inputmethod.latin.utils.ScriptUtils;
 import com.android.inputmethod.latin.utils.SpannableStringUtils;
 import com.android.inputmethod.latin.utils.StringUtils;
 import com.android.inputmethod.latin.utils.TextRange;
-
+import com.mobiletin.inputmethod.compat.InputConnectionCompatUtils;
 import com.mobiletin.inputmethod.ime.InputMethod;
+import com.mobiletin.inputmethod.indic.settings.SpacingAndPunctuations;
+
+import java.util.Arrays;
 /**
  * Enrichment class for InputConnection to simplify interaction and add functionality.
  *
@@ -88,7 +86,7 @@ public final class RichInputConnection {
     /**
      * This contains the currently composing text, as LatinIME thinks the TextView is seeing it.
      */
-    private final StringBuilder mComposingText = new StringBuilder();
+    public final StringBuilder mComposingText = new StringBuilder();
 
     /**
      * This variable is a temporary object used in
@@ -528,6 +526,7 @@ public final class RichInputConnection {
                     mExpectedSelEnd = mExpectedSelStart;
                 }
                 break;
+
             default:
                 final String text = StringUtils.newSingleCodePointString(keyEvent.getUnicodeChar());
                 mCommittedTextBeforeComposingText.append(text);
@@ -574,6 +573,7 @@ public final class RichInputConnection {
         // TODO: support values of newCursorPosition != 1. At this time, this is never called with
         // newCursorPosition != 1.
         if (null != mIC) {
+
             mIC.setComposingText(text, newCursorPosition);
         }
         if (DEBUG_PREVIOUS_TEXT) checkConsistencyForDebug();

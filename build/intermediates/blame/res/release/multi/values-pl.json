@@ -1,0 +1,729 @@
+[
+    {
+        "outputFile": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pl\\values-pl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 128,
+                    "endOffset": 229
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 128,
+                        "endOffset": 294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 234,
+                    "endColumn": 115,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 299,
+                        "endColumn": 115,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 350,
+                    "endColumn": 138,
+                    "endOffset": 484
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endColumn": 138,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 489,
+                    "endColumn": 94,
+                    "endOffset": 579
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endColumn": 94,
+                        "endOffset": 644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 584,
+                    "endColumn": 68,
+                    "endOffset": 648
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 649,
+                        "endColumn": 68,
+                        "endOffset": 713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 653,
+                    "endColumn": 72,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 72,
+                        "endOffset": 786
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 726,
+                    "endColumn": 61,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 791,
+                        "endColumn": 61,
+                        "endOffset": 848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 71,
+                    "endOffset": 855
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 853,
+                        "endColumn": 71,
+                        "endOffset": 920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 860,
+                    "endColumn": 76,
+                    "endOffset": 932
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 925,
+                        "endColumn": 76,
+                        "endOffset": 997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 937,
+                    "endColumn": 97,
+                    "endOffset": 1030
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 97,
+                        "endOffset": 1095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1035,
+                    "endColumn": 77,
+                    "endOffset": 1108
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1100,
+                        "endColumn": 77,
+                        "endOffset": 1173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1113,
+                    "endColumn": 77,
+                    "endOffset": 1186
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1178,
+                        "endColumn": 77,
+                        "endOffset": 1251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1191,
+                    "endColumn": 85,
+                    "endOffset": 1272
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1256,
+                        "endColumn": 85,
+                        "endOffset": 1337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1277,
+                    "endColumn": 102,
+                    "endOffset": 1375
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1342,
+                        "endColumn": 102,
+                        "endOffset": 1440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1380,
+                    "endColumn": 64,
+                    "endOffset": 1440
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1445,
+                        "endColumn": 64,
+                        "endOffset": 1505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1445,
+                    "endColumn": 69,
+                    "endOffset": 1510
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1510,
+                        "endColumn": 69,
+                        "endOffset": 1575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1515,
+                    "endColumn": 142,
+                    "endOffset": 1653
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1580,
+                        "endColumn": 142,
+                        "endOffset": 1718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1658,
+                    "endColumn": 105,
+                    "endOffset": 1759
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 105,
+                        "endOffset": 430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1764,
+                    "endColumn": 199,
+                    "endOffset": 1959
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 435,
+                        "endColumn": 199,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1964,
+                    "endColumn": 123,
+                    "endOffset": 2083
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 123,
+                        "endOffset": 754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2088,
+                    "endColumn": 127,
+                    "endOffset": 2211
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 759,
+                        "endColumn": 127,
+                        "endOffset": 882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2216,
+                    "endColumn": 224,
+                    "endOffset": 2436
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 887,
+                        "endColumn": 224,
+                        "endOffset": 1107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2441,
+                    "endColumn": 224,
+                    "endOffset": 2661
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 224,
+                        "endOffset": 1332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2666,
+                    "endColumn": 126,
+                    "endOffset": 2788
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1337,
+                        "endColumn": 126,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2793,
+                    "endColumn": 127,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1464,
+                        "endColumn": 127,
+                        "endOffset": 1587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endColumn": 262,
+                    "endOffset": 3179
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 262,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3184,
+                    "endColumn": 269,
+                    "endOffset": 3449
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1592,
+                        "endColumn": 269,
+                        "endOffset": 1857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3454,
+                    "endColumn": 121,
+                    "endOffset": 3571
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1862,
+                        "endColumn": 121,
+                        "endOffset": 1979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3576,
+                    "endColumn": 110,
+                    "endOffset": 3682
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1984,
+                        "endColumn": 110,
+                        "endOffset": 2090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3687,
+                    "endColumn": 205,
+                    "endOffset": 3888
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2095,
+                        "endColumn": 205,
+                        "endOffset": 2296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3893,
+                    "endColumn": 129,
+                    "endOffset": 4018
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2301,
+                        "endColumn": 129,
+                        "endOffset": 2426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 4023,
+                    "endColumn": 217,
+                    "endOffset": 4236
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2431,
+                        "endColumn": 217,
+                        "endOffset": 2644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4241,
+                    "endColumn": 138,
+                    "endOffset": 4375
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2649,
+                        "endColumn": 138,
+                        "endOffset": 2783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4380,
+                    "endColumn": 190,
+                    "endOffset": 4566
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2788,
+                        "endColumn": 190,
+                        "endOffset": 2974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4571,
+                    "endColumn": 98,
+                    "endOffset": 4665
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2979,
+                        "endColumn": 98,
+                        "endOffset": 3073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4670,
+                    "endColumn": 95,
+                    "endOffset": 4761
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3078,
+                        "endColumn": 95,
+                        "endOffset": 3169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4766,
+                    "endColumn": 112,
+                    "endOffset": 4874
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pl\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3174,
+                        "endColumn": 112,
+                        "endOffset": 3282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4879,
+                    "endColumn": 61,
+                    "endOffset": 4936
+                },
+                "from": {
+                    "file": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.10.1\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1855,
+                        "endColumn": 61,
+                        "endOffset": 1912
+                    }
+                }
+            }
+        ]
+    }
+]

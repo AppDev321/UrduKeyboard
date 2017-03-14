@@ -26,12 +26,15 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.inputmethodservice.InputMethodService;
 import android.media.AudioManager;
 import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Debug;
+import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.os.StrictMode;
@@ -54,8 +57,10 @@ import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.CursorAnchorInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.android.inputmethod.keyboard.Keyboard;
@@ -77,10 +82,12 @@ import com.android.inputmethod.latin.utils.IntentUtils;
 import com.android.inputmethod.latin.utils.JniUtils;
 import com.android.inputmethod.latin.utils.LeakGuardHandlerWrapper;
 import com.android.inputmethod.latin.utils.StatsUtils;
+import com.android.inputmethod.latin.utils.StringUtils;
 import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
 import com.android.inputmethod.latin.utils.ViewLayoutUtils;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.accessibility.AccessibilityUtils;
 import com.mobiletin.inputmethod.annotations.UsedForTesting;
 import com.mobiletin.inputmethod.compat.CursorAnchorInfoCompatWrapper;
@@ -105,6 +112,7 @@ import com.mobiletin.inputmethod.indic.suggestions.SuggestionStripView;
 import com.mobiletin.inputmethod.indic.suggestions.SuggestionStripViewAccessor;
 import com.mobiletin.inputmethod.sqlite.DBDictionary;
 import com.mobiletin.inputmethod.sqlite.DictionaryModel;
+import com.mobiletin.inputmethod.sqlite.UrduWordModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -208,6 +216,10 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
     public final UIHandler mHandler = new UIHandler(this);
 
+    private static String saveTypedWord = "";
+    public boolean isNotReturnWord = false;
+    public LinearLayout linerCustomSuggestion;
+    public static int counter = 0;
 
     public static final class UIHandler extends LeakGuardHandlerWrapper<LatinIME> {
         private static final int MSG_UPDATE_SHIFT_STATE = 0;
@@ -809,6 +821,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             mSuggestionStripView.setListener(this, view);
         }
 
+        linerCustomSuggestion = (LinearLayout) view.findViewById(R.id.linearCustomSuggestion);
 
         adView = (AdView) view.findViewById(R.id.adView);
         LinearLayout linearLayout = (LinearLayout) adView.getParent();
@@ -1081,6 +1094,24 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         // Contextual dictionary should be updated for the current application.
         mContextualDictionaryUpdater.onStartInputView(editorInfo.packageName);
         if (TRACE) Debug.startMethodTracing("/data/trace/latinime");
+
+        linerCustomSuggestion.removeAllViews();
+        // ***** show add
+        if (counter == 10) {
+            counter = 0;
+            if (MySuperAppApplication.preLoadIntersitial.getAd().isLoaded()) {
+                MySuperAppApplication.preLoadIntersitial.getAd().show();
+            }
+        } else {
+            counter++;
+        }
+        MySuperAppApplication.mAnalyticSingaltonClass.sendEventAnalytics("keyboard", "appear");
+        saveTypedWord = "";
+        mInputLogic.saveTypedWord = "";
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+
     }
 
     @Override
@@ -1248,9 +1279,37 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
         final int suggestionsHeight = (!mKeyboardSwitcher.isShowingEmojiPalettes() && mSuggestionStripView.getVisibility() == View.VISIBLE)
                 ? mSuggestionStripView.getHeight() : 0;
-        final int visibleTopY = inputHeight - visibleKeyboardView.getHeight() - suggestionsHeight - adView.getHeight();
-        mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
+        int visibleTopY = 0;
 
+        //Bsed on INternet connection
+        if (isInternetOn()) {
+            adView.setVisibility(View.VISIBLE);
+            if (linerCustomSuggestion.getVisibility() == View.VISIBLE) {
+                mSuggestionStripView.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, 0));
+                visibleTopY = inputHeight - visibleKeyboardView.getHeight() - adView.getHeight() - linerCustomSuggestion.getHeight();
+                mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
+            } else {
+                mSuggestionStripView.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, (int) getResources().getDimension(R.dimen.config_suggestions_strip_height)));
+                visibleTopY = inputHeight - visibleKeyboardView.getHeight() - adView.getHeight() - suggestionsHeight;
+                mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
+            }
+        } else {
+            adView.setVisibility(View.GONE);
+            if (linerCustomSuggestion.getVisibility() == View.VISIBLE) {
+                mSuggestionStripView.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, 0));
+                visibleTopY = inputHeight - visibleKeyboardView.getHeight() - linerCustomSuggestion.getHeight();
+                mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
+            } else {
+                mSuggestionStripView.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, (int) getResources().getDimension(R.dimen.config_suggestions_strip_height)));
+                visibleTopY = inputHeight - visibleKeyboardView.getHeight() - suggestionsHeight;
+                mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
+            }
+        }
+
+        if (mKeyboardSwitcher.isShowingEmojiPalettes()) {
+            visibleTopY = inputHeight - visibleKeyboardView.getHeight();
+            mSuggestionStripView.setMoreSuggestionsHeight(visibleTopY);
+        }
         // Need to set touchable region only if a keyboard view is being shown.
         if (visibleKeyboardView.isShown()) {
             final int touchLeft = 0;
@@ -1468,10 +1527,320 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         updateStateAfterInputTransaction(completeInputTransaction);
         mKeyboardSwitcher.onCodeInput(codePoint, getCurrentAutoCapsState(),
                 getCurrentRecapitalizeState());
-        if (Constants.CODE_SPACE == codePoint) {
-            Log.e("is space", "hiiting");
+
+
+        if (Constants.CODE_SPACE == codePoint && saveTypedWord.length() > 0 && isNotReturnWord) {
+            showCustomSuggetion(saveTypedWord, true);
+        }
+
+        //handling keys
+        if (codePoint == Constants.CODE_DELETE) {
+            saveTypedWord = mInputLogic.removeLastChar(saveTypedWord);
+            // showCustomSuggetion(saveTypedWord,false);
+        } else {
+            saveTypedWord += StringUtils.newSingleCodePointString(codePoint);
+
+            if (saveTypedWord.length() > 0 && !isNotReturnWord) {
+                // showCustomSuggetion(saveTypedWord, false);
+            }
+        }
+        if (codePoint == Constants.CODE_SPACE) {
+            saveTypedWord = "";
+        }
+        if (codePoint == Constants.CODE_COMMA) {
+            saveTypedWord="";
+            SharedPreferences prefs = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE);
+            int idName = prefs.getInt("pos", 0); //0 is the default value.
+            if (idName == 0  ) {
+                String textBeforeCursor = mInputLogic.mConnection.getTextBeforeCursor(Constants.EDITOR_CONTENTS_CACHE_SIZE,0).toString();
+                String newString = textBeforeCursor.replace(",", getString(R.string.urdu_comma));
+                mInputLogic.convertCommaText(newString, textBeforeCursor);
+            }
+        }
+        if (codePoint == Constants.CODE_QUESTION_MARK) {
+            saveTypedWord="";
+            SharedPreferences prefs = MySuperAppApplication.getContext().getSharedPreferences("TranslationPref", MODE_PRIVATE);
+            int idName = prefs.getInt("pos", 0); //0 is the default value.
+            if (idName == 0  ) {
+                String textBeforeCursor = mInputLogic.mConnection.getTextBeforeCursor(Constants.EDITOR_CONTENTS_CACHE_SIZE,0).toString();
+                String newString = textBeforeCursor.replace("?", getString(R.string.urdu_question));
+                mInputLogic.convertCommaText(newString, textBeforeCursor);
+
+            }
+        }
+
+    }
+
+    public void showCustomSuggetion(final String mTypedWord, final boolean isSuggestion) {
+        int hanleTime = 1100;
+        isNotReturnWord = true;
+        LinearLayout.LayoutParams param = new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT,
+                LayoutParams.MATCH_PARENT, 1.0f);
+        param.gravity = Gravity.CENTER;
+        final int padding = (int) getResources().getDimension(R.dimen._5sdp);
+        linerCustomSuggestion.removeAllViews();
+
+        SharedPreferences prefs = getSharedPreferences("TranslationPref", MODE_PRIVATE);
+        int idName = prefs.getInt("pos", 0); //0 is the default value.
+
+        if (idName == 0 && !MySuperAppApplication.isProbablyArabic(mTypedWord)) {
+            linerCustomSuggestion.setVisibility(View.VISIBLE);
+            final Button typeText = new Button(this);
+            typeText.setText(mTypedWord);
+            typeText.setTextColor(Color.WHITE);
+            typeText.setBackgroundResource(R.drawable.btn_selector_suggestion);
+            typeText.setPadding(padding, padding, padding, padding);
+         //   typeText.setTextSize(getResources().getDimension(R.dimen._8sdp));
+            typeText.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (isSuggestion) {
+                        pickSuggestionManually(new SuggestedWordInfo(typeText.getText().toString() + " ", SuggestedWordInfo.MAX_SCORE,
+                                SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                SuggestedWordInfo.NOT_AN_INDEX,
+                                SuggestedWordInfo.NOT_A_CONFIDENCE));
+                    } else {
+                        mInputLogic.convertSpaceText(typeText.getText().toString(), mTypedWord);
+                        mInputLogic.saveTypedWord = "";
+
+                    }
+                    saveTypedWord = "";
+                    linerCustomSuggestion.removeAllViews();
+                }
+            });
+            linerCustomSuggestion.addView(typeText);
+            final DBDictionary dbManager = new DBDictionary(this);
+            List<DictionaryModel> dictionaryModelList = new ArrayList<>();
+            if (mTypedWord != null && mTypedWord.length() > 0) {
+                dictionaryModelList = dbManager.getUrduDicFromEnglishWord(mTypedWord, 1);
+                if(dictionaryModelList == null)
+                {
+                    linerCustomSuggestion.removeAllViews();
+                    //For the specical charcter check which return null
+                    if (isSuggestion) {
+                        pickSuggestionManually(new SuggestedWordInfo("", SuggestedWordInfo.MAX_SCORE,
+                                SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                SuggestedWordInfo.NOT_AN_INDEX,
+                                SuggestedWordInfo.NOT_A_CONFIDENCE));
+                    } else {
+                       // mInputLogic.convertSpaceText(mTypedWord, mTypedWord);
+                        mInputLogic.saveTypedWord = "";
+                    }
+                    return;
+                }
+                else if (dictionaryModelList.size() > 0) {
+                    isNotReturnWord = false;
+                    handlerFunction(false, mTypedWord, dbManager, isSuggestion, linerCustomSuggestion, padding);
+                }
+            }
+            if (isSuggestion && !MySuperAppApplication.isProbablyArabic(mTypedWord)) {
+                if (dictionaryModelList.size() == 0)
+                {
+
+                    if (mTypedWord != null && mTypedWord.length() > 0 ) {
+                        String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + mTypedWord.trim() + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
+                        if (isInternetOn()) {
+                            linerCustomSuggestion.removeAllViews();
+                            final Button valueTV = new Button(getApplicationContext());
+                            valueTV.setLayoutParams(param);
+                            valueTV.setText("Loading...");
+                            valueTV.setTextColor(Color.WHITE);
+                            valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                            valueTV.setPadding(padding, padding, padding, padding);
+                         //   valueTV.setTextSize(getResources().getDimension(R.dimen._8sdp));
+                            linerCustomSuggestion.addView(valueTV);
+
+
+                            // goForOnlineSuggetions(url);
+                            new GoogleTransaltor().execute(url);
+                            //Show new downloaded data
+                            final Handler handler = new Handler();
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    linerCustomSuggestion.removeAllViews();
+                                    handlerFunction(true, mTypedWord, dbManager, isSuggestion, linerCustomSuggestion, padding);
+                                }
+                            }, hanleTime);
+
+                        } else {
+                            linerCustomSuggestion.removeAllViews();
+                            final Button valueTV = new Button(getApplicationContext());
+                            valueTV.setText("No internet connection...");
+                            valueTV.setTextColor(Color.WHITE);
+                            valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                            valueTV.setPadding(padding, padding, padding, padding);
+                          //  valueTV.setTextSize(getResources().getDimension(R.dimen._8sdp));
+                            linerCustomSuggestion.addView(valueTV);
+                        }
+                    }
+                }
+
+            }
+        } else {
+            //For Urdu list  words
+
+            if (MySuperAppApplication.isProbablyArabic(mTypedWord)) {
+                showUrduSuggetion(mTypedWord, isSuggestion);
+            } else {
+                linerCustomSuggestion.setVisibility(View.GONE);
+            }
         }
     }
+
+    public void showUrduSuggetion(final String mTypedWord, final boolean isSuggestion) {
+
+        isNotReturnWord = true;
+        LinearLayout.LayoutParams param = new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT,
+                LayoutParams.MATCH_PARENT, 1.0f);
+        param.gravity = Gravity.CENTER;
+        final int padding = (int) getResources().getDimension(R.dimen._5sdp);
+        linerCustomSuggestion.removeAllViews();
+
+        linerCustomSuggestion.setVisibility(View.VISIBLE);
+        final Button typeText = new Button(this);
+        typeText.setText(mTypedWord);
+        typeText.setTextColor(Color.WHITE);
+        typeText.setBackgroundResource(R.drawable.btn_selector_suggestion);
+        typeText.setPadding(padding, padding, padding, padding);
+      //  typeText.setTextSize(getResources().getDimension(R.dimen._8sdp));
+        typeText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (isSuggestion) {
+                    pickSuggestionManually(new SuggestedWordInfo(typeText.getText().toString() + " ", SuggestedWordInfo.MAX_SCORE,
+                            SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                            SuggestedWordInfo.NOT_AN_INDEX,
+                            SuggestedWordInfo.NOT_A_CONFIDENCE));
+                } else {
+                    mInputLogic.convertSpaceText(typeText.getText().toString(), mTypedWord);
+                    mInputLogic.saveTypedWord = "";
+
+                }
+                saveTypedWord = "";
+                linerCustomSuggestion.removeAllViews();
+            }
+        });
+        linerCustomSuggestion.addView(typeText);
+        final DBDictionary dbManager = new DBDictionary(this);
+        List<UrduWordModel> dictionaryModelList = new ArrayList<>();
+        if (mTypedWord != null && mTypedWord.length() > 0) {
+            dictionaryModelList = dbManager.getUrduWords(mTypedWord);
+            if (dictionaryModelList.size() > 0) {
+                isNotReturnWord = false;
+                UrduhandlerFunction(mTypedWord, dbManager, isSuggestion, linerCustomSuggestion, padding);
+            }
+        }
+
+    }
+
+    public void handlerFunction(boolean isDownladed, final String mTypedWord, DBDictionary dbManager, final boolean isSuggestion, final LinearLayout linerCustomSuggestion, int padding) {
+
+        List<DictionaryModel> dictionaryModelList = new ArrayList<>();
+        if (mTypedWord != null && mTypedWord.length() > 0) {
+            dictionaryModelList = dbManager.getUrduDicFromEnglishWord(mTypedWord, 1);
+
+            final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
+            for (int i = 0; i < dictionaryModelList.size(); i++) {
+                String str = dictionaryModelList.get(i).getSUGGESTIONS();
+                //Workking here to get typo
+                if (i == 0) {
+                    if (isDownladed) {
+
+                        String textBeforeCursor = mInputLogic.mConnection.getTextBeforeCursor(Constants.EDITOR_CONTENTS_CACHE_SIZE,
+                                0).toString();
+                        String newString = textBeforeCursor.replace(mTypedWord, dictionaryModelList.get(i).getTARGETWORD() + " ");
+                        //mInputLogic.convertSpaceText(dictionaryModelList.get(i).getTARGETWORD(), mTypedWord + " ");
+                        mInputLogic.convertSpaceText(newString, textBeforeCursor);
+                        Log.e("isSuggestion", "convert index==" + textBeforeCursor);
+                        Log.e("isSuggestion", "with ==" + newString);
+                    }
+                }
+                String[] animalsArray = str.trim().split(",");
+                for (String name : animalsArray) {
+                    if (isSuggestion) {
+                        suggestionsList.add(new SuggestedWordInfo(name, SuggestedWordInfo.MAX_SCORE,
+                                SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                SuggestedWordInfo.NOT_AN_INDEX,
+                                SuggestedWordInfo.NOT_A_CONFIDENCE
+                        ));
+                    }
+                    //Creating textVeiw in
+                    final Button valueTV = new Button(getApplicationContext());
+                    valueTV.setText(name);
+                    valueTV.setTextColor(Color.WHITE);
+                    valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                    valueTV.setPadding(padding, padding, padding, padding);
+                //    valueTV.setTextSize(getResources().getDimension(R.dimen._8sdp));
+                    valueTV.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            if (isSuggestion) {
+                                pickSuggestionManually(new SuggestedWordInfo(valueTV.getText().toString(), SuggestedWordInfo.MAX_SCORE,
+                                        SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                        SuggestedWordInfo.NOT_AN_INDEX,
+                                        SuggestedWordInfo.NOT_A_CONFIDENCE));
+                            } else {
+                                mInputLogic.convertSpaceText(valueTV.getText().toString(), mTypedWord);
+                                mInputLogic.saveTypedWord = "";
+                            }
+                            saveTypedWord = "";
+                            linerCustomSuggestion.removeAllViews();
+                        }
+                    });
+                    linerCustomSuggestion.addView(valueTV);
+                }
+            }
+        }
+    }
+
+
+    public void UrduhandlerFunction(final String mTypedWord, DBDictionary dbManager, final boolean isSuggestion, final LinearLayout linerCustomSuggestion, int padding) {
+
+        List<UrduWordModel> dictionaryModelList = new ArrayList<>();
+        if (mTypedWord != null && mTypedWord.length() > 0) {
+            dictionaryModelList = dbManager.getUrduWords(mTypedWord);
+
+            final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
+            for (int i = 0; i < dictionaryModelList.size(); i++) {
+                String str = dictionaryModelList.get(i).getWord();
+
+                suggestionsList.add(new SuggestedWordInfo(str, SuggestedWordInfo.MAX_SCORE,
+                        SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                        SuggestedWordInfo.NOT_AN_INDEX,
+                        SuggestedWordInfo.NOT_A_CONFIDENCE));
+
+                //Creating textVeiw in
+                final Button valueTV = new Button(getApplicationContext());
+                valueTV.setText(str);
+                valueTV.setTextColor(Color.WHITE);
+                valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                valueTV.setPadding(padding, padding, padding, padding);
+            //    valueTV.setTextSize(getResources().getDimension(R.dimen._8sdp));
+                valueTV.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (isSuggestion) {
+                            pickSuggestionManually(new SuggestedWordInfo(valueTV.getText().toString(), SuggestedWordInfo.MAX_SCORE,
+                                    SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                    SuggestedWordInfo.NOT_AN_INDEX,
+                                    SuggestedWordInfo.NOT_A_CONFIDENCE));
+                        } else {
+                            mInputLogic.convertSpaceText(valueTV.getText().toString(), mTypedWord);
+                            mInputLogic.saveTypedWord = "";
+                        }
+                        saveTypedWord = "";
+                        linerCustomSuggestion.removeAllViews();
+                    }
+                });
+                linerCustomSuggestion.addView(valueTV);
+            }
+
+        }
+    }
+
 
     // A helper method to split the code point and the key code. Ultimately, they should not be
     // squashed into the same variable, and this method should be removed.
@@ -1631,56 +2000,118 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
     @Override
     public void showSuggestionStrip(final SuggestedWords sourceSuggestedWords) {
+        isNotReturnWord = true;
+        LinearLayout.LayoutParams param = new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT,
+                LayoutParams.MATCH_PARENT, 1.0f);
+        param.gravity = Gravity.CENTER;
+        int padding = (int) getResources().getDimension(R.dimen._5sdp);
+
 
         SharedPreferences prefs = getSharedPreferences("TranslationPref", MODE_PRIVATE);
         int idName = prefs.getInt("pos", 0); //0 is the default value.
         SuggestedWords suggestedWords = sourceSuggestedWords.isEmpty() ? SuggestedWords.EMPTY : sourceSuggestedWords;
 
         if (idName == 0) {
+
             DBDictionary dbManager = new DBDictionary(this);
             List<DictionaryModel> dictionaryModelList = new ArrayList<>();
             if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+
+
                 dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
-            }
-            if (dictionaryModelList.size() == 0) {
+                final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
+                if (dictionaryModelList != null && dictionaryModelList.size() > 0) {
+                    isNotReturnWord = false;
+                    linerCustomSuggestion.removeAllViews();
 
-                if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+                    for (int i = 0; i < dictionaryModelList.size(); i++) {
+                        //Spliting String form comma
+                        String str = dictionaryModelList.get(i).getSUGGESTIONS();
+                        String[] animalsArray = str.trim().split(",");
+                        for (String name : animalsArray) {
+                            suggestionsList.add(new SuggestedWordInfo(name, SuggestedWordInfo.MAX_SCORE,
+                                    SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                    SuggestedWordInfo.NOT_AN_INDEX,
+                                    SuggestedWordInfo.NOT_A_CONFIDENCE
+                            ));
+                            //Creating textVeiw in
+                            final Button valueTV = new Button(this);
+                            valueTV.setText(name);
+                            valueTV.setTextColor(Color.WHITE);
+                            valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                            valueTV.setPadding(padding, padding, padding, padding);
+                      //      valueTV.setTextSize(getResources().getDimension(R.dimen._8sdp));
+                            valueTV.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    pickSuggestionManually(new SuggestedWordInfo(valueTV.getText().toString(), SuggestedWordInfo.MAX_SCORE,
+                                            SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                            SuggestedWordInfo.NOT_AN_INDEX,
+                                            SuggestedWordInfo.NOT_A_CONFIDENCE));
 
-                    String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + sourceSuggestedWords.mTypedWord + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
-                    if (isInternetOn()) {
-                        goForOnlineSuggetions(url);
-                        // new GoogleTransaltor().execute(url);
-                        if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
-                            dictionaryModelList = dbManager.getUrduDicFromEnglishWord(sourceSuggestedWords.mTypedWord, 1);
+                                    saveTypedWord = "";
+                                }
+                            });
+                            linerCustomSuggestion.addView(valueTV);
                         }
                     }
+                } else {
+                    // **** For urdu suggestions
 
+                    linerCustomSuggestion.removeAllViews();
+                    List<UrduWordModel> urduWordModelList = dbManager.getUrduWords(sourceSuggestedWords.mTypedWord);
+
+                    for (int i = 0; i < urduWordModelList.size(); i++) {
+                        //Spliting String form comma
+                        String str = urduWordModelList.get(i).getWord();
+                        suggestionsList.add(new SuggestedWordInfo(str, SuggestedWordInfo.MAX_SCORE,
+                                SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                SuggestedWordInfo.NOT_AN_INDEX,
+                                SuggestedWordInfo.NOT_A_CONFIDENCE
+                        ));
+                        //Creating textVeiw in
+                        final Button valueTV = new Button(this);
+                        valueTV.setText(str);
+                        valueTV.setTextColor(Color.WHITE);
+                        valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                        valueTV.setPadding(padding, padding, padding, padding);
+                    //    valueTV.setTextSize(getResources().getDimension(R.dimen._8sdp));
+                        valueTV.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                pickSuggestionManually(new SuggestedWordInfo(valueTV.getText().toString(), SuggestedWordInfo.MAX_SCORE,
+                                        SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
+                                        SuggestedWordInfo.NOT_AN_INDEX,
+                                        SuggestedWordInfo.NOT_A_CONFIDENCE));
+
+                                saveTypedWord = "";
+                            }
+                        });
+                        linerCustomSuggestion.addView(valueTV);
+                    }
+
+                    //****************************************
                 }
+
+
+                suggestedWords = new SuggestedWords(suggestionsList, suggestionsList, false, false, false, SuggestedWords.INPUT_STYLE_NONE, SuggestedWords.NOT_A_SEQUENCE_NUMBER);
+
+
             }
 
-            final ArrayList<SuggestedWordInfo> suggestionsList = new ArrayList<>();
 
-            for (int i = 0; i < dictionaryModelList.size(); i++) {
-
-                //Spliting String form comma
-                String str = dictionaryModelList.get(i).getSUGGESTIONS();
-                Log.e("Suggest", "" + str);
-                String[] animalsArray = str.trim().split(",");
-                for (String name : animalsArray) {
-                    suggestionsList.add(new SuggestedWordInfo(name, SuggestedWordInfo.MAX_SCORE,
-                            SuggestedWordInfo.KIND_HARDCODED, Dictionary.DICTIONARY_HARDCODED,
-                            SuggestedWordInfo.NOT_AN_INDEX,
-                            SuggestedWordInfo.NOT_A_CONFIDENCE
-                    ));
+        } else {
+            if (sourceSuggestedWords.mTypedWord != null && sourceSuggestedWords.mTypedWord.length() > 0) {
+                if (MySuperAppApplication.isProbablyArabic(sourceSuggestedWords.mTypedWord)) {
+                    showUrduSuggetion(sourceSuggestedWords.mTypedWord, true);
+                } else {
+                    linerCustomSuggestion.setVisibility(View.GONE);
                 }
             }
-
-            suggestedWords = new SuggestedWords(suggestionsList, suggestionsList, false, false, false, SuggestedWords.INPUT_STYLE_NONE, SuggestedWords.NOT_A_SEQUENCE_NUMBER);
         }
 
-
         if (SuggestedWords.EMPTY == suggestedWords) {
-
             setNeutralSuggestionStrip();
         } else {
             setSuggestedWords(suggestedWords);
@@ -2078,7 +2509,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                             for (int z = 0; z < wordsArray.length; z++) {
                                 if (z == 0 /*(wordsArray.length - 1)*/) {
                                     mTargetWord = wordsArray[z];
-                                    //Log.e("TargetWord", i + "=" + mTargetWord);
+                                    Log.e("TargetWord", i + "=" + mTargetWord);
                                 }
                             }
                         } else {
@@ -2172,10 +2603,9 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     }
 
     public boolean isInternetOn() {
-
+/*
         // get Connectivity Manager object to check connection
-        ConnectivityManager connec =
-                (ConnectivityManager) getSystemService(getBaseContext().CONNECTIVITY_SERVICE);
+        ConnectivityManager connec =(ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 
         // Check for network connections
         if (connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTED ||
@@ -2191,6 +2621,14 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             return false;
         }
         return false;
+        */
+
+        //Here is the conectivity issue
+        ConnectivityManager mgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        NetworkInfo netInfo = mgr.getActiveNetworkInfo();
+
+        return (netInfo != null && netInfo.isConnected() && netInfo.isAvailable());
     }
 
 
@@ -2227,5 +2665,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             super.onPostExecute(result);
         }
     }
+
 }
 

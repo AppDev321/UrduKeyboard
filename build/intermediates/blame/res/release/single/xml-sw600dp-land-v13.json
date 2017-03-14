@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml-sw600dp-land-v13\\kbd_phone_symbols.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-sw600dp-land\\kbd_phone_symbols.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml-sw600dp-land-v13\\kbd_number.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-sw600dp-land\\kbd_number.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml-sw600dp-land-v13\\kbd_more_keys_keyboard_template.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-sw600dp-land\\kbd_more_keys_keyboard_template.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\release\\xml-sw600dp-land-v13\\kbd_phone.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-sw600dp-land\\kbd_phone.xml"
+    }
+]

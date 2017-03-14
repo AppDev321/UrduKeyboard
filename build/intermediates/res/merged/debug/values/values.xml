@@ -1527,6 +1527,28 @@
     <bool name="metadata_downloads_visible_in_download_UI">false</bool>
     <color name="auto_correct_color_lxx_dark">#FFFFFF</color>
     <color name="auto_correct_color_lxx_light">#37474F</color>
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_button_background_color">#415dae</color>
+    <color name="com_facebook_button_background_color_disabled">#bdc1c9</color>
+    <color name="com_facebook_button_background_color_focused">#FFFFFe</color>
+    <color name="com_facebook_button_background_color_focused_disabled">#84878c</color>
+    <color name="com_facebook_button_background_color_pressed">#2f477a</color>
+    <color name="com_facebook_button_background_color_selected">#7c8fc8</color>
+    <color name="com_facebook_button_border_color_focused">#dedee6</color>
+    <color name="com_facebook_button_login_silver_background_color">#f4f6f8</color>
+    <color name="com_facebook_button_login_silver_background_color_pressed">#e9eaf0</color>
+    <color name="com_facebook_button_send_background_color">@color/com_facebook_messenger_blue</color>
+    <color name="com_facebook_button_send_background_color_pressed">#006fff</color>
+    <color name="com_facebook_device_auth_text">#797E87</color>
+    <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
+    <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
+    <color name="com_facebook_likeview_text_color">#6a7180</color>
+    <color name="com_facebook_messenger_blue">#0084ff</color>
+    <color name="com_facebook_share_button_text_color">#FFFFFF</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -1595,6 +1617,7 @@
     <color name="suggested_word_color_klp">#B2F0F0F0</color>
     <color name="suggested_word_color_lxx_dark">#B3FFFFFF</color>
     <color name="suggested_word_color_lxx_light">#B337474F</color>
+    <color name="suggestion_color">#313131</color>
     <color name="text_decorator_add_to_dictionary_indicator_background_color">
         #4EB848
     </color>
@@ -1609,6 +1632,7 @@
     <color name="typed_word_color_lxx_dark">#D9FFFFFF</color>
     <color name="typed_word_color_lxx_light">#D937474F</color>
     <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="EmojiPalettesView"><attr format="boolean" name="categoryIndicatorEnabled"/><attr format="reference" name="categoryIndicatorDrawable"/><attr format="reference" name="categoryIndicatorBackground"/><attr format="color" name="categoryPageIndicatorColor"/><attr format="color" name="categoryPageIndicatorBackground"/><attr format="reference" name="iconEmojiRecentsTab"/><attr format="reference" name="iconEmojiCategory1Tab"/><attr format="reference" name="iconEmojiCategory2Tab"/><attr format="reference" name="iconEmojiCategory3Tab"/><attr format="reference" name="iconEmojiCategory4Tab"/><attr format="reference" name="iconEmojiCategory5Tab"/><attr format="reference" name="iconEmojiCategory6Tab"/></declare-styleable>
     <declare-styleable name="Keyboard"><attr format="enum" name="themeId">
             
@@ -1771,6 +1795,34 @@
             <flag name="autoCorrectUnderline" value="0x02"/>
             <flag name="validTypedWordBold" value="0x04"/>
         </attr><attr format="color" name="colorValidTypedWord"/><attr format="color" name="colorTypedWord"/><attr format="color" name="colorAutoCorrect"/><attr format="color" name="colorSuggested"/><attr format="fraction" name="alphaObsoleted"/><attr format="integer" name="suggestionsCountInStrip"/><attr format="fraction" name="centerSuggestionPercentile"/><attr format="integer" name="maxMoreSuggestionsRow"/><attr format="float" name="minMoreSuggestionsWidth"/></declare-styleable>
+    <declare-styleable name="com_facebook_like_view"><attr format="color" name="com_facebook_foreground_color"/><attr format="string" name="com_facebook_object_id"/><attr name="com_facebook_object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="com_facebook_style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="com_facebook_horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="com_facebook_confirm_logout"/><attr format="string" name="com_facebook_login_text"/><attr format="string" name="com_facebook_logout_text"/><attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0"/><enum name="display_always" value="1"/><enum name="never_display" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="com_facebook_preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="com_facebook_auth_dialog_corner_radius">2dp</dimen>
+    <dimen name="com_facebook_auth_dialog_corner_radius_oversized">4dp</dimen>
+    <dimen name="com_facebook_button_corner_radius">2dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
+    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
+    <dimen name="com_facebook_likeview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_share_button_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_left">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_right">16dp</dimen>
+    <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
+    <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
     <dimen name="config_accessibility_edge_slop">8dp</dimen>
     <dimen name="config_default_keyboard_height">205.6dp</dimen>
     <dimen name="config_emoji_category_page_id_height">2dp</dimen>
@@ -1909,11 +1961,10 @@
     <string name="accept">Accept</string>
     <string name="add">Add</string>
     <string name="add_style">Add style</string>
-    <string name="android_spell_checker_settings">Asan Urdu Typing Spell Checker Settings</string>
+    <string name="android_spell_checker_settings">Asaan Urdu Typing Spell Checker Settings</string>
     <string name="announce_keyboard_hidden">Keyboard hidden</string>
     <string name="announce_keyboard_mode">Showing <ns1:g example="email" id="KEYBOARD_MODE">%s</ns1:g> keyboard</string>
     <string name="app_name">Dictionary Provider</string>
-    <string name="app_sub_title">Create Task to remind</string>
     <string name="authority" translatable="false">com.mobiletin.inputmethod.dictionarypack.aosp</string>
     <string name="auto_cap">Auto-capitalization</string>
     <string name="auto_cap_summary">Capitalize the first word of each sentence</string>
@@ -1927,7 +1978,7 @@
     <string name="auto_correction_threshold_mode_modest">Modest</string>
     <string name="auto_correction_threshold_mode_off">Off</string>
     <string name="auto_correction_threshold_mode_very_aggressive">Very aggressive</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6471360733987211/6967832848</string>
     <string name="bigram_prediction">Next-word suggestions</string>
     <string name="bigram_prediction_summary">Use the previous word in making suggestions</string>
     <string name="button_default">Default</string>
@@ -1935,6 +1986,23 @@
     <string name="cancel_download_dict">Cancel</string>
     <string name="cannot_connect_to_dict_service">Problem connecting to dictionary service</string>
     <string name="check_for_updates_now">Refresh</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1989,9 +2057,9 @@
     <string name="enable_metrics_logging_summary" translatable="false"/>
     <string name="english_ime_debug_settings">Android Keyboard Debug settings</string>
     <string name="english_ime_input_options">Input options</string>
-    <string name="english_ime_name">Asan Urdu Typing</string>
-    <string name="english_ime_settings">Asan Urdu Typing Settings</string>
-    <string name="facebook_app_id">830020890461859</string>
+    <string name="english_ime_name">Asaan Urdu Typing</string>
+    <string name="english_ime_settings">Asaan Urdu Typing Settings</string>
+    <string name="facebook_app_id">667871740041775</string>
     <string name="gesture_floating_preview_text">Dynamic floating preview</string>
     <string name="gesture_floating_preview_text_summary">See the suggested word while gesturing</string>
     <string name="gesture_input">Enable gesture typing</string>
@@ -2000,7 +2068,7 @@
     <string name="gesture_space_aware">Phrase gesture</string>
     <string name="gesture_space_aware_summary">Input spaces during gestures by gliding to the space key</string>
     <string name="go_to_settings">Settings</string>
-    <string name="google_analytics_id">UA-65635040-19</string>
+    <string name="google_analytics_id">UA-65635040-22</string>
     <string name="has_dictionary">Dictionary available</string>
     <string name="help_and_feedback">Help &amp; feedback</string>
     <string name="hint_add_to_dictionary">Touch again to save</string>
@@ -2008,7 +2076,7 @@
     <string name="include_other_imes_in_language_switch_list">Switch to other input methods</string>
     <string name="include_other_imes_in_language_switch_list_summary">Language switch key covers other input methods too</string>
     <string name="install_dict">Install</string>
-    <string name="intersitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="intersitial_ad_unit_id">ca-app-pub-6471360733987211/8444566044</string>
     <string name="key_preview_popup_dismiss_default_delay">Default</string>
     <string name="key_preview_popup_dismiss_delay">Key popup dismiss delay</string>
     <string name="key_preview_popup_dismiss_no_delay">No delay</string>
@@ -2099,6 +2167,7 @@
     <string name="main_dictionary">Main dictionary</string>
     <string name="message_loading">Loading…</string>
     <string name="message_updating">Checking for updates</string>
+    <string name="messenger_send_button_text">Send</string>
     <string name="no_dictionaries_available">No dictionaries available</string>
     <string name="not_now">Not now</string>
     <string name="popup_on_keypress">Popup on keypress</string>
@@ -2159,6 +2228,7 @@
     <string name="setup_steps_title">"Setting <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string name="setup_welcome_additional_description">Types in urdu / english</string>
     <string name="setup_welcome_title">"Welcome to <ns1:g id="application_name">%s</ns1:g>"</string>
+    <string name="share_message">Check out this wonderful app for managing your Urdu Texting.\nDownload for free from here. https://play.google.com/store/apps/details?id=com.mobiletin.inputmethod</string>
     <string name="should_download_over_metered_prompt">The selected language on your mobile device has an available dictionary.&lt;br/>
 We recommend &lt;b>downloading&lt;/b> the <ns1:g example="English" id="LANGUAGE_NAME">%1$s</ns1:g> dictionary to improve your typing experience.&lt;br/>
 &lt;br/>
@@ -2173,7 +2243,7 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <string name="sliding_key_input_preview">Show slide indicator</string>
     <string name="sliding_key_input_preview_summary">Display visual cue while sliding from Shift or Symbol keys</string>
     <string name="sound_on_keypress">Sound on keypress</string>
-    <string name="spell_checker_service_name">Asan Urdu Typing Spell Checker</string>
+    <string name="spell_checker_service_name">Asaan Urdu Typing Spell Checker</string>
     <string name="spellchecker_recommended_threshold_value" translatable="false">0.11</string>
     <string name="spoken_accented_letter_00AA">Feminine ordinal indicator</string>
     <string name="spoken_accented_letter_00B5">Micro sign</string>
@@ -3262,8 +3332,10 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <string name="txt_copy_right">Copyright © 2016 - 2017</string>
     <string name="txt_rights">MobileTin.All rights reserved</string>
     <string name="txt_splash">www.MobileTin.com</string>
-    <string name="txt_version">Version 1.0</string>
+    <string name="txt_version">Version 1.2</string>
     <string name="urdu_btn">urdu</string>
+    <string name="urdu_comma">،</string>
+    <string name="urdu_question">؟</string>
     <string name="use_contacts_dict">Suggest Contact names</string>
     <string name="use_contacts_dict_summary">Use names from Contacts for suggestions and corrections</string>
     <string name="use_contacts_for_spellchecking_option_summary">Spell checker uses entries from your contact list</string>
@@ -3298,6 +3370,23 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <string name="voice_input">Voice input key</string>
     <string name="voice_input_disabled_summary">No voice input methods enabled. Check Language &amp; input settings.</string>
     <string name="voice_mode_main">0</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
     <style name="EmojiPalettesView"/>
     <style name="EmojiPalettesView.ICS" parent="MainKeyboardView.ICS">
         <item name="categoryIndicatorEnabled">true</item>
@@ -3727,6 +3816,64 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <!-- A negative value to disable text shadow layer. -->
         <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
     </style>
+    <style name="MessengerButton">
+    <item name="android:clickable">true</item>
+  </style>
+    <style name="MessengerButton.Blue">
+    <item name="android:background">@drawable/messenger_button_blue_bg_selector</item>
+  </style>
+    <style name="MessengerButton.Blue.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">44dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+  </style>
+    <style name="MessengerButton.Blue.Small">
+    <item name="android:layout_width">158dp</item>
+    <item name="android:layout_height">36dp</item>
+  </style>
+    <style name="MessengerButton.White">
+    <item name="android:background">@drawable/messenger_button_white_bg_selector</item>
+  </style>
+    <style name="MessengerButton.White.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">44dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+  </style>
+    <style name="MessengerButton.White.Small">
+    <item name="android:layout_width">158dp</item>
+    <item name="android:layout_height">36dp</item>
+  </style>
+    <style name="MessengerButtonText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:drawablePadding">4dp</item>
+    <item name="android:gravity">center</item>
+    <!--suppress NewApi -->
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+    <style name="MessengerButtonText.Blue">
+    <item name="android:textColor">#ffffff</item>
+  </style>
+    <style name="MessengerButtonText.Blue.Large">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_large_white</item>
+  </style>
+    <style name="MessengerButtonText.Blue.Small">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_small_white</item>
+  </style>
+    <style name="MessengerButtonText.White">
+    <item name="android:textColor">#0084ff</item>
+  </style>
+    <style name="MessengerButtonText.White.Large">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_large_blue</item>
+  </style>
+    <style name="MessengerButtonText.White.Small">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
+  </style>
     <style name="MoreKeysKeyboard"/>
     <style name="MoreKeysKeyboard.ICS" parent="Keyboard.ICS">
         <item name="keyboardTopPadding">0%p</item>
@@ -3792,6 +3939,9 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="keyBackground">@drawable/btn_keyboard_key_popup_action_lxx_light</item>
         <item name="divider">@null</item>
         <item name="keyLabelFlags">keepBackgroundAspectRatio</item>
+    </style>
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
     </style>
     <style name="SuggestionStripView"/>
     <style name="SuggestionStripView.ICS" parent="KeyboardView.ICS">
@@ -3891,6 +4041,44 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
+    <style name="com_facebook_auth_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="com_facebook_button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/com_facebook_button_background</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">@color/com_facebook_button_text_color</item>
+        <item name="android:textSize">14.0dp</item>
+    </style>
+    <style name="com_facebook_button_like" parent="com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_like_background</item>
+    </style>
+    <style name="com_facebook_button_send" parent="com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_send_background</item>
+        <item name="android:drawableLeft">@drawable/com_facebook_send_button_icon</item>
+        <item name="android:text">@string/com_facebook_send_button_text</item>
+        <item name="android:textColor">@color/com_facebook_send_button_text_color</item>
+    </style>
+    <style name="com_facebook_button_share" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+        <item name="android:text">@string/com_facebook_share_button_text</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="com_facebook_loginview_default_style">
+        <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>
+        <item name="android:drawableLeft">@null</item>
+        <item name="android:textColor">#4b5164</item>
+    </style>
     <style name="platformActivityTheme" parent="@android:style/Theme.DeviceDefault"/>
     <style name="platformDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog"/>
     <style name="platformSettingsTheme" parent="@android:style/Theme.DeviceDefault"/>
@@ -3918,10 +4106,10 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
         <item name="android:textColor">@color/setup_text_dark</item>
 
 
-       <!-- <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>-->
+        <!-- <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>-->
         <item name="android:textSize">@dimen/_40sdp</item>
         <item name="android:layout_width">wrap_content</item>
-      <!--  <item name="android:layout_weight">1.0</item>-->
+        <!--  <item name="android:layout_weight">1.0</item>-->
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
@@ -3947,12 +4135,20 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <style name="setupTitleStyle" parent="setupTitleStyleCommon"/>
     <style name="setupTitleStyleCommon">
         <item name="android:textColor">@color/setup_text_dark</item>
-       <!-- <item name="android:textSize">@dimen/setup_title_text_size</item>-->
+        <!-- <item name="android:textSize">@dimen/setup_title_text_size</item>-->
         <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="setupWelcomeDescritpionStyle" parent="setupTitleStyle">
         <item name="android:textSize">@dimen/setup_welcome_description_text_size</item>
+    </style>
+    <style name="tooltip_bubble_text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.25</item>
+        <item name="android:shadowColor">#40000000</item>
     </style>
 </resources>

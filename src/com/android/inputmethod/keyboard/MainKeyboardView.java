@@ -387,7 +387,6 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
                 keyboard, -getPaddingLeft(), -getPaddingTop() + getVerticalCorrection());
         PointerTracker.setKeyDetector(mKeyDetector);
         mMoreKeysKeyboardCache.clear();
-
         mSpaceKey = keyboard.getKey(Constants.CODE_SPACE);
         final int keyHeight = keyboard.mMostCommonKeyHeight - keyboard.mVerticalGap;
         mLanguageOnSpacebarTextSize = keyHeight * mLanguageOnSpacebarTextRatio;
@@ -870,8 +869,6 @@ public final class MainKeyboardView extends KeyboardView implements PointerTrack
         } else if (code == Constants.CODE_LANGUAGE_SWITCH) {
             drawKeyPopupHint(key, canvas, paint, params);
         }
-
-
     }
 
 

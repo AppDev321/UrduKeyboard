@@ -19,10 +19,9 @@ package com.mobiletin.inputmethod.indic;
 import android.text.TextUtils;
 
 import com.android.inputmethod.latin.PrevWordsInfo;
+import com.mobiletin.inputmethod.event.Event;
 
 import java.util.ArrayList;
-
-import com.mobiletin.inputmethod.event.Event;
 
 /**
  * This class encapsulates data about a word previously composed, but that has been
@@ -47,7 +46,7 @@ public final class LastComposedWord {
     public static final String NOT_A_SEPARATOR = "";
 
     public final ArrayList<Event> mEvents;
-    public final String mTypedWord;
+    public String mTypedWord;
     public final CharSequence mCommittedWord;
     public final String mSeparatorString;
     public final PrevWordsInfo mPrevWordsInfo;

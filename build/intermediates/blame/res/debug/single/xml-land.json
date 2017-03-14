@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-land\\kbd_phone_symbols.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-land\\kbd_phone_symbols.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-land\\kbd_phone_symbols.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-land\\kbd_phone_symbols.xml"
     },
@@ -8,7 +12,15 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-land\\kbd_phone.xml"
     },
     {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-land\\kbd_number.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-land\\kbd_number.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-land\\kbd_number.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-land\\kbd_number.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-land\\kbd_phone.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-land\\kbd_phone.xml"
     }
 ]
