@@ -5,13 +5,24 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7911df9e-130f-4850-9126-1bb9871010fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IndicKeyboard-release.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/mobiletin/inputmethod/indic/setup/SetupWizardActivity$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/mobiletin/inputmethod/indic/setup/SetupWizardActivity$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/mobiletin/inputmethod/indic/setup/SetupWizardActivity$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/mobiletin/inputmethod/indic/setup/SetupWizardActivity$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.0.0_81e3c485ac30225c1812d83333ce3ffb32a0bf84.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/internal_impl-23.0.0_95dbbcbd3974d1ee75260dc142627b9e5b41b101.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/support-annotations-23.0.0_d2f06213b0e0593bb7dfebe82cb6a9daeacfcf05.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/off_roman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/on_roman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/off_roman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/on_roman.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/MySuperAppApplication.java" afterPath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/MySuperAppApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/indic/LatinIME.java" afterPath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/indic/LatinIME.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/indic/inputlogic/InputLogic.java" afterPath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/indic/inputlogic/InputLogic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/indic/setup/SetupWizardActivity.java" afterPath="$PROJECT_DIR$/src/com.mobiletin.inputmethod/indic/setup/SetupWizardActivity.java" />
     </list>
     <ignored path="java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1528,7 +1539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489471647330</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new v1.2">
+      <created>1489472048868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489472048868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1538,7 +1556,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1551,7 +1569,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
