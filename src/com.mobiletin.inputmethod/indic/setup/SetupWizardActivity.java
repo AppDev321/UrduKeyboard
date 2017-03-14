@@ -302,32 +302,7 @@ public final class SetupWizardActivity extends AdIntegration implements View.OnC
         }
 
 
-        //For ripple menu button
-        switch (v.getId()) {
-            case R.id.share:
-                shareMessage(getResources().getString(R.string.english_ime_name), getResources().getString(R.string.share_message));
 
-                break;
-            case R.id.rate:
-                rateApp();
-
-                break;
-            case R.id.more:
-                String s = "market://search?q=pub:Mobile+Tin";
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(s));
-                startActivity(browserIntent);
-
-                break;
-            case R.id.about:
-                MySuperAppApplication.mAnalyticSingaltonClass.sendScreenAnalytics("About Index");
-                startActivity(new Intent(this, AboutActivity.class));
-                break;
-
-            case R.id.menu_btn:
-                showPopupMenu(v);
-                MySuperAppApplication.mAnalyticSingaltonClass.sendEventAnalytics("Main-Index", "menu");
-                break;
-        }
 
     }
 

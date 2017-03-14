@@ -1639,7 +1639,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 {
 
                     if (mTypedWord != null && mTypedWord.length() > 0 ) {
-                        String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + mTypedWord.trim() + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
+                        String url =  MySuperAppApplication.url1 + mTypedWord.trim() + MySuperAppApplication.url2;
                         if (isInternetOn()) {
                             linerCustomSuggestion.removeAllViews();
                             final Button valueTV = new Button(getApplicationContext());
