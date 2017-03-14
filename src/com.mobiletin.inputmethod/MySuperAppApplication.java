@@ -14,6 +14,13 @@ public class MySuperAppApplication extends Application {
     public static PreLoadIntersitial preLoadIntersitial;
     public static AnalyticSingaltonClass mAnalyticSingaltonClass;
 
+
+
+    //
+    public static String url1="http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=";//change  en and ur to further more language transalation
+    public static String url2= "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
+
+
     @Override
     public void onCreate() {
         super.onCreate();

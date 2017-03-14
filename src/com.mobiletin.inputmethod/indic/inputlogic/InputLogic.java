@@ -2050,7 +2050,10 @@ public final class InputLogic {
 ///////****************************************
                         else if (dictionaryModelList == null) {
                             if (saveTypedWord != null && saveTypedWord.length() > 0) {
-                                String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + saveTypedWord + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
+
+                                String url =  MySuperAppApplication.url1 + saveTypedWord + MySuperAppApplication.url2;
+
+
                                 if  (mLatinIME.isInternetOn()) {
                                 /* // mLatinIME.goForOnlineSuggetions(url);
                                     mLatinIME.new GoogleTransaltor().execute(url);
