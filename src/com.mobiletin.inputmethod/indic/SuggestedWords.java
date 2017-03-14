@@ -49,7 +49,7 @@ public class SuggestedWords {
             EMPTY_WORD_INFO_LIST, null /* rawSuggestions */, false /* typedWordValid */,
             false /* willAutoCorrect */, false /* isObsoleteSuggestions */, INPUT_STYLE_NONE);
 
-    public final String mTypedWord;
+    public String mTypedWord;
     public final boolean mTypedWordValid;
     // Note: this INCLUDES cases where the word will auto-correct to itself. A good definition
     // of what this flag means would be "the top suggestion is strong enough to auto-correct",

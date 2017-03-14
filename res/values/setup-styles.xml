@@ -21,4 +21,14 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <style name="setupTitleStyle" parent="setupTitleStyleCommon" />
     <style name="setupStepActionLabelStyle" parent="setupStepActionLabelStyleCommon" />
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
 </resources>

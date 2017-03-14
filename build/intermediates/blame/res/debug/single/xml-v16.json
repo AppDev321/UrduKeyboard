@@ -4,32 +4,56 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_anusvara.xml"
     },
     {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_ai.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_ai.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_i.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_i.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_candrabindu.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_candrabindu.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_candrabindu.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_candrabindu.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_o.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_o.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_u.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_u.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_vocalic_r.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_vocalic_r.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_au.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_au.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_anusvara.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_anusvara.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_virama.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_virama.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_candra_e.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_candra_e.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_virama.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_virama.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_candra_o.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_candra_o.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_au.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_au.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_i.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_i.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_aa.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_aa.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_ii.xml",
@@ -44,12 +68,64 @@
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_candra_o.xml"
     },
     {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_o.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_o.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_ai.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_ai.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_u.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_u.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_uu.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_uu.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_e.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_e.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_candrabindu.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_candrabindu.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_nukta.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_nukta.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_candra_e.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_candra_e.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_visarga.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_visarga.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_vocalic_r.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_vocalic_r.xml"
+    },
+    {
+        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_virama.xml",
+        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_virama.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_uu.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_uu.xml"
+    },
+    {
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_vocalic_r.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_vocalic_r.xml"
+    },
+    {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_nukta.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_sign_nukta.xml"
     },
     {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_o.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_o.xml"
+        "merged": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_ii.xml",
+        "source": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_ii.xml"
     },
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_sign_visarga.xml",
@@ -58,13 +134,5 @@
     {
         "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_aa.xml",
         "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_aa.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_ai.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_ai.xml"
-    },
-    {
-        "merged": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\res\\merged\\debug\\xml-v16\\keystyle_devanagari_vowel_sign_uu.xml",
-        "source": "E:\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\xml-v16\\keystyle_devanagari_vowel_sign_uu.xml"
     }
 ]

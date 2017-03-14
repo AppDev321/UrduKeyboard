@@ -42,6 +42,21 @@
                 latin:keySpec="\?"
                 latin:moreKeys="!text/morekeys_tablet_period,!text/morekeys_question" />
         </case>
+
+
+        <!-- Changes here-->
+
+        <case
+            latin:keyboardLayoutSet="arabic|qwerty"
+            latin:languageCode="ar|fa">
+
+            <Key
+                latin:backgroundType="functional"
+                latin:keyLabelFlags="hasPopupHint"
+                latin:keySpec="&#x61f;"
+                latin:moreKeys="!autoColumnOrder!8,&#x60c;,.,&#x61f;,!,#,॥,),(,/,;,',@,:,-,&quot;,+,\\%,&amp;" />
+        </case>
+
         <default>
             <Key
                 latin:keySpec="!text/keyspec_tablet_period"

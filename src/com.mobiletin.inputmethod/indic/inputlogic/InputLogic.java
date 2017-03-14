@@ -32,6 +32,7 @@ import android.view.KeyEvent;
 import android.view.inputmethod.CorrectionInfo;
 import android.view.inputmethod.CursorAnchorInfo;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 
 import com.android.inputmethod.keyboard.KeyboardSwitcher;
 import com.android.inputmethod.keyboard.ProximityInfo;
@@ -56,6 +57,7 @@ import com.mobiletin.inputmethod.indic.DictionaryFacilitator;
 import com.mobiletin.inputmethod.indic.InputPointers;
 import com.mobiletin.inputmethod.indic.LastComposedWord;
 import com.mobiletin.inputmethod.indic.LatinIME;
+import com.mobiletin.inputmethod.indic.R;
 import com.mobiletin.inputmethod.indic.RichInputConnection;
 import com.mobiletin.inputmethod.indic.Suggest;
 import com.mobiletin.inputmethod.indic.Suggest.OnGetSuggestedWordsCallback;
@@ -69,6 +71,7 @@ import com.mobiletin.inputmethod.indic.settings.SpacingAndPunctuations;
 import com.mobiletin.inputmethod.indic.suggestions.SuggestionStripViewAccessor;
 import com.mobiletin.inputmethod.sqlite.DBDictionary;
 import com.mobiletin.inputmethod.sqlite.DictionaryModel;
+import com.mobiletin.inputmethod.sqlite.UrduWordModel;
 
 import java.util.ArrayList;
 import java.util.TreeSet;
@@ -81,7 +84,7 @@ import static android.content.Context.MODE_PRIVATE;
  */
 public final class InputLogic {
     private static final String TAG = InputLogic.class.getSimpleName();
-    private static String saveTypedWord = "";
+    public static String saveTypedWord = "";
     // TODO : Remove this member when we can.
     private final LatinIME mLatinIME;
     private final SuggestionStripViewAccessor mSuggestionStripViewAccessor;
@@ -107,7 +110,9 @@ public final class InputLogic {
 
     public LastComposedWord mLastComposedWord = LastComposedWord.NOT_A_COMPOSED_WORD;
     // This has package visibility so it can be accessed from InputLogicHandler.
-    /* package */ final WordComposer mWordComposer;
+    /* package */
+
+    public final WordComposer mWordComposer;
     public final RichInputConnection mConnection;
     private final RecapitalizeStatus mRecapitalizeStatus = new RecapitalizeStatus();
 
@@ -696,6 +701,7 @@ public final class InputLogic {
 
                 //changes here to remove charcter from the word
                 saveTypedWord = removeLastChar(saveTypedWord);
+                 mLatinIME.showCustomSuggetion(saveTypedWord,false);
 
                 handleBackspaceEvent(event, inputTransaction, currentKeyboardScriptId);
                 // Backspace is a functional key, but it affects the contents of the editor.
@@ -1979,6 +1985,8 @@ public final class InputLogic {
     private void sendKeyCodePoint(final SettingsValues settingsValues, final int codePoint, boolean transliteration) {
         // TODO: Remove this special handling of digit letters.
         // For backward compatibility. See {@link InputMethodService#sendKeyChar(char)}.
+
+
         if (codePoint >= '0' && codePoint <= '9') {
             sendDownUpKeyEvent(codePoint - '0' + KeyEvent.KEYCODE_0);
             return;
@@ -1995,30 +2003,45 @@ public final class InputLogic {
             mConnection.applyTransliteration(StringUtils.newSingleCodePointString(codePoint), 1);
         } else {
             // mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
-
-
             // Changes here for handle space to transalte word
+            Log.e("InputLoginc-comma", "" + codePoint);
+
+           /* if(codePoint==63)//comma
+            {
+              mConnection.commitText(mLatinIME.getResources().getString(R.string.urdu_question), 1);
+            }
+            else if(codePoint == 44)
+            {
+              mConnection.commitText(mLatinIME.getResources().getString(R.string.urdu_comma), 1);
+            }*/
 
             if (codePoint == 32) {
 
-                Log.e("word", "" + saveTypedWord);
+                Log.e("InputLogic- word", "" + saveTypedWord);
                 SharedPreferences prefs = mLatinIME.getBaseContext().getSharedPreferences("TranslationPref", mLatinIME.getBaseContext().MODE_PRIVATE);
                 int idName = prefs.getInt("pos", 0); //0 is the default value.
 
+                if (saveTypedWord.length() > 0) {
+                    mLatinIME.isNotReturnWord = false;
+                }
 
                 if (!MySuperAppApplication.isProbablyArabic(saveTypedWord) && idName == 0) {
+                    // mLatinIME.isNotReturnWord = false;
                     DBDictionary dbManager = new DBDictionary(mLatinIME.getBaseContext());
                     DictionaryModel dictionaryModelList = new DictionaryModel();
                     if (saveTypedWord != null && saveTypedWord.length() > 0) {
                         dictionaryModelList = dbManager.getSingleWordUrdu(saveTypedWord);
+
                         if (dictionaryModelList != null) {
+
                             if (dictionaryModelList.getTARGETWORD() != null && dictionaryModelList.getTARGETWORD().length() > 0) {
                                 //Remove the inserted charcter that typed before space
                                 mConnection.deleteSurroundingText(saveTypedWord.length(), 0);
                                 mConnection.commitText(dictionaryModelList.getTARGETWORD() + " ", 1);
-                            }
-                            else {
 
+                                //Show strip suggestion
+
+                            } else {
                                 mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
                             }
                         }
@@ -2028,9 +2051,9 @@ public final class InputLogic {
                         else if (dictionaryModelList == null) {
                             if (saveTypedWord != null && saveTypedWord.length() > 0) {
                                 String url = "http://www.google.com/inputtools/request?ime=transliteration%5Fen%5Fur&text=" + saveTypedWord + "&num=5&cp=0&cs=0&ie=utf-8&oe=utf-8&nocache=1355671585459";
-                                if (mLatinIME.isInternetOn()) {
-                                 mLatinIME.goForOnlineSuggetions(url);
-                                  //  mLatinIME.new GoogleTransaltor().execute(url);
+                                if  (mLatinIME.isInternetOn()) {
+                                /* // mLatinIME.goForOnlineSuggetions(url);
+                                    mLatinIME.new GoogleTransaltor().execute(url);
                                     dictionaryModelList = dbManager.getSingleWordUrdu(saveTypedWord);
                                     if (dictionaryModelList != null) {
                                         if (dictionaryModelList.getTARGETWORD() != null && dictionaryModelList.getTARGETWORD().length() > 0) {
@@ -2038,14 +2061,26 @@ public final class InputLogic {
                                             mConnection.deleteSurroundingText(saveTypedWord.length(), 0);
                                             mConnection.commitText(dictionaryModelList.getTARGETWORD() + " ", 1);
                                         }
-                                    }
+                                    }*/
+
+                                     mLatinIME.showCustomSuggetion(saveTypedWord, false);
+                                }
+                                else
+                                {
+                                    mLatinIME.linerCustomSuggestion.removeAllViews();
+                                    final int padding = (int) MySuperAppApplication.getContext().getResources().getDimension(R.dimen._5sdp);
+                                    final Button valueTV = new Button(MySuperAppApplication.getContext());
+                                    valueTV.setText("No Internet Connection...");
+                                    valueTV.setTextColor(Color.WHITE);
+                                    valueTV.setBackgroundResource(R.drawable.btn_selector_suggestion);
+                                    valueTV.setPadding(padding, padding, padding, padding);
+                                  //  valueTV.setTextSize(MySuperAppApplication.getContext().getResources().getDimension(R.dimen._8sdp));
+                                    mLatinIME.linerCustomSuggestion.addView(valueTV);
                                 }
                             }
+
                         }
 // ************************************************
-
-
-
                         else {
                             mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
                         }
@@ -2053,22 +2088,50 @@ public final class InputLogic {
                         mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
                     }
                 } else {
-                    mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                    //**************8 For urdu tran
+                    // mLatinIME.isNotReturnWord = false;
+
+                    DBDictionary dbManager = new DBDictionary(mLatinIME.getBaseContext());
+                    UrduWordModel dictionaryModelList = new UrduWordModel();
+                    if (saveTypedWord != null && saveTypedWord.length() > 0) {
+                        if (dbManager.getUrduWords(saveTypedWord) !=  null && dbManager.getUrduWords(saveTypedWord).size() > 0) {
+                            dictionaryModelList = dbManager.getUrduWords(saveTypedWord).get(0);
+                            if (dictionaryModelList != null) {
+                                if (dictionaryModelList.getWord() != null && dictionaryModelList.getWord().length() > 0) {
+                                    //Remove the inserted charcter that typed before space
+                                    mConnection.deleteSurroundingText(saveTypedWord.length(), 0);
+                                    mConnection.commitText(dictionaryModelList.getWord()+" ", 1);
+                                } else {
+                                    mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                                }
+                            }
+                            else {
+                                mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                            }
+                        }
+                        else {
+                            mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                        }
+                    } else {
+                        mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                    }
                 }
-
                 saveTypedWord = "";
-
+                mLatinIME.linerCustomSuggestion.removeAllViews();
             } else {
                 saveTypedWord += StringUtils.newSingleCodePointString(codePoint);
                 mConnection.commitText(StringUtils.newSingleCodePointString(codePoint), 1);
+                mLatinIME.showCustomSuggetion(saveTypedWord,false);
             }
+
+
         }
 
     }
 
     //Custom implementation
     //remove last charcter of string
-    private String removeLastChar(String str) {
+    public String removeLastChar(String str) {
         if (str != null && str.length() > 0) {
             str = str.substring(0, str.length() - 1);
         }
@@ -2451,5 +2514,14 @@ public final class InputLogic {
         isTransliteration = false;
     }
 
-
+    public void convertSpaceText(String word, String recentWord) {
+        mConnection.deleteSurroundingText(recentWord.length(), 0);
+        mConnection.commitText(word + "", 1);
+    }
+    public void convertCommaText(String word, String recentWord) {
+        mConnection.deleteSurroundingText(recentWord.length(), 0);
+        mConnection.commitText(word + "" , 1);
+        saveTypedWord="";
+    }
 }
+

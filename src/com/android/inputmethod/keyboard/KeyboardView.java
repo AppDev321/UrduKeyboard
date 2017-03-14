@@ -367,7 +367,10 @@ public class KeyboardView extends View {
         Drawable icon = key.getIcon(mKeyboard.mIconsSet, params.mAnimAlpha);
         float labelX = centerX;
         float labelBaseline = centerY;
-        final String label = key.getLabel();
+         String label = key.getLabel();
+
+
+        //Changes here for remove comma to urdu comma
         if (label != null) {
             paint.setTypeface(key.selectTypeface(params));
             paint.setTextSize(key.selectTextSize(params));
@@ -454,8 +457,7 @@ public class KeyboardView extends View {
                 paint.setTextAlign(Align.CENTER);
             }
             final float adjustmentY = params.mHintLabelVerticalAdjustment * labelCharHeight;
-            canvas.drawText(
-                    hintLabel, 0, hintLabel.length(), hintX, hintBaseline + adjustmentY, paint);
+            canvas.drawText(hintLabel, 0, hintLabel.length(), hintX, hintBaseline + adjustmentY, paint);
         }
 
         // Draw key icon.
@@ -482,19 +484,16 @@ public class KeyboardView extends View {
                     Drawable icon2 = key.getIcon(mKeyboard.mIconsSet, params.mAnimAlpha);
                     icon2 = getResources().getDrawable(R.drawable.on_roman);
                     icon = icon2;
+
                 }
+
             }
-
-
             drawIcon(canvas, icon, iconX, iconY, iconWidth, iconHeight);
-
-
         }
 
         if (key.hasPopupHint() && key.getMoreKeys() != null) {
             drawKeyPopupHint(key, canvas, paint, params);
         }
-
 
     }
 

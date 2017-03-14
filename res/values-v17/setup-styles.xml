@@ -22,4 +22,12 @@
         <item name="android:paddingStart">12dp</item>
         <item name="android:paddingEnd">24dp</item>
     </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
 </resources>

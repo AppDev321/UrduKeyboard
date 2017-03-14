@@ -170,6 +170,11 @@
         latin:keyLabelFlags="autoXScale|fontNormal|hasPopupHint|preserveCase"
         latin:moreKeys="!text/morekeys_popular_domain" />
 
-
+    !--Changes here -->
+    <key-style
+        latin:keyActionFlags="noKeyPreview|altCodeWhileTyping|enableLongPress"
+        latin:keySpec="!icon/urdubtn|!code/key_toogle_switch"
+        latin:styleName="toggleKeyStyle"
+        />
 
 </merge>

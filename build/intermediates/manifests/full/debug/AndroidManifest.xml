@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
     package="com.mobiletin.inputmethod"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -34,11 +34,13 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <!-- Optional permission for Analytics to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:name="com.mobiletin.inputmethod.MySuperAppApplication"
         android:allowBackup="true"
-        android:icon="@drawable/icon"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/english_ime_name"
         android:supportsRtl="true" >
         <service
@@ -65,15 +67,16 @@
                 android:name="android.view.textservice.scs"
                 android:resource="@xml/spellchecker" />
         </service>
-
+        <!--
+        android:launchMode="singleTask"
+        android:noHistory="true"
+        -->
         <activity
-            android:name="com.mobiletin.inputmethod.indic.setup.SetupActivity"
-            android:icon="@drawable/ic_launcher_keyboard"
+            android:name="com.mobiletin.inputmethod.indic.setup.SplashActivity"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/english_ime_name"
-            android:launchMode="singleTask"
-            android:noHistory="true"
             android:screenOrientation="portrait"
-            android:theme="@style/platformActivityTheme" >
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -81,28 +84,37 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.mobiletin.inputmethod.indic.setup.SetupActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="com.mobiletin.inputmethod.indic.setup.Test"
-            android:icon="@drawable/ic_launcher_keyboard"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/english_ime_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
         </activity>
         <activity
             android:name="com.mobiletin.inputmethod.indic.setup.AboutActivity"
-            android:icon="@drawable/ic_launcher_keyboard"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/english_ime_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- android:clearTaskOnLaunch="true" -->
+        <activity
+            android:name="com.mobiletin.inputmethod.indic.setup.SetupWizardActivity"
             android:label="@string/english_ime_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
-        </activity>
-        <activity
-            android:name="com.mobiletin.inputmethod.indic.setup.SetupWizardActivity"
-            android:clearTaskOnLaunch="true"
-            android:label="@string/english_ime_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/platformActivityTheme" >
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
+            -->
         </activity>
 
         <receiver android:name="com.mobiletin.inputmethod.indic.SystemBroadcastReceiver" >
@@ -202,6 +214,11 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
+        <!-- Facebook analytics -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
         <activity
             android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
             android:theme="@style/Theme.IAPTheme" />

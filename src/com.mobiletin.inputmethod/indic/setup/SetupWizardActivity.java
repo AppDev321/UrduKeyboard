@@ -16,40 +16,46 @@
 
 package com.mobiletin.inputmethod.indic.setup;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
 import android.view.Gravity;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 
 import com.android.inputmethod.latin.utils.LeakGuardHandlerWrapper;
 import com.android.inputmethod.latin.utils.UncachedInputMethodManagerUtils;
+import com.google.android.gms.ads.InterstitialAd;
+import com.mobiletin.inputmethod.Ads.AdIntegration;
 import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.indic.R;
 import com.mobiletin.inputmethod.indic.settings.SettingsActivity;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 
-import io.codetail.animation.SupportAnimator;
-import io.codetail.animation.ViewAnimationUtils;
-
 // TODO: Use Fragment to implement welcome screen and setup steps.
-public final class SetupWizardActivity extends Activity implements View.OnClickListener {
+public final class SetupWizardActivity extends AdIntegration implements View.OnClickListener {
     static final String TAG = SetupWizardActivity.class.getSimpleName();
 
     private InputMethodManager mImm;
@@ -120,13 +126,13 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
     boolean hidden = true;
     LinearLayout mRevealView;
-    ImageButton ib_more, ib_share;
-    ImageButton ib_about, ib_rate;
+    LinearLayout ib_more, ib_share;
+    LinearLayout ib_about, ib_rate;
 
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
-        setTheme(android.R.style.Theme_Translucent_NoTitleBar);
+       // setTheme(android.R.style.Theme_Translucent_NoTitleBar);
         super.onCreate(savedInstanceState);
 
         mImm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
@@ -134,6 +140,22 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
         setContentView(R.layout.setup_wizard);
         mSetupWizard = findViewById(R.id.setup_wizard);
+
+
+        super.showAdd(this, (LinearLayout) findViewById(R.id.adView), false);
+
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                /* Create an Intent that will start the Menu-Activity. */
+                InterstitialAd ad = MySuperAppApplication.preLoadIntersitial.getAd();
+                if (ad.isLoaded()) {
+                    MySuperAppApplication.preLoadIntersitial.getAd().show();
+                }
+
+            }
+        }, 800);
 
 
         mActionStart = findViewById(R.id.setup_start_label);
@@ -164,7 +186,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         mSetupStepGroup = new SetupStepGroup(indicatorView);
 
         mStep1Bullet = (TextView) findViewById(R.id.setup_step1_bullet);
-        mStep1Bullet.setOnClickListener(this);
+        // mStep1Bullet.setOnClickListener(this);
         final SetupStep step1 = new SetupStep(STEP_1, applicationName,
                 mStep1Bullet, findViewById(R.id.setup_step1),
                 R.string.setup_step1_title, R.string.setup_step1_instruction,
@@ -237,11 +259,14 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 //Ripple menu
         imgMenuBtn = (ImageView) findViewById(R.id.menu_btn);
         imgMenuBtn.setOnClickListener(this);
-        initRevealMenu();
+
 
 
         //Perfome get Started Action
         mActionNext.performClick();
+
+
+        MySuperAppApplication.mAnalyticSingaltonClass.sendScreenAnalytics("Main Index");
     }
 
     @Override
@@ -259,7 +284,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
 
 
         if (v == mActionStart) {
-            hideRevealView();
+
             nextStep = STEP_1;
 
         } else if (v == mActionNext) {
@@ -273,40 +298,39 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             mStepNumber = nextStep;
             updateSetupStepView();
 
-            hideRevealView();
+
         }
 
 
         //For ripple menu button
         switch (v.getId()) {
             case R.id.share:
+                shareMessage(getResources().getString(R.string.english_ime_name), getResources().getString(R.string.share_message));
 
-                mRevealView.setVisibility(View.GONE);
-                hidden = true;
                 break;
             case R.id.rate:
+                rateApp();
 
-                mRevealView.setVisibility(View.GONE);
-                hidden = true;
                 break;
             case R.id.more:
+                String s = "market://search?q=pub:Mobile+Tin";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(s));
+                startActivity(browserIntent);
 
-                mRevealView.setVisibility(View.GONE);
-                hidden = true;
                 break;
             case R.id.about:
-
-                mRevealView.setVisibility(View.GONE);
-                hidden = true;
+                MySuperAppApplication.mAnalyticSingaltonClass.sendScreenAnalytics("About Index");
                 startActivity(new Intent(this, AboutActivity.class));
                 break;
 
             case R.id.menu_btn:
-                clickMenuBtn();
+                showPopupMenu(v);
+                MySuperAppApplication.mAnalyticSingaltonClass.sendEventAnalytics("Main-Index", "menu");
                 break;
         }
 
     }
+
 
     void invokeSetupWizardOfThisIme() {
         final Intent intent = new Intent();
@@ -429,27 +453,30 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
     }
 
     @Override
+    public void onPause() {
+
+        super.onPause();
+    }
+
+    @Override
     public void onBackPressed() {
 
         if (mRevealView.getVisibility() == View.VISIBLE) {
             mRevealView.setVisibility(View.GONE);
             hidden = true;
             return;
-        } else {
+        } /*else {
             if (mStepNumber == STEP_1) {
-                mStepNumber = STEP_WELCOME;
-                updateSetupStepView();
+                *//*mStepNumber = STEP_WELCOME;
+                updateSetupStepView();*//*
+                this.finish();
                 return;
             }
-        }
+        }*/
 
         super.onBackPressed();
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-    }
 
     @Override
     public void onWindowFocusChanged(final boolean hasFocus) {
@@ -471,7 +498,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             return;
         }
         final boolean isStepActionAlreadyDone = mStepNumber < determineSetupStepNumber();
-       // mSetupStepGroup.enableStep(mStepNumber, isStepActionAlreadyDone);
+        // mSetupStepGroup.enableStep(mStepNumber, isStepActionAlreadyDone);
 
 
         mSetupStepGroup.enableStep(determineSetupStepNumber(), isStepActionAlreadyDone);
@@ -523,10 +550,10 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
             mActionLabel.setBackground(MySuperAppApplication.getContext().getResources().getDrawable(R.drawable.btn_selector_setup));
             mActionLabel.setTextColor(Color.WHITE);
             mActionLabel.setGravity(Gravity.CENTER);
-            LinearLayout.LayoutParams params = (LinearLayout.LayoutParams)mActionLabel.getLayoutParams();
+            LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) mActionLabel.getLayoutParams();
 
-            int marging=(int)MySuperAppApplication.getContext().getResources().getDimension(R.dimen._15sdp);
-            params.setMargins(marging, 0,marging, 0); //substitute parameters for left, top, right, bottom
+            int marging = (int) MySuperAppApplication.getContext().getResources().getDimension(R.dimen._15sdp);
+            params.setMargins(marging, 0, marging, 0); //substitute parameters for left, top, right, bottom
             mActionLabel.setLayoutParams(params);
            /* if (actionIcon == 0) {
                 final int paddingEnd = ViewCompatUtils.getPaddingEnd(mActionLabel);
@@ -583,101 +610,61 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
     }
 
 
-    public void initRevealMenu() {
-        mRevealView = (LinearLayout) findViewById(R.id.reveal_items);
-        ib_about = (ImageButton) findViewById(R.id.about);
-        ib_rate = (ImageButton) findViewById(R.id.rate);
-        ib_share = (ImageButton) findViewById(R.id.share);
-        ib_more = (ImageButton) findViewById(R.id.more);
 
-        ib_about.setOnClickListener(this);
-        ib_rate.setOnClickListener(this);
-        ib_share.setOnClickListener(this);
-        ib_more.setOnClickListener(this);
+    /**
+     * Showing popup menu when tapping on 3 dots
+     */
+    private void showPopupMenu(View view) {
+        // inflate menu
+        PopupMenu popup = new PopupMenu(SetupWizardActivity.this, view);
+        MenuInflater inflater = popup.getMenuInflater();
 
-        mRevealView.setVisibility(View.GONE);
+        inflater.inflate(R.menu.popup_menu, popup.getMenu());
+
+        popup.setOnMenuItemClickListener(new MyMenuItemClickListener());
+        popup.show();
+
     }
 
-    private void hideRevealView() {
-        if (mRevealView.getVisibility() == View.VISIBLE) {
-            mRevealView.setVisibility(View.GONE);
-            hidden = true;
+    /**
+     * Click listener for popup menu items
+     */
+    class MyMenuItemClickListener implements PopupMenu.OnMenuItemClickListener {
+
+        public MyMenuItemClickListener() {
         }
-    }
 
-    public void clickMenuBtn() {
+        @Override
+        public boolean onMenuItemClick(MenuItem menuItem) {
+            switch (menuItem.getItemId()) {
+                case R.id.action_share:
+                    shareMessage(getResources().getString(R.string.english_ime_name), getResources().getString(R.string.share_message));
 
-        int cx = (mRevealView.getLeft() + mRevealView.getRight());
-        int cy = mRevealView.getTop();
-        int radius = Math.max(mRevealView.getWidth(), mRevealView.getHeight());
+                    break;
+                case R.id.action_rate:
+                    rateApp();
 
-        //Below Android LOLIPOP Version
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            SupportAnimator animator =
-                    ViewAnimationUtils.createCircularReveal(mRevealView, cx, cy, 0, radius);
-            animator.setInterpolator(new AccelerateDecelerateInterpolator());
-            animator.setDuration(700);
-            SupportAnimator animator_reverse = animator.reverse();
-            if (hidden) {
-                mRevealView.setVisibility(View.VISIBLE);
-                animator.start();
-                hidden = false;
-            } else {
-                if (animator_reverse != null) {
-                    animator_reverse.addListener(new SupportAnimator.AnimatorListener() {
-                        @Override
-                        public void onAnimationStart() {
+                    break;
+                case R.id.action_more:
+                    String s = "market://search?q=pub:Mobile+Tin";
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(s));
+                    startActivity(browserIntent);
 
-                        }
+                    break;
+                case R.id.action_about:
+                    MySuperAppApplication.mAnalyticSingaltonClass.sendScreenAnalytics("About Index");
+                    startActivity(new Intent(SetupWizardActivity.this, AboutActivity.class));
+                    break;
 
-                        @Override
-                        public void onAnimationEnd() {
-                            mRevealView.setVisibility(View.GONE);
-                            hidden = true;
 
-                        }
-
-                        @Override
-                        public void onAnimationCancel() {
-
-                        }
-
-                        @Override
-                        public void onAnimationRepeat() {
-
-                        }
-                    });
-                    animator_reverse.start();
-                }
             }
-        }
-        // Android LOLIPOP And ABOVE Version
-        else {
-            if (hidden) {
-                Animator anim = android.view.ViewAnimationUtils.
-                        createCircularReveal(mRevealView, cx, cy, 0, radius);
-                mRevealView.setVisibility(View.VISIBLE);
-                anim.start();
-                hidden = false;
-            } else {
-                Animator anim = android.view.ViewAnimationUtils.
-                        createCircularReveal(mRevealView, cx, cy, radius, 0);
-                anim.addListener(new AnimatorListenerAdapter() {
-                    @Override
-                    public void onAnimationEnd(Animator animation) {
-                        super.onAnimationEnd(animation);
-                        mRevealView.setVisibility(View.GONE);
-                        hidden = true;
-                    }
-                });
-                anim.start();
-            }
+            return false;
         }
     }
 
     public void showFinishedView() {
 
-       Button btnInputMethod = (Button) findViewById(R.id.toggle);
+        Button btnInputMethod = (Button) findViewById(R.id.toggle);
         btnInputMethod.setGravity(Gravity.CENTER);
 
 
@@ -692,12 +679,81 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
                 mRevealView.setVisibility(View.GONE);
                 hidden = true;
                 invokeInputMethodPicker();
+                MySuperAppApplication.mAnalyticSingaltonClass.sendEventAnalytics("Main-Index", "Disable Asaan Urdu keyboard");
             }
         });
 
     }
 
+    private void shareMessage(String subject, String body) {
 
+        if (saveShareImage()) {
+            shareAppWithAppIcon(subject, body);
+        } else {
+            Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
+            shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, body);
+            startActivity(Intent.createChooser(shareIntent, "Share via"));
+        }
+    }
 
+    private void shareAppWithAppIcon(String subject, String body) {
+        String fileName = "ic_launcher.png";
+        String completePath = Environment.getExternalStorageDirectory() + "/" + fileName;
 
+        File file = new File(completePath);
+        Uri imageUri = Uri.fromFile(file);
+
+        Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
+        shareIntent.setType("*/*");
+        // shareIntent.setType("text/plain");
+        shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
+        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, body);
+        shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        shareIntent.putExtra(Intent.EXTRA_STREAM, imageUri);
+        startActivity(Intent.createChooser(shareIntent, "Share via"));
+    }
+
+    private boolean saveShareImage() {
+        Bitmap bitmap = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.icon), 300, 300, false);
+        File sd = Environment.getExternalStorageDirectory();
+        String fileName = "ic_launcher.png";
+        File dest = new File(sd, fileName);
+        try {
+            FileOutputStream out;
+            out = new FileOutputStream(dest);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);
+            out.flush();
+            out.close();
+            return true;
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return false;
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    private void rateApp() {
+
+        try {
+            Intent mintent = new Intent(Intent.ACTION_VIEW);
+            mintent.setData(Uri.parse("market://details?id=com.mobiletin.inputmethod"));
+            startActivity(mintent);
+        } catch (Exception e1) {
+            try {
+                Uri uriUrl = Uri.parse("https://market.android.com/details?id=com.mobiletin.inputmethod");
+                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+
+                startActivity(launchBrowser);
+                finish();
+            } catch (Exception e2) {
+                // Toast.makeText(context, "No Application Found to open link", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 }

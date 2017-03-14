@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/spacebar_text_color_holo" android:state_selected="true"></item>
+    <item android:drawable="@color/spacebar_text_color_holo" android:state_pressed="true"></item>
+    <item android:drawable="@color/setup_text_action"></item>
+
+</selector>

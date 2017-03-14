@@ -129,5 +129,136 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 888,
+                        "startColumn": 4,
+                        "startOffset": 25466,
+                        "endLine": 909,
+                        "endColumn": 12,
+                        "endOffset": 25972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endLine": 175,
+                    "endColumn": 12,
+                    "endOffset": 4959
+                },
+                "from": {
+                    "file": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 431,
+                        "startColumn": 4,
+                        "startOffset": 12552,
+                        "endLine": 588,
+                        "endColumn": 12,
+                        "endOffset": 16987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 4964,
+                    "endLine": 355,
+                    "endColumn": 12,
+                    "endOffset": 10133
+                },
+                "from": {
+                    "file": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endLine": 201,
+                        "endColumn": 12,
+                        "endOffset": 6039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 10138,
+                    "endLine": 519,
+                    "endColumn": 12,
+                    "endOffset": 14642
+                },
+                "from": {
+                    "file": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 589,
+                        "startColumn": 4,
+                        "startOffset": 16992,
+                        "endLine": 755,
+                        "endColumn": 12,
+                        "endOffset": 21517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 520,
+                    "startColumn": 4,
+                    "startOffset": 14647,
+                    "endLine": 648,
+                    "endColumn": 12,
+                    "endOffset": 18565
+                },
+                "from": {
+                    "file": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 756,
+                        "startColumn": 4,
+                        "startOffset": 21522,
+                        "endLine": 887,
+                        "endColumn": 12,
+                        "endOffset": 25461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 649,
+                    "startColumn": 4,
+                    "startOffset": 18570,
+                    "endLine": 874,
+                    "endColumn": 12,
+                    "endOffset": 25052
+                },
+                "from": {
+                    "file": "D:\\E Drive DATA\\IonicKeys\\IonicKeys\\Indic-Keyboard-master\\java\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 6044,
+                        "endLine": 430,
+                        "endColumn": 12,
+                        "endOffset": 12547
+                    }
+                }
+            }
+        ]
     }
 ]

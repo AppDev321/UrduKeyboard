@@ -4,20 +4,17 @@ package com.mobiletin.inputmethod.Ads;/*
 
 import android.app.Activity;
 import android.content.Context;
-
 import android.view.View;
 import android.widget.LinearLayout;
-
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.mobiletin.inputmethod.MySuperAppApplication;
 import com.mobiletin.inputmethod.indic.R;
-import com.mobiletin.inputmethod.sqlite.DBDictionary;
 import com.mobiletin.inputmethod.sqlite.DataBaseHelper;
+import com.mobiletin.inputmethod.sqlite.DataBaseHelperUrdu;
 
 
 public class AdIntegration extends Activity {
@@ -44,7 +41,7 @@ public class AdIntegration extends Activity {
 
         //Integrate Database
         DataBaseHelper db = new DataBaseHelper(context);
-
+        DataBaseHelperUrdu db2 = new DataBaseHelperUrdu(context);
     }
 
     public void adsDisplay() {
@@ -98,7 +95,7 @@ public class AdIntegration extends Activity {
 
             @Override
             public void onAdClosed() {
-                adLayout.setVisibility(View.GONE);
+                adLayout.setVisibility(View.VISIBLE);
             }
 
             @Override
@@ -113,7 +110,7 @@ public class AdIntegration extends Activity {
 
             @Override
             public void onAdOpened() {
-                adLayout.setVisibility(View.GONE);
+                adLayout.setVisibility(View.VISIBLE);
             }
         });
     }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <item
+        android:icon="@drawable/ic_launcher_keyboard"
+        android:id="@+id/action_about"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/action_rate"
+        android:title="Rate Us"
+      />
+    <item
+        android:id="@+id/action_share"
+        android:title="Share" />
+    <item
+        android:id="@+id/action_more"
+        android:title="More Apps" />
+
+
+</menu>

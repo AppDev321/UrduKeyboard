@@ -87,4 +87,6 @@
 
     <color name="ripplecolor">#01579b</color>
     <color name="menu_bg">#2c2c2c</color>
+    <color name="suggestion_color">#313131</color>
+
 </resources>
