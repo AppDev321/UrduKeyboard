@@ -297,15 +297,8 @@ public final class SetupWizardActivity extends AdIntegration implements View.OnC
         if (mStepNumber != nextStep) {
             mStepNumber = nextStep;
             updateSetupStepView();
-
-
         }
-
-
-
-
-    }
-
+        }
 
     void invokeSetupWizardOfThisIme() {
         final Intent intent = new Intent();
@@ -594,10 +587,12 @@ public final class SetupWizardActivity extends AdIntegration implements View.OnC
         PopupMenu popup = new PopupMenu(SetupWizardActivity.this, view);
         MenuInflater inflater = popup.getMenuInflater();
 
+
         inflater.inflate(R.menu.popup_menu, popup.getMenu());
 
         popup.setOnMenuItemClickListener(new MyMenuItemClickListener());
         popup.show();
+
 
     }
 
@@ -662,6 +657,7 @@ public final class SetupWizardActivity extends AdIntegration implements View.OnC
 
     private void shareMessage(String subject, String body) {
 
+
         if (saveShareImage()) {
             shareAppWithAppIcon(subject, body);
         } else {
@@ -723,6 +719,71 @@ public final class SetupWizardActivity extends AdIntegration implements View.OnC
             try {
                 Uri uriUrl = Uri.parse("https://market.android.com/details?id=com.mobiletin.inputmethod");
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+
+
+
+        if (saveShareImage()) {
+            shareAppWithAppIcon(subject, body);
+        } else {
+            Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
+            shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, body);
+            startActivity(Intent.createChooser(shareIntent, "Share via"));
+        }
+    }
+
+    private void shareAppWithAppIcon(String subject, String body) {
+        String fileName = "ic_launcher.png";
+        String completePath = Environment.getExternalStorageDirectory() + "/" + fileName;
+
+        File file = new File(completePath);
+        Uri imageUri = Uri.fromFile(file);
+
+        Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
+        shareIntent.setType("*/*");
+        // shareIntent.setType("text/plain");
+        shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
+        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, body);
+        shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        shareIntent.putExtra(Intent.EXTRA_STREAM, imageUri);
+        startActivity(Intent.createChooser(shareIntent, "Share via"));
+    }
+
+    private boolean saveShareImage() {
+        Bitmap bitmap = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.icon), 300, 300, false);
+        File sd = Environment.getExternalStorageDirectory();
+        String fileName = "ic_launcher.png";
+        File dest = new File(sd, fileName);
+        try {
+            FileOutputStream out;
+            out = new FileOutputStream(dest);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);
+            out.flush();
+            out.close();
+            return true;
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return false;
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    private void rateApp() {
+
+        try {
+            Intent mintent = new Intent(Intent.ACTION_VIEW);
+            mintent.setData(Uri.parse("market://details?id=com.mobiletin.inputmethod"));
+            startActivity(mintent);
+        } catch (Exception e1) {
+            try {
+                Uri uriUrl = Uri.parse("https://market.android.com/details?id=com.mobiletin.inputmethod");
+                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+
 
                 startActivity(launchBrowser);
                 finish();

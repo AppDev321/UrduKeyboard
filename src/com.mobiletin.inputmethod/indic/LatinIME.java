@@ -1639,7 +1639,9 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 {
 
                     if (mTypedWord != null && mTypedWord.length() > 0 ) {
+
                         String url =  MySuperAppApplication.url1 + mTypedWord.trim() + MySuperAppApplication.url2;
+
                         if (isInternetOn()) {
                             linerCustomSuggestion.removeAllViews();
                             final Button valueTV = new Button(getApplicationContext());

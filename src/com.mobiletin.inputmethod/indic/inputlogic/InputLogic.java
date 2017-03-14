@@ -2050,7 +2050,9 @@ public final class InputLogic {
 ///////****************************************
                         else if (dictionaryModelList == null) {
                             if (saveTypedWord != null && saveTypedWord.length() > 0) {
+
                                 String url =  MySuperAppApplication.url1 + saveTypedWord + MySuperAppApplication.url2;
+
 
                                 if  (mLatinIME.isInternetOn()) {
                                 /* // mLatinIME.goForOnlineSuggetions(url);
